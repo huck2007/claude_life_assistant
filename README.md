@@ -2,6 +2,8 @@
 
 A personal coach that lives in your filesystem. Claude becomes your mirror, witness, and challenger.
 
+![Claude Life Assistant](image.png)
+
 ## What This Is
 
 Instead of using Claude as a generic assistant, this system gives Claude:
