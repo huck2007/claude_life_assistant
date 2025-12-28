@@ -2,7 +2,7 @@
 
 A personal coach that lives in your filesystem. Claude becomes your mirror, witness, and challenger.
 
-[![Watch the demo](image.png)](https://www.youtube.com/watch?v=cY3LvkB1EQM)
+<a href="https://ibb.co/wNJDRX7p"><img src="https://i.ibb.co/Gvsg0L9C/image.png" alt="image" border="0"></a>
 
 [Watch the video](https://www.youtube.com/watch?v=cY3LvkB1EQM)
 
