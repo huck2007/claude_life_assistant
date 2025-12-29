@@ -1,6 +1,6 @@
 # Claude Life Assistant
 
-A personal coach that lives in your filesystem. Claude becomes your mirror, witness, and challenger.
+A personal coach that remembers, notices patterns, and holds you accountable.
 
 <a href="https://ibb.co/wNJDRX7p"><img src="https://i.ibb.co/Gvsg0L9C/image.png" alt="image" border="0"></a>
 
@@ -8,10 +8,12 @@ A personal coach that lives in your filesystem. Claude becomes your mirror, witn
 
 ## What This Is
 
-Instead of using Claude as a generic assistant, this system gives Claude:
-- **Memory** — It remembers your patterns, wins, and struggles
-- **Context** — It knows your goals, fears, and how you work best
-- **Accountability** — Daily check-ins that actually hold you to your word
+A 2-file system that gives Claude:
+- **Memory** — Builds a log of insights about you over time
+- **Context** — Stable identity (CLAUDE.md) + dynamic state (NOW.md)
+- **Accountability** — Daily check-ins with pattern recognition
+
+**The key difference:** Claude notices what you can't see. The Memory Log tracks breakthroughs, quotes, and patterns across weeks/months.
 
 ## Installation
 
@@ -26,126 +28,145 @@ Then open with Claude Code and run `/setup-life`.
 
 ### Option 2: Include in Existing Project
 
-Copy `CLAUDE.md` into your project root. Claude will read it automatically.
+Copy `CLAUDE.md` and `NOW.md` templates into your project root. Claude will read them automatically.
 
 ## Quick Start
 
-After installation, use these commands:
-- `/setup-life` — First-time setup (fills in CLAUDE.md)
+Run `/setup-life` to create your 2-file system. Takes 5 minutes.
+
+Then use:
 - `/start-day` — Morning kickoff
-- `/check-day` — Quick check-in anytime
-- `/end-day` — Evening review
+- `/check-day` — Quick check-in
+- `/end-day` — Evening review + Memory Log update
 
-That's it. No forms to fill. The system learns about you through conversation.
+## The 2-File System
 
-## Files
+| File | Updates | Purpose |
+|------|---------|---------|
+| `CLAUDE.md` | Rarely (weeks/months) | Who you are, how you work, your mission |
+| `NOW.md` | Daily/weekly | Current mode, this week's actions, Memory Log |
+| `journal/` | Daily | What happened each day (auto-created) |
 
-| File | Purpose |
-|------|---------|
-| `CLAUDE.md` | Everything — instructions, who you are, current focus |
-| `journal/` | Daily logs (Claude creates these automatically) |
+**Why 2 files?**
 
-## How It Works
+Separation = clarity. CLAUDE.md is your operating system. NOW.md is your current state. Claude reads both at session start, updates NOW.md as you work.
 
 **Conversation > Documentation**
 
-You talk to Claude. Claude maintains the file. No manual file editing required.
+You talk to Claude. Claude maintains the files. No manual file editing required.
 
-When you say something important, Claude quotes your exact words:
-> 'your words preserved here'
+## The Memory Log (Secret Sauce)
 
-This keeps your voice distinct from AI-generated text.
+In `NOW.md`, Claude maintains a dated log:
+- Patterns it notices over time
+- Your exact words (quoted)
+- Breakthroughs and insights
+- Connections across conversations
+
+**This is what makes it different from a journal.** Claude sees patterns you miss.
+
+Example progression:
+```
+### Week 1, Jan 7
+- Setup complete. Known bug: 'I keep adding features instead of launching'
+
+### Week 1, Jan 10
+- Avoided user call. Rescheduled twice. Pattern: building = safe, talking = scary.
+
+### Week 2, Jan 15
+- Had first user call. Quote: 'I've been building what I think they want instead of asking'
+
+### Week 4, Feb 1
+- Pattern confirmed: 3 weeks of work on feature nobody asked for. This is the 3rd time.
+```
+
+The longer you use it, the better it gets.
 
 ## The Commands
 
 ### `/setup-life`
-**Run this first.** One-time setup that fills in your "About Me" and "Now" sections through a quick conversation. Takes ~5 minutes.
+**Run this first.** Creates both CLAUDE.md and NOW.md through a 5-minute conversation.
 
 <details>
-<summary>See example setup conversation</summary>
+<summary>See example setup</summary>
 
 **You:** /setup-life
 
-**Claude:** Let's set up your system. I'll ask a few questions to understand how to help you.
+**Claude:** Let's set up your system. I'll ask a few questions.
 
 First — what should I call you?
 
 **You:** Alex
 
-**Claude:** What are you working toward right now? Could be a goal, a project, a life change — whatever's top of mind.
+**Claude:** What are you working toward right now?
 
-**You:** I'm trying to launch my first SaaS product. Quit my job 2 months ago, have about 4 months of runway left.
+**You:** I quit my job 2 months ago to build a SaaS product. Have about 4 months of runway left.
 
-**Claude:** Is there a deadline or timeframe for this?
-
-**You:** I need to get paying users before my money runs out. So like, 4 months max.
-
-**Claude:** What usually gets in your way? What patterns trip you up?
+**Claude:** What usually gets in your way?
 
 **You:** I keep adding features instead of launching. And I avoid talking to users because it's awkward.
 
-**Claude:** When you're off track, how should I call you out? Direct and blunt? Gentle questions? Something else?
+**Claude:** When you're off track, how should I call you out?
 
 **You:** Be direct. I need someone to cut through my BS.
 
-**Claude:** Got it. Let me update your file.
+**Claude:** What modes do you operate in? Like BUILDER (shipping code), STRATEGIST (planning), HUMAN (rest).
 
-*[Updates CLAUDE.md]*
+**You:** BUILDER when I'm shipping, BROWSER when I'm procrastinating on Reddit, HUMAN when recovering.
 
-You're set up. Here's how it works:
-- `/start-day` — Morning. Set your one thing.
-- `/check-day` — Anytime. Quick check-in.
-- `/end-day` — Evening. Capture what happened.
+**Claude:** What are your 2-3 active missions right now?
 
-What's your one thing for today?
+**You:** Launch MVP by Feb 15. Get 10 paying users by Mar 31.
 
-**You:** Ship the signup flow
+**Claude:** Got it. Files created. What's your one thing for today?
 
-**Claude:** Good. Ship the signup flow. 120 days left.
+**You:** Ship the signup flow.
+
+**Claude:** Good. Ship the signup flow. 120 days to Mar 31.
 
 Go.
 
 </details>
 
 ### `/start-day`
-Morning ritual. Claude asks one question: "What's your one thing today?"
-
-Then it:
-- Creates a journal entry
-- Updates the "Now" section with your MIT
-- Connects your task to your mission (if relevant)
+Morning ritual. Sets your MIT (Most Important Thing) for the day.
 
 ### `/check-day`
-Quick check-in anytime. Claude asks: "What are you doing right now?"
-
-Then it:
-- Reflects back what you're doing vs. what you said you'd do
-- Calls out if you're off track (gently)
-- Updates CLAUDE.md if something changed
+Quick check-in. Claude mirrors what you're doing vs what you said you'd do.
 
 ### `/end-day`
-Evening review. Claude asks: "How'd it go?"
+Evening review. Updates Memory Log with what happened and patterns observed.
 
-Then it:
-- Updates your journal with what actually happened
-- Notes patterns or observations
-- Sets up tomorrow
+## Examples
 
-## Customization
+Check `examples/` for real progressions:
+- **alex-founder** — Solo founder building SaaS, racing against runway
+- **maya-creator** — Marketing manager building content side hustle
+- **rick-developer** — Backend dev job hunting after layoff
+- **sam-student** — Career changer learning to code part-time
 
-The system grows with you. After `/setup-life`, your profile fills in over time through conversation.
-
-If you want to edit manually, everything lives in **`CLAUDE.md`**:
-- **"About Me" section** — Your patterns, mission, how to challenge you
-- **"Now" section** — Current focus, MIT, active projects
+Each shows Week 1 → Month 3 evolution with Memory Log progression.
 
 ## Philosophy
 
-**The Dancer's Path** — Intensity AND recovery. Not constant grind. Sustainable output.
+**Conversation > Documentation** — You talk, Claude maintains files
 
-**Ship ugly** — Done is better than perfect. The goal is progress, not polish.
+**Memory compounds** — The longer you use it, the better it gets
 
-**One thing** — Every day has one MIT (Most Important Task). Everything else is secondary.
+**Ship ugly** — Done beats perfect
+
+**One thing** — Every day has one MIT. Everything else is secondary.
+
+## Upgrading from v1?
+
+If you're using the old single-file system:
+
+1. Backup your old `CLAUDE.md`
+2. Pull latest changes: `git pull origin main`
+3. Run `/setup-life` to create the new 2-file system
+4. Copy any important patterns from your backup into the new files
+
+**Or start fresh:** Delete your old file and run `/setup-life`. The new system is better.
 
 ## Requirements
 
