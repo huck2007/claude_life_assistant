@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scott Calendar//claude_life_assistant//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scott - Key Dates
+X-WR-TIMEZONE:Europe/London
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260112
+SUMMARY:Family Walk - Blakemere & Delamere Circular (10.5km)
+DESCRIPTION:Family walk at Delamere Forest
+LOCATION:Delamere, Cheshire
+UID:20260111-delamere@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260124T170000
+DTEND;TZID=Europe/London:20260124T210000
+SUMMARY:Burns Night dinner with Scott Family
+UID:20260124-burnsnight@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260131T190000
+DTEND;TZID=Europe/London:20260131T230000
+SUMMARY:Gig - Stone Roses / Courteeners tribute with Tom
+LOCATION:Irish Club, Warrington
+UID:20260131-gig@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260206T183000
+DTEND;TZID=Europe/London:20260206T220000
+SUMMARY:Dinner - SKOF Manchester (Jo, Tom & Sophie)
+LOCATION:SKOF, Manchester
+UID:20260206-skof@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:Theatre - Six (Jo & Sophie)
+UID:20260207-six@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:Sunday lunch at Jenny & John's (Jo, Tom & Sophie)
+UID:20260215-jennyjohn@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260221
+SUMMARY:School Half Term
+UID:20260216-halfterm@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260221
+DTEND;VALUE=DATE:20260223
+SUMMARY:Lake District Weekend - Buttermere (Sat) & Derwentwater (Sun)
+DESCRIPTION:Family walks - Buttermere Circular and Derwentwater Circuit
+LOCATION:Lake District
+UID:20260221-lakedistrict@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Family Walk - Aysgarth Falls & Castle Bolton Circular
+LOCATION:Yorkshire Dales
+UID:20260314-aysgarth@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260331
+SUMMARY:Budapest - Jo, David & Patrina (3 nights)
+LOCATION:Budapest, Hungary
+UID:20260327-budapest@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260406
+SUMMARY:Easter weekend at Ant & Jo's
+DESCRIPTION:Travel down Thu 2nd, return late afternoon Sun 5th
+LOCATION:Ockley, Surrey
+UID:20260402-easter@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260411
+SUMMARY:San Sebastian - Jo, Tom & Sophie (4 nights)
+DESCRIPTION:Basque Country holiday. Flying Manchester with easyJet.
+LOCATION:San Sebastian, Spain
+UID:20260406-sansebastian@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:Family Walk - Kinder Scout & Kinder Downfall Circular
+LOCATION:Peak District
+UID:20260414-kinderscout@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260427
+SUMMARY:Abersoch - Jo & Sophie with the girls
+LOCATION:Abersoch, Wales
+UID:20260424-abersoch@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260427
+SUMMARY:Lads Weekend - Scott & Tom (TBC)
+UID:20260424-ladsweekend@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+SUMMARY:Family Walk - Devil's Kitchen & Llyn Idwal Circular
+LOCATION:Snowdonia, Wales
+UID:20260508-devilskitchen@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260517
+SUMMARY:Family Memorial Golf Trip - Llandudno
+DESCRIPTION:With Paul, Chris & family
+LOCATION:Llandudno, Wales
+UID:20260515-llandudno@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Gig - The Orb @ Peak Cavern
+DESCRIPTION:Adventures Beyond the Ultraworld
+LOCATION:Peak Cavern, Castleton
+UID:20260605-theorb@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:Potential Mam Tor walk (Jo & kids - TBC)
+LOCATION:Peak District
+UID:20260606-mamtor@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:Gig - Daresbury Festival
+LOCATION:Daresbury
+UID:20260620-daresbury@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Trek 26 Peak District - Alzheimer's Society
+LOCATION:Peak District
+UID:20260627-trek26@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260720
+SUMMARY:Yorkshire 3 Peaks - Scott's Birthday (18th)
+DESCRIPTION:Stay Fri & Sat nights
+LOCATION:Yorkshire Dales
+UID:20260717-3peaks@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260815
+SUMMARY:Hiking Holiday (destination TBC)
+UID:20260801-hikingholiday@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Family Walk - Great Gable Circular
+LOCATION:Lake District
+UID:20260905-greatgable@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261016
+SUMMARY:Turkey - Hillside Beach Club (David & Patrina)
+LOCATION:Hillside Beach Club, Turkey
+UID:20261008-turkey@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Cheltenham Races - Paddy Power Gold Cup (Scott & Tom with Steve and the boys)
+LOCATION:Cheltenham Racecourse
+UID:20261114-cheltenham@scott-calendar
+END:VEVENT
+
+END:VCALENDAR

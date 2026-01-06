@@ -1,44 +1,41 @@
 # NOW.md — Current State
 
-> Dynamic file. Update often. See `CLAUDE.md` for stable info.
+> Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** [Date]
+**Last Updated:** 2025-12-30
 
 ---
 
 # MODE
 
-## Current: [MODE NAME]
+## Current: PLANNING
 
 | Mode | Focus | Not Allowed |
 |------|-------|-------------|
-| **[MODE1]** | [What you do in this mode] | [What you avoid] |
-| [MODE2] | [What you do in this mode] | [What you avoid] |
-| [MODE3] | [What you do in this mode] | [What you avoid] |
+| **SELLING** | Client acquisition, proposals, relationships | Getting pulled into delivery details |
+| PLANNING | Strategy, systems, business design | Doing the technical work yourself |
+| DOING | Delivery work (minimize this) | Staying here when you should delegate |
 
 *Say "switching to [mode]" to change*
-
-**Examples:**
-- BUILDER | Shipping code, execution | New ideas, browsing
-- STRATEGIST | Planning, deciding | Execution, coding
-- HUMAN | Rest, connection, recovery | Work, screens
 
 ---
 
 # THIS WEEK
 
 ## Active Missions
-1. **[MISSION]** — [One-line description]
-2. **[MISSION]** — [One-line description]
+1. **MARKETING** — Acquire new clients. 2 active leads, 1 likely to close in 6 weeks.
+2. **SYSTEMATISING** — Build principles, processes, and management information. First priority: Monday Dashboard.
+3. **SELF-IMPROVING** — Health and mindset. Continue lifting 3x/week. Natural Edge rituals tracked in `VANGUARD.md`.
 
 ## Actions
 
 | Action | Deadline | Status |
 |--------|----------|--------|
-| [Specific action] | [Date] | ☐ |
-| [Specific action] | [Date] | ☐ |
+| Close lead (likely client) | 6 weeks | In progress |
+| Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
+| Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** [Your one thing for today]
+**MIT Today:** Done for today (holiday). Next action: Hand off Monday Dashboard requirements to Eddie.
 
 ---
 
@@ -46,17 +43,29 @@
 
 ## Memory (AI Notes)
 
-This is where Claude tracks patterns, insights, and breakthroughs over time.
+### 2025-12-29
+- System initialized. Scott is building a £1m data analytics business, 6+ years in.
+- Goal: Phase out of delivery over 2 years, focus on growth and leadership.
+- Known bugs: Steps in to do work, backfills gaps, absorbs margin hits, clients buy "him"
+- Challenge style: Direct and blunt. Push toward managing, not doing.
+- Health win: Lost 20kg in 7 months, lifting 3x/week consistently.
+- Key tension: Business is built around Scott. Transition requires building systems that can fail safely.
+- **First systemisation priority defined:** Project visibility via Monday Dashboard
+  - 4 KPIs: Sales, Margin, Utilisation (scheduled), Utilisation (available) — MTD + Last Week
+  - Project health view with auto flags + Eddie's manual RAG
+  - Team utilisation with alert thresholds
+  - Requirements doc created: `monday-dashboard-requirements.md`
+  - Eddie to build by 19th January in Productive or Excel
+- Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
 
-### [Date]
-- [Key insight or pattern observed]
-- [Decision made]
-- Quote: *'your exact words'*
-
-### [Date]
-- [Another observation]
-- [Connection to past pattern]
+### 2025-12-30
+- **Natural Edge integration complete.** Reviewed Project Eagle vision and 70+ journal entries from original Vanguard program (Feb 2024).
+- Created `VANGUARD.md` for daily ritual tracking: morning rituals (breathwork, freedom gap, cold water, mobility, OYTS), daily scores (sleep, steps, nutrition, hydration, outdoors, exercise), evening rituals (freedom gap, AMWAP, plan tomorrow).
+- Updated `CLAUDE.md` with LIFE section: Project Eagle vision, EAGLE inspiration statement, physical health commitments, Natural Edge principles, IA Drill.
+- Added personal decision tests alongside work decision tests.
+- Structure: Scott provides OYTS and AMWAP questions each Sunday. Start-day checks morning rituals and confirms 5 tasks + MIT. End-day runs AMWAP, logs scores, plans tomorrow.
+- Key insight from journals: Vision hasn't changed in 2 years. Physical wins prove the system works. Gap is daily ritual consistency, not knowledge or direction.
 
 ---
 
-*Mode at end of day: [MODE]*
+*Mode at end of day: PLANNING*

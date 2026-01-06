@@ -1,0 +1,374 @@
+# VANGUARD.md — Daily Rituals
+
+> Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
+
+**Last Updated:** 2026-01-04
+
+---
+
+# MONTHLY OBJECTIVES — JANUARY 2026
+
+*Set at start of month, reviewed weekly (Fridays)*
+
+**Work:**
+1. Monitor business performance weekly using Monday Dashboard KPIs
+2. Complete 2026 business budget
+3. Develop sales/marketing outreach campaign and begin execution by end of Jan
+
+**Health:**
+1. Complete Dry January
+2. Full Natural Edge rituals from Sunday (daily)
+3. 3x/week lifting with Lou + add leg work and running for VO2 max / hiking prep
+
+**Personal:**
+1. Establish monthly family walk habit (first one: Delamere 11th)
+2. Quality time with Tom — be present, build the relationship
+3. Weekly planning ritual embedded by month end
+4. Clear out clothes cupboard
+
+---
+
+# THIS WEEK
+
+**Week of:** 30 Dec 2024 - 5 Jan 2025
+
+## OYTS Questions
+
+| Day | Question |
+|-----|----------|
+| Mon | Which decisions currently run through you by default, and how does that affect your ability to think strategically? |
+| Tue | How would your business behave tomorrow if you were unavailable for an entire week, and what does that reveal about its fragility or resilience? |
+| Wed | Which part of your identity is most tied to being "the one who knows" or "the one who fixes," and how does that shape the way you lead? |
+| Thu | How clearly have you defined outcomes in your business, and where are you still giving instructions instead of intent? |
+| Fri | What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them? |
+| Sat | When you delegate, where do things most often break down, and how much of that comes from unclear mission briefs rather than poor execution? |
+| Sun | Which decisions did you make this week that technically didn't need to be yours, even if you were capable of making them? |
+
+## AMWAP Questions
+
+| Day | Question |
+|-----|----------|
+| Mon | 5 minutes of wins where you showed up even when motivation was low. |
+| Tue | Wins from the past 48hrs that demonstrate consistency over intensity. |
+| Wed | 10 wins that prove your habits are working, even if progress feels slow. |
+| Thu | Wins where you kept standards high without needing perfection. |
+| Fri | Wins where you acted in alignment with your values rather than your mood. |
+| Sat | List small health wins that compound over time. |
+| Sun | 5 minutes of wins from the past 24hrs that moved the needle, however slightly. |
+
+---
+
+# DAILY TRACKING
+
+## Morning Rituals
+
+| | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Breathwork | Y | Y | — | Y | Y | — | Y |
+| Meditation | Y | Y | — | | | — | Y |
+| Freedom Gap (AM) | Y | Y | — | Y | Y | — | Y |
+| Cold Water (3 min) | — | — | — | — | — | — | — |
+| Mobility | Y | Y | — | — | — | — | — |
+| OYTS | Y | Y | — | — | — | — | — |
+
+*Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
+
+## Daily Scores
+
+*T = Terrible, B = Bad, O = Okay, G = Good, Gr = Great*
+
+| | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Sleep | — | | — | O | B | T | |
+| Steps | — | | — | O | G | O | |
+| Nutrition | — | | — | B | O | B | |
+| Hydration | — | | — | B | B | O | |
+| Outdoors | — | | — | O | G | B | |
+| Exercise | — | G | — | B | G | B | |
+
+## Evening Rituals
+
+| | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Freedom Gap (PM) | — | — | — | Y | Y | Y | |
+| AMWAP | — | — | — | Y | Y | Y | |
+| Plan Tomorrow | — | — | — | Y | Y | Y | |
+
+---
+
+# DAILY PLANS
+
+## Tuesday 30 Dec [COMPLETE]
+**MIT:** Golf with Tom [done]
+All 5 tasks completed.
+
+## Wednesday 31 Dec [WRITE-OFF]
+NYE celebrations.
+
+## Thursday 1 Jan [COMPLETE]
+
+**Tasks:**
+1. Watch finale of Stranger Things with the kids [MIT] [done]
+2. Pick car up from Dave & Ellie's [done]
+3. Walk the dog [cancelled]
+4. Pay golf fees [done]
+5. Plan monthly walking trips with Sophie [done]
+
+**MIT:** Stranger Things finale with kids [done]
+
+## Friday 2 Jan [COMPLETE]
+
+**Tasks:**
+1. Clear out office and tidy ready for starting work on Monday [done]
+2. Measure up for wooden floor and wine rack [done - floor 10m², wine rack ordered]
+3. GYM session with Lou (PT) [done]
+4. Shopping at Trafford Centre with Jo and Sophie [MIT] [done]
+5. Book cinema - switched Avatar to Marty Supreme [done]
+
+**Bonus:** Fixed Tom's PC - removed faulty drive, new one ordered
+
+**MIT:** Trafford Centre with Jo and Sophie [done]
+
+## Saturday 3 Jan [COMPLETE]
+
+**Tasks:**
+1. Walk the dog [not done]
+2. Help Jo put xmas decorations away [deferred to Sunday]
+3. Visit Auntie Jenny and Uncle John [done]
+4. Continue with 2026 business budget (few hours) [MIT] [done]
+5. Hoover and polish office [done]
+
+**MIT:** 2026 business budget [done]
+
+## Sunday 4 Jan — SOFT START
+
+**Morning Routine (today):**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app - Sam Harris)
+3. Freedom Gap AM (first hour tech-free)
+4. Weekly prep: Review objectives, set week's focus
+
+*Full rituals (CWI 3 mins, mobility, OYTS) start Monday — Vanguard week runs Mon-Sun*
+
+**Evening:**
+- AMWAP: *5 minutes of wins from the past 24hrs that moved the needle, however slightly.*
+- Plan Monday's 5 tasks + MIT
+
+**Tasks:**
+1. Plan for Monday morning stand-up [MIT] [done]
+2. 30 minute run with Sophie [done - 3.63km in 25:18]
+3. Family cinema trip - Marty Supreme [done]
+4. Help Jo put xmas decorations away [done]
+
+**MIT:** Plan for Monday morning stand-up [done]
+
+## Sunday 4 Jan [COMPLETE]
+
+## Monday 5 Jan [COMPLETE]
+
+**Morning Routine:** All done (breathwork, meditation, freedom gap, mobility, OYTS)
+
+**Work Tasks:**
+1. 10:30 stand-up with team [done]
+2. Briefing with Emma and Eddie [done]
+3. Client connection emails — WMM [done], Trustmark [carry forward]
+4. Send Company Credentials to Bicycle Association [carry forward - deck created]
+5. Continue 2026 budget [deferred to Wed]
+
+**MIT:** Client connection emails — partial (WMM done)
+
+**Personal Tasks:**
+1. GYM lifting session [done]
+2. Source wooden floor for office [done]
+3. Clear T-shirt drawer [done]
+
+---
+
+## Tuesday 6 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Mobility
+5. OYTS: *How would your business behave tomorrow if you were unavailable for an entire week, and what does that reveal about its fragility or resilience?*
+
+**Work Tasks:**
+1. Send Company Credentials to Bicycle Association [done]
+2. Client connection email — Trustmark [MIT] [done]
+3. Stand-up / team check-in [done]
+4. WMM CRISP project review / action planning with Emma [done]
+
+**MIT:** Client connection email — Trustmark [done]
+
+**Personal Tasks:**
+1. Run with Sophie (evening)
+2. Continue clearing out clothes
+3. Mindfulness / mindset planning chat with Jo
+4. Session with Tom on updating his Thought Diary
+
+**Evening:**
+- AMWAP: *Wins from the past 48hrs that demonstrate consistency over intensity.*
+- Plan Wednesday's tasks
+
+---
+
+## Wednesday 7 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Mobility
+5. OYTS: *Which part of your identity is most tied to being "the one who knows" or "the one who fixes," and how does that shape the way you lead?*
+
+**Work Tasks:**
+1. Continue 2026 budget [MIT]
+2. Reconnect with Rachel Robinson at Park Run (progress lead or ice)
+3. Review docs & testing recommendations for AI Auditing with Becky
+4. Investigate and draft brief for Emma on outreach campaign (outcome focused, ideas — she determines what & how)
+5. Check-in with Eddie on dashboard requirement
+
+**MIT:** Continue 2026 budget
+
+**Personal Tasks:**
+1. GYM lifting
+2. Take Sophie to piano lesson
+3. Book Lake District overnight stay for February walk
+
+**Evening:**
+- AMWAP: *10 wins that prove your habits are working, even if progress feels slow.*
+- Plan Thursday's tasks
+
+---
+
+## Thursday 8 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Mobility
+5. OYTS: *How clearly have you defined outcomes in your business, and where are you still giving instructions instead of intent?*
+
+**Work Tasks:**
+1.
+2.
+3.
+4.
+
+**MIT:** TBC
+
+**Personal Tasks:**
+1. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances
+2. Run with Sophie
+
+**Evening:**
+- AMWAP: *Wins where you kept standards high without needing perfection.*
+- Plan Friday's tasks
+
+---
+
+# WEEKLY REFLECTION
+
+*Friday focus — go deep, not surface*
+
+1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
+2. Can I identify where the things holding me back are stemming from?
+3. Can I see any patterns emerging?
+
+## Week of 30 Dec - 5 Jan
+
+*To be completed Friday 9 Jan*
+
+---
+
+# OYTS SUMMARIES
+
+*For Friday weekly reflection*
+
+## Tuesday 6 Jan
+**Question:** How would your business behave tomorrow if you were unavailable for an entire week, and what does that reveal about its fragility or resilience?
+
+**Summary:** Emma would be fine — commercially experienced, independent. Eddie raised concerns — legitimate feelings, but pattern of inverting confidence issues into other people's problems, then refusing to engage with responsibilities. Ready with objections to everything. Need to help him help himself, or at least keep him focused on key tasks.
+
+**Rest of team:** Phil, Dave, Becky would stay busy for a week. Anthony wouldn't.
+
+**Key insight:** What about a MONTH? Business would grind to a halt. Responsibilities, processes, policies, oversight — all concentrated in my hands and head.
+
+**Connection:** This is exactly why the mini-retirement thinking matters. If a month breaks the business, the structure isn't right.
+
+---
+
+## Monday 5 Jan
+**Question:** Which decisions currently run through you by default, and how does that affect your ability to think strategically?
+
+**Summary:** Almost all decisions run through me by default. Realistic that team aren't experienced enough yet — but this means time is occupied with tactical, not strategic.
+
+**By person:**
+- **Emma** — Trusted on WMM (e-commerce, commercial, relationships). Not tech design.
+- **Phil** — Trusted on existing platforms, but not bigger picture or reducing dependency on himself. Sees change as weakening his position. Needs better framing with intent and objectives.
+- **Eddie/Trustmark/Impower** — Key dependencies on me that drain time.
+- **Dave** — Hasn't taken on responsibility well (personal issues), but those are behind him. Can invest in delegation now.
+- **Becky** — Learning. Support her to do the do, not do it for her.
+
+**Key insight:** Christmas break gave perspective and distance. Setting up for a better outcome — but the work is framing responsibilities with intent, not just tasks.
+
+**Connection to bugs:** #1 (steps in), #3 (backfills expertise), #5 (clients buy Scott).
+
+---
+
+## Tuesday 30 Dec
+**Question:** How would your business behave tomorrow if you were unavailable for an entire week, and what does that reveal about its fragility or resilience?
+
+**Summary:** Two-speed business. Majors side (Emma, Phil) would run fine — clear roadmap, Emma owns commercial performance, Phil takes ownership even without formal structure. Trustmark/Power side would stall — too dependent on Scott for decisions, unclear workload, team would be stuck.
+
+**Key Insights:**
+1. Partial resilience exists where responsibility is clear (Emma on WMM)
+2. Phil operates well because of long working relationship, not formal structure — fragile if he left
+3. Responsibility gap + expertise gap on Trustmark side = structural problem
+4. Fix is clear: job descriptions, responsibility mapping, SOPs
+5. Some clients don't warrant ongoing deployment — project-based model may be more honest
+
+**Connection to bugs:** This is Bug #3 (backfills expertise gaps) and Bug #5 (clients buy Scott) in action.
+
+---
+
+# PATTERN LOG
+
+*When something shows up 3x+, note it here*
+
+---
+
+# RUNNING LOG
+
+*Scott & Sophie - tracking progress*
+
+| Date | Distance | Time | Pace/km | Notes |
+|------|----------|------|---------|-------|
+| Sun 4 Jan | 3.63km | 25:18 | 6:58 | First run of the year |
+
+**Next run:** Tuesday 6 Jan (evening)
+
+---
+
+# CAFFEINE & ALCOHOL
+
+**Caffeine:** 1 cup coffee per day max
+**Alcohol:** Dry January (started 1 Jan 2026)
+
+---
+
+# REMINDERS
+
+*Check during start-day. Remove when actioned.*
+
+| Due | Reminder |
+|-----|----------|
+| Mon 5 Jan | Plan out client connection emails for Trustmark / World Marathon Majors |
+| W/c 5 Jan | Send Company Credentials & overview presentation to Bicycle Association (prospect qualification) |
+| Mid-Jan | Decide lads weekend plans with Tom (24-26 Apr) |
+| Early Feb | Decide August hiking holiday destination (1-14 Aug) |
+| End Jan | Think about annual 4-week mini-retirement |
+
+---
