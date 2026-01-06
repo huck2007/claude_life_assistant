@@ -1,14 +1,14 @@
 ---
-description: Morning kickoff. Sets intentions and MIT for the day.
+description: Morning kickoff. Sets intentions and MIT for the day. (project)
 ---
 
-Read CLAUDE.md and NOW.md for full context.
+Read CLAUDE.md, NOW.md, and VANGUARD.md for full context.
 
 ## Context
 
 Run: `date '+%A %B %d, %Y %H:%M'`
 
-Read silently: CLAUDE.md (stable identity), NOW.md (current state), recent journals.
+Read silently: CLAUDE.md (stable identity), NOW.md (current work state), VANGUARD.md (daily rituals, tracking, tasks), CALENDAR.md (key dates), PLAN-2026.md (monthly objectives).
 
 ## Ask
 

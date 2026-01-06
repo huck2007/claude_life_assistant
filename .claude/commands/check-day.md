@@ -1,14 +1,14 @@
 ---
-description: Quick check-in anytime. Updates files, keeps you accountable.
+description: Quick check-in anytime. Updates files, keeps you accountable. (project)
 ---
 
-Read CLAUDE.md and NOW.md for full context.
+Read CLAUDE.md, NOW.md, and VANGUARD.md for full context.
 
 ## Context
 
 Run: `date '+%A %B %d, %Y %H:%M'`
 
-Read silently: CLAUDE.md (stable identity), NOW.md (current state), today's journal.
+Read silently: CLAUDE.md (stable identity), NOW.md (current work state), VANGUARD.md (daily rituals, tracking, tasks).
 
 ## Ask
 

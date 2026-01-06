@@ -1,8 +1,8 @@
 ---
-description: Evening review. Captures wins, lessons, and prep for tomorrow.
+description: Evening review. Captures wins, lessons, and prep for tomorrow. (project)
 ---
 
-Read CLAUDE.md and NOW.md for full context.
+Read CLAUDE.md, NOW.md, and VANGUARD.md for full context.
 
 ## Context
 
@@ -10,7 +10,7 @@ Run: `date '+%A %B %d, %Y %H:%M'`
 
 If before 6pm: "Closing out early?"
 
-Read silently: CLAUDE.md (stable identity), NOW.md (current state), today's journal (if exists).
+Read silently: CLAUDE.md (stable identity), NOW.md (current work state), VANGUARD.md (daily rituals, tracking, tasks).
 
 ## Ask
 
