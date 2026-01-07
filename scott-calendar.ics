@@ -7,12 +7,27 @@ X-WR-CALNAME:Scott - Key Dates
 X-WR-TIMEZONE:Europe/London
 
 BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260110T140000
+DTEND;TZID=Europe/London:20260110T180000
+SUMMARY:Visit old friend Kris Dunnico
+UID:20260110-krisdunnico@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260111
 DTEND;VALUE=DATE:20260112
 SUMMARY:Family Walk - Blakemere & Delamere Circular (10.5km)
 DESCRIPTION:Family walk at Delamere Forest
 LOCATION:Delamere, Cheshire
 UID:20260111-delamere@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY:Loaf sofa showroom
+LOCATION:Altrincham
+UID:20260117-loaf@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
