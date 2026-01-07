@@ -64,12 +64,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | — | Y | Y | — | Y |
-| Meditation | Y | Y | — | | | — | Y |
-| Freedom Gap (AM) | Y | Y | — | Y | Y | — | Y |
+| Breathwork | Y | Y | Y | Y | Y | — | Y |
+| Meditation | Y | Y | Y | | | — | Y |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | — | Y |
 | Cold Water (3 min) | — | — | — | — | — | — | — |
-| Mobility | Y | Y | — | — | — | — | — |
-| OYTS | Y | Y | — | — | — | — | — |
+| Mobility | Y | Y | | — | — | — | — |
+| OYTS | Y | Y | Y | — | — | — | — |
 
 *Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
 
@@ -79,20 +79,22 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | — | | — | O | B | T | |
-| Steps | — | | — | O | G | O | |
-| Nutrition | — | | — | B | O | B | |
-| Hydration | — | | — | B | B | O | |
-| Outdoors | — | | — | O | G | B | |
-| Exercise | — | G | — | B | G | B | |
+| Sleep | — | B | G | O | B | T | |
+| Steps | — | O | | O | G | O | |
+| Nutrition | — | G | | B | O | B | |
+| Hydration | — | O | | B | B | O | |
+| Outdoors | — | O | | O | G | B | |
+| Exercise | — | G | | B | G | B | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | — | — | — | Y | Y | Y | |
+| Freedom Gap (PM) | Y | Y | | Y | Y | Y | |
 | AMWAP | — | — | — | Y | Y | Y | |
-| Plan Tomorrow | — | — | — | Y | Y | Y | |
+| Plan Tomorrow | Y | Y | | Y | Y | Y | |
+
+*AMWAP deferred to w/c 12 Jan — stacking habits, not stacking failure.*
 
 ---
 
@@ -287,6 +289,21 @@ NYE celebrations.
 
 *For Friday weekly reflection*
 
+## Wednesday 7 Jan
+**Question:** Which part of your identity is most tied to being "the one who knows" or "the one who fixes," and how does that shape the way you lead?
+
+**Summary:** "The one who knows" is core to professional identity — 30 years synthesizing technology fast, pride in quick understanding, leads with opinions to shape the team.
+
+**Tension:** Comfortable as the knowledgeable one, but gets frustrated when pulled into "the one who fixes" role. This happens when managers can't handle difficult techies — has to interpret and firefight instead of direct.
+
+**Impact on leadership:** Fixing and interpreting drains leadership capacity. Backfilling the gap instead of developing the capability in others.
+
+**Connection to bugs:** #1 (steps in), #3 (backfills expertise gaps). The managers who can't navigate technical people are the structural gap.
+
+**Open question:** What would it take for those managers to handle it themselves — even badly at first?
+
+---
+
 ## Tuesday 6 Jan
 **Question:** How would your business behave tomorrow if you were unavailable for an entire week, and what does that reveal about its fragility or resilience?
 
@@ -347,8 +364,9 @@ NYE celebrations.
 | Date | Distance | Time | Pace/km | Notes |
 |------|----------|------|---------|-------|
 | Sun 4 Jan | 3.63km | 25:18 | 6:58 | First run of the year |
+| Tue 6 Jan | 3.50km | 25:16 | 7:13 | Snow conditions |
 
-**Next run:** Tuesday 6 Jan (evening)
+**Next run:** Thursday 8 Jan
 
 ---
 
