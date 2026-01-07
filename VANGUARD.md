@@ -30,7 +30,7 @@
 
 # THIS WEEK
 
-**Week of:** 30 Dec 2024 - 5 Jan 2025
+**Week of:** 5 Jan - 11 Jan 2026
 
 ## OYTS Questions
 
@@ -64,12 +64,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | — | Y |
-| Meditation | Y | Y | Y | | | — | Y |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | — | Y |
-| Cold Water (3 min) | — | — | — | — | — | — | — |
-| Mobility | Y | Y | | — | — | — | — |
-| OYTS | Y | Y | Y | — | — | — | — |
+| Breathwork | Y | Y | Y | | | | |
+| Meditation | Y | Y | Y | | | | |
+| Freedom Gap (AM) | Y | Y | Y | | | | |
+| Cold Water (3 min) | — | — | — | | | | |
+| Mobility | Y | Y | | | | | |
+| OYTS | Y | Y | Y | | | | |
 
 *Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
 
@@ -79,20 +79,20 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | — | B | G | O | B | T | |
-| Steps | — | O | | O | G | O | |
-| Nutrition | — | G | | B | O | B | |
-| Hydration | — | O | | B | B | O | |
-| Outdoors | — | O | | O | G | B | |
-| Exercise | — | G | | B | G | B | |
+| Sleep | | B | | | | | |
+| Steps | | O | | | | | |
+| Nutrition | | G | | | | | |
+| Hydration | | O | | | | | |
+| Outdoors | | O | | | | | |
+| Exercise | | G | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | | Y | Y | Y | |
-| AMWAP | — | — | — | Y | Y | Y | |
-| Plan Tomorrow | Y | Y | | Y | Y | Y | |
+| Freedom Gap (PM) | Y | Y | | | | | |
+| AMWAP | — | — | | | | | |
+| Plan Tomorrow | Y | Y | | | | | |
 
 *AMWAP deferred to w/c 12 Jan — stacking habits, not stacking failure.*
 
@@ -225,16 +225,16 @@ NYE celebrations.
 5. OYTS: *Which part of your identity is most tied to being "the one who knows" or "the one who fixes," and how does that shape the way you lead?*
 
 **Work Tasks:**
-1. Continue 2026 budget [MIT]
-2. Reconnect with Rachel Robinson at Park Run (progress lead or ice)
-3. Review docs & testing recommendations for AI Auditing with Becky
-4. Investigate and draft brief for Emma on outreach campaign (outcome focused, ideas — she determines what & how)
-5. Check-in with Eddie on dashboard requirement
+1. Continue 2026 budget [MIT] [progressed — finalise with Leanne Thu]
+2. Reconnect with Rachel Robinson at Park Run (progress lead or ice) [done]
+3. Review docs & testing recommendations for AI Auditing with Becky [done]
+4. Investigate and draft brief for Emma on outreach campaign [deferred to Fri]
+5. Check-in with Eddie on dashboard requirement [deferred to Thu]
 
-**MIT:** Continue 2026 budget
+**MIT:** Continue 2026 budget [progressed]
 
 **Personal Tasks:**
-1. GYM lifting
+1. GYM lifting [done]
 2. Take Sophie to piano lesson
 3. Book Lake District overnight stay for February walk
 
@@ -254,7 +254,36 @@ NYE celebrations.
 5. OYTS: *How clearly have you defined outcomes in your business, and where are you still giving instructions instead of intent?*
 
 **Work Tasks:**
-1.
+1. Catch-up meeting with Phil Vaughan at Trustmark [MIT]
+2. Budget meeting with Leanne — finalise values for Quickbooks import
+3. Indexes project meeting with Impower
+4. Raise final invoice for all ancillary AWMM Webflow & Shopify items
+5. Check-in with Eddie on dashboard requirement
+
+**MIT:** Catch-up meeting with Phil Vaughan at Trustmark
+
+**Personal Tasks:**
+1. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances
+2. Run with Sophie
+3. Empty more clothes from cupboard
+
+**Evening:**
+- AMWAP: *Wins where you kept standards high without needing perfection.*
+- Plan Friday's tasks
+
+---
+
+## Friday 9 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Mobility
+5. OYTS: *What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them?*
+
+**Work Tasks:**
+1. Investigate and draft brief for Emma on outreach campaign (outcome focused, ideas — she determines what & how)
 2.
 3.
 4.
@@ -262,12 +291,12 @@ NYE celebrations.
 **MIT:** TBC
 
 **Personal Tasks:**
-1. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances
-2. Run with Sophie
+1.
 
 **Evening:**
-- AMWAP: *Wins where you kept standards high without needing perfection.*
-- Plan Friday's tasks
+- AMWAP: *Wins where you acted in alignment with your values rather than your mood.*
+- Weekly Reflection (see below)
+- Plan Saturday/next week
 
 ---
 
@@ -279,7 +308,7 @@ NYE celebrations.
 2. Can I identify where the things holding me back are stemming from?
 3. Can I see any patterns emerging?
 
-## Week of 30 Dec - 5 Jan
+## Week of 5 Jan - 11 Jan 2026
 
 *To be completed Friday 9 Jan*
 
