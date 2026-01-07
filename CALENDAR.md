@@ -12,6 +12,7 @@
 |------|------|-------|
 | 11 (Sun) | Day Trip | Blakemere & Delamere Circular (10.5km) - family walk |
 | 24 (Sat 5pm) | Family | Burns Night dinner with Scott Family |
+| 29 (Thu 7:30pm) | Theatre | An Evening with the Two Mayors @ Royal Shakespeare North - with Eddie |
 | 31 (Sat 7pm) | Gig | Stone Roses / Courteeners tribute @ Irish Club, Warrington - with Tom |
 
 ---

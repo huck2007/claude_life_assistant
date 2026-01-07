@@ -23,6 +23,14 @@ UID:20260124-burnsnight@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260129T193000
+DTEND;TZID=Europe/London:20260129T223000
+SUMMARY:Theatre - An Evening with the Two Mayors (with Eddie)
+LOCATION:Royal Shakespeare North Theatre
+UID:20260129-twomayors@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;TZID=Europe/London:20260131T190000
 DTEND;TZID=Europe/London:20260131T230000
 SUMMARY:Gig - Stone Roses / Courteeners tribute with Tom
