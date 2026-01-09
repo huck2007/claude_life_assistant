@@ -64,12 +64,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | | | | |
-| Meditation | Y | Y | Y | | | | |
-| Freedom Gap (AM) | Y | Y | Y | | | | |
-| Cold Water (3 min) | — | — | — | | | | |
-| Mobility | Y | Y | | | | | |
-| OYTS | Y | Y | Y | | | | |
+| Breathwork | Y | Y | Y | Y | Y | | |
+| Meditation | Y | Y | Y | Y | Y | | |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
+| Cold Water (3 min) | — | — | — | — | — | | |
+| Mobility | Y | Y | | Y | | | |
+| OYTS | Y | Y | Y | Y | Y | | |
 
 *Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
 
@@ -79,12 +79,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | | B | | | | | |
-| Steps | | O | | | | | |
-| Nutrition | | G | | | | | |
-| Hydration | | O | | | | | |
-| Outdoors | | O | | | | | |
-| Exercise | | G | | | | | |
+| Sleep | O | B | O | Gr | T | | |
+| Steps | G | O | G | G | | | |
+| Nutrition | G | G | O | Gr | | | |
+| Hydration | B | O | O | B | | | |
+| Outdoors | O | O | O | O | | | |
+| Exercise | G | G | G | G | | | |
 
 ## Evening Rituals
 
@@ -244,32 +244,23 @@ NYE celebrations.
 
 ---
 
-## Thursday 8 Jan
+## Thursday 8 Jan [COMPLETE]
 
-**Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Mobility
-5. OYTS: *How clearly have you defined outcomes in your business, and where are you still giving instructions instead of intent?*
+**Morning Routine:** Done (breathwork, meditation, freedom gap, mobility, OYTS)
 
 **Work Tasks:**
-1. Catch-up meeting with Phil Vaughan at Trustmark [MIT]
-2. Budget meeting with Leanne — finalise values for Quickbooks import
-3. Indexes project meeting with Impower
-4. Raise final invoice for all ancillary AWMM Webflow & Shopify items
-5. Check-in with Eddie on dashboard requirement
+1. Catch-up meeting with Phil Vaughan at Trustmark [MIT] [done] — 14 redundancies in consultation (including new head of analytics). Work likely but 2024 revenue uncertain.
+2. Budget meeting with Leanne — finalise values for Quickbooks import [done]
+3. Indexes project meeting with Impower [done]
+4. Raise final invoice for all ancillary AWMM Webflow & Shopify items [carry forward]
+5. Check-in with Eddie on dashboard requirement [carry forward]
 
-**MIT:** Catch-up meeting with Phil Vaughan at Trustmark
+**MIT:** Catch-up meeting with Phil Vaughan at Trustmark [done]
 
 **Personal Tasks:**
-1. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances
-2. Run with Sophie
-3. Empty more clothes from cupboard
-
-**Evening:**
-- AMWAP: *Wins where you kept standards high without needing perfection.*
-- Plan Friday's tasks
+1. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances [carry forward]
+2. Run with Sophie [done]
+3. Empty more clothes from cupboard [carry forward]
 
 ---
 
@@ -283,19 +274,23 @@ NYE celebrations.
 5. OYTS: *What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them?*
 
 **Work Tasks:**
-1. Investigate and draft brief for Emma on outreach campaign (outcome focused, ideas — she determines what & how)
-2.
-3.
-4.
+1. Catch-up with Emma — advance solution design for AWMM Expo pick-up [MIT]
+2. Investigate and draft brief for Emma on outreach campaign (outcome focused, ideas — she determines what & how)
+3. Raise final invoice for all ancillary AWMM Webflow & Shopify items
+4. Check-in with Eddie on dashboard requirement
 
-**MIT:** TBC
+**MIT:** Catch-up with Emma — AWMM Expo solution design
 
 **Personal Tasks:**
-1.
+1. GYM Lifting with Lou
+2. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances
+3. Empty more clothes from cupboard
+4. Dinner with Jo
+
+**4pm:** Weekly Reflection — prompted session with agent
 
 **Evening:**
 - AMWAP: *Wins where you acted in alignment with your values rather than your mood.*
-- Weekly Reflection (see below)
 - Plan Saturday/next week
 
 ---
@@ -317,6 +312,25 @@ NYE celebrations.
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Friday 9 Jan
+**Question:** What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them?
+
+**Summary:** Not a clarity problem — it's a "me" problem. The main resource people think they need is Scott, and some think he's too busy. But it's person-specific:
+
+**By person:**
+- **Emma** — Model. Knows how to use Scott, proactive, independent, loops in appropriately. No issue.
+- **Dave** — Similar. Loyal, given latitude during wife's medical situation. Could be more proactive but solid.
+- **Phil** — Too independent. Avoidance pattern — doesn't want help, wants his own way. Long relationship, manageable. Message landed on not over-servicing clients.
+- **Anthony** — Won't use support from Scott or others, over-relies on Dave. Training resources available but struggles with tests — on pause.
+- **Eddie** — Uses Scott TOO MUCH. Lacks confidence, resilience, authority skills. Likely depressed. Stuck in Scott's Northstar, not his own. Paid well so feels trapped. Scott's been harsh on his decisions before — needs to measure feedback better. Good example yesterday: measured, supportive feedback that landed well. But this won't fix the deeper issue.
+- **Becky** — Excellent. Resourceful, proactive, uses everything available. Early days, not yet invested with authority.
+
+**Key insight:** The question reframed itself. It's not "what resources are unclear" — it's "what's the relationship each person has with using me as a resource, and what does that reveal?"
+
+**Eddie flag:** This is the clearest signal yet that Eddie's situation needs addressing. Not a performance problem — a life problem. He's stuck.
+
+---
 
 ## Wednesday 7 Jan
 **Question:** Which part of your identity is most tied to being "the one who knows" or "the one who fixes," and how does that shape the way you lead?
