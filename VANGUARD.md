@@ -68,7 +68,7 @@
 | Meditation | Y | Y | Y | Y | Y | | |
 | Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
 | Cold Water (3 min) | — | — | — | — | — | | |
-| Mobility | Y | Y | | Y | | | |
+| Mobility | N | N | N | N | N | | |
 | OYTS | Y | Y | Y | Y | Y | | |
 
 *Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
@@ -80,11 +80,11 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sleep | O | B | O | Gr | T | | |
-| Steps | G | O | G | G | | | |
-| Nutrition | G | G | O | Gr | | | |
-| Hydration | B | O | O | B | | | |
-| Outdoors | O | O | O | O | | | |
-| Exercise | G | G | G | G | | | |
+| Steps | G | O | G | G | G | | |
+| Nutrition | G | G | O | Gr | G | | |
+| Hydration | B | O | O | B | G | | |
+| Outdoors | O | O | O | O | O | | |
+| Exercise | G | G | G | G | G | | |
 
 ## Evening Rituals
 
@@ -324,6 +324,13 @@ NYE celebrations.
 
 **Personal Tasks:**
 1. Chase Jo's P45 from Eric Moore
+
+---
+
+## Tuesday 14 Jan
+
+**Work Tasks:**
+1. Move AWMM Webflow to annual billing
 
 ---
 
