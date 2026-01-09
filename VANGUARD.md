@@ -274,16 +274,16 @@ NYE celebrations.
 5. OYTS: *What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them?*
 
 **Work Tasks:**
-1. Catch-up with Emma — advance solution design for AWMM Expo pick-up [MIT]
-2. Investigate and draft brief for Emma on outreach campaign (outcome focused, ideas — she determines what & how)
-3. Raise final invoice for all ancillary AWMM Webflow & Shopify items
-4. Check-in with Eddie on dashboard requirement
+1. Catch-up with Emma — advance solution design for AWMM Expo pick-up [MIT] [done]
+2. Investigate and draft brief for Emma on outreach campaign [done]
+3. Raise final invoice for all ancillary AWMM Webflow & Shopify items [done]
+4. Check-in with Eddie on dashboard requirement [done]
 
-**MIT:** Catch-up with Emma — AWMM Expo solution design
+**MIT:** Catch-up with Emma — AWMM Expo solution design [done]
 
 **Personal Tasks:**
-1. GYM Lifting with Lou
-2. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances
+1. GYM Lifting with Lou [done]
+2. Message Faisal (Accountant) — year end, tax returns, Jo's change of circumstances [done]
 3. Empty more clothes from cupboard
 4. Dinner with Jo
 
@@ -292,6 +292,50 @@ NYE celebrations.
 **Evening:**
 - AMWAP: *Wins where you acted in alignment with your values rather than your mood.*
 - Plan Saturday/next week
+
+---
+
+## Saturday 10 Jan
+
+**Morning Tasks:**
+1. GYM Leg day with Tom and Sophie
+2. Hair cut
+3. More clearing out of cupboard
+
+**Afternoon:** Visit Kris Dunnico
+
+---
+
+## Sunday 11 Jan
+
+**Morning:** Run with Sophie
+
+**Family Walk:** Blakemere & Delamere Circular (10.5km)
+- Book Alvanley Arms for 4pm pub lunch
+
+**Evening:** Weekly planning session
+
+---
+
+## Monday 12 Jan
+
+**Work Tasks:**
+1. Define and hand over stand-up facilitation (process workstream)
+
+**Personal Tasks:**
+1. Chase Jo's P45 from Eric Moore
+
+---
+
+## Thursday 15 Jan - Friday 16 Jan
+
+**Impower workshop** — 2-day session in London
+
+---
+
+## Friday 16 Jan
+
+**MIT:** Discuss Eddie's future honestly (return journey from London)
 
 ---
 
@@ -305,7 +349,15 @@ NYE celebrations.
 
 ## Week of 5 Jan - 11 Jan 2026
 
-*To be completed Friday 9 Jan*
+**Q1: Diving deep or bypassing?**
+Deep. Living the examined life. CWI and AMWAP deferred intentionally — habit stacking, not failure. First things first.
+
+**Q2: What's holding me back?**
+Nothing structural — working systematically: MI first (Eddie owns) → Process (quoting, onboarding, agile) → Governance. Need to shift gear and style for next level. May need additional people, not necessarily different people. Eddie situation to be addressed directly — conversation scheduled for Fri 16 Jan.
+
+**Q3: Patterns emerging?**
+1. Business dependency on me — addressed via MI → Process → Governance sequence
+2. Stand-up ownership — daily example of backfilling. Needs structured handover (added to Monday 12 Jan)
 
 ---
 
