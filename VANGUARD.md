@@ -31,31 +31,31 @@
 
 # THIS WEEK
 
-**Week of:** 5 Jan - 11 Jan 2026
+**Week of:** 12 Jan - 18 Jan 2026
 
 ## OYTS Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | Which decisions currently run through you by default, and how does that affect your ability to think strategically? |
-| Tue | How would your business behave tomorrow if you were unavailable for an entire week, and what does that reveal about its fragility or resilience? |
-| Wed | Which part of your identity is most tied to being "the one who knows" or "the one who fixes," and how does that shape the way you lead? |
-| Thu | How clearly have you defined outcomes in your business, and where are you still giving instructions instead of intent? |
-| Fri | What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them? |
-| Sat | When you delegate, where do things most often break down, and how much of that comes from unclear mission briefs rather than poor execution? |
-| Sun | Which decisions did you make this week that technically didn't need to be yours, even if you were capable of making them? |
+| Mon | What is a goal you have been chasing that currently feels flat or uninspiring—and why might that be? |
+| Tue | What is one outcome you would love to achieve in the next 12 months that would truly change your life? What do you see, hear, feel, smell, and sense when you imagine the moment you achieve that outcome? |
+| Wed | Choose one of your goals. What would a photo of you achieving this goal look like—and what would it say about the person you've become? |
+| Thu | How would you show up today if you already were the kind of person who had achieved your current goals? |
+| Fri | When things get hard, what specific mental image or 'movie trailer' could you return to that would pull you forward? |
+| Sat | What is the difference between ticking boxes and becoming someone—and how can you focus more on the second? |
+| Sun | What is a version of success that feels truly yours—not what others expect, but what you deeply want? |
 
 ## AMWAP Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | 5 minutes of wins where you showed up even when motivation was low. |
-| Tue | Wins from the past 48hrs that demonstrate consistency over intensity. |
-| Wed | 10 wins that prove your habits are working, even if progress feels slow. |
-| Thu | Wins where you kept standards high without needing perfection. |
-| Fri | Wins where you acted in alignment with your values rather than your mood. |
-| Sat | List small health wins that compound over time. |
-| Sun | 5 minutes of wins from the past 24hrs that moved the needle, however slightly. |
+| Mon | List the good habits that keep you on track with your goals. |
+| Tue | 5 minutes of wins from last week (work/home/health). |
+| Wed | Your 7 biggest wins from the past week. |
+| Thu | 5 minutes of wins from the past 24hrs. |
+| Fri | 10 wins which prove you can be the person you aspire to be. |
+| Sat | 5 minutes of wins from the past 24hrs. |
+| Sun | Any wins from creating magnetic goals this week. |
 
 ---
 
@@ -326,7 +326,7 @@ NYE celebrations.
 3. Freedom Gap AM (first hour tech-free)
 4. Cold Water (3 min) — CWI starts today
 5. Mobility
-6. OYTS: *Week 2 question TBC*
+6. OYTS: *What is a goal you have been chasing that currently feels flat or uninspiring—and why might that be?*
 
 **Work Tasks:**
 1. Run through marketing brief with Emma
