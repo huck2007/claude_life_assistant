@@ -26,15 +26,17 @@ EOF
 ```
 
 Parse the note for:
-- Completed tasks (checked items)
-- Daily scores (filled in values)
-- OYTS journal response (any text under Journal Response)
-- Audio transcript (if present)
+- Completed tasks (items marked "done" or checked)
+- Daily scores (Sleep, Steps, Nutrition, Hydration, Outdoors, Exercise values)
+- OYTS journal response (text appearing after "Journal Response" header — Scott adds transcription from audio recording directly into note)
 
-Show the user what you found and sync to VANGUARD.md:
-- Update daily tracking tables with scores
-- Mark completed tasks as [done]
-- Store OYTS summary if substantial response provided
+Sync to VANGUARD.md:
+- Update morning rituals table for the day
+- Update daily scores table for the day
+- Mark completed tasks as [done] in the daily plan section
+- If OYTS journal response has substantial content, add a summary to the OYTS Summaries section in VANGUARD.md with the day's date, question, and key insights
+
+Also update journal file (`journal/YYYY-MM-DD.md`) with task completions and scores.
 
 ## Ask
 

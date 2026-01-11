@@ -64,12 +64,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | | |
-| Meditation | Y | Y | Y | Y | Y | | |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
-| Cold Water (3 min) | — | — | — | — | — | | |
-| Mobility | N | N | N | N | N | | |
-| OYTS | Y | Y | Y | Y | Y | | |
+| Breathwork | Y | Y | Y | Y | Y | Y | |
+| Meditation | Y | Y | Y | Y | Y | Y | |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | |
+| Cold Water (3 min) | — | — | — | — | — | — | |
+| Mobility | N | N | N | N | N | — | |
+| OYTS | Y | Y | Y | Y | Y | Y | |
 
 *Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
 
@@ -79,12 +79,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | B | O | Gr | T | | |
-| Steps | G | O | G | G | G | | |
-| Nutrition | G | G | O | Gr | G | | |
-| Hydration | B | O | O | B | G | | |
-| Outdoors | O | O | O | O | O | | |
-| Exercise | G | G | G | G | G | | |
+| Sleep | O | B | O | Gr | T | B | |
+| Steps | G | O | G | G | G | O | |
+| Nutrition | G | G | O | Gr | G | B | |
+| Hydration | B | O | O | B | G | O | |
+| Outdoors | O | O | O | O | O | O | |
+| Exercise | G | G | G | G | G | G | |
 
 ## Evening Rituals
 
@@ -371,6 +371,31 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Saturday 10 Jan
+**Question:** When you delegate, where do things most often break down, and how much of that comes from unclear mission briefs rather than poor execution?
+
+**Summary:** People-dependent, and a mix of both — but briefing isn't the core issue.
+
+**Innovation/uncertainty work:**
+- Scott is comfortable operating in uncertainty (working with concepts, pushing strategic boundaries, bridging tech/business gap). Most staff are not.
+- Phil handles freedom well once he has context, but pushing beyond boundaries isn't his default.
+- Clients value Scott specifically for this capability — they've had tech opportunities slip away with IT people who couldn't bridge the gap. This is why they buy "Scott."
+- When staff push boundaries without close supervision, problems occur. When they don't bring best practice to technical implementation, quality suffers.
+- Commercial/time pressures compound the problem — innovation work and tight deadlines don't mix well.
+
+**Scott's protective role:** Shield team from commercial pressure, give space to learn, don't bite off more than can chew, stay close to details on risk factors.
+
+**Admin/operational delegation:**
+- Briefing isn't the problem. Experience and expertise are.
+- Junior or inexperienced staff (Leanne, Eddie specifically) can't take outcome-based briefs and deliver without leaving holes to plug.
+- Creates "might as well have done it myself" sensation.
+
+**Connection to bugs:** #1 (steps in), #3 (backfills expertise gaps), #5 (clients buy Scott). The nature of the work and the experience gap in the team reinforce why Scott stays central.
+
+**Key tension:** The very thing clients pay for (Scott's ability to operate in uncertainty and bridge gaps) is the thing that's hardest to delegate.
+
+---
 
 ## Friday 9 Jan
 **Question:** What resources, authority, or support do people hesitate to use because they're unsure what's actually available to them?
