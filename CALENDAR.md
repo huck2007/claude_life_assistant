@@ -13,6 +13,7 @@
 | 10 (Sat PM) | Social | Visit old friend Kris Dunnico |
 | 11 (Sun) | Day Trip | Blakemere & Delamere Circular (10.5km) - family walk |
 | 17 (Sat) | Errand | Loaf sofa showroom, Altrincham |
+| 23 (Fri 7:15pm) | Social | Poker at Mike's (until midnight) |
 | 24 (Sat 5pm) | Family | Burns Night dinner with Scott Family |
 | 29 (Thu 7:30pm) | Theatre | An Evening with the Two Mayors @ Royal Shakespeare North - with Eddie |
 | 31 (Sat 7pm) | Gig | Stone Roses / Courteeners tribute @ Irish Club, Warrington - with Tom |
@@ -58,6 +59,7 @@
 |------|------|-------|
 | 8 (Fri) | Day Trip | Devil's Kitchen & Llyn Idwal Circular - family walk |
 | 15-16 | Weekend Away | Family memorial golf trip - Llandudno (Paul, Chris & family) |
+| 23 (Sat 7pm) | Gig | Kingfishr @ O2 Victoria Warehouse, Manchester - with Jo, Tom & Sophie |
 
 ---
 

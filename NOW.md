@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Done for today (holiday). Next action: Hand off Monday Dashboard requirements to Eddie.
+**MIT Today:** Family walk — Blakemere & Delamere Circular (10.5km). First monthly walk.
 
 ---
 

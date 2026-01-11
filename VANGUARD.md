@@ -14,6 +14,7 @@
 1. Monitor business performance weekly using Monday Dashboard KPIs
 2. Complete 2026 business budget
 3. Develop sales/marketing outreach campaign and begin execution by end of Jan
+4. Finalise Impower Roadmap
 
 **Health:**
 1. Complete Dry January
@@ -64,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | Y | |
-| Meditation | Y | Y | Y | Y | Y | Y | |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | |
-| Cold Water (3 min) | — | — | — | — | — | — | |
-| Mobility | N | N | N | N | N | — | |
-| OYTS | Y | Y | Y | Y | Y | Y | |
+| Breathwork | Y | Y | Y | Y | Y | Y | Y |
+| Meditation | Y | Y | Y | Y | Y | Y | Y |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | Y |
+| Cold Water (3 min) | — | — | — | — | — | — | — |
+| Mobility | N | N | N | N | N | — | — |
+| OYTS | Y | Y | Y | Y | Y | Y | Y |
 
 *Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
 
@@ -79,12 +80,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | B | O | Gr | T | B | |
-| Steps | G | O | G | G | G | O | |
+| Sleep | O | B | O | Gr | T | B | O |
+| Steps | G | O | G | G | G | O | Gr |
 | Nutrition | G | G | O | Gr | G | B | |
 | Hydration | B | O | O | B | G | O | |
-| Outdoors | O | O | O | O | O | O | |
-| Exercise | G | G | G | G | G | G | |
+| Outdoors | O | O | O | O | O | O | Gr |
+| Exercise | G | G | G | G | G | G | Gr |
 
 ## Evening Rituals
 
@@ -319,11 +320,27 @@ NYE celebrations.
 
 ## Monday 12 Jan
 
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min) — CWI starts today
+5. Mobility
+6. OYTS: *Week 2 question TBC*
+
 **Work Tasks:**
-1. Define and hand over stand-up facilitation (process workstream)
+1. Run through marketing brief with Emma
+2. Prepare for Race Ready tech stack review meeting (for AWMM)
+3. Discuss with Eddie a test project setup in Productive that supports the new dashboard build
+4. Review 2026 budget draft with Leanne and refine prior to Quickbooks import
+5. Prepare for Park Run meeting on Wednesday [MIT]
+6. Define and hand over stand-up facilitation (process workstream)
 
 **Personal Tasks:**
-1. Chase Jo's P45 from Eric Moore
+1. Sort old clothes into two piles (1=For vinted; 2=Local tip)
+2. Run with Sophie
+3. Set budget for Front room refresh
+4. Chase Faisal (Accountant) for meeting
 
 ---
 
@@ -371,6 +388,21 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Sunday 11 Jan
+**Question:** Which decisions did you make this week that technically didn't need to be yours, even if you were capable of making them?
+
+**Summary:** Not many this week (quieter period), but one clear example.
+
+**Eddie example:** Eddie estimated 14 days for a piece of work. On a client call, client asked for more scope and Eddie made it sound trivial. Scott stepped in on the call to flag it needed review, then gave feedback afterwards: go back with a formal quote including contingency, and in future — don't commit to additional scope on the spot. You can always say "leave it with me."
+
+**Why it shouldn't have been Scott's decision:** Eddie knows better by now. The impulse to be "the good guy" and helpful is understandable, but "we're not doing a favour for a mate — we're a commercial entity."
+
+**Connection to bugs:** #2 (takes on ambitious projects, absorbs margin hit). Eddie's instinct to over-promise creates exactly this pattern.
+
+**Note:** Quieter week for examples. This question will be more revealing in full-flow work weeks.
+
+---
 
 ## Saturday 10 Jan
 **Question:** When you delegate, where do things most often break down, and how much of that comes from unclear mission briefs rather than poor execution?
