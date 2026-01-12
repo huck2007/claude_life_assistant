@@ -100,6 +100,13 @@ Personal coach living in this filesystem. Grows with Scott over time.
 2. Agent challenges, mirrors, assists during session
 3. Update files as needed: work state, daily tracking, key dates, monthly objectives
 
+## File Structure
+- `CLAUDE.md` — Stable identity, rules, psychology, decision tests
+- `NOW.md` — Current work state, active missions, memory log
+- `VANGUARD.md` — Daily rituals, daily tracking, daily plans, OYTS/AMWAP questions
+- `CALENDAR.md` — Key dates (syncs to ICS)
+- `PLAN-2026.md` — Annual plan, monthly objectives, **weekly objectives**
+
 ## Calendar Sync
 When updating `CALENDAR.md`, ALWAYS also:
 1. Update `scott-calendar.ics` with the same event (ICS format)

@@ -93,7 +93,7 @@
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Freedom Gap (PM) | | | | | | | |
 | AMWAP | | | | | | | |
-| Plan Tomorrow | | | | | | | |
+| Plan Tomorrow | Y | | | | | | |
 
 *Week 2: AMWAP starts this week.*
 
@@ -342,13 +342,41 @@ NYE celebrations.
 1. Sort old clothes into two piles (1=For vinted; 2=Local tip)
 2. Run with Sophie [done]
 3. GYM Lifting [done]
-4. Set budget for Front room refresh
+4. Set budget for front room refresh [done - £3,750]
 5. Chase Faisal (Accountant) for meeting [done]
 6. Schedule poker night at Mike's for 23rd Jan [done]
 
 ---
 
-## Tuesday 14 Jan
+## Tuesday 13 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. Mobility
+6. OYTS: *What is one outcome you would love to achieve in the next 12 months that would truly change your life? What do you see, hear, feel, smell, and sense when you imagine the moment you achieve that outcome?*
+
+**Work Tasks:**
+1. Prepare for Impower Thursday workshop [MIT]
+2. Prioritise AWMM roadmap items for Jan / Feb
+3. Race Ready meeting and follow up with Danny
+4. Catch-up with Accountant on change of circumstances with Jo
+5. Shopify Tax meeting with Emma for AWMM
+
+**Personal Tasks:**
+1. Badminton
+2. Continue emptying and organising old clothes
+3. Research sofa options for front room
+
+**Evening:**
+- AMWAP: *5 minutes of wins from last week (work/home/health).*
+- Plan Wednesday's tasks
+
+---
+
+## Wednesday 14 Jan
 
 **Work Tasks:**
 1. Move AWMM Webflow to annual billing

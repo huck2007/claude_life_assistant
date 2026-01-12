@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2025-12-30
+**Last Updated:** 2026-01-12
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Prepare for Park Run meeting on Wednesday
+**MIT Today:** Prepare for Impower Thursday workshop
 
 ---
 
@@ -57,6 +57,13 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-12
+- First Monday of Week 2. MIT done (Park Run prep). CWI started. Morning rituals all complete.
+- Solid work day: budget refined with Leanne, Eddie's Productive test project discussed, Race Ready meeting done.
+- Front room refresh budget agreed at £3,750.
+- Clarified workflow: weekly objectives stored in PLAN-2026.md (noted in CLAUDE.md).
+- Pattern: Clothes cupboard clearout keeps carrying forward — minor but worth watching.
 
 ### 2025-12-30
 - **Natural Edge integration complete.** Reviewed Project Eagle vision and 70+ journal entries from original Vanguard program (Feb 2024).
