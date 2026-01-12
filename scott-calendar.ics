@@ -173,6 +173,14 @@ UID:20260515-llandudno@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260523T190000
+DTEND;TZID=Europe/London:20260523T230000
+SUMMARY:Gig - Kingfishr @ O2 Victoria Warehouse (Jo, Tom & Sophie)
+LOCATION:O2 Victoria Warehouse, Manchester
+UID:20260523-kingfishr@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Gig - The Orb @ Peak Cavern
