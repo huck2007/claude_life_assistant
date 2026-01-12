@@ -30,13 +30,22 @@ Parse the note for:
 - Daily scores (Sleep, Steps, Nutrition, Hydration, Outdoors, Exercise values)
 - OYTS journal response (text appearing after "Journal Response" header — Scott adds transcription from audio recording directly into note)
 
-Sync to VANGUARD.md:
+Sync to VANGUARD.md (source of truth for task status):
 - Update morning rituals table for the day
 - Update daily scores table for the day
-- Mark completed tasks as [done] in the daily plan section
-- If OYTS journal response has substantial content, add a summary to the OYTS Summaries section in VANGUARD.md with the day's date, question, and key insights
+- In the daily plan section, mark each completed task with `[done]` after the task text
+- Tasks not completed: leave without marker (will carry forward at next planning)
+- If OYTS journal response has substantial content, add a summary to the OYTS Summaries section with date, question, and key insights
 
-Also update journal file (`journal/YYYY-MM-DD.md`) with task completions and scores.
+Sync to journal file (`journal/YYYY-MM-DD.md`):
+- **MIT line:** Add `[done]` if completed
+- **Notes section:** List ALL tasks from Apple Note with explicit status:
+  - Completed tasks: `- Task name [done]`
+  - Deferred tasks: `- Task name [deferred to X]`
+  - Not done: `- Task name [not done]`
+- **Evening section:** Add scores line: `**Scores:** Sleep X, Steps X, ...`
+
+The journal should be a clear record of what happened, not just highlights.
 
 ## Ask
 
@@ -64,6 +73,7 @@ Only if something changed:
 - **NOW.md**: Update MIT, add blocker to Actions, add Memory Log entry
 - **CLAUDE.md**: Only update if new long-term pattern discovered (rare)
 - **journal**: Note the check-in moment
+- **CALENDAR.md + scott-calendar.ics**: If any calendar events are added or changed, update BOTH files to keep them in sync
 
 ## Close
 

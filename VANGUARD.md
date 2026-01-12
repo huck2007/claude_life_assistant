@@ -65,14 +65,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | Y | Y |
-| Meditation | Y | Y | Y | Y | Y | Y | Y |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | Y |
-| Cold Water (3 min) | — | — | — | — | — | — | — |
-| Mobility | N | N | N | N | N | — | — |
-| OYTS | Y | Y | Y | Y | Y | Y | Y |
+| Breathwork | Y | | | | | | |
+| Meditation | Y | | | | | | |
+| Freedom Gap (AM) | Y | | | | | | |
+| Cold Water (3 min) | Y | | | | | | |
+| Mobility | — | | | | | | |
+| OYTS | | | | | | | |
 
-*Vanguard week: Mon-Sun. CWI starts w/c 12 Jan.*
+*Week 2: CWI started. Mobility deferred to w/c 19 Jan.*
 
 ## Daily Scores
 
@@ -80,22 +80,22 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | B | O | Gr | T | B | O |
-| Steps | G | O | G | G | G | O | Gr |
-| Nutrition | G | G | O | Gr | G | B | O |
-| Hydration | B | O | O | B | G | O | O |
-| Outdoors | O | O | O | O | O | O | Gr |
-| Exercise | G | G | G | G | G | G | Gr |
+| Sleep | Gr | | | | | | |
+| Steps | | | | | | | |
+| Nutrition | | | | | | | |
+| Hydration | | | | | | | |
+| Outdoors | Gr | | | | | | |
+| Exercise | Gr | | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | | | | | |
-| AMWAP | — | — | | | | | |
-| Plan Tomorrow | Y | Y | | | | | |
+| Freedom Gap (PM) | | | | | | | |
+| AMWAP | | | | | | | |
+| Plan Tomorrow | | | | | | | |
 
-*AMWAP deferred to w/c 12 Jan — stacking habits, not stacking failure.*
+*Week 2: AMWAP starts this week.*
 
 ---
 
@@ -296,25 +296,27 @@ NYE celebrations.
 
 ---
 
-## Saturday 10 Jan
+## Saturday 10 Jan [COMPLETE]
 
 **Morning Tasks:**
-1. GYM Leg day with Tom and Sophie
-2. Hair cut
-3. More clearing out of cupboard
+1. GYM Leg day with Tom and Sophie [done]
+2. Hair cut [done]
+3. More clearing out of cupboard [deferred to Mon 12 Jan]
 
-**Afternoon:** Visit Kris Dunnico
+**Afternoon:** Visit Kris Dunnico [done]
+
+**Bonus:** Dog walk
 
 ---
 
-## Sunday 11 Jan
+## Sunday 11 Jan [COMPLETE]
 
-**Morning:** Run with Sophie
+**Morning:** Run with Sophie [deferred to Mon 12 Jan]
 
-**Family Walk:** Blakemere & Delamere Circular (10.5km)
-- Book Alvanley Arms for 4pm pub lunch
+**Family Walk:** Blakemere & Delamere Circular (10.5km) [done]
+- Book Alvanley Arms for 4pm pub lunch [done]
 
-**Evening:** Weekly planning session
+**Evening:** Weekly planning session [done]
 
 ---
 
@@ -331,7 +333,7 @@ NYE celebrations.
 **Work Tasks:**
 1. Run through marketing brief with Emma
 2. Prepare for Race Ready tech stack review meeting (for AWMM)
-3. Discuss with Eddie a test project setup in Productive that supports the new dashboard build
+3. Discuss with Eddie a test project setup in Productive that supports the new dashboard build [done]
 4. Review 2026 budget draft with Leanne and refine prior to Quickbooks import
 5. Prepare for Park Run meeting on Wednesday [MIT]
 6. Define and hand over stand-up facilitation (process workstream)
@@ -339,8 +341,10 @@ NYE celebrations.
 **Personal Tasks:**
 1. Sort old clothes into two piles (1=For vinted; 2=Local tip)
 2. Run with Sophie
-3. Set budget for Front room refresh
-4. Chase Faisal (Accountant) for meeting
+3. GYM Lifting [done]
+4. Set budget for Front room refresh
+5. Chase Faisal (Accountant) for meeting [done]
+6. Schedule poker night at Mike's for 23rd Jan [done]
 
 ---
 

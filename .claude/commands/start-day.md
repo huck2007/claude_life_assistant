@@ -22,6 +22,7 @@ That's it. Wait.
 - Create/update journal (`journal/YYYY-MM-DD.md`)
 - Create Apple Notes daily note (see below)
 - Add Memory Log entry if pattern observed
+- If any calendar events are mentioned, update BOTH `CALENDAR.md` AND `scott-calendar.ics` to keep them in sync
 
 Journal:
 ```markdown
