@@ -70,7 +70,7 @@
 | Freedom Gap (AM) | Y | | | | | | |
 | Cold Water (3 min) | Y | | | | | | |
 | Mobility | — | | | | | | |
-| OYTS | | | | | | | |
+| OYTS | Y | | | | | | |
 
 *Week 2: CWI started. Mobility deferred to w/c 19 Jan.*
 
@@ -81,9 +81,9 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sleep | Gr | | | | | | |
-| Steps | | | | | | | |
-| Nutrition | | | | | | | |
-| Hydration | | | | | | | |
+| Steps | G | | | | | | |
+| Nutrition | G | | | | | | |
+| Hydration | O | | | | | | |
 | Outdoors | Gr | | | | | | |
 | Exercise | Gr | | | | | | |
 
@@ -331,16 +331,16 @@ NYE celebrations.
 6. OYTS: *What is a goal you have been chasing that currently feels flat or uninspiring—and why might that be?*
 
 **Work Tasks:**
-1. Run through marketing brief with Emma
-2. Prepare for Race Ready tech stack review meeting (for AWMM)
+1. Run through marketing brief with Emma [deferred to Wed]
+2. Prepare for Race Ready tech stack review meeting (for AWMM) [done]
 3. Discuss with Eddie a test project setup in Productive that supports the new dashboard build [done]
-4. Review 2026 budget draft with Leanne and refine prior to Quickbooks import
-5. Prepare for Park Run meeting on Wednesday [MIT]
-6. Define and hand over stand-up facilitation (process workstream)
+4. Review 2026 budget draft with Leanne and refine prior to Quickbooks import [done]
+5. Prepare for Park Run meeting on Wednesday [MIT] [done]
+6. Define and hand over stand-up facilitation (process workstream) [cancelled]
 
 **Personal Tasks:**
 1. Sort old clothes into two piles (1=For vinted; 2=Local tip)
-2. Run with Sophie
+2. Run with Sophie [done]
 3. GYM Lifting [done]
 4. Set budget for Front room refresh
 5. Chase Faisal (Accountant) for meeting [done]
@@ -392,6 +392,23 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Monday 12 Jan
+**Question:** What is a goal you have been chasing that currently feels flat or uninspiring—and why might that be?
+
+**Summary:** Most goals are on track (weight, fitness, business starting fresh). The "flat" feeling is about business positioning.
+
+**Core tension:** Positioned as "data analytics consultancy" but that doesn't capture what we really are — a specialist squad that gets shit done under Scott's leadership across multiple technology domains. Data is a means to an end, not the whole offering.
+
+**WMM example:** They didn't hire us for data analytics. They wanted Scott's tech leadership and consulting capability. Data was just part of it.
+
+**What's uninspiring:** The current messaging feels limiting. "Paying homage to one thing troubles me because we can do more than that."
+
+**The work this year:** Learn how to frame what we are through conversations with prospects. Make sure it comes through in marketing, LinkedIn, sales meetings, and existing client relationships. Some existing clients don't understand what we could do for them.
+
+**Connection to bugs:** #5 (clients buy Scott). The value is the leadership and ability to bridge gaps — not a narrow service definition.
+
+---
 
 ## Sunday 11 Jan
 **Question:** Which decisions did you make this week that technically didn't need to be yours, even if you were capable of making them?
