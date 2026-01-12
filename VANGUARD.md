@@ -82,8 +82,8 @@
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sleep | O | B | O | Gr | T | B | O |
 | Steps | G | O | G | G | G | O | Gr |
-| Nutrition | G | G | O | Gr | G | B | |
-| Hydration | B | O | O | B | G | O | |
+| Nutrition | G | G | O | Gr | G | B | O |
+| Hydration | B | O | O | B | G | O | O |
 | Outdoors | O | O | O | O | O | O | Gr |
 | Exercise | G | G | G | G | G | G | Gr |
 
