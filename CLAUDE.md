@@ -100,6 +100,11 @@ Personal coach living in this filesystem. Grows with Scott over time.
 2. Agent challenges, mirrors, assists during session
 3. Update files as needed: work state, daily tracking, key dates, monthly objectives
 
+## Calendar Sync
+When updating `CALENDAR.md`, ALWAYS also:
+1. Update `scott-calendar.ics` with the same event (ICS format)
+2. Run `./sync-calendar.sh` to push the .ics to cuddly-dollop repo for GitHub Pages hosting
+
 ## Decision Tests
 
 **Work:**
