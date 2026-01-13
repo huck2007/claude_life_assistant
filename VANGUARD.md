@@ -68,7 +68,7 @@
 | Breathwork | Y | Y | | | | | |
 | Meditation | Y | Y | | | | | |
 | Freedom Gap (AM) | Y | Y | | | | | |
-| Cold Water (3 min) | Y | | | | | | |
+| Cold Water (3 min) | Y | Y | | | | | |
 | Mobility | — | — | | | | | |
 | OYTS | Y | Y | | | | | |
 
