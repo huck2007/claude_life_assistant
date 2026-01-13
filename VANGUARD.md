@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | | | | | | |
-| Meditation | Y | | | | | | |
-| Freedom Gap (AM) | Y | | | | | | |
+| Breathwork | Y | Y | | | | | |
+| Meditation | Y | Y | | | | | |
+| Freedom Gap (AM) | Y | Y | | | | | |
 | Cold Water (3 min) | Y | | | | | | |
-| Mobility | — | | | | | | |
-| OYTS | Y | | | | | | |
+| Mobility | — | — | | | | | |
+| OYTS | Y | Y | | | | | |
 
 *Week 2: CWI started. Mobility deferred to w/c 19 Jan.*
 
@@ -80,7 +80,7 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | | | | | | |
+| Sleep | Gr | B | | | | | |
 | Steps | G | | | | | | |
 | Nutrition | G | | | | | | |
 | Hydration | O | | | | | | |
@@ -381,6 +381,9 @@ NYE celebrations.
 **Work Tasks:**
 1. Move AWMM Webflow to annual billing
 
+**Personal Tasks:**
+1. Investigate sleep hygiene rituals — 3am wake pattern, hands under pillow, shoulder/hip discomfort, audiobook vs Kindle
+
 ---
 
 ## Thursday 15 Jan - Friday 16 Jan
@@ -420,6 +423,21 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Tuesday 13 Jan
+**Question:** What is one outcome you would love to achieve in the next 12 months that would truly change your life? What do you see, hear, feel, smell, and sense when you imagine the moment you achieve that outcome?
+
+**Summary:** Nothing immediately "life-changing" comes to mind. Weight loss nearly complete (2-3 months to target). Real answer emerged: business able to run without me.
+
+**12-month vision:** Reduced to 3 days/week. Help Jo launch her business. More time outdoors — hiking, hills, sweating, inspiring views. "Spending more time in nature is a big deal for me."
+
+**Project Eagle connection:** House in countryside, surrounded by fields instead of roofs and fences. But wary of materialistic objectives.
+
+**Key tension:** 3 days/week is NOT consistent with growing the business. Must be present, but present as leader, not doer. Will only backfill in extreme emergencies — otherwise coach and support others to do the task.
+
+**Conclusion:** Not one life-changing thing. Several levers being pulled: health, personal life, business. The work continues.
+
+---
 
 ## Monday 12 Jan
 **Question:** What is a goal you have been chasing that currently feels flat or uninspiring—and why might that be?
