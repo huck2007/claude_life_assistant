@@ -351,19 +351,19 @@ NYE celebrations.
 ## Tuesday 13 Jan
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. Mobility
-6. OYTS: *What is one outcome you would love to achieve in the next 12 months that would truly change your life? What do you see, hear, feel, smell, and sense when you imagine the moment you achieve that outcome?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility [deferred to w/c 19 Jan]
+6. OYTS [done]
 
 **Work Tasks:**
-1. Prepare for Impower Thursday workshop [MIT]
-2. Prioritise AWMM roadmap items for Jan / Feb
-3. Race Ready meeting and follow up with Danny
-4. Catch-up with Accountant on change of circumstances with Jo
-5. Shopify Tax meeting with Emma for AWMM
+1. Prepare for Impower Thursday workshop [MIT] [done]
+2. Prioritise AWMM roadmap items for Jan / Feb [deferred to Wed]
+3. Race Ready meeting and follow up with Danny [done]
+4. Catch-up with Accountant on change of circumstances with Jo [done]
+5. Shopify Tax meeting with Emma for AWMM [done]
 
 **Personal Tasks:**
 1. Badminton
@@ -380,6 +380,7 @@ NYE celebrations.
 
 **Work Tasks:**
 1. Move AWMM Webflow to annual billing
+2. Prioritise AWMM roadmap items for Jan / Feb [carried from Tue]
 
 **Personal Tasks:**
 1. Investigate sleep hygiene rituals — 3am wake pattern, hands under pillow, shoulder/hip discomfort, audiobook vs Kindle
