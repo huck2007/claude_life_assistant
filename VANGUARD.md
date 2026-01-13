@@ -366,9 +366,9 @@ NYE celebrations.
 5. Shopify Tax meeting with Emma for AWMM [done]
 
 **Personal Tasks:**
-1. Badminton
-2. Continue emptying and organising old clothes
-3. Research sofa options for front room
+1. Badminton [done]
+2. Continue emptying and organising old clothes [carry forward]
+3. Research sofa options for front room [carry forward]
 
 **Evening:**
 - AMWAP: *5 minutes of wins from last week (work/home/health).*
@@ -378,12 +378,32 @@ NYE celebrations.
 
 ## Wednesday 14 Jan
 
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. Mobility [deferred to w/c 19 Jan]
+6. OYTS: *Choose one of your goals. What would a photo of you achieving this goal look like—and what would it say about the person you've become?*
+
 **Work Tasks:**
-1. Move AWMM Webflow to annual billing
-2. Prioritise AWMM roadmap items for Jan / Feb [carried from Tue]
+1. Park Run meeting [MIT]
+2. Finalise Impower agenda content and get Eddie to produce Miro board and send to Paul
+3. LG Inform meeting — local government reorg approach
+4. Trustmark fortnightly planning session
+5. AWMM Snowflake / AWS DMS integration discussion with Phil & Dave
+6. Marketing outreach campaign briefing review with Emma
+7. Move AWMM Webflow to annual billing
+8. Prioritise AWMM roadmap items for Jan / Feb
 
 **Personal Tasks:**
-1. Investigate sleep hygiene rituals — 3am wake pattern, hands under pillow, shoulder/hip discomfort, audiobook vs Kindle
+1. Continue emptying and organising old clothes
+2. Research sofa options for front room
+3. Investigate sleep hygiene rituals — 3am wake pattern, hands under pillow, shoulder/hip discomfort, audiobook vs Kindle
+
+**Evening:**
+- AMWAP: *Your 7 biggest wins from the past week.*
+- Pack for London
 
 ---
 
