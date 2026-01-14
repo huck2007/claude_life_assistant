@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Prepare for Impower Thursday workshop
+**MIT Today:** Park Run meeting
 
 ---
 
@@ -45,6 +45,10 @@
 
 ### 2025-12-29
 - System initialized. Scott is building a £1m data analytics business, 6+ years in.
+- **Business: Crozier Scott Ltd** (www.crozierscott.com)
+  - Positioning: CTO-level leadership + data analytics + AI for mid-sized/scaling organizations
+  - Services: Data Foundations Diagnostic, Modern Data Platforms, AI Readiness Booster, Custom Digital Products, CTO-as-a-Service
+  - Key clients: Abbott World Marathon Majors (platform/CRM), TrustMark (Snowflake/analytics), Impower (NLP platform)
 - Goal: Phase out of delivery over 2 years, focus on growth and leadership.
 - Known bugs: Steps in to do work, backfills gaps, absorbs margin hits, clients buy "him"
 - Challenge style: Direct and blunt. Push toward managing, not doing.
@@ -57,6 +61,14 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-14
+- **Lead qualification lesson (Park Run):** Spent time on a contact that was never a real lead. Signals were clear in hindsight: social introduction (not business need), contact 3 months into role (no authority), no budget (discretionary committed elsewhere), "keep in touch" language throughout.
+- **Qualification filter to apply going forward:**
+  1. Is there a specific problem they're trying to solve NOW?
+  2. Do they have budget or authority to spend?
+  3. Did they come to us, or are we chasing?
+- If 0/3 or 1/3: it's networking, not sales. Treat accordingly - light touch, don't invest prep time.
 
 ### 2026-01-12
 - First Monday of Week 2. MIT done (Park Run prep). CWI started. Morning rituals all complete.

@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | | | | | |
-| Meditation | Y | Y | | | | | |
-| Freedom Gap (AM) | Y | Y | | | | | |
-| Cold Water (3 min) | Y | Y | | | | | |
-| Mobility | — | — | | | | | |
-| OYTS | Y | Y | | | | | |
+| Breathwork | Y | Y | Y | | | | |
+| Meditation | Y | Y | Y | | | | |
+| Freedom Gap (AM) | Y | Y | Y | | | | |
+| Cold Water (3 min) | Y | Y | Y | | | | |
+| Mobility | — | — | — | | | | |
+| OYTS | Y | Y | Y | | | | |
 
 *Week 2: CWI started. Mobility deferred to w/c 19 Jan.*
 
@@ -80,12 +80,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | B | | | | | |
-| Steps | G | | | | | | |
-| Nutrition | G | | | | | | |
-| Hydration | O | | | | | | |
-| Outdoors | Gr | | | | | | |
-| Exercise | Gr | | | | | | |
+| Sleep | Gr | B | O | | | | |
+| Steps | G | Gr | O | | | | |
+| Nutrition | G | Gr | G | | | | |
+| Hydration | O | G | O | | | | |
+| Outdoors | Gr | B | O | | | | |
+| Exercise | Gr | G | O | | | | |
 
 ## Evening Rituals
 
@@ -348,7 +348,7 @@ NYE celebrations.
 
 ---
 
-## Tuesday 13 Jan
+## Tuesday 13 Jan [COMPLETE]
 
 **Morning Routine:**
 1. Breathwork (box breathing) [done]
@@ -370,40 +370,36 @@ NYE celebrations.
 2. Continue emptying and organising old clothes [carry forward]
 3. Research sofa options for front room [carry forward]
 
-**Evening:**
-- AMWAP: *5 minutes of wins from last week (work/home/health).*
-- Plan Wednesday's tasks
+**Scores:** Sleep B, Steps Gr, Nutrition Gr, Hydration G, Outdoors B, Exercise G
 
 ---
 
-## Wednesday 14 Jan
+## Wednesday 14 Jan [COMPLETE]
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
 5. Mobility [deferred to w/c 19 Jan]
-6. OYTS: *Choose one of your goals. What would a photo of you achieving this goal look like—and what would it say about the person you've become?*
+6. OYTS [done]
 
 **Work Tasks:**
-1. Park Run meeting [MIT]
-2. Finalise Impower agenda content and get Eddie to produce Miro board and send to Paul
-3. LG Inform meeting — local government reorg approach
-4. Trustmark fortnightly planning session
-5. AWMM Snowflake / AWS DMS integration discussion with Phil & Dave
-6. Marketing outreach campaign briefing review with Emma
-7. Move AWMM Webflow to annual billing
-8. Prioritise AWMM roadmap items for Jan / Feb
+1. Park Run meeting [MIT] [done] - qualified out, follow-up sent, lesson logged
+2. Finalise Impower agenda content and get Eddie to produce Miro board [done]
+3. LG Inform meeting [done]
+4. Trustmark fortnightly planning session [done]
+5. AWMM Snowflake / AWS DMS integration discussion with Phil & Dave [done]
+6. Marketing outreach campaign briefing review with Emma [deferred to Monday]
+7. Move AWMM Webflow to annual billing [deferred - need Webflow Partner application]
+8. Prioritise AWMM roadmap items for Jan / Feb [deferred to Monday]
 
 **Personal Tasks:**
-1. Continue emptying and organising old clothes
-2. Research sofa options for front room
-3. Investigate sleep hygiene rituals — 3am wake pattern, hands under pillow, shoulder/hip discomfort, audiobook vs Kindle
+1. Continue emptying and organising old clothes [carry forward]
+2. Research sofa options for front room [carry forward]
+3. Investigate sleep hygiene rituals [carry forward]
 
-**Evening:**
-- AMWAP: *Your 7 biggest wins from the past week.*
-- Pack for London
+**Scores:** Sleep O, Steps O, Nutrition G, Hydration O, Outdoors O, Exercise O
 
 ---
 
@@ -444,6 +440,26 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Wednesday 14 Jan
+**Question:** Choose one of your goals. What would a photo of you achieving this goal look like—and what would it say about the person you've become?
+
+**Goals reviewed:** Three from 18 months ago: (1) Never work weekends/holiday, (2) Lose 20kg, (3) Recruit 2 new clients/year.
+
+**Status check:**
+- Lose 20kg: ACHIEVED. Photos show "a bit happier, more my old self, light behind the eyes." Lighter physically and metaphorically. 6-7kg more to go.
+- Never work weekends: Mostly achieved. Weekends yes, holiday still tested.
+- Recruit 2 clients/year: NOT ACHIEVED. "Failing miserably" — zero new clients in 18 months. Business healthy from existing clients but not resilient.
+
+**Photo of success (2 clients):** Team celebrating together, sharing achievement, sharing the difficulty. Not Scott alone.
+
+**Key insight:** "There's no way we can recruit 2 more clients without me spending a lot more of my time leading, rather than doing." To lead effectively, must be physically and mentally fit. All health and personal goals feed back into being an effective leader.
+
+**Low-level anxiety:** Sales pressure acknowledged. "Goes with the territory."
+
+**Action flag:** Goals are drifting — need to set new ones. The client acquisition gap is the real risk.
+
+---
 
 ## Tuesday 13 Jan
 **Question:** What is one outcome you would love to achieve in the next 12 months that would truly change your life? What do you see, hear, feel, smell, and sense when you imagine the moment you achieve that outcome?
