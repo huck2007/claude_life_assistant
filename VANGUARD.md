@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-04
+**Last Updated:** 2026-01-18
 
 ---
 
@@ -65,14 +65,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | | | | |
-| Meditation | Y | Y | Y | | | | |
-| Freedom Gap (AM) | Y | Y | Y | | | | |
-| Cold Water (3 min) | Y | Y | Y | | | | |
-| Mobility | — | — | — | | | | |
-| OYTS | Y | Y | Y | | | | |
+| Breathwork | Y | Y | Y | — | — | — | |
+| Meditation | Y | Y | Y | — | — | — | |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | |
+| Cold Water (3 min) | Y | Y | Y | — | — | — | |
+| Mobility | — | — | — | — | — | — | |
+| OYTS | Y | Y | Y | Y | Y | Y | |
 
-*Week 2: CWI started. Mobility deferred to w/c 19 Jan.*
+*Week 2: CWI started. Mobility deferred to w/c 19 Jan. Thu-Sat rituals reduced — Impower workshop (London) + decompression.*
 
 ## Daily Scores
 
@@ -80,22 +80,24 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | B | O | | | | |
-| Steps | G | Gr | O | | | | |
-| Nutrition | G | Gr | G | | | | |
-| Hydration | O | G | O | | | | |
-| Outdoors | Gr | B | O | | | | |
-| Exercise | Gr | G | O | | | | |
+| Sleep | Gr | B | O | B | O | O | |
+| Steps | G | Gr | O | O | G | O | |
+| Nutrition | G | Gr | G | O | O | O | |
+| Hydration | O | G | O | B | O | B | |
+| Outdoors | Gr | B | O | O | G | O | |
+| Exercise | Gr | G | O | B | O | B | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | | | | | |
-| AMWAP | | | | | | | |
-| Plan Tomorrow | Y | | | | | | |
+| Freedom Gap (PM) | | | Y | — | Y | Y | |
+| AMWAP | | | Y | — | — | — | |
+| Plan Tomorrow | Y | | Y | — | — | — | |
 
-*Week 2: AMWAP starts this week.*
+*Week 2: AMWAP starts this week. Thu-Sat evening rituals reduced — travel/decompression.*
+
+**Evening close-down (daily):** Log work hours in Productive.
 
 ---
 
@@ -403,15 +405,57 @@ NYE celebrations.
 
 ---
 
-## Thursday 15 Jan - Friday 16 Jan
+## Thursday 16 Jan [COMPLETE]
 
-**Impower workshop** — 2-day session in London
+**Impower workshop Day 2** — London
+
+**Morning Routine:** Freedom Gap AM and OYTS only (early travel, no CWI)
+
+**MIT:** Discuss Eddie's future honestly (return journey from London) [done]
+
+**Scores:** Sleep B, Steps O, Nutrition O, Hydration B, Outdoors O, Exercise B
 
 ---
 
-## Friday 16 Jan
+## Friday 17 Jan [COMPLETE]
 
-**MIT:** Discuss Eddie's future honestly (return journey from London)
+**Decompression day**
+
+**Morning Routine:** Freedom Gap AM and OYTS only (hotel, no CWI)
+
+**Scores:** Sleep O, Steps G, Nutrition O, Hydration O, Outdoors G, Exercise O
+
+---
+
+## Saturday 18 Jan [COMPLETE]
+
+**Morning Routine:** Freedom Gap AM and OYTS only (early start)
+
+**Scores:** Sleep O, Steps O, Nutrition O, Hydration B, Outdoors O, Exercise B
+
+---
+
+## Sunday 18 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What is a version of success that feels truly yours—not what others expect, but what you deeply want?*
+
+**Tasks:**
+1. Run with Sophie
+2. Sofa shopping with Jo
+3. Plan week ahead
+4. Walk the dog
+5. Tidy up office after new floor laid
+6. Sign and send tax returns to Faisal
+
+**Evening:**
+- Freedom Gap PM
+- AMWAP: *Any wins from creating magnetic goals this week*
+- Log work hours
 
 ---
 
@@ -422,6 +466,29 @@ NYE celebrations.
 1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
 2. Can I identify where the things holding me back are stemming from?
 3. Can I see any patterns emerging?
+
+## Week of 12 Jan - 18 Jan 2026
+
+**Q1: Diving deep or bypassing?**
+Deep enough. Audio OYTS preferred — more organic, allows deeper exploration. Written (Thu-Sat this week) still revealing but more concise than ideal. The practice is working.
+
+**Q2: What's holding me back?**
+Team execution on priorities:
+- **Emma** — busy, but this week's marketing meeting barriers were avoidable. Must not happen again.
+- **Eddie** — inexperienced, needs hand-holding. Pattern of over-complicating. Needs to stick to brief: client scheduled time vs client budget. Not detailed task management with milestone budgets — that's killed us before.
+
+Without driving these, marketing won't happen and operational control won't improve.
+
+**Action:** Add "Log work hours" to daily close down routine.
+
+**Q3: Patterns emerging?**
+When I ask for things, other things get in the way. Two flavours:
+1. Emma = avoidable interruptions. Fixable with focus.
+2. Eddie = structural inexperience. Learning must be shaped — simplicity over complexity, immediate priority over elaborate systems.
+
+Eddie conversation happened (Fri 16 return journey). Now it's about follow-through.
+
+---
 
 ## Week of 5 Jan - 11 Jan 2026
 
@@ -440,6 +507,47 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Saturday 18 Jan
+**Question:** What is the difference between ticking boxes and becoming someone—and how can you focus more on the second?
+
+**Summary:** Ticking boxes is administrative — confirms action taken but doesn't convey the nature of the experience. Becoming requires internalising the experience at a deeper level.
+
+**Meditation example:** Daily practice since Jan 1st (with 3-day break for travel). The tick box records the action, but turning up and letting practice influence attitude/behaviour/demeanour is where becoming happens.
+
+**Key insight:** To focus on becoming over box-ticking, actions need to be automatic/natural — happening without the recording. Goals and actions must positively contribute toward "becoming" whatever is being pursued.
+
+**Connection:** The ritual tracking is valuable for accountability, but the real work is in the practice itself and its influence on daily interactions.
+
+---
+
+## Friday 17 Jan
+**Question:** When things get hard, what specific mental image or 'movie trailer' could you return to that would pull you forward?
+
+**Summary:** Initial instinct was hero overcoming adversity. But nuance needed: response to adversity must remain measured — responsible to commitments, but not at all costs.
+
+**The image:** Sat at the top of a mountain having scaled it (dealt with difficulty), surveying other peaks and inspiring landscape. The mountain = current difficulty. Other peaks = appreciation of the moment + future challenges. The view is earned through past effort.
+
+**Key elements:**
+- Remaining in self-serving state
+- Delegating priorities appropriately
+- Keeping equanimity
+- Emerging either victorious OR stronger (avoiding weakening of resolve/health)
+
+**Connection to Project Eagle:** Rich metaphor combining love of hiking with determination to succeed. Life = many peaks to scale, both behind and ahead.
+
+---
+
+## Thursday 16 Jan
+**Question:** How would you show up today if you already were the kind of person who had achieved your current goals?
+
+**Summary:** Would show up as today — just with newer goals to pursue. Same rituals, same life focused on achievement.
+
+**Trajectory:** Suspect goals would become more personal/health-oriented as professional success leads to commercial and financial independence. But "a good few iterations/years" of pursuing professional success remain ahead.
+
+**Key insight:** The person who's achieved current goals isn't fundamentally different. The work continues, the focus shifts.
+
+---
 
 ## Wednesday 14 Jan
 **Question:** Choose one of your goals. What would a photo of you achieving this goal look like—and what would it say about the person you've become?
