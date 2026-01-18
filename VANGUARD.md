@@ -31,31 +31,31 @@
 
 # THIS WEEK
 
-**Week of:** 12 Jan - 18 Jan 2026
+**Week of:** 19 Jan - 25 Jan 2026
 
 ## OYTS Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | What is a goal you have been chasing that currently feels flat or uninspiring—and why might that be? |
-| Tue | What is one outcome you would love to achieve in the next 12 months that would truly change your life? What do you see, hear, feel, smell, and sense when you imagine the moment you achieve that outcome? |
-| Wed | Choose one of your goals. What would a photo of you achieving this goal look like—and what would it say about the person you've become? |
-| Thu | How would you show up today if you already were the kind of person who had achieved your current goals? |
-| Fri | When things get hard, what specific mental image or 'movie trailer' could you return to that would pull you forward? |
-| Sat | What is the difference between ticking boxes and becoming someone—and how can you focus more on the second? |
-| Sun | What is a version of success that feels truly yours—not what others expect, but what you deeply want? |
+| Mon | What is one performance you want to feel automatic and instinctive—what would perfect execution look like? |
+| Tue | What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that? |
+| Wed | What is one area where your mental rehearsal is currently negative or unstructured—and how could you flip that? |
+| Thu | What is a performance moment coming up soon that you can start rehearsing mentally today? |
+| Fri | What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)? |
+| Sat | What is the difference between practising a skill and priming it—and where in your life do you need more of the second? |
+| Sun | What is one area where outcome visualisation and/or process visualisation could help make you stronger? |
 
 ## AMWAP Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | List the good habits that keep you on track with your goals. |
-| Tue | 5 minutes of wins from last week (work/home/health). |
-| Wed | Your 7 biggest wins from the past week. |
-| Thu | 5 minutes of wins from the past 24hrs. |
-| Fri | 10 wins which prove you can be the person you aspire to be. |
+| Mon | Wins (from any point in time) where you performed at your best. |
+| Tue | Focus on the year so far. List as many wins as possible. Cultivate as much positivity as you possibly can. |
+| Wed | List wins of being in a serving state so far this week. |
+| Thu | 10 wins from the past 24hrs. |
+| Fri | List wins for the last 3 years. |
 | Sat | 5 minutes of wins from the past 24hrs. |
-| Sun | Any wins from creating magnetic goals this week. |
+| Sun | 5 minutes of wins from the past 24hrs. |
 
 ---
 
@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | — | — | — | |
-| Meditation | Y | Y | Y | — | — | — | |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | |
-| Cold Water (3 min) | Y | Y | Y | — | — | — | |
-| Mobility | — | — | — | — | — | — | |
-| OYTS | Y | Y | Y | Y | Y | Y | |
+| Breathwork | Y | Y | Y | — | — | — | Y |
+| Meditation | Y | Y | Y | — | — | — | Y |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | Y |
+| Cold Water (3 min) | Y | Y | Y | — | — | — | Y |
+| Mobility | — | — | — | — | — | — | — |
+| OYTS | Y | Y | Y | Y | Y | Y | Y |
 
 *Week 2: CWI started. Mobility deferred to w/c 19 Jan. Thu-Sat rituals reduced — Impower workshop (London) + decompression.*
 
@@ -80,20 +80,20 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | B | O | B | O | O | |
-| Steps | G | Gr | O | O | G | O | |
-| Nutrition | G | Gr | G | O | O | O | |
-| Hydration | O | G | O | B | O | B | |
-| Outdoors | Gr | B | O | O | G | O | |
-| Exercise | Gr | G | O | B | O | B | |
+| Sleep | Gr | B | O | B | O | O | G |
+| Steps | G | Gr | O | O | G | O | O |
+| Nutrition | G | Gr | G | O | O | O | G |
+| Hydration | O | G | O | B | O | B | O |
+| Outdoors | Gr | B | O | O | G | O | G |
+| Exercise | Gr | G | O | B | O | B | G |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | Y | — | Y | Y | |
-| AMWAP | | | Y | — | — | — | |
-| Plan Tomorrow | Y | | Y | — | — | — | |
+| Freedom Gap (PM) | | | Y | — | Y | Y | Y |
+| AMWAP | | | Y | — | — | — | — |
+| Plan Tomorrow | Y | | Y | — | — | — | Y |
 
 *Week 2: AMWAP starts this week. Thu-Sat evening rituals reduced — travel/decompression.*
 
@@ -435,26 +435,46 @@ NYE celebrations.
 
 ---
 
-## Sunday 18 Jan
+## Sunday 18 Jan [COMPLETE]
+
+**Morning Routine:** All done (7 min CWI)
+
+**Tasks:**
+1. Run with Sophie [done]
+2. Sofa shopping with Jo [cancelled]
+3. Plan week ahead [done]
+4. Walk the dog [done]
+5. Tidy up office after new floor laid [done]
+6. Sign and send tax returns to Faisal [done]
+
+**Scores:** Sleep G, Steps O, Nutrition G, Hydration O, Outdoors G, Exercise G
+
+---
+
+## Monday 19 Jan
 
 **Morning Routine:**
 1. Breathwork (box breathing)
 2. Meditation (Waking Up app)
 3. Freedom Gap AM (first hour tech-free)
 4. Cold Water (3 min)
-5. OYTS: *What is a version of success that feels truly yours—not what others expect, but what you deeply want?*
+5. OYTS: *What is one performance you want to feel automatic and instinctive—what would perfect execution look like?*
 
-**Tasks:**
-1. Run with Sophie
-2. Sofa shopping with Jo
-3. Plan week ahead
-4. Walk the dog
-5. Tidy up office after new floor laid
-6. Sign and send tax returns to Faisal
+**Work Tasks:**
+1. Review Eddie's Monday Dashboard v1 and provide feedback [MIT]
+2. Marketing outreach campaign meeting with Emma — must happen
+3. Stand-up / team check-in
+4. Begin drafting Impower roadmap and estimate
+
+**Personal Tasks:**
+1. GYM Lifting with Lou
+2. Run with Sophie (evening)
+
+**MIT:** Review Eddie's Monday Dashboard v1
 
 **Evening:**
 - Freedom Gap PM
-- AMWAP: *Any wins from creating magnetic goals this week*
+- AMWAP: *Wins (from any point in time) where you performed at your best.*
 - Log work hours
 
 ---
@@ -507,6 +527,19 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Sunday 18 Jan
+**Question:** What is a version of success that feels truly yours—not what others expect, but what you deeply want?
+
+**Summary:** Financial self-sufficiency + reasonably affluent, active lifestyle with wife, kids, and closest friends.
+
+**Health as foundation:** "The health piece is a big deal" — being fit and healthy is the only way to be active and get the best from time on this earth. Doesn't feel good when under the weather, drinking too much, or not physically strong.
+
+**Key insight:** "Being fit and healthy feels like it truly belongs to me."
+
+**Connection to Project Eagle:** Financial security enables focus on health and relationships. Health enables everything else.
+
+---
 
 ## Saturday 18 Jan
 **Question:** What is the difference between ticking boxes and becoming someone—and how can you focus more on the second?
