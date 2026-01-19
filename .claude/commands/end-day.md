@@ -29,24 +29,40 @@ Or nothing.
 
 ## Update
 
-Create journal/[date].md if it doesn't exist:
+### 1. Journal Entry (ALWAYS DO THIS FIRST)
+
+Check if `journal/YYYY-MM-DD.md` exists for today. If not, create it. If yes, update it.
+
+**If creating new:**
 ```markdown
-# [date]
+# YYYY-MM-DD (Day)
 
-## Intention
-[From /start-day if it happened, or ask]
+## Morning
+**MIT:** [From /start-day if it happened, or ask "What was your main thing today?"]
 
-## Reality
-[What they said they did]
+**Morning Rituals:**
+- Breathwork [done/skipped]
+- Meditation [done/skipped]
+- Freedom Gap AM [done/skipped]
+- Cold Water (3 min) [done/skipped]
+- OYTS [done/skipped]
 
-## Energy
-[If mentioned]
+## Work Tasks
+[What they said they did - work tasks completed, deferred, key moments]
 
-## Notes
-[Important quotes or observations]
+## Personal Tasks
+[Personal tasks completed, deferred]
+
+## Health Tasks
+[Health/exercise tasks - gym, running, etc.]
+
+## Evening
+**Scores:** [Pull from conversation or ask]
 ```
 
-If journal exists, update with evening data.
+**If updating existing:** Add evening data (scores, notes from conversation).
+
+This is non-negotiable. Every /end-day must result in a journal entry for that date.
 
 **Update NOW.md:**
 - Add Memory Log entry with today's observation

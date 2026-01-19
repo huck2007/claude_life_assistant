@@ -18,52 +18,97 @@ That's it. Wait.
 
 ## After they answer
 
-- Update NOW.md: Set MIT Today
-- Create/update journal (`journal/YYYY-MM-DD.md`)
-- Create Apple Notes daily note (see below)
-- Add Memory Log entry if pattern observed
-- If any calendar events are mentioned, update BOTH `CALENDAR.md` AND `scott-calendar.ics` to keep them in sync
+### 1. Journal Entry (ALWAYS DO THIS FIRST)
 
-Journal:
+Check if `journal/YYYY-MM-DD.md` exists for today. If not, create it. If yes, update it.
+
 ```markdown
 # YYYY-MM-DD (Day)
 
 ## Morning
 **MIT:** [their one thing]
 
-## Notes
+**Morning Rituals:**
+- Breathwork [planned]
+- Meditation [planned]
+- Freedom Gap AM [planned]
+- Cold Water (3 min) [planned]
+- OYTS [planned]
+
+## Work Tasks
+[Pull work tasks from VANGUARD.md for today]
+
+## Personal Tasks
+[Pull personal tasks from VANGUARD.md for today]
+
+## Health Tasks
+[Pull health/exercise tasks from VANGUARD.md for today - gym, running, etc.]
 
 ## Evening
+[Leave blank - filled by /end-day]
 ```
+
+This is non-negotiable. Every /start-day must result in a journal entry for that date.
+
+### 2. Other Updates
+- Update NOW.md: Set MIT Today
+- Create Apple Notes daily note (see below)
+- Add Memory Log entry if pattern observed
+- If any calendar events are mentioned, update BOTH `CALENDAR.md` AND `scott-calendar.ics` to keep them in sync
 
 ### Apple Notes Daily Note
 
-Create a note in the "Daily" folder using this AppleScript template. Pull today's tasks, MIT, and OYTS question from VANGUARD.md based on the current day.
+Create a note in the "Daily" folder. **First check if a note for today already exists** — if so, skip creation.
+
+Pull today's tasks, MIT, and OYTS question from VANGUARD.md based on the current day.
 
 ```bash
 osascript <<'EOF'
 tell application "Notes"
+    set todayTitle to "[Day] [Date] [Month] [Year]"
+
     if not (exists folder "Daily") then
         make new folder with properties {name:"Daily"}
     end if
 
     tell folder "Daily"
-        set noteBody to "<h1>[Day] [Date] [Month] [Year]</h1>
+        -- Check if note with today's title already exists
+        set noteExists to false
+        repeat with aNote in notes
+            if name of aNote contains todayTitle then
+                set noteExists to true
+                exit repeat
+            end if
+        end repeat
+
+        if noteExists then
+            return "Note already exists for " & todayTitle
+        end if
+
+        set noteBody to "<h1>" & todayTitle & "</h1>
 <h2>Morning Routine</h2>
 <ul>
 <li>Breathwork (box breathing)</li>
 <li>Meditation (Waking Up app)</li>
 <li>Freedom Gap AM (first hour tech-free)</li>
-<li>Mobility</li>
+<li>Cold Water (3 min)</li>
 <li>OYTS</li>
 </ul>
 <hr>
-<h2>Today's Tasks</h2>
+<h2>Work Tasks</h2>
 <p><b>MIT:</b> [MIT from conversation]</p>
 <ul>
-<li>[Task 1]</li>
-<li>[Task 2]</li>
-<li>[etc]</li>
+<li>[Work task 1]</li>
+<li>[Work task 2]</li>
+</ul>
+<h2>Personal Tasks</h2>
+<ul>
+<li>[Personal task 1]</li>
+<li>[Personal task 2]</li>
+</ul>
+<h2>Health Tasks</h2>
+<ul>
+<li>[Health task 1 - gym, running, etc.]</li>
 </ul>
 <hr>
 <h2>OYTS</h2>
@@ -85,7 +130,7 @@ end tell
 EOF
 ```
 
-Fill in the bracketed placeholders with actual values before running.
+Fill in the bracketed placeholders with actual values before running. The script will skip creation if a note for today already exists.
 
 ## Connect (if appropriate)
 
