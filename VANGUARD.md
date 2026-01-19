@@ -81,19 +81,19 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sleep | Gr | | | | | | |
-| Steps | | | | | | | |
-| Nutrition | | | | | | | |
-| Hydration | | | | | | | |
-| Outdoors | | | | | | | |
-| Exercise | | | | | | | |
+| Steps | G | | | | | | |
+| Nutrition | G | | | | | | |
+| Hydration | O | | | | | | |
+| Outdoors | G | | | | | | |
+| Exercise | Gr | | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | | | | | |
-| AMWAP | | | | | | | |
-| Plan Tomorrow | | | | | | | |
+| Freedom Gap (PM) | Y | | | | | | |
+| AMWAP | Y | | | | | | |
+| Plan Tomorrow | Y | | | | | | |
 
 *Week 3: Full tracking resumes.*
 
@@ -468,7 +468,7 @@ NYE celebrations.
 
 **Health Tasks:**
 1. GYM Lifting with Lou [done]
-2. Run with Sophie (evening)
+2. Run with Sophie (evening) [done]
 
 **Personal Tasks:**
 None planned
@@ -494,14 +494,20 @@ None planned
 **Work Tasks:**
 1. Monday Dashboard feedback session with Eddie (PM)
 2. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback
+3. Impower weekly project meeting
+4. AWMM GRC project requirements session
+5. Trustmark quotation for extending Geography Dim
+6. Trustmark estimate for deployment of new ML model
 
 **Personal Tasks:**
-
+1. Order swatches for new sofa
+2. Contact Brad to arrange estimate of carpet fitting
+3. Pick 10 pieces of old clothing for Sophie to sell on Vinted
 
 **Health Tasks:**
+1. Badminton with the boys
 
-
-**MIT:** TBC
+**MIT:** Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback
 
 **Evening:**
 - Freedom Gap PM
@@ -521,6 +527,7 @@ None planned
 
 **Work Tasks:**
 1. Finalise Marketing outreach brief and review proposed action plan from Emma
+2. Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
 
 **Personal Tasks:**
 

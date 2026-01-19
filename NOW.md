@@ -62,6 +62,12 @@
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
 
+### 2026-01-19
+- **TCS/AWMM sponsorship confirmed.** TCS entering sponsorship with AWMM including data/tech component. Scott's Data Activation Strategy (proposed 2 years ago) now being implemented — but TCS providing skills, CS providing platform, CS earning project fee from TCS funds.
+- **Positioning:** Pragmatic — "better to be involved and shaping than marginalised." Danny and Dawna have reassured trust and important role. Meeting with Danny & Dawna scheduled Friday to align on role and requirements.
+- **Risk to watch:** Don't get squeezed on rate because "TCS is free." Don't absorb margin when TCS under-delivers (Bug #2).
+- **Opportunity:** Attach name to groundbreaking work, maintain trusted advisor position, potential TCS relationship.
+
 ### 2026-01-14
 - **Lead qualification lesson (Park Run):** Spent time on a contact that was never a real lead. Signals were clear in hindsight: social introduction (not business need), contact 3 months into role (no authority), no budget (discretionary committed elsewhere), "keep in touch" language throughout.
 - **Qualification filter to apply going forward:**
