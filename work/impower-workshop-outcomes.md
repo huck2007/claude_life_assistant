@@ -178,6 +178,32 @@ This is causing rework and inefficiency.
 
 **Healthcare Complexity:** ICS/ICB geographies don't map to LAs — currently using weighted average allocation based on patient percentage. LG reorg will compound this.
 
+#### LG Inform Integration — Critical Dependency
+
+LG Inform is our primary data source (API integration, daily updates). They are also addressing the reorg — this is business as usual for both parties, and we're aligned in approach.
+
+**LG Inform's Strategy:**
+- Focus on **district reallocation** scenarios
+- Where data exists at district level and districts are reallocated to new LAs, they will aggregate up based on new district parentage
+- Subject to data availability at district level
+- Subject to strategies for handling merged district and higher-level data where different sources feed both levels
+
+**LG Inform's Constraints:**
+- They are **not convinced** that splitting/apportioning data in the other direction is feasible
+- Open to ideas from us, but unlikely to pursue
+
+**Beta API Access Offered:**
+LG Inform will provide Beta access to their restructured API so we can assess the impact on our integration before it goes live.
+
+**Discovery Requirement (Tier 1):**
+We need a focused discovery exercise to determine whether LG Inform's strategy will cause problems for our integration. This should be treated as a sub-project of the reorg work and scheduled soon.
+
+Key questions for discovery:
+1. Do their structural changes break our existing extraction logic?
+2. Where they aggregate at district level, does this give us what we need?
+3. What happens to metrics where we don't have district-level data?
+4. How do we handle the transition period (old and new structures coexisting)?
+
 **Roadmap Category:** Critical / Must address before April 2026 if reorg proceeds
 
 ---
@@ -186,6 +212,7 @@ This is causing rework and inefficiency.
 
 | Theme | Priority Signal | Effort Signal |
 |-------|-----------------|---------------|
+| **LG Inform API Discovery** | Immediate — Beta access offered | Small (time-boxed) |
 | **LG Reorganisation** | Must-do if reorg proceeds | High — architectural |
 | **ASC Level 2 Data Change** | Committed | Medium |
 | **Data Source Structure Process** | Should-do | Medium |
@@ -277,6 +304,7 @@ Reasons:
 | Item | Driver | Est. Effort |
 |------|--------|-------------|
 | ASC Level 2 Data Change (SALT) | Already positioned to client | Medium |
+| LG Inform API Discovery | Beta access offered — assess reorg impact on integration | Small (time-boxed) |
 
 ### Tier 2: Critical / Must Address
 | Item | Driver | Est. Effort |
