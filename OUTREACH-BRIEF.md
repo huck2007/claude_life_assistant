@@ -81,7 +81,6 @@
 | Impower | Semi-active |
 | Trustmark | Keep-the-lights-on (likely to recover in a few months) |
 | Bicycle Association | Early prospect |
-| Parkrun | Early prospect |
 
 ---
 
