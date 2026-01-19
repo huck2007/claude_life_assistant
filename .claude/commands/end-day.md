@@ -64,6 +64,10 @@ Check if `journal/YYYY-MM-DD.md` exists for today. If not, create it. If yes, up
 
 This is non-negotiable. Every /end-day must result in a journal entry for that date.
 
+### 2. Sync AMWAP (if provided)
+
+If Scott has added an AMWAP response to the Apple Note, check for substantial content. AMWAP is the evening reflection on wins — if the response contains meaningful insights or patterns, note them in the Memory Log.
+
 **Update NOW.md:**
 - Add Memory Log entry with today's observation
 - Quote important words: *'their exact words'*

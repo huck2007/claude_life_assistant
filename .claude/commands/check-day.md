@@ -28,7 +28,8 @@ EOF
 Parse the note for:
 - Completed tasks (items marked "done" or checked)
 - Daily scores (Sleep, Steps, Nutrition, Hydration, Outdoors, Exercise values)
-- OYTS journal response (text appearing after "Journal Response" header — Scott adds transcription from audio recording directly into note)
+- OYTS journal response (text appearing after OYTS "Journal Response" header — Scott adds transcription from audio recording directly into note)
+- AMWAP journal response (text appearing after AMWAP "Journal Response" header — evening reflection)
 
 Sync to VANGUARD.md (source of truth for task status):
 - Update morning rituals table for the day
@@ -36,6 +37,7 @@ Sync to VANGUARD.md (source of truth for task status):
 - In the daily plan section, mark each completed task with `[done]` after the task text
 - Tasks not completed: leave without marker (will carry forward at next planning)
 - If OYTS journal response has substantial content, add a summary to the OYTS Summaries section with date, question, and key insights
+- If AMWAP journal response has substantial content, note key wins in the Memory Log or OYTS Summaries section as appropriate
 
 Sync to journal file (`journal/YYYY-MM-DD.md`):
 - **MIT line:** Add `[done]` if completed

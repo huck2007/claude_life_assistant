@@ -116,6 +116,11 @@ tell application "Notes"
 <h3>Journal Response</h3>
 <p></p>
 <hr>
+<h2>AMWAP</h2>
+<p><i>[AMWAP question for today's day of week from VANGUARD.md]</i></p>
+<h3>Journal Response</h3>
+<p></p>
+<hr>
 <h2>Daily Scores</h2>
 <p>Sleep: <br>
 Steps: <br>
