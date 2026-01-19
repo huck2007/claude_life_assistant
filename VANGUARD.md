@@ -31,7 +31,7 @@
 
 # THIS WEEK
 
-**Week of:** 19 Jan - 25 Jan 2026
+**Week of:** 19 Jan - 25 Jan 2026 (Week 3)
 
 ## OYTS Questions
 
@@ -65,14 +65,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | — | — | — | Y |
-| Meditation | Y | Y | Y | — | — | — | Y |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | Y |
-| Cold Water (3 min) | Y | Y | Y | — | — | — | Y |
-| Mobility | — | — | — | — | — | — | — |
-| OYTS | Y | Y | Y | Y | Y | Y | Y |
+| Breathwork | Y | | | | | | |
+| Meditation | Y | | | | | | |
+| Freedom Gap (AM) | Y | | | | | | |
+| Cold Water (3 min) | Y | | | | | | |
+| Mobility | | | | | | | |
+| OYTS | Y | | | | | | |
 
-*Week 2: CWI started. Mobility deferred to w/c 19 Jan. Thu-Sat rituals reduced — Impower workshop (London) + decompression.*
+*Week 3: Full routine resumes. Mobility starts this week.*
 
 ## Daily Scores
 
@@ -80,22 +80,22 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | B | O | B | O | O | G |
-| Steps | G | Gr | O | O | G | O | O |
-| Nutrition | G | Gr | G | O | O | O | G |
-| Hydration | O | G | O | B | O | B | O |
-| Outdoors | Gr | B | O | O | G | O | G |
-| Exercise | Gr | G | O | B | O | B | G |
+| Sleep | Gr | | | | | | |
+| Steps | | | | | | | |
+| Nutrition | | | | | | | |
+| Hydration | | | | | | | |
+| Outdoors | | | | | | | |
+| Exercise | | | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | Y | — | Y | Y | Y |
-| AMWAP | | | Y | — | — | — | — |
-| Plan Tomorrow | Y | | Y | — | — | — | Y |
+| Freedom Gap (PM) | | | | | | | |
+| AMWAP | | | | | | | |
+| Plan Tomorrow | | | | | | | |
 
-*Week 2: AMWAP starts this week. Thu-Sat evening rituals reduced — travel/decompression.*
+*Week 3: Full tracking resumes.*
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -461,14 +461,17 @@ NYE celebrations.
 5. OYTS: *What is one performance you want to feel automatic and instinctive—what would perfect execution look like?*
 
 **Work Tasks:**
-1. Review Eddie's Monday Dashboard v1 and provide feedback [MIT]
-2. Marketing outreach campaign meeting with Emma — must happen
-3. Stand-up / team check-in
-4. Begin drafting Impower roadmap and estimate
+1. Review Eddie's Monday Dashboard v1 and provide feedback [MIT] [done]
+2. Marketing outreach campaign meeting with Emma — must happen [done]
+3. Stand-up / team check-in [done]
+4. Begin drafting Impower roadmap and estimate [done]
+
+**Health Tasks:**
+1. GYM Lifting with Lou [done]
+2. Run with Sophie (evening)
 
 **Personal Tasks:**
-1. GYM Lifting with Lou
-2. Run with Sophie (evening)
+None planned
 
 **MIT:** Review Eddie's Monday Dashboard v1 [done]
 
@@ -582,6 +585,26 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Monday 19 Jan
+**Question:** What is one performance you want to feel automatic and instinctive—what would perfect execution look like?
+
+**Summary:** Public speaking — both formal engagements and personal contexts (toasts, saying a few words at events). Tendency to shy away from these, influenced by how he's feeling about appearance and mental state.
+
+**Perfect execution:**
+- Visibly confident, engaging, welcoming, warm
+- Grab attention of the audience, speak with confidence and authority
+- Good humour where appropriate
+- Land the message well with an engaged crowd
+
+**What enables it:**
+- Preparation: understanding the audience, understanding the subject, connecting the two effectively
+- Rehearsal
+- Practice — "the more you exercise those muscles"
+
+**Key insight:** Public speaking avoidance is tied to self-perception in the moment. When feeling confident in own skin, it comes more naturally. The skill can be developed through deliberate practice.
+
+---
 
 ## Sunday 18 Jan
 **Question:** What is a version of success that feels truly yours—not what others expect, but what you deeply want?
