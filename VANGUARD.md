@@ -470,11 +470,38 @@ NYE celebrations.
 1. GYM Lifting with Lou
 2. Run with Sophie (evening)
 
-**MIT:** Review Eddie's Monday Dashboard v1
+**MIT:** Review Eddie's Monday Dashboard v1 [done]
 
 **Evening:**
 - Freedom Gap PM
 - AMWAP: *Wins (from any point in time) where you performed at your best.*
+- Log work hours
+
+---
+
+## Tuesday 20 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that?*
+
+**Work Tasks:**
+1. Monday Dashboard feedback session with Eddie (PM)
+
+**Personal Tasks:**
+
+
+**Health Tasks:**
+
+
+**MIT:** TBC
+
+**Evening:**
+- Freedom Gap PM
+- AMWAP: *Focus on the year so far. List as many wins as possible. Cultivate as much positivity as you possibly can.*
 - Log work hours
 
 ---
