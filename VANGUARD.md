@@ -490,6 +490,7 @@ NYE celebrations.
 
 **Work Tasks:**
 1. Monday Dashboard feedback session with Eddie (PM)
+2. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback
 
 **Personal Tasks:**
 
