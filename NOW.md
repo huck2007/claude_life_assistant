@@ -63,6 +63,8 @@
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
 
 ### 2026-01-19
+- **Clean sweep day.** 6/6 tasks, all morning rituals, all evening rituals. Week 3 off to strong start.
+- **OYTS insight:** Public speaking named as the performance to make automatic. AMWAP surfaced evidence it's already happened — Miami board meeting (60 people), school leaving speech (off the cuff). The capability exists; the consistency doesn't yet.
 - **TCS/AWMM sponsorship confirmed.** TCS entering sponsorship with AWMM including data/tech component. Scott's Data Activation Strategy (proposed 2 years ago) now being implemented — but TCS providing skills, CS providing platform, CS earning project fee from TCS funds.
 - **Positioning:** Pragmatic — "better to be involved and shaping than marginalised." Danny and Dawna have reassured trust and important role. Meeting with Danny & Dawna scheduled Friday to align on role and requirements.
 - **Risk to watch:** Don't get squeezed on rate because "TCS is free." Don't absorb margin when TCS under-delivers (Bug #2).
