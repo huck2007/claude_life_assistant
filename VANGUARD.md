@@ -506,6 +506,33 @@ NYE celebrations.
 
 ---
 
+## Wednesday 21 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What is one area where your mental rehearsal is currently negative or unstructured—and how could you flip that?*
+
+**Work Tasks:**
+1. Finalise Marketing outreach brief and review proposed action plan from Emma
+
+**Personal Tasks:**
+
+
+**Health Tasks:**
+
+
+**MIT:** TBC
+
+**Evening:**
+- Freedom Gap PM
+- AMWAP: *List wins of being in a serving state so far this week.*
+- Log work hours
+
+---
+
 # WEEKLY REFLECTION
 
 *Friday focus — go deep, not surface*
