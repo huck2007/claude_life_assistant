@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-19
+**Last Updated:** 2026-01-20
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## Active Missions
 1. **MARKETING** — Acquire new clients. 2 active leads, 1 likely to close in 6 weeks.
-2. **SYSTEMATISING** — Build principles, processes, and management information. First priority: Monday Dashboard.
+2. **SYSTEMATISING** — Build principles, processes, and management information. Sequence: MI → Process → Governance.
 3. **SELF-IMPROVING** — Health and mindset. Continue lifting 3x/week. Natural Edge rituals tracked in `VANGUARD.md`.
 
 ## Actions
@@ -35,7 +35,23 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Review Eddie's Monday Dashboard v1
+**MIT Today:** Finalise Impower roadmap and send to Paul Henry [deferred to Wed]
+
+## Systematisation Sequence
+
+**MI → Process → Governance**
+
+| Phase | Focus | Status |
+|-------|-------|--------|
+| MI | Monday Dashboard — commercial visibility | v1 delivered, feedback given |
+| Process | How work gets done | Next up |
+| Governance | Oversight, accountability | Later |
+
+**Process workstream backlog:**
+- Client meeting preparation ritual — prep day before, Eddie/Emma own the briefing, Scott receives not creates (OYTS 20 Jan)
+- Quoting process
+- Onboarding process
+- Agile/delivery process
 
 ---
 

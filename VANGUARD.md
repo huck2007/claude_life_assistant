@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | | | | | | |
-| Meditation | Y | | | | | | |
-| Freedom Gap (AM) | Y | | | | | | |
-| Cold Water (3 min) | Y | | | | | | |
+| Breathwork | Y | Y | | | | | |
+| Meditation | Y | Y | | | | | |
+| Freedom Gap (AM) | Y | Y | | | | | |
+| Cold Water (3 min) | Y | Y | | | | | |
 | Mobility | | | | | | | |
-| OYTS | Y | | | | | | |
+| OYTS | Y | Y | | | | | |
 
 *Week 3: Full routine resumes. Mobility starts this week.*
 
@@ -80,19 +80,19 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | | | | | | |
-| Steps | G | | | | | | |
-| Nutrition | G | | | | | | |
-| Hydration | O | | | | | | |
-| Outdoors | G | | | | | | |
-| Exercise | Gr | | | | | | |
+| Sleep | Gr | O | | | | | |
+| Steps | G | O | | | | | |
+| Nutrition | G | G | | | | | |
+| Hydration | O | B | | | | | |
+| Outdoors | G | B | | | | | |
+| Exercise | Gr | G | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Freedom Gap (PM) | Y | | | | | | |
-| AMWAP | Y | | | | | | |
+| AMWAP | Y | Y | | | | | |
 | Plan Tomorrow | Y | | | | | | |
 
 *Week 3: Full tracking resumes.*
@@ -485,34 +485,34 @@ None planned
 ## Tuesday 20 Jan
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that?* [done]
 
 **Work Tasks:**
-1. Monday Dashboard feedback session with Eddie (PM)
-2. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback
-3. Impower weekly project meeting
-4. AWMM GRC project requirements session
-5. Trustmark quotation for extending Geography Dim
-6. Trustmark estimate for deployment of new ML model
+1. Monday Dashboard feedback session with Eddie (PM) [done]
+2. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT] [deferred to Wed]
+3. Impower weekly project meeting [done]
+4. AWMM GRC project requirements session [done]
+5. Trustmark quotation for extending Geography Dim [done]
+6. Trustmark estimate for deployment of new ML model [deferred to Wed]
 
 **Personal Tasks:**
-1. Order swatches for new sofa
-2. Contact Brad to arrange estimate of carpet fitting
+1. Order swatches for new sofa [done]
+2. Contact Brad to arrange estimate of carpet fitting [done]
 3. Pick 10 pieces of old clothing for Sophie to sell on Vinted
 
 **Health Tasks:**
 1. Badminton with the boys
 
-**MIT:** Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback
+**MIT:** Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [deferred]
 
 **Evening:**
 - Freedom Gap PM
 - AMWAP: *Focus on the year so far. List as many wins as possible. Cultivate as much positivity as you possibly can.*
-- Log work hours
+- Log work hours [done]
 
 ---
 
@@ -526,16 +526,19 @@ None planned
 5. OYTS: *What is one area where your mental rehearsal is currently negative or unstructured—and how could you flip that?*
 
 **Work Tasks:**
-1. Finalise Marketing outreach brief and review proposed action plan from Emma
-2. Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
+1. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT]
+2. Finalise Marketing outreach brief and review proposed action plan from Emma
+3. Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
+4. Send Trustmark Geography V2 quotation to Phil (saved in docs/trustmark-geography-v2-quotation.md)
+5. Trustmark estimate for deployment of new ML model
 
 **Personal Tasks:**
 
 
 **Health Tasks:**
+1. GYM Lifting with Lou
 
-
-**MIT:** TBC
+**MIT:** Finalise Impower roadmap and send to Paul Henry
 
 **Evening:**
 - Freedom Gap PM
@@ -592,6 +595,27 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Tuesday 20 Jan
+**Question:** What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that?
+
+**Summary:** Client touchpoint meetings — weekly standups, project prioritisation sessions. Arrives underprepared because other work (implementation, business development) takes priority, then frantically gets up to speed an hour before.
+
+**Root cause identified:** Absence of process, not capacity. No enforced preparation ritual for client meetings. Eddie and Emma don't have clear accountability for pre-meeting briefings.
+
+**What needs to change:**
+- Preparation done day before, not morning of
+- Clear process: what's in progress, what's stuck, what's in backlog, what needs discussion
+- Scott briefed properly so he's not winging it
+- More formalised, professional presentation — not just Scott doing all the talking
+
+**Key insight:** "Because I can wing it... the performance to the client is fine from my personal perspective, but I don't think it presents well with just me doing all the chat."
+
+**Connection to bugs:** #1 (steps in), #3 (backfills expertise). The winging it pattern reinforces Scott as the safety net. Formalised prep process would force the team to own the narrative.
+
+**Action flag:** This is a process workstream item. Add to MI → Process → Governance sequence.
+
+---
 
 ## Monday 19 Jan
 **Question:** What is one performance you want to feel automatic and instinctive—what would perfect execution look like?
