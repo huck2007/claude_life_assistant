@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Finalise Impower roadmap and send to Paul Henry [deferred to Wed]
+**MIT Today:** Finalise Impower roadmap and send to Paul Henry [deferred to Wed — 2nd deferral]
 
 ## Systematisation Sequence
 
@@ -77,6 +77,11 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-20
+- **Solid day.** 5/7 work tasks, full rituals. Impower MIT deferred again — now twice. Tomorrow is heavy (7 work items). Block morning time.
+- **AMWAP insight:** Strong wins list — Natural Edge working, VO2 max improving, weight at 12-year low, sales/marketing moving, commercial visibility improving. The system is working.
+- **OYTS action:** Client meeting prep process added to workstream backlog. Root cause is absence of process, not capacity.
 
 ### 2026-01-19
 - **Clean sweep day.** 6/6 tasks, all morning rituals, all evening rituals. Week 3 off to strong start.

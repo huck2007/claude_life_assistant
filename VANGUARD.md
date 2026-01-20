@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-18
+**Last Updated:** 2026-01-20
 
 ---
 
@@ -91,9 +91,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | | | | | | |
+| Freedom Gap (PM) | Y | Y | | | | | |
 | AMWAP | Y | Y | | | | | |
-| Plan Tomorrow | Y | | | | | | |
+| Plan Tomorrow | Y | Y | | | | | |
 
 *Week 3: Full tracking resumes.*
 
@@ -482,7 +482,7 @@ None planned
 
 ---
 
-## Tuesday 20 Jan
+## Tuesday 20 Jan [COMPLETE]
 
 **Morning Routine:**
 1. Breathwork (box breathing) [done]
@@ -502,16 +502,18 @@ None planned
 **Personal Tasks:**
 1. Order swatches for new sofa [done]
 2. Contact Brad to arrange estimate of carpet fitting [done]
-3. Pick 10 pieces of old clothing for Sophie to sell on Vinted
+3. Pick 10 pieces of old clothing for Sophie to sell on Vinted [carry forward]
 
 **Health Tasks:**
-1. Badminton with the boys
+1. Badminton with the boys [done]
 
 **MIT:** Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [deferred]
 
+**Scores:** Sleep O, Steps O, Nutrition G, Hydration B, Outdoors B, Exercise G
+
 **Evening:**
-- Freedom Gap PM
-- AMWAP: *Focus on the year so far. List as many wins as possible. Cultivate as much positivity as you possibly can.*
+- Freedom Gap PM [done]
+- AMWAP: *Focus on the year so far. List as many wins as possible. Cultivate as much positivity as you possibly can.* [done]
 - Log work hours [done]
 
 ---
@@ -531,9 +533,13 @@ None planned
 3. Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
 4. Send Trustmark Geography V2 quotation to Phil (saved in docs/trustmark-geography-v2-quotation.md)
 5. Trustmark estimate for deployment of new ML model
+6. Confirm to Danny/Nicole the GRC monthly recap estimate, structure of approach, and need for investment in the integration
+7. Email Bicycle Association to restart discussions
 
 **Personal Tasks:**
-
+1. Take Sophie to piano
+2. Meet with carpet guy to get price
+3. Pick 10 pieces of old clothing for Sophie to sell on Vinted [carry forward]
 
 **Health Tasks:**
 1. GYM Lifting with Lou
