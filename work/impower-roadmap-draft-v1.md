@@ -112,7 +112,44 @@ This document captures the outcomes from our two-day workshop and presents a dra
 
 ---
 
-### 3.4 Local Government Reorganisation
+### 3.4 Insight Alerts
+
+**Concept:** Automatically flag anomalies or significant changes to index metrics.
+
+**Examples:**
+- "This metric dropped 20% vs last quarter"
+- "Your ranking has dropped 3 places against your nearest neighbours"
+
+**Value:** Applicable across multiple use cases:
+- Regular reporting to organisations
+- Portal features (if developed)
+- Internal tool for consultants/analysts
+
+---
+
+### 3.5 Platform Improvements — Self-Service Enablement
+
+**Goal:** Move toward an end-user / self-service driven tool where domain experts can operate without deep technical knowledge.
+
+**Scope:**
+- UX improvements to configuration workflows
+- Reduced friction in common operations
+- Time and quality improvements
+
+---
+
+### 3.6 Configuration Layer Validation
+
+**Issue:** Absence of validation at the configuration layer causes build failures downstream, resulting in costly iteration cycles.
+
+**Proposed Solution:**
+- Build validation checks into the configuration layer
+- Fail fast with clear error messages before downstream processing
+- Reduce rework and support burden
+
+---
+
+### 3.7 Local Government Reorganisation
 
 **Scale:** ~21 LAs proposed for restructuring
 **Timeline:** Currently in political consultation
@@ -192,6 +229,9 @@ LG Inform (primary data source) is also addressing the reorg:
 |------|--------|
 | LG Reorganisation Support | Political timeline — may proceed before April 2026 |
 | Data Source Structure Improvement | Ongoing efficiency / maintainability |
+| Configuration Layer Validation | Downstream build failures, rework reduction |
+| Insight Alerts | Value across reporting, portal, and consultants |
+| Platform Improvements (Self-Service) | Enable domain experts to operate independently |
 
 ## Tier 3: Strategic / Requires Validation
 

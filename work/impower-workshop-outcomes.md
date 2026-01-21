@@ -147,7 +147,56 @@ This is causing rework and inefficiency.
 
 ---
 
-### 3.4 Local Government Reorganisation
+### 3.4 Insight Alerts
+
+**Concept:** Automatically flag anomalies or significant changes to index metrics.
+
+**Examples:**
+- "This metric dropped 20% vs last quarter"
+- "Your ranking has dropped 3 places against your nearest neighbours"
+- Threshold-based alerts for key performance indicators
+
+**Paul's View:** Keen on this. Sees value across multiple use cases:
+- Regular reporting to organisations (embedded in reports)
+- Portal features (if/when built)
+- Internal tool for Impower consultants/analysts to quickly spot significant changes
+
+**Roadmap Category:** Platform enhancement / High value
+
+---
+
+### 3.5 Platform Improvements — Quality of Life & Self-Service Enablement
+
+**Problem:** Currently, domain expertise is dependent on technical skills and platform know-how. This limits who can configure and operate the platform effectively.
+
+**Goal:** Move toward an end-user / self-service driven tool where analysts can operate without deep technical knowledge.
+
+**Scope:**
+- UX improvements to configuration workflows
+- Better documentation and guidance within the tool
+- Reduced friction in common operations
+- Time and quality improvements for the team (during periods of change - new metrics or updaes to manual data sources, we are losing circa 10 days a year on fixes that could be stopped at source)
+
+**Roadmap Category:** Platform improvement / Ongoing
+
+---
+
+### 3.6 Configuration Layer Validation
+
+**Problem:** Absence of validation at the configuration layer manifests as build failures further downstream. This causes costly iteration cycles that we are not resourced to absorb.
+
+**Context:** The configuration-based approach we built is already a massive time-saver compared to traditional methods that require data engineering to introduce new metrics. However, that configuration-based approach wasn't in the original scope — we created and sponsored it with our margin. We cannot continue to absorb rework costs from avoidable errors.
+
+**Proposed Solution:**
+- Build validation checks into the configuration layer
+- Fail fast with clear error messages before downstream processing
+- Reduce iteration cycles and support burden
+
+**Roadmap Category:** Platform improvement / Must-do for sustainability
+
+---
+
+### 3.7 Local Government Reorganisation
 
 **Scale:** ~21 LAs proposed for restructuring (mergers, district reallocation, unitary creation)
 **Timeline:** Currently in political consultation
@@ -216,6 +265,9 @@ Key questions for discovery:
 | **LG Reorganisation** | Must-do if reorg proceeds | High — architectural |
 | **ASC Level 2 Data Change** | Committed | Medium |
 | **Data Source Structure Process** | Should-do | Medium |
+| **Insight Alerts** | Should-do — Paul keen | Medium |
+| **Platform Improvements (Self-Service)** | Should-do — enables scale | Medium (ongoing) |
+| **Configuration Layer Validation** | Must-do — stops margin bleed | Medium |
 | **Health Index Reimagining** | Strategic | High — feasibility TBC |
 | **Client Contributed Data** | Strategic | High |
 | **Open Access Portal** | Strategic | Depends on commercial model |
@@ -311,6 +363,9 @@ Reasons:
 |------|--------|-------------|
 | LG Reorganisation Support | Political timeline — could hit before April 2026 | High |
 | Data Source Structure Process | Ongoing inefficiency / technical debt | Medium |
+| Configuration Layer Validation | Downstream build failures, costly iteration we can't absorb | Medium |
+| Insight Alerts | Paul keen — value across reporting, portal, consultants | Medium |
+| Platform Improvements (Self-Service) | Domain expertise locked to technical skills | Medium (ongoing) |
 
 ### Tier 3: Strategic / Requires Validation
 | Item | Driver | Est. Effort |
