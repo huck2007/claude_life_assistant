@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-20
+**Last Updated:** 2026-01-21
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Finalise Impower roadmap and send to Paul Henry [deferred to Wed — 2nd deferral]
+**MIT Today:** Finalise Impower roadmap and send to Paul Henry [deferred to Thu — 3rd deferral]
 
 ## Systematisation Sequence
 
@@ -77,6 +77,9 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-21
+- **Write-off day.** Emergency support issue + tiredness from late night (went to bed late). Impower MIT now deferred 3x. Everything carries to Thursday.
 
 ### 2026-01-20
 - **Solid day.** 5/7 work tasks, full rituals. Impower MIT deferred again — now twice. Tomorrow is heavy (7 work items). Block morning time.

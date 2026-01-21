@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-20
+**Last Updated:** 2026-01-21
 
 ---
 
@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | | | | | |
-| Meditation | Y | Y | | | | | |
-| Freedom Gap (AM) | Y | Y | | | | | |
-| Cold Water (3 min) | Y | Y | | | | | |
-| Mobility | | | | | | | |
-| OYTS | Y | Y | | | | | |
+| Breathwork | Y | Y | - | | | | |
+| Meditation | Y | Y | - | | | | |
+| Freedom Gap (AM) | Y | Y | - | | | | |
+| Cold Water (3 min) | Y | Y | - | | | | |
+| Mobility | | | - | | | | |
+| OYTS | Y | Y | - | | | | |
 
 *Week 3: Full routine resumes. Mobility starts this week.*
 
@@ -80,20 +80,20 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | O | | | | | |
-| Steps | G | O | | | | | |
-| Nutrition | G | G | | | | | |
-| Hydration | O | B | | | | | |
-| Outdoors | G | B | | | | | |
-| Exercise | Gr | G | | | | | |
+| Sleep | Gr | O | - | | | | |
+| Steps | G | O | - | | | | |
+| Nutrition | G | G | - | | | | |
+| Hydration | O | B | - | | | | |
+| Outdoors | G | B | - | | | | |
+| Exercise | Gr | G | - | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | | | | | |
-| AMWAP | Y | Y | | | | | |
-| Plan Tomorrow | Y | Y | | | | | |
+| Freedom Gap (PM) | Y | Y | - | | | | |
+| AMWAP | Y | Y | - | | | | |
+| Plan Tomorrow | Y | Y | - | | | | |
 
 *Week 3: Full tracking resumes.*
 
@@ -518,37 +518,51 @@ None planned
 
 ---
 
-## Wednesday 21 Jan
+## Wednesday 21 Jan [WRITE-OFF]
+
+**Emergency support issue + tiredness from late night. Regrouping Thursday.**
+
+**Carried forward to Thursday:**
+- Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT - 3rd deferral]
+- Finalise Marketing outreach brief and review proposed action plan from Emma
+- Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
+- Send Trustmark Geography V2 quotation to Phil
+- Trustmark estimate for deployment of new ML model
+- Confirm to Danny/Nicole the GRC monthly recap estimate, structure of approach, and need for investment in the integration
+- Email Bicycle Association to restart discussions
+- GYM Lifting with Lou
+
+---
+
+## Thursday 22 Jan
 
 **Morning Routine:**
 1. Breathwork (box breathing)
 2. Meditation (Waking Up app)
 3. Freedom Gap AM (first hour tech-free)
 4. Cold Water (3 min)
-5. OYTS: *What is one area where your mental rehearsal is currently negative or unstructured—and how could you flip that?*
+5. OYTS: *What is a performance moment coming up soon that you can start rehearsing mentally today?*
 
 **Work Tasks:**
-1. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT]
+1. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT - 3rd deferral, non-negotiable]
 2. Finalise Marketing outreach brief and review proposed action plan from Emma
 3. Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
-4. Send Trustmark Geography V2 quotation to Phil (saved in docs/trustmark-geography-v2-quotation.md)
+4. Send Trustmark Geography V2 quotation to Phil
 5. Trustmark estimate for deployment of new ML model
 6. Confirm to Danny/Nicole the GRC monthly recap estimate, structure of approach, and need for investment in the integration
 7. Email Bicycle Association to restart discussions
 
 **Personal Tasks:**
-1. Take Sophie to piano
-2. Meet with carpet guy to get price
-3. Pick 10 pieces of old clothing for Sophie to sell on Vinted [carry forward]
+1. Pick 10 pieces of old clothing for Sophie to sell on Vinted
 
 **Health Tasks:**
-1. GYM Lifting with Lou
+1. GYM Lifting with Lou (carried from Wed)
 
 **MIT:** Finalise Impower roadmap and send to Paul Henry
 
 **Evening:**
 - Freedom Gap PM
-- AMWAP: *List wins of being in a serving state so far this week.*
+- AMWAP: *10 wins from the past 24hrs.*
 - Log work hours
 
 ---
