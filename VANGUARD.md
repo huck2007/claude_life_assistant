@@ -567,6 +567,13 @@ None planned
 
 ---
 
+## Friday 23 Jan
+
+**Personal Tasks:**
+1. Add all holidays to staff holiday calendar
+
+---
+
 ## Saturday 24 Jan
 
 **Personal Tasks:**
