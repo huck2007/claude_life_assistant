@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-21
+**Last Updated:** 2026-01-22
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Finalise Impower roadmap and send to Paul Henry [deferred to Thu — 3rd deferral]
+**MIT Today:** Finalise Impower roadmap and send to Paul Henry [done]
 
 ## Systematisation Sequence
 
@@ -77,6 +77,13 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-22
+- **Bounce-back day.** Full morning routine, MIT done (Impower roadmap finally sent), 6 work tasks completed.
+- **Delegation win:** 3 problems from yesterday's support disaster — delegated all three, everyone got there in the end. Avoided the frustration of fixing it himself.
+- **Becky insight:** "She's a keeper." Responded well to leadership framing (unpaid foundational work, move at pace safely), then delivered fast. Worth investing in.
+- **Run PB with Sophie:** 6 min/km pace, beat previous 2-mile time by 20 seconds. Despite 3 stops. VO2 max continuing to improve.
+- **Key learning (AMWAP):** Getting back on the horse after bad days is a skill. Simon at Natural Edge: avoid boom/bust and all-or-nothing mentalities. Strong and serving mindset coming through.
 
 ### 2026-01-21
 - **Write-off day.** Emergency support issue + tiredness from late night (went to bed late). Impower MIT now deferred 3x. Everything carries to Thursday.
