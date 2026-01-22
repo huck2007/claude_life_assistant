@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | - | | | | |
-| Meditation | Y | Y | - | | | | |
-| Freedom Gap (AM) | Y | Y | - | | | | |
-| Cold Water (3 min) | Y | Y | - | | | | |
+| Breathwork | Y | Y | - | Y | | | |
+| Meditation | Y | Y | - | Y | | | |
+| Freedom Gap (AM) | Y | Y | - | Y | | | |
+| Cold Water (3 min) | Y | Y | - | Y | | | |
 | Mobility | | | - | | | | |
-| OYTS | Y | Y | - | | | | |
+| OYTS | Y | Y | - | Y | | | |
 
 *Week 3: Full routine resumes. Mobility starts this week.*
 
@@ -80,12 +80,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | O | - | | | | |
-| Steps | G | O | - | | | | |
-| Nutrition | G | G | - | | | | |
-| Hydration | O | B | - | | | | |
-| Outdoors | G | B | - | | | | |
-| Exercise | Gr | G | - | | | | |
+| Sleep | Gr | O | - | G | | | |
+| Steps | G | O | - | O | | | |
+| Nutrition | G | G | - | G | | | |
+| Hydration | O | B | - | B | | | |
+| Outdoors | G | B | - | O | | | |
+| Exercise | Gr | G | - | G | | | |
 
 ## Evening Rituals
 
@@ -537,28 +537,32 @@ None planned
 ## Thursday 22 Jan
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *What is a performance moment coming up soon that you can start rehearsing mentally today?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS [done]
 
 **Work Tasks:**
-1. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT - 3rd deferral, non-negotiable]
-2. Finalise Marketing outreach brief and review proposed action plan from Emma
-3. Prepare AWMM/TCS positioning document — role, value, requirements — share with Danny before Friday meeting
-4. Send Trustmark Geography V2 quotation to Phil
-5. Trustmark estimate for deployment of new ML model
-6. Confirm to Danny/Nicole the GRC monthly recap estimate, structure of approach, and need for investment in the integration
-7. Email Bicycle Association to restart discussions
+1. Finalise Impower workshop report and roadmap draft and send to Paul Henry for feedback [MIT] [done]
+2. Backlog build for WMM Snowflake refactor with Dave & Becky [done]
+3. Finalise Marketing outreach brief and review proposed action plan from Emma [deferred to Tue 27 Jan]
+4. Prepare AWMM/TCS positioning document — role, value, requirements [carry forward to Fri AM - started]
+5. Send Trustmark Geography V2 quotation to Phil [done]
+6. Trustmark estimate for deployment of new ML model [carry forward to Fri - pending Phil conversation]
+7. Confirm to Danny/Nicole the GRC monthly recap estimate [deferred to Mon 26 Jan]
+8. Email Bicycle Association to restart discussions [done]
 
 **Personal Tasks:**
-1. Pick 10 pieces of old clothing for Sophie to sell on Vinted
+1. Pick 10 pieces of old clothing for Sophie to sell on Vinted [done]
 
 **Health Tasks:**
-1. GYM Lifting with Lou (carried from Wed)
+1. GYM Lifting with Lou [done]
+2. Run with Sophie [done]
 
-**MIT:** Finalise Impower roadmap and send to Paul Henry
+**MIT:** Finalise Impower roadmap and send to Paul Henry [done]
+
+**Scores:** Sleep G, Steps O, Nutrition G, Hydration B, Outdoors O, Exercise G
 
 **Evening:**
 - Freedom Gap PM
@@ -629,6 +633,22 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Thursday 22 Jan
+**Question:** What is a performance moment coming up soon that you can start rehearsing mentally today?
+
+**Summary:** Tomorrow's meeting with AWMM CEO (Danny) and COO about the TCS sponsorship project. TCS is sponsoring World Marathon Majors and providing data scientists + product owner as part of the deal to build an analytics experience for the running audience.
+
+**The opportunity:** Scott's original Data Activation Strategy (proposed 2 years ago) is now being implemented. Will be the "point man" for AWMM, running the project with TCS. Building on CS's existing data platforms gives TCS team a head start — they can focus on analytics/product rather than data integration.
+
+**What to rehearse:**
+- Understanding the landscape (already done)
+- Preparation document for Danny (in progress)
+- Clarity on role, value CS brings, requirements
+
+**Key tension acknowledged:** CS could build this themselves, but can't compete with TCS on sponsorship value. Pragmatic positioning: better to be involved and shaping than marginalised.
+
+---
 
 ## Tuesday 20 Jan
 **Question:** What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that?
