@@ -589,7 +589,8 @@ None planned
 **Personal Tasks:**
 1. Breakfast with David & Patrina — plan Budapest trip (March)
 2. Add all holidays to staff holiday calendar
-3. Poker at Mike's (7:15pm)
+3. Weekly reflection (before poker)
+4. Poker at Mike's (7:15pm)
 
 **Health Tasks:**
 1. GYM Lifting with Lou (midday)

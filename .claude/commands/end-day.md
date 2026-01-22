@@ -93,6 +93,21 @@ If they missed MIT:
 - "What got in the way?" — no guilt
 - **Add to Memory Log**
 
+## Friday Weekly Reflection
+
+If today is Friday, prompt for weekly reflection BEFORE closing:
+
+"It's Friday — time for weekly reflection."
+
+Ask the three questions (from VANGUARD.md):
+1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
+2. Can I identify where the things holding me back are stemming from?
+3. Can I see any patterns emerging?
+
+Capture responses in VANGUARD.md under `# WEEKLY REFLECTION` with the week dates.
+
+Also review monthly objectives progress — surface any that are off track.
+
 ## Close
 
 Short:
