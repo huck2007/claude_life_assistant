@@ -567,6 +567,13 @@ None planned
 
 ---
 
+## Saturday 24 Jan
+
+**Personal Tasks:**
+1. Bosch engineer visit — tumble dryer repair (8am-12pm window)
+
+---
+
 # WEEKLY REFLECTION
 
 *Friday focus — go deep, not surface*
