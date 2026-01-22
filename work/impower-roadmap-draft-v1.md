@@ -8,10 +8,10 @@
 
 ## Overview
 
-This document captures the outcomes from our two-day workshop and presents a draft roadmap for Index development in FY 2026/27.
+This document captures the outcomes from our two-day workshop and presents a draft list of items to be estimated for the Index development roadmap in FY 2026/27.
 
 **Process:**
-1. Paul reviews this document and sets MoSCoW priorities in Jira Product Discovery
+1. Paul reviews this document and sets MoSCoW priorities
 2. Crozier Scott team creates broad estimates for prioritised items
 3. Paul confirms budget allocation for FY 2026/27
 
@@ -27,10 +27,10 @@ This document captures the outcomes from our two-day workshop and presents a dra
 | **Level 2 Indexes** | Detailed analysis during consulting engagements | Consulting Team |
 
 **Observations:**
-- Data extraction from Snowflake is efficient
-- Analysis and interpretation ("smell testing") is where effort lies
 - Top Level drives business development conversations
 - Level 2 supports hypothesis building once projects commence
+- Data extraction from Snowflake is efficient
+- Analysis and interpretation ("smell testing") is where effort lies
 
 ---
 
@@ -61,7 +61,7 @@ This document captures the outcomes from our two-day workshop and presents a dra
 
 ---
 
-### 2.3 Open Access / Gated Portal
+### 2.3 Open Access to Indexes
 
 **Concept:** Publicly accessible (but gated) insights to support business development.
 
@@ -108,7 +108,7 @@ This document captures the outcomes from our two-day workshop and presents a dra
 
 **Issue:** When source data structures change fundamentally, it cascades through measure extraction and metric definitions, causing rework.
 
-**Proposed Solution:** Design an approach that decouples metric identity from source structure, allowing sources to be updated without breaking downstream dependencies.
+**Proposed Solution:** Design an approach that allows index metrics to be versioned and switched to a new measure source, allowing sources to be updated without breaking downstream dependencies.
 
 ---
 
@@ -143,7 +143,7 @@ This document captures the outcomes from our two-day workshop and presents a dra
 **Issue:** Absence of validation at the configuration layer causes build failures downstream, resulting in costly iteration cycles.
 
 **Proposed Solution:**
-- Build validation checks into the configuration layer
+- Build real-time validation checks into the configuration layer
 - Fail fast with clear error messages before downstream processing
 - Reduce rework and support burden
 
@@ -220,7 +220,7 @@ LG Inform (primary data source) is also addressing the reorg:
 
 | Item | Driver |
 |------|--------|
-| ASC Level 2 Data Change (SALT) | Already confirmed |
+| ASC Level 2 Data Change (SALT) | Already confirmed / In progress|
 | LG Inform API Discovery | Beta access available — assess integration impact |
 
 ## Tier 2: Critical / Must Address
@@ -271,8 +271,8 @@ LG Inform (primary data source) is also addressing the reorg:
 
 | Step | Owner | Timing |
 |------|-------|--------|
-| Review roadmap and set MoSCoW priorities | Paul | [TBC] |
-| Create broad estimates for Must/Should items | Crozier Scott | After priorities confirmed |
+| Review roadmap and set MoSCoW priorities | Paul | ASAP |
+| Create broad estimates for Must/Should items | Crozier Scott | After priorities confirmed (ideally by end of Jan)|
 | Confirm budget allocation for FY 2026/27 | Paul | [TBC] |
 
 ---

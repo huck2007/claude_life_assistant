@@ -198,21 +198,29 @@ All other masterfiles descend from these and will inherit geographic context via
 
 ## 8. Estimate
 
-| Component | Effort (days) |
+| Component | Effort (person days) |
 |-----------|---------------|
-| Requirements clarification & design sign-off | 0.5 |
-| ONSPD lookup table (source, load, test) | 2 |
+| Requirements clarification & design sign-off | 1.5 |
+| ONSPD lookup table (source, load, test) | 3 |
 | DIM_GEOGRAPHY_V2 (build, IMD integration, test) | 3 |
 | Fact table extensions + backfill | 2 |
 | ETL pipeline (load + enrichment) | 2 |
 | Documentation & handover | 0.5 |
-| **Total** | **10** |
+| **Total** | **12** |
+
+**Cost Estimate:**
+- Standard day rate = £1000 +VAT
+- Senior day rate = £1375 +VAT
+
+We expect the majority of this work to be carried out on the standard day rate
 
 **Notes on estimate:**
-- Assumes England-only. Add 1-2 days if GB-wide (Wales/Scotland IMD integration)
+- Assumes England-only. Add 3-5 days if GB-wide (Wales/Scotland IMD integration)
 - Assumes overall IMD rank/decile only. Add 0.5 days if all domains required
 - Assumes reasonable postcode data quality. If significant cleansing needed, backfill effort increases
 - Does not include Trustmark effort to migrate reports to V2
+- Please allow +30% headroom to accomodate uncertainty / unforeseen complication (should be identified during detailed design)
+- Once the maintenance / refresh requirement is understood we can determine the cost of keeping the dataset up to date
 
 ---
 

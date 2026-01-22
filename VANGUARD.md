@@ -573,8 +573,33 @@ None planned
 
 ## Friday 23 Jan
 
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)?*
+
+**Work Tasks:**
+1. Finalise and send AWMM/TCS positioning document before meeting [MIT]
+2. Meeting with Dawna and Danny at WMM — TCS project alignment
+3. Meeting with Phil Vaughan — ML model complexity and estimate
+4. Trustmark estimate for deployment of new ML model (post Phil conversation)
+
 **Personal Tasks:**
-1. Add all holidays to staff holiday calendar
+1. Breakfast with David & Patrina — plan Budapest trip (March)
+2. Add all holidays to staff holiday calendar
+3. Poker at Mike's (7:15pm)
+
+**Health Tasks:**
+1. GYM Lifting with Lou (midday)
+
+**MIT:** Finalise AWMM/TCS positioning document and send before Danny/Dawna meeting
+
+**Evening:**
+- Freedom Gap PM
+- AMWAP: *List wins for the last 3 years.*
+- Log work hours
 
 ---
 
