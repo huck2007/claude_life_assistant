@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-22
+**Last Updated:** 2026-01-23
 
 ---
 
@@ -70,7 +70,7 @@
 | Freedom Gap (AM) | Y | Y | - | Y | Y | | |
 | Cold Water (3 min) | Y | Y | - | Y | Y | | |
 | Mobility | | | - | | | | |
-| OYTS | Y | Y | - | Y | | | |
+| OYTS | Y | Y | - | Y | Y | | |
 
 *Week 3: Full routine resumes. Mobility starts this week.*
 
@@ -80,12 +80,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | O | - | G | | | |
-| Steps | G | O | - | O | | | |
-| Nutrition | G | G | - | G | | | |
-| Hydration | O | B | - | B | | | |
-| Outdoors | G | B | - | O | | | |
-| Exercise | Gr | G | - | G | | | |
+| Sleep | Gr | O | - | G | B | | |
+| Steps | G | O | - | O | B | | |
+| Nutrition | G | G | - | G | G | | |
+| Hydration | O | B | - | B | O | | |
+| Outdoors | G | B | - | O | O | | |
+| Exercise | Gr | G | - | G | G | | |
 
 ## Evening Rituals
 
@@ -571,37 +571,34 @@ None planned
 
 ---
 
-## Friday 23 Jan
+## Friday 23 Jan [COMPLETE]
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS [done]
 
 **Work Tasks:**
 1. Finalise and send AWMM/TCS positioning document before meeting [MIT] [done]
-2. Meeting with Dawna and Danny at WMM — TCS project alignment
-3. Meeting with Phil Vaughan — ML model complexity and estimate
-4. Trustmark estimate for deployment of new ML model (post Phil conversation)
+2. Meeting with Dawna and Danny at WMM — TCS project alignment [done]
+3. Meeting with Phil Vaughan — ML model complexity and estimate [done]
+4. Trustmark estimate for deployment of new ML model (post Phil conversation) [done] — told Phil verbally 4-8 days
 
 **Personal Tasks:**
-1. Breakfast with David & Patrina — plan Budapest trip (March)
-2. Speak to Carpets and More for delivery date and confirm with Brad
-3. Add all holidays to staff holiday calendar
-4. Weekly reflection (before poker)
-5. Poker at Mike's (7:15pm)
+1. Breakfast with David & Patrina — plan Budapest trip (March) [done]
+2. Speak to Carpets and More for delivery date and confirm with Brad [in progress] — call back Monday afternoon
+3. Add all holidays to staff holiday calendar [deferred to Monday]
+4. Weekly reflection (before poker) [done]
+5. Poker at Mike's (7:15pm) [done]
 
 **Health Tasks:**
-1. GYM Lifting with Lou (midday)
+1. GYM Lifting with Lou (midday) [done]
 
-**MIT:** Finalise AWMM/TCS positioning document and send before Danny/Dawna meeting
+**MIT:** Finalise AWMM/TCS positioning document and send before Danny/Dawna meeting [done]
 
-**Evening:**
-- Freedom Gap PM
-- AMWAP: *List wins for the last 3 years.*
-- Log work hours
+**Scores:** Sleep B, Steps B, Nutrition G, Hydration O, Outdoors O, Exercise G
 
 ---
 
@@ -619,6 +616,27 @@ None planned
 1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
 2. Can I identify where the things holding me back are stemming from?
 3. Can I see any patterns emerging?
+
+## Week of 19 Jan - 25 Jan 2026
+
+**Q1: Diving deep or bypassing?**
+Deep enough. No danger of bypassing — naturally serious and reflective. Wednesday's write-off day tested resilience, but got back on the horse. Perfection isn't necessary; recovery is the skill.
+
+**Q2: What's holding me back?**
+Same themes: difficult client situations and staff not yet assuming responsibility at the level needed. Actively improving this — reframing issues as growth opportunities, delegating more, staying out of technical implementation.
+
+**Q3: Patterns emerging?**
+Positive patterns: ritual consistency correlates directly with sense of progress. Physical training reinforces mental state. Sleep is variable — afternoon coffee likely the culprit.
+
+**OYTS Synthesis (Week 3):**
+This week's journaling clustered around **performance and preparation**:
+- **Public speaking and social performance** (Mon + Fri): Avoidance kicks in when overwhelmed. Antidote is positive mental rehearsal — look forward to it, see the good, commit to giving it best shot. Preparation and mindset are the enablers, not natural talent.
+- **Client meeting prep** (Tue): Feeling scattered in client meetings. Root cause is absence of process, not capacity. Team needs to own the briefing so Scott stops winging it.
+- **TCS/AWMM positioning** (Thu): Pragmatic positioning — better to be involved and shaping than marginalised. Prepared well, meeting went well.
+
+**Thread:** When you prepare properly and get your head right, you perform. When you don't, you wing it and it shows. The system works when you work the system.
+
+---
 
 ## Week of 12 Jan - 18 Jan 2026
 
@@ -660,6 +678,19 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Friday 23 Jan
+**Question:** What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)?
+
+**Summary:** Selling and leading come naturally. The skill to rehearse is mental preparation before social events and public speaking — getting into a positive, forward-looking mindset rather than defaulting to seriousness and avoidance.
+
+**Key insight:** When overwhelmed by business responsibility, social battery drains and avoidance kicks in. But when work feels under control and there's positive anticipation (Kris Dunnico visit, Dave Jackson's 40th), the socialising lands well and feels energising.
+
+**The shift:** Before events, mentally rehearse with a positive outlook — look forward to it, see the good in what's coming, commit to giving it best shot. This is what "sharpens the edge."
+
+**Connection:** Links back to Monday's OYTS on public speaking. Same pattern — preparation and mindset are the enablers, not natural talent.
+
+---
 
 ## Thursday 22 Jan
 **Question:** What is a performance moment coming up soon that you can start rehearsing mentally today?
