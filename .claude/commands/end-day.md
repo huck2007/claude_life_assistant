@@ -93,20 +93,27 @@ If they missed MIT:
 - "What got in the way?" — no guilt
 - **Add to Memory Log**
 
-## Friday Weekly Reflection
+## Process Future Tasks
 
-If today is Friday, prompt for weekly reflection BEFORE closing:
+Read today's Apple Note from the Daily folder and extract any tasks listed under "Future tasks":
 
-"It's Friday — time for weekly reflection."
+```bash
+osascript <<'EOF'
+tell application "Notes"
+    tell folder "Daily"
+        set latestNote to first note
+        return body of latestNote
+    end tell
+end tell
+EOF
+```
 
-Ask the three questions (from VANGUARD.md):
-1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
-2. Can I identify where the things holding me back are stemming from?
-3. Can I see any patterns emerging?
+If Future tasks section contains items:
+1. Parse each task (look for list items after "Future tasks" heading)
+2. Add each task to VANGUARD.md under `# TASK INBOX` section
+3. Format: `- [task description] (captured [date])`
 
-Capture responses in VANGUARD.md under `# WEEKLY REFLECTION` with the week dates.
-
-Also review monthly objectives progress — surface any that are off track.
+These tasks will be reviewed during the next planning session and scheduled appropriately.
 
 ## Close
 

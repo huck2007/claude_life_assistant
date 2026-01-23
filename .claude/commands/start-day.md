@@ -36,16 +36,30 @@ Check if `journal/YYYY-MM-DD.md` exists for today. If not, create it. If yes, up
 - OYTS [planned]
 
 ## Work Tasks
+
 [Pull work tasks from VANGUARD.md for today]
 
 ## Personal Tasks
+
 [Pull personal tasks from VANGUARD.md for today]
+[If Friday, always include: Weekly reflection]
 
 ## Health Tasks
+
 [Pull health/exercise tasks from VANGUARD.md for today - gym, running, etc.]
 
 ## Evening
-[Leave blank - filled by /end-day]
+
+Log work hours [planned]
+Freedom Gap PM [planned]
+AMWAP [planned]
+
+## Future tasks
+[a place for them to specify tasks arising during the day that need to be scheduled]
+
+## Notes
+[space to specify any notes or thoughts]
+
 ```
 
 This is non-negotiable. Every /start-day must result in a journal entry for that date.
@@ -54,7 +68,8 @@ This is non-negotiable. Every /start-day must result in a journal entry for that
 - Update NOW.md: Set MIT Today
 - Create Apple Notes daily note (see below)
 - Add Memory Log entry if pattern observed
-- If any calendar events are mentioned, update BOTH `CALENDAR.md` AND `scott-calendar.ics` to keep them in sync
+- If any family calendar events are mentioned, update BOTH `CALENDAR.md` AND `scott-calendar.ics` to keep them in sync
+- Check TASK INBOX in VANGUARD.md for captured tasks — surface any that need scheduling today and update the table with scheduled date
 
 ### Apple Notes Daily Note
 
@@ -118,9 +133,20 @@ tell application "Notes"
 <hr>
 <h2>AMWAP</h2>
 <p><i>[AMWAP question for today's day of week from VANGUARD.md]</i></p>
-<h3>Journal Response</h3>
+<h3>AMWAP Response</h3>
 <p></p>
 <hr>
+<ul>
+<h2>Evening</h2>
+<ul>
+<li>Log work hours in Productive</li>
+<li>AMWAP logged</li>
+<li>Freedom gap PM</li>
+<ul>
+<h2>Future tasks<h2>
+<ul>
+<h2>Notes<h2>
+<ul>
 <h2>Daily Scores</h2>
 <p>Sleep: <br>
 Steps: <br>

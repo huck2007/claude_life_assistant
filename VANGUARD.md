@@ -970,6 +970,16 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 ---
 
+# TASK INBOX
+
+*Tasks captured from daily notes. Review during planning and schedule appropriately.*
+
+| Task | Captured | Scheduled |
+|------|----------|-----------|
+| | | |
+
+---
+
 # REMINDERS
 
 *Check during start-day. Remove when actioned.*

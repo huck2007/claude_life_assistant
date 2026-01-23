@@ -29,7 +29,7 @@ Parse the note for:
 - Completed tasks (items marked "done" or checked)
 - Daily scores (Sleep, Steps, Nutrition, Hydration, Outdoors, Exercise values)
 - OYTS journal response (text appearing after OYTS "Journal Response" header — Scott adds transcription from audio recording directly into note)
-- AMWAP journal response (text appearing after AMWAP "Journal Response" header — evening reflection)
+- AMWAP journal response (text appearing after AMWAP "AMWAP Response" header — evening reflection)
 
 Sync to VANGUARD.md (source of truth for task status):
 - Update morning rituals table for the day
@@ -37,7 +37,7 @@ Sync to VANGUARD.md (source of truth for task status):
 - In the daily plan section, mark each completed task with `[done]` after the task text
 - Tasks not completed: leave without marker (will carry forward at next planning)
 - If OYTS journal response has substantial content, add a summary to the OYTS Summaries section with date, question, and key insights
-- If AMWAP journal response has substantial content, note key wins in the Memory Log or OYTS Summaries section as appropriate
+- If AMWAP response has substantial content, note key wins in the Memory Log or OYTS Summaries section as appropriate
 
 Sync to journal file (`journal/YYYY-MM-DD.md`):
 - **MIT line:** Add `[done]` if completed
@@ -76,6 +76,21 @@ Only if something changed:
 - **CLAUDE.md**: Only update if new long-term pattern discovered (rare)
 - **journal**: Note the check-in moment
 - **CALENDAR.md + scott-calendar.ics**: If any calendar events are added or changed, update BOTH files to keep them in sync
+
+## Friday Weekly Reflection
+
+If today is Friday AND time is after 14:00, prompt for weekly reflection:
+
+"It's Friday afternoon — time for weekly reflection."
+
+Ask the three questions (from VANGUARD.md):
+1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
+2. Can I identify where the things holding me back are stemming from?
+3. Can I see any patterns emerging?
+
+Capture responses in VANGUARD.md under `# WEEKLY REFLECTION` with the week dates.
+
+Also review monthly objectives progress — surface any that are off track.
 
 ## Close
 

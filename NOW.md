@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Finalise Impower roadmap and send to Paul Henry [done]
+**MIT Today:** Finalise AWMM/TCS positioning document and send before Danny/Dawna meeting
 
 ## Systematisation Sequence
 
