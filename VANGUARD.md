@@ -65,10 +65,10 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | - | Y | | | |
-| Meditation | Y | Y | - | Y | | | |
-| Freedom Gap (AM) | Y | Y | - | Y | | | |
-| Cold Water (3 min) | Y | Y | - | Y | | | |
+| Breathwork | Y | Y | - | Y | Y | | |
+| Meditation | Y | Y | - | Y | Y | | |
+| Freedom Gap (AM) | Y | Y | - | Y | Y | | |
+| Cold Water (3 min) | Y | Y | - | Y | Y | | |
 | Mobility | | | - | | | | |
 | OYTS | Y | Y | - | Y | | | |
 
@@ -581,16 +581,17 @@ None planned
 5. OYTS: *What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)?*
 
 **Work Tasks:**
-1. Finalise and send AWMM/TCS positioning document before meeting [MIT]
+1. Finalise and send AWMM/TCS positioning document before meeting [MIT] [done]
 2. Meeting with Dawna and Danny at WMM — TCS project alignment
 3. Meeting with Phil Vaughan — ML model complexity and estimate
 4. Trustmark estimate for deployment of new ML model (post Phil conversation)
 
 **Personal Tasks:**
 1. Breakfast with David & Patrina — plan Budapest trip (March)
-2. Add all holidays to staff holiday calendar
-3. Weekly reflection (before poker)
-4. Poker at Mike's (7:15pm)
+2. Speak to Carpets and More for delivery date and confirm with Brad
+3. Add all holidays to staff holiday calendar
+4. Weekly reflection (before poker)
+5. Poker at Mike's (7:15pm)
 
 **Health Tasks:**
 1. GYM Lifting with Lou (midday)
