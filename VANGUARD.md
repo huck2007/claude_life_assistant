@@ -604,8 +604,21 @@ None planned
 
 ## Saturday 24 Jan
 
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What is the difference between practising a skill and priming it—and where in your life do you need more of the second?*
+
 **Personal Tasks:**
 1. Bosch engineer visit — tumble dryer repair (8am-12pm window)
+2. GYM Leg Day with Tom
+3. Prepare Burns Supper (parents and sister coming)
+
+**Evening:**
+- Burns Supper with family
+- AMWAP: *5 minutes of wins from the past 24hrs.*
 
 ---
 
