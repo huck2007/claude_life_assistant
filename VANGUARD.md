@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | - | Y | Y | | |
-| Meditation | Y | Y | - | Y | Y | | |
-| Freedom Gap (AM) | Y | Y | - | Y | Y | | |
-| Cold Water (3 min) | Y | Y | - | Y | Y | | |
+| Breathwork | Y | Y | - | Y | Y | Y | |
+| Meditation | Y | Y | - | Y | Y | Y | |
+| Freedom Gap (AM) | Y | Y | - | Y | Y | Y | |
+| Cold Water (3 min) | Y | Y | - | Y | Y | Y | |
 | Mobility | | | - | | | | |
-| OYTS | Y | Y | - | Y | Y | | |
+| OYTS | Y | Y | - | Y | Y | Y | |
 
 *Week 3: Full routine resumes. Mobility starts this week.*
 
@@ -91,9 +91,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | - | | | | |
-| AMWAP | Y | Y | - | | | | |
-| Plan Tomorrow | Y | Y | - | | | | |
+| Freedom Gap (PM) | Y | Y | - | Y | Y | Y | |
+| AMWAP | Y | Y | - | Y | Y | Y | |
+| Plan Tomorrow | Y | Y | - | Y | Y | Y | |
 
 *Week 3: Full tracking resumes.*
 
@@ -602,23 +602,22 @@ None planned
 
 ---
 
-## Saturday 24 Jan
+## Saturday 24 Jan [COMPLETE]
 
-**Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *What is the difference between practising a skill and priming it—and where in your life do you need more of the second?*
+**Morning Routine:** All done (breathwork, meditation, freedom gap, CWI, OYTS)
 
 **Personal Tasks:**
-1. Bosch engineer visit — tumble dryer repair (8am-12pm window)
-2. GYM Leg Day with Tom
-3. Prepare Burns Supper (parents and sister coming)
+1. Bosch engineer visit — tumble dryer repair (8am-12pm window) [done] — broken, replacement under warranty
+2. GYM Leg Day with Tom [cancelled] — Tom got offered extra shift at work
+3. Prepare Burns Supper (parents and sister coming) [done]
+
+**MIT:** Burns night dinner — present, hosting, family [done]
 
 **Evening:**
-- Burns Supper with family
-- AMWAP: *5 minutes of wins from the past 24hrs.*
+- Burns Supper with family [done]
+- AMWAP [done]
+
+**Note:** Dry January ended on Burns Night — new tradition going forward.
 
 ---
 
@@ -691,6 +690,21 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Saturday 24 Jan
+**Question:** What is the difference between practising a skill and priming it—and where in your life do you need more of the second?
+
+**Summary:** Practising is physically doing the skill. Priming is creating the conditions for success — mindset, commitment structures, research, relationships.
+
+**Successful priming example:** Gym with Lou. Paid PT (not optional), appointment in diary, good relationship, clear objective. Nearly 2 years consistent. Created conditions that made failure difficult.
+
+**Areas needing more priming:**
+- **Badminton** — enjoying it, good exercise, with friends. Only been twice, not yet a habit. Needs: research tactics/technique online, take advice from better players, commit to weekly attendance.
+- **Leadership** — thinking about formalising improvement through joining a leadership group, more networking.
+
+**Key insight:** The gym works because you primed it properly — paid commitment, scheduled time, relationship with Lou. Apply the same structure to badminton and leadership development.
+
+---
 
 ## Friday 23 Jan
 **Question:** What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)?
@@ -1021,7 +1035,8 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 | Task | Captured | Scheduled |
 |------|----------|-----------|
-| | | |
+| Chase up replacement Tumble Dryer with Bosch | 24 Jan | 27 Jan |
+| Book eye test | 24 Jan | 26 Jan |
 
 ---
 
