@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-22
+**Last Updated:** 2026-01-25
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Plan the week ahead
+**MIT Today:** Estimates for Impower
 
 ## Systematisation Sequence
 
@@ -77,6 +77,12 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-25
+- **Week 3 complete.** Weekend of rest and family time. No work — *'That's part of my objective is to not work at weekends and to be present with my family.'*
+- **OYTS insight:** Business growth needs two-step visualisation — (1) grow to ~2.5M turnover, (2) sell and retire. Rejected the "business is in my head" framing: *'I picked that up from Eddie... it's not right.'* Hired Becky specifically to take himself out of the numbers.
+- **Wins:** Cinema with Jo and kids (Avatar IMAX), Burns Supper with family (hosted, everyone had a great time), morning rituals both days.
+- Week 4 planned. TCS meeting Friday, Theatre Thursday fixed. MIT Monday: Impower estimates.
 
 ### 2026-01-22
 - **Bounce-back day.** Full morning routine, MIT done (Impower roadmap finally sent), 6 work tasks completed.

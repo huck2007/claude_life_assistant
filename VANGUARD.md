@@ -31,30 +31,30 @@
 
 # THIS WEEK
 
-**Week of:** 19 Jan - 25 Jan 2026 (Week 3)
+**Week of:** 26 Jan - 1 Feb 2026 (Week 4)
 
 ## OYTS Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | What is one performance you want to feel automatic and instinctive—what would perfect execution look like? |
-| Tue | What is a situation where you often feel nervous, scattered, or underprepared—and how would it feel to change that? |
-| Wed | What is one area where your mental rehearsal is currently negative or unstructured—and how could you flip that? |
-| Thu | What is a performance moment coming up soon that you can start rehearsing mentally today? |
-| Fri | What is a routine skill you could mentally rehearse more often to sharpen your edge (like speaking, selling, leading)? |
-| Sat | What is the difference between practising a skill and priming it—and where in your life do you need more of the second? |
-| Sun | What is one area where outcome visualisation and/or process visualisation could help make you stronger? |
+| Mon | What does the future version of you—the one you're becoming—look like in action this week? |
+| Tue | Which Magnetic Goal is currently pulling you forward? Why does it still matter to you? |
+| Wed | What distractions or temptations are most likely to knock you off course—and how will you handle them? |
+| Thu | Where are you today compared to where you said you wanted to be? What's the honest gap? |
+| Fri | Which of your actions this past week cast votes for the identity you're building—and which ones sabotaged it? |
+| Sat | What patterns are emerging—good or bad—that you need to either double down on or course-correct? |
+| Sun | Which habit, if done consistently this week, would create meaningful progress? |
 
 ## AMWAP Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | Wins (from any point in time) where you performed at your best. |
-| Tue | Focus on the year so far. List as many wins as possible. Cultivate as much positivity as you possibly can. |
-| Wed | List wins of being in a serving state so far this week. |
+| Mon | 5 minutes of wins from the past 24hrs. |
+| Tue | Wins where you adjusted plans to reflect current reality instead of forcing a rigid plan. |
+| Wed | List wins of actions towards your goals this year so far. |
 | Thu | 10 wins from the past 24hrs. |
-| Fri | List wins for the last 3 years. |
-| Sat | 5 minutes of wins from the past 24hrs. |
+| Fri | Wins where you have been proud of yourself. |
+| Sat | List your big wins from last week. |
 | Sun | 5 minutes of wins from the past 24hrs. |
 
 ---
@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | - | Y | Y | Y | |
-| Meditation | Y | Y | - | Y | Y | Y | |
-| Freedom Gap (AM) | Y | Y | - | Y | Y | Y | |
-| Cold Water (3 min) | Y | Y | - | Y | Y | Y | |
+| Breathwork | Y | Y | - | Y | Y | Y | Y |
+| Meditation | Y | Y | - | Y | Y | Y | Y |
+| Freedom Gap (AM) | Y | Y | - | Y | Y | Y | Y |
+| Cold Water (3 min) | Y | Y | - | Y | Y | Y | Y |
 | Mobility | | | - | | | | |
-| OYTS | Y | Y | - | Y | Y | Y | |
+| OYTS | Y | Y | - | Y | Y | Y | Y |
 
 *Week 3: Full routine resumes. Mobility starts this week.*
 
@@ -80,20 +80,20 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | O | - | G | B | | |
-| Steps | G | O | - | O | B | | |
-| Nutrition | G | G | - | G | G | | |
-| Hydration | O | B | - | B | O | | |
-| Outdoors | G | B | - | O | O | | |
-| Exercise | Gr | G | - | G | G | | |
+| Sleep | Gr | O | - | G | B | | G |
+| Steps | G | O | - | O | B | | O |
+| Nutrition | G | G | - | G | G | | G |
+| Hydration | O | B | - | B | O | | O |
+| Outdoors | G | B | - | O | O | | B |
+| Exercise | Gr | G | - | G | G | | B |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | - | Y | Y | Y | |
-| AMWAP | Y | Y | - | Y | Y | Y | |
-| Plan Tomorrow | Y | Y | - | Y | Y | Y | |
+| Freedom Gap (PM) | Y | Y | - | Y | Y | Y | Y |
+| AMWAP | Y | Y | - | Y | Y | Y | Y |
+| Plan Tomorrow | Y | Y | - | Y | Y | Y | Y |
 
 *Week 3: Full tracking resumes.*
 
@@ -621,6 +621,54 @@ None planned
 
 ---
 
+## Sunday 25 Jan [COMPLETE]
+
+**Morning Routine:** All done (breathwork, meditation, freedom gap, CWI, OYTS)
+
+**Personal Tasks:**
+1. Plan week ahead (Week 4) [done]
+2. Set new OYTS/AMWAP questions for the week [done]
+
+**MIT:** Plan the week ahead [done]
+
+**Evening:**
+- Freedom Gap PM [done]
+- AMWAP [done]
+
+---
+
+## Monday 26 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What does the future version of you—the one you're becoming—look like in action this week?*
+
+**Work Tasks:**
+1. Stand-up / team check-in
+2. Make sure all hours clocked in Productive for last week
+3. Update cost rates and overhead value in Productive
+4. Estimates for Impower [MIT]
+
+**Personal Tasks:**
+1. More cupboard clearing
+2. Book overnight stay for February Lake District trip
+
+**Health Tasks:**
+1. GYM Lifting with Lou (midday)
+2. Running with Sophie
+
+**MIT:** Estimates for Impower
+
+**Evening:**
+- Freedom Gap PM
+- AMWAP
+- Log work hours
+
+---
+
 # WEEKLY REFLECTION
 
 *Friday focus — go deep, not surface*
@@ -690,6 +738,19 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Sunday 25 Jan
+**Question:** What is one area where outcome visualisation and/or process visualisation could help make you stronger?
+
+**Summary:** Business growth and eventual exit. Two-step visualisation needed:
+1. **Process:** Growing to ~2.5M turnover with more professional delivery, better client acquisition, more people
+2. **Outcome:** Selling the business and achieving financial independence for Scott and Jo
+
+**Key insight:** Already has experience growing businesses/departments. The gap is regular checking against the plan, staying on top of detail and progress. Rejected the "business is in my head" framing from Eddie — hired Becky specifically to take himself out of the numbers.
+
+**Connection:** This completes Week 3's theme on performance and preparation. The thread: visualise both process AND outcome, then work the system with discipline.
+
+---
 
 ## Saturday 24 Jan
 **Question:** What is the difference between practising a skill and priming it—and where in your life do you need more of the second?
@@ -1035,8 +1096,7 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 | Task | Captured | Scheduled |
 |------|----------|-----------|
-| Chase up replacement Tumble Dryer with Bosch | 24 Jan | 27 Jan |
-| Book eye test | 24 Jan | 26 Jan |
+| (empty) | | |
 
 ---
 

@@ -60,6 +60,7 @@
 | 8 (Fri) | Day Trip | Devil's Kitchen & Llyn Idwal Circular - family walk |
 | 15-16 | Weekend Away | Family memorial golf trip - Llandudno (Paul, Chris & family) |
 | 23 (Sat 7pm) | Gig | Kingfishr @ O2 Victoria Warehouse, Manchester - with Jo, Tom & Sophie |
+| 24-28 | School | Venice and Verona school trip - Sophie |
 
 ---
 
