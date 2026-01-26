@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-23
+**Last Updated:** 2026-01-26
 
 ---
 
@@ -65,14 +65,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | - | Y | Y | Y | Y |
-| Meditation | Y | Y | - | Y | Y | Y | Y |
-| Freedom Gap (AM) | Y | Y | - | Y | Y | Y | Y |
-| Cold Water (3 min) | Y | Y | - | Y | Y | Y | Y |
-| Mobility | | | - | | | | |
-| OYTS | Y | Y | - | Y | Y | Y | Y |
+| Breathwork | Y | | | | | | |
+| Meditation | Y | | | | | | |
+| Freedom Gap (AM) | Y | | | | | | |
+| Cold Water (3 min) | Y | | | | | | |
+| Mobility | | | | | | | |
+| OYTS | Y | | | | | | |
 
-*Week 3: Full routine resumes. Mobility starts this week.*
+*Week 4: Morning rituals on track.*
 
 ## Daily Scores
 
@@ -80,22 +80,22 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | Gr | O | - | G | B | | G |
-| Steps | G | O | - | O | B | | O |
-| Nutrition | G | G | - | G | G | | G |
-| Hydration | O | B | - | B | O | | O |
-| Outdoors | G | B | - | O | O | | B |
-| Exercise | Gr | G | - | G | G | | B |
+| Sleep | O | | | | | | |
+| Steps | O | | | | | | |
+| Nutrition | G | | | | | | |
+| Hydration | O | | | | | | |
+| Outdoors | O | | | | | | |
+| Exercise | G | | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | - | Y | Y | Y | Y |
-| AMWAP | Y | Y | - | Y | Y | Y | Y |
-| Plan Tomorrow | Y | Y | - | Y | Y | Y | Y |
+| Freedom Gap (PM) | Y | | | | | | |
+| AMWAP | - | | | | | | |
+| Plan Tomorrow | Y | | | | | | |
 
-*Week 3: Full tracking resumes.*
+*Week 4: Monday complete.*
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -637,34 +637,59 @@ None planned
 
 ---
 
-## Monday 26 Jan
+## Monday 26 Jan [COMPLETE]
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *What does the future version of you—the one you're becoming—look like in action this week?* [done]
+
+**Work Tasks:**
+1. Stand-up / team check-in [done]
+2. Make sure all hours clocked in Productive for last week [carry forward]
+3. Update cost rates and overhead value in Productive [carry forward]
+4. Estimates for Impower [MIT] [in progress - carry forward]
+
+**Personal Tasks:**
+1. More cupboard clearing [carry forward]
+2. Book overnight stay for February Lake District trip [carry forward]
+
+**Health Tasks:**
+1. GYM Lifting with Lou (midday) [done]
+2. Running with Sophie [done]
+
+**MIT:** Estimates for Impower [in progress]
+
+---
+
+## Tuesday 27 Jan
 
 **Morning Routine:**
 1. Breathwork (box breathing)
 2. Meditation (Waking Up app)
 3. Freedom Gap AM (first hour tech-free)
 4. Cold Water (3 min)
-5. OYTS: *What does the future version of you—the one you're becoming—look like in action this week?*
+5. OYTS: *Which Magnetic Goal is currently pulling you forward? Why does it still matter to you?*
 
 **Work Tasks:**
-1. Stand-up / team check-in
+1. Estimates for Impower [MIT] — complete and send
 2. Make sure all hours clocked in Productive for last week
 3. Update cost rates and overhead value in Productive
-4. Estimates for Impower [MIT]
 
 **Personal Tasks:**
 1. More cupboard clearing
 2. Book overnight stay for February Lake District trip
 
 **Health Tasks:**
-1. GYM Lifting with Lou (midday)
-2. Running with Sophie
+1. Badminton (if scheduled)
 
 **MIT:** Estimates for Impower
 
 **Evening:**
 - Freedom Gap PM
-- AMWAP
+- AMWAP: *Wins where you adjusted plans to reflect current reality instead of forcing a rigid plan.*
 - Log work hours
 
 ---
@@ -738,6 +763,22 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Monday 26 Jan
+**Question:** What does the future version of you—the one you're becoming—look like in action this week?
+
+**Summary:** Controlled, consistent, committed, patient. The future version shows up with equanimity in temperament and actions — daily routines done, objectives pursued, month-end close-out in sight.
+
+**Key themes:**
+- **Patience** with family and self
+- **Equanimity** in demeanour — best version for decision-making and leading people
+- **Outcome-focused** on the two business missions: growing client base, maximising margin from existing clients
+
+**Key insight:** "If I'm leading myself well, then I will lead those other people well — whether it's my family or whether it's my colleagues."
+
+**Connection:** Sets the tone for Week 4 — controlled, committed, clearing January objectives before February.
+
+---
 
 ## Sunday 25 Jan
 **Question:** What is one area where outcome visualisation and/or process visualisation could help make you stronger?
