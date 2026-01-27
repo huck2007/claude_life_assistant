@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | | | | | | |
-| Meditation | Y | | | | | | |
-| Freedom Gap (AM) | Y | | | | | | |
-| Cold Water (3 min) | Y | | | | | | |
+| Breathwork | Y | Y | | | | | |
+| Meditation | Y | Y | | | | | |
+| Freedom Gap (AM) | Y | Y | | | | | |
+| Cold Water (3 min) | Y | Y | | | | | |
 | Mobility | | | | | | | |
-| OYTS | Y | | | | | | |
+| OYTS | Y | Y | | | | | |
 
 *Week 4: Morning rituals on track.*
 
@@ -80,22 +80,22 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | | | | | | |
-| Steps | O | | | | | | |
-| Nutrition | G | | | | | | |
-| Hydration | O | | | | | | |
-| Outdoors | O | | | | | | |
-| Exercise | G | | | | | | |
+| Sleep | O | O | | | | | |
+| Steps | O | G | | | | | |
+| Nutrition | G | G | | | | | |
+| Hydration | O | O | | | | | |
+| Outdoors | O | B | | | | | |
+| Exercise | G | G | | | | | |
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | | | | | | |
-| AMWAP | - | | | | | | |
+| Freedom Gap (PM) | Y | Y | | | | | |
+| AMWAP | - | Y | | | | | |
 | Plan Tomorrow | Y | | | | | | |
 
-*Week 4: Monday complete.*
+*Week 4: Monday and Tuesday complete.*
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -664,33 +664,35 @@ None planned
 
 ---
 
-## Tuesday 27 Jan
+## Tuesday 27 Jan [COMPLETE]
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *Which Magnetic Goal is currently pulling you forward? Why does it still matter to you?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *Which Magnetic Goal is currently pulling you forward? Why does it still matter to you?* [done]
 
 **Work Tasks:**
-1. Estimates for Impower [MIT] — complete and send
-2. Make sure all hours clocked in Productive for last week
-3. Update cost rates and overhead value in Productive
+1. Estimates for Impower [MIT] — complete and send [done]
+2. Make sure all hours clocked in Productive for last week [carry forward]
+3. Update cost rates and overhead value in Productive [carry forward]
 
 **Personal Tasks:**
-1. More cupboard clearing
-2. Book overnight stay for February Lake District trip
+1. More cupboard clearing [done]
+2. Book overnight stay for February Lake District trip [done]
 
 **Health Tasks:**
-1. Badminton (if scheduled)
+1. Badminton [done]
 
-**MIT:** Estimates for Impower
+**MIT:** Estimates for Impower [done]
+
+**Scores:** Sleep O, Steps G, Nutrition G, Hydration O, Outdoors B, Exercise G
 
 **Evening:**
-- Freedom Gap PM
-- AMWAP: *Wins where you adjusted plans to reflect current reality instead of forcing a rigid plan.*
-- Log work hours
+- Freedom Gap PM [done]
+- AMWAP: *Wins where you adjusted plans to reflect current reality instead of forcing a rigid plan.* [done]
+- Log work hours [done]
 
 ---
 
@@ -763,6 +765,22 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Tuesday 27 Jan
+**Question:** Which Magnetic Goal is currently pulling you forward? Why does it still matter to you?
+
+**Summary:** Health and fitness — specifically healthspan. Not just weight loss (achieved and continuing) but the way it's been done: strength training, running, badminton. Proud of the approach — getting fit and strong, not just dieting.
+
+**Key themes:**
+- **Healthspan** — wants 40+ more years in good physical and mental health. *"I want to be around for my kids as they grow older and they have kids too."*
+- **Not hedonistic** — fulfilment comes from contribution to people who matter, not lifestyle excess. *"I am happy making the contribution I make to those that are in my life."*
+- **Second magnetic goal emerging** — business growth through teamwork, sharing success, earning client trust. Starting to pull as strongly as health.
+
+**Key insight:** Two magnetic goals now, not one. Health is the foundation. Business growth through team (not through Scott doing everything) is becoming the second pull.
+
+**Connection:** Reinforces Sunday 18 Jan: *"Being fit and healthy feels like it truly belongs to me."* But now the business goal is also becoming magnetic — and framed correctly (growth through others, not through more hours).
+
+---
 
 ## Monday 26 Jan
 **Question:** What does the future version of you—the one you're becoming—look like in action this week?

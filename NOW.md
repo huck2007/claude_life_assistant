@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-26
+**Last Updated:** 2026-01-27
 
 ---
 
@@ -77,6 +77,13 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-27
+- **MIT done.** Impower estimate deliverable completed and sent to Paul Henry. 49 deliverables across Tier 1 (Configuration Reliability), Tier 2 (Platform Maturity), standalone LG Reorganisation section. Investment options A-D totalling 77-131 days excluding self-service.
+- **Full ritual day.** All morning and evening rituals complete including OYTS and AMWAP.
+- **OYTS insight:** Two magnetic goals now active — health/healthspan (established) and business growth through teamwork (emerging). The second one is framed correctly: *'Growth through teamwork, growth through sharing success, working to win, earn the trust, win clients and earn their trust.'* Not growth through more Scott hours.
+- **AMWAP observation:** Struggled with the prompt (adjusting plans to reflect reality). Conceptually understands it but couldn't surface specific examples. Not a concern — this is a natural thinker, not a rigid planner. The skill is already there; the articulation will come.
+- **Carry forwards:** Productive hours logging, cost rate updates — two days running now.
 
 ### 2026-01-25
 - **Week 3 complete.** Weekend of rest and family time. No work — *'That's part of my objective is to not work at weekends and to be present with my family.'*
