@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-26
+**Last Updated:** 2026-01-28
 
 ---
 
@@ -87,13 +87,15 @@
 | Outdoors | O | B | G | | | | |
 | Exercise | G | G | G | | | | |
 
+*Wed scores: Sleep O, Steps G, Nutrition G, Hydration O, Outdoors G, Exercise G*
+
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | | | | | |
-| AMWAP | - | Y | | | | | |
-| Plan Tomorrow | Y | | | | | | |
+| Freedom Gap (PM) | Y | Y | Y | | | | |
+| AMWAP | - | Y | Y | | | | |
+| Plan Tomorrow | Y | Y | Y | | | | |
 
 *Week 4: Monday and Tuesday complete.*
 
@@ -696,7 +698,38 @@ None planned
 
 ---
 
-## Wednesday 28 Jan
+## Thursday 29 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *Where are you today compared to where you said you wanted to be? What's the honest gap?*
+
+**Work Tasks:**
+1. TCS meeting prep — call with Danny first thing + follow-on work [MIT]
+2. Send Impower estimate email to Paul Henry (3rd carry)
+3. AWMM fortnightly project meeting
+4. AWMM roadmap prioritisation for Jan/Feb
+5. Tableau billing call
+
+**Personal Tasks:**
+1. Book eye test
+2. Bosch tumble dryer (awaiting callback — ref 85739277)
+
+**Health Tasks:**
+1. Run
+
+**MIT:** TCS prep — call with Danny first thing
+
+**Evening:**
+- Theatre trip
+- AMWAP: *10 wins from the past 24hrs.*
+
+---
+
+## Wednesday 28 Jan [COMPLETE]
 
 **Morning Routine:**
 1. Breathwork (box breathing) [done]
@@ -710,10 +743,10 @@ None planned
 2. Send Impower estimate email to Paul Henry [carry forward]
 3. Log all hours in Productive + update cost rates/overhead [done]
 4. AWMM roadmap prioritisation for Jan/Feb [carry forward]
-5. Trustmark February retainer — agree scope with Phil [done] — Geography Dimension build + audit data design if time allows, 11-12 days
+5. Trustmark February retainer — agree scope with Phil [done] — Geography Dimension build + audit data design, Feb retainer 11-12 days (from 5)
 
 **Personal Tasks:**
-1. Chase Bosch for tumble dryer replacement delivery date [in progress] — receipt sent, awaiting callback
+1. Chase Bosch for tumble dryer replacement delivery date [in progress] — receipt sent to mks-customerliaison@bshg.com, ref 85739277, awaiting callback
 2. Take Sophie to piano [cancelled — Sophie ill]
 3. Confirm to Brad delivery date of carpet and his installation date [done] — 19 Feb confirmed
 4. Visit Mum and Dad [done]
@@ -722,12 +755,15 @@ None planned
 1. GYM Lifting with Lou [done]
 2. Running with Sophie [cancelled — Sophie ill, ran to Lou's instead]
 
-**MIT:** Marketing outreach — agree plan with Emma and begin execution
+**MIT:** Marketing outreach — agree plan with Emma and begin execution [done]
 
-**Evening:**
-- Freedom Gap PM
-- AMWAP: *List wins of actions towards your goals this year so far.*
-- Log work hours
+**Scores:** Sleep O, Steps G, Nutrition G, Hydration O, Outdoors G, Exercise G
+
+**Notes:**
+- Trustmark expanded. Feb retainer going from 5 to 11-12 days. Phil showed up.
+- Marketing brief reviewed with Emma. Founder-led positioning agreed. Next: Phase 1 alignment, Matthew input.
+- Delegation: Phil's voiding/remediation owner dataset handed off to Eddie to speak to Mike.
+- Future task: Chase Carpets and More on 12 Feb re: delivery before 18 Feb.
 
 ---
 
@@ -1217,6 +1253,7 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 | Due | Reminder |
 |-----|----------|
+| Sun 1 Feb | Monthly planning: Set 2026 annual objectives, February objectives, January review |
 | Mon 5 Jan | Plan out client connection emails for Trustmark / World Marathon Majors |
 | W/c 5 Jan | Send Company Credentials & overview presentation to Bicycle Association (prospect qualification) |
 | Mid-Jan | Decide lads weekend plans with Tom (24-26 Apr) |

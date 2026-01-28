@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-27
+**Last Updated:** 2026-01-28
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Marketing outreach — agree plan with Emma and begin execution [done]
+**MIT Tomorrow (Thu):** TCS prep — call with Danny first thing
 
 ## Systematisation Sequence
 
@@ -82,6 +82,7 @@
 - **MIT done.** Marketing outreach brief reviewed with Emma. Founder-led positioning agreed — "Scott earns belief, Crozier Scott earns confidence, the team earns reliance." Next: Phase 1 alignment session with Emma, show brief to Matthew for input.
 - **Trustmark expanded.** Feb retainer going from 5 to 11-12 days. Geography Dimension build + audit data design. Phil showed up — cynicism was unfounded.
 - **Pattern noted:** Tendency to jump to execution hurdles (content, process) before finishing the thinking that produces them. Redirected to Phase 1 alignment work.
+- **AMWAP evidence:** System working — regularly delegating, monthly billings low, time on business not in it, 85kg (5kg to goal), first monthly walk done, working fewer hours.
 - **Carry forwards:** Impower email to Paul Henry, AWMM roadmap prioritisation.
 
 ### 2026-01-27
