@@ -696,6 +696,40 @@ None planned
 
 ---
 
+## Wednesday 28 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. OYTS: *What distractions or temptations are most likely to knock you off course—and how will you handle them?*
+
+**Work Tasks:**
+1. Marketing outreach — agree plan with Emma and take first action [MIT]
+2. Send Impower estimate email to Paul Henry
+3. Log all hours in Productive + update cost rates/overhead
+4. AWMM roadmap prioritisation for Jan/Feb
+5. Trustmark February retainer — agree scope with Phil
+
+**Personal Tasks:**
+1. Chase Bosch for tumble dryer replacement delivery date
+2. Take Sophie to piano
+3. Confirm to Brad delivery date of carpet and his installation date
+
+**Health Tasks:**
+1. GYM Lifting with Lou
+2. Running with Sophie
+
+**MIT:** Marketing outreach — agree plan with Emma and begin execution
+
+**Evening:**
+- Freedom Gap PM
+- AMWAP: *List wins of actions towards your goals this year so far.*
+- Log work hours
+
+---
+
 # WEEKLY REFLECTION
 
 *Friday focus — go deep, not surface*
