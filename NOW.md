@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today:** Marketing outreach — agree plan with Emma and begin execution
+**MIT Today:** Marketing outreach — agree plan with Emma and begin execution [done]
 
 ## Systematisation Sequence
 
@@ -77,6 +77,12 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-01-28
+- **MIT done.** Marketing outreach brief reviewed with Emma. Founder-led positioning agreed — "Scott earns belief, Crozier Scott earns confidence, the team earns reliance." Next: Phase 1 alignment session with Emma, show brief to Matthew for input.
+- **Trustmark expanded.** Feb retainer going from 5 to 11-12 days. Geography Dimension build + audit data design. Phil showed up — cynicism was unfounded.
+- **Pattern noted:** Tendency to jump to execution hurdles (content, process) before finishing the thinking that produces them. Redirected to Phase 1 alignment work.
+- **Carry forwards:** Impower email to Paul Henry, AWMM roadmap prioritisation.
 
 ### 2026-01-27
 - **MIT done.** Impower estimate deliverable completed and sent to Paul Henry. 49 deliverables across Tier 1 (Configuration Reliability), Tier 2 (Platform Maturity), standalone LG Reorganisation section. Investment options A-D totalling 77-131 days excluding self-service.

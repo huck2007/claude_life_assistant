@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | | | | | |
-| Meditation | Y | Y | | | | | |
-| Freedom Gap (AM) | Y | Y | | | | | |
-| Cold Water (3 min) | Y | Y | | | | | |
+| Breathwork | Y | Y | Y | | | | |
+| Meditation | Y | Y | Y | | | | |
+| Freedom Gap (AM) | Y | Y | Y | | | | |
+| Cold Water (3 min) | Y | Y | Y | | | | |
 | Mobility | | | | | | | |
-| OYTS | Y | Y | | | | | |
+| OYTS | Y | Y | Y | | | | |
 
 *Week 4: Morning rituals on track.*
 
@@ -80,12 +80,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | O | | | | | |
-| Steps | O | G | | | | | |
-| Nutrition | G | G | | | | | |
-| Hydration | O | O | | | | | |
-| Outdoors | O | B | | | | | |
-| Exercise | G | G | | | | | |
+| Sleep | O | O | O | | | | |
+| Steps | O | G | G | | | | |
+| Nutrition | G | G | G | | | | |
+| Hydration | O | O | O | | | | |
+| Outdoors | O | B | G | | | | |
+| Exercise | G | G | G | | | | |
 
 ## Evening Rituals
 
@@ -699,27 +699,28 @@ None planned
 ## Wednesday 28 Jan
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *What distractions or temptations are most likely to knock you off course—and how will you handle them?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *What distractions or temptations are most likely to knock you off course—and how will you handle them?* [done]
 
 **Work Tasks:**
-1. Marketing outreach — agree plan with Emma and take first action [MIT]
-2. Send Impower estimate email to Paul Henry
-3. Log all hours in Productive + update cost rates/overhead
-4. AWMM roadmap prioritisation for Jan/Feb
-5. Trustmark February retainer — agree scope with Phil
+1. Marketing outreach — agree plan with Emma and take first action [MIT] [done]
+2. Send Impower estimate email to Paul Henry [carry forward]
+3. Log all hours in Productive + update cost rates/overhead [done]
+4. AWMM roadmap prioritisation for Jan/Feb [carry forward]
+5. Trustmark February retainer — agree scope with Phil [done] — Geography Dimension build + audit data design if time allows, 11-12 days
 
 **Personal Tasks:**
-1. Chase Bosch for tumble dryer replacement delivery date
-2. Take Sophie to piano
-3. Confirm to Brad delivery date of carpet and his installation date
+1. Chase Bosch for tumble dryer replacement delivery date [in progress] — receipt sent, awaiting callback
+2. Take Sophie to piano [cancelled — Sophie ill]
+3. Confirm to Brad delivery date of carpet and his installation date [done] — 19 Feb confirmed
+4. Visit Mum and Dad [done]
 
 **Health Tasks:**
-1. GYM Lifting with Lou
-2. Running with Sophie
+1. GYM Lifting with Lou [done]
+2. Running with Sophie [cancelled — Sophie ill, ran to Lou's instead]
 
 **MIT:** Marketing outreach — agree plan with Emma and begin execution
 
@@ -799,6 +800,23 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Wednesday 28 Jan
+**Question:** What distractions or temptations are most likely to knock you off course—and how will you handle them?
+
+**Summary:** Doubt is the root distraction. Food and alcohol are the temptations that arise from it — coping mechanisms during stressful, doubt-heavy periods. Not addiction-level, but patterns that undermine performance.
+
+**Key themes:**
+- **Doubt as the root cause** — doubt about achieving targets, delivering projects, leading the team effectively. When doubt builds, food becomes reward/comfort, alcohol becomes relaxation crutch.
+- **Food pattern identified** — history of disordered eating (skipping meals, late-night bingeing) driven by stress. GLP-1 helping now, but post-medication habits need to change: eat 3x/day, fuel the exercise regime.
+- **Alcohol rules set** — Friday and Saturday only, post dry January. Jo didn't love it, but these are his rules. Removes midweek drinking as a stress response.
+- **Daily routines as the defence** — second time doing Natural Edge rituals (first was 5 months). This time committing all year. Building a resource of journals and reflections that keep him in a strong and serving mindset.
+
+**Key insight:** "I will tackle doubt by being in command of my life." The coping mechanisms (food, alcohol) are symptoms. The cure is the system — routines, exercise, structure, discipline. When the system is running, doubt has less space to operate.
+
+**Connection:** Links to Monday's OYTS (equanimity, being in command) and Tuesday's (health as magnetic goal). The thread: doubt is the enemy, the daily system is the weapon.
+
+---
 
 ## Tuesday 27 Jan
 **Question:** Which Magnetic Goal is currently pulling you forward? Why does it still matter to you?
