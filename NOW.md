@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Thu):** TCS prep — call with Danny first thing + follow-on work
+**MIT Today (Fri):** TCS meeting at 4pm — positioning and alignment
 
 ## Systematisation Sequence
 

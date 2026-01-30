@@ -24,6 +24,7 @@
 
 | Date | Type | Event |
 |------|------|-------|
+| 5 (Thu 10:50am) | Appointment | Eye test |
 | 6 (Fri 6:30pm) | Dinner | SKOF Manchester - Jo, Tom & Sophie |
 | 7 (Sat) | Theatre | Six - Jo & Sophie |
 | 15 (Sun) | Family | Sunday lunch at Jenny & John's - Jo, Tom & Sophie |

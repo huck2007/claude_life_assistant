@@ -65,12 +65,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | | | | |
-| Meditation | Y | Y | Y | | | | |
-| Freedom Gap (AM) | Y | Y | Y | | | | |
-| Cold Water (3 min) | Y | Y | Y | | | | |
+| Breathwork | Y | Y | Y | Y | Y | | |
+| Meditation | Y | Y | Y | Y | Y | | |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
+| Cold Water (3 min) | Y | Y | Y | Y | Y | | |
 | Mobility | | | | | | | |
-| OYTS | Y | Y | Y | | | | |
+| OYTS | Y | Y | Y | Y | Y | | |
 
 *Week 4: Morning rituals on track.*
 
@@ -80,24 +80,24 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | O | O | | | | |
-| Steps | O | G | G | | | | |
-| Nutrition | G | G | G | | | | |
-| Hydration | O | O | O | | | | |
-| Outdoors | O | B | G | | | | |
-| Exercise | G | G | G | | | | |
+| Sleep | O | O | O | B | | | |
+| Steps | O | G | G | O | | | |
+| Nutrition | G | G | G | O | | | |
+| Hydration | O | O | O | O | | | |
+| Outdoors | O | B | G | B | | | |
+| Exercise | G | G | G | B | | | |
 
-*Wed scores: Sleep O, Steps G, Nutrition G, Hydration O, Outdoors G, Exercise G*
+*Thu scores: Sleep B, Steps O, Nutrition O, Hydration O, Outdoors B, Exercise B*
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | Y | | | | |
-| AMWAP | - | Y | Y | | | | |
-| Plan Tomorrow | Y | Y | Y | | | | |
+| Freedom Gap (PM) | Y | Y | Y | Y | | | |
+| AMWAP | - | Y | Y | - | | | |
+| Plan Tomorrow | Y | Y | Y | - | | | |
 
-*Week 4: Monday and Tuesday complete.*
+*Week 4: Thu AMWAP and planning missed — theatre evening.*
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -698,34 +698,42 @@ None planned
 
 ---
 
-## Thursday 29 Jan
+## Thursday 29 Jan [COMPLETE]
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. OYTS: *Where are you today compared to where you said you wanted to be? What's the honest gap?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *Where are you today compared to where you said you wanted to be? What's the honest gap?* [done]
 
 **Work Tasks:**
-1. TCS meeting prep — call with Danny first thing + follow-on work [MIT]
-2. Send Impower estimate email to Paul Henry (3rd carry)
-3. AWMM fortnightly project meeting
-4. AWMM roadmap prioritisation for Jan/Feb
-5. Tableau billing call
+1. TCS meeting prep — call with Danny first thing + follow-on work [MIT] [done]
+2. Send Impower estimate email to Paul Henry (3rd carry) [carry forward — 4th carry]
+3. AWMM fortnightly project meeting [done]
+4. AWMM roadmap prioritisation for Jan/Feb [carry forward]
+5. Tableau billing call [done]
 
 **Personal Tasks:**
-1. Book eye test
-2. Bosch tumble dryer (awaiting callback — ref 85739277)
+1. Book eye test [done] — 5 Feb at 10:50am
+2. Bosch tumble dryer (awaiting callback — ref 85739277) [done] — delivery and install Tuesday
 
 **Health Tasks:**
-1. Run
+1. Run [not done]
 
-**MIT:** TCS prep — call with Danny first thing
+**MIT:** TCS prep — call with Danny first thing [done]
+
+**Scores:** Sleep B, Steps O, Nutrition O, Hydration O, Outdoors B, Exercise B
 
 **Evening:**
-- Theatre trip
-- AMWAP: *10 wins from the past 24hrs.*
+- Theatre — An Evening with the Two Mayors @ RSC North (with Eddie) [done]
+- Freedom Gap PM [done]
+- AMWAP [cancelled — theatre evening]
+- Log work hours [done]
+
+**Notes:**
+- TCS architecture diagram brief completed (work/awmm-platform-architecture-diagram.md)
+- AWMM Crisp transition plan drafted (work/awmm-crisp-transition-plan.md)
 
 ---
 
@@ -836,6 +844,24 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Thursday 29 Jan
+**Question:** Where are you today compared to where you said you wanted to be? What's the honest gap?
+
+**Summary:** The honest gap is business growth. Wanted to be further along on leadership, growth focus, and being out of the numbers. But priorities were elsewhere — health and family — and both have been hugely successful.
+
+**Key themes:**
+- **70/30 split** — 70% of the gap was unavoidable (health transformation, family presence, problem projects requiring intensity). 30% is style — the old patterns of doing rather than leading. That 30% is what the daily routines are designed to fix.
+- **Health as prerequisite** — wouldn't be able to do the next phase of business growth without being physically and mentally in shape first. The health work wasn't a detour — it was foundational.
+- **No failure framing** — sees everything as learning and growth. "Calm seas do not a good sailor make." Growth mindset fully embedded.
+- **Resource growth philosophy** — won't hire ahead of demand ("grow resource on a bet"). Prefers to double down as a team during growth, prove it, then scale. Pragmatic.
+- **New resource in the team** — with additional resource (Becky), the intense periods should be avoidable unless genuinely in a growth phase.
+
+**Key insight:** The business gap isn't a failure — it's a sequencing choice. Health first, then business growth. The foundation is now solid enough to shift focus. The 30% that's "style" is exactly what the Natural Edge system is designed to address.
+
+**Connection:** Links directly to Monday's OYTS (equanimity, being in command) and Tuesday's (health as magnetic goal, business growth emerging as second magnetic goal). The sequence is becoming clear: health → routines → command → leadership → growth.
+
+---
 
 ## Wednesday 28 Jan
 **Question:** What distractions or temptations are most likely to knock you off course—and how will you handle them?
