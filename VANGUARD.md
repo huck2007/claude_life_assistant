@@ -80,14 +80,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | O | O | B | | | |
+| Sleep | O | O | O | B | O | | |
 | Steps | O | G | G | O | | | |
 | Nutrition | G | G | G | O | | | |
 | Hydration | O | O | O | O | | | |
 | Outdoors | O | B | G | B | | | |
 | Exercise | G | G | G | B | | | |
 
-*Thu scores: Sleep B, Steps O, Nutrition O, Hydration O, Outdoors B, Exercise B*
+*Fri scores: Sleep O (rest not yet logged)*
 
 ## Evening Rituals
 
@@ -698,6 +698,32 @@ None planned
 
 ---
 
+## Friday 30 Jan
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *Which of your actions this past week cast votes for the identity you're building—and which ones sabotaged it?* [done]
+
+**Work Tasks:**
+1. TCS meeting at 4pm [MIT] [done]
+2. Matthew meeting at 10am — customer acquisition strategy review [done]
+3. Send Impower estimate email to Paul Henry (4th carry) [deferred to Sunday]
+4. Weekly review / reflection [deferred to Saturday]
+
+**Personal Tasks:**
+1. Weekly reflection (prompted session) [deferred to Saturday]
+
+**Health Tasks:**
+1. GYM Lifting with Lou [done]
+2. Run (evening) [cancelled]
+
+**MIT:** TCS meeting at 4pm — positioning and alignment [done]
+
+---
+
 ## Thursday 29 Jan [COMPLETE]
 
 **Morning Routine:**
@@ -844,6 +870,34 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Friday 30 Jan
+**Question:** Which of your actions this past week cast votes for the identity you're building—and which ones sabotaged it?
+
+**Summary:** Strong identity votes this week across health, rituals, relationships, and work. The sabotaging factor is singular and specific: hydration.
+
+**Votes cast for identity:**
+- Gym 3x this week (twice so far + today — the habit is automatic)
+- Running with Sophie
+- Morning rituals every day — breathwork, meditation, cold water, OYTS
+- Evening rituals every day
+- Cold bath resilience — even on bad sleep days, getting in and doing it. "The exhilaration I feel after it makes me feel good."
+- Visiting Mum and Dad on Wednesday — becoming a weekly habit
+- Theatre with Eddie (Two Mayors at RSC North)
+- Lake District overnight stay booked for February
+- Journaling and reflection — "comes through in the day-to-day"
+- Productive work week — all January tasks done except the Paul Henry email (deferred, not avoided)
+
+**What's sabotaging:**
+- **Hydration** — not drinking enough water throughout the day. Can't force it all in at the end. Poor hydration → poor sleep → challenges morning rituals. The cascade is clear.
+- Self-correction in real time: "All it is is a glass of fucking water." Drink consistently through morning and afternoon. Simple fix, high impact.
+- Sleep is the downstream casualty, not the root cause.
+
+**Key insight:** The system is working. The only thing undermining it is something completely within control — drinking water. Not a mindset problem, not a discipline problem. A glass of water. The gap between where he is and where he wants to be is shrinking.
+
+**Connection:** Links to Wednesday's OYTS (doubt as the root distraction). When the system runs well, doubt has less space. Hydration → sleep → rituals → command → doubt recedes. The chain is clear.
+
+---
 
 ## Thursday 29 Jan
 **Question:** Where are you today compared to where you said you wanted to be? What's the honest gap?
