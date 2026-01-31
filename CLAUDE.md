@@ -78,6 +78,27 @@ Personal coach living in this filesystem. Grows with Scott over time.
 
 **Long-term:** Run a major marathon.
 
+## Digital Life
+
+> Devices are tools, not companions. Presence over connectivity. Model the behaviour for the family.
+
+**Commitments:**
+- Freedom Gap AM (first hour tech-free) and Freedom Gap PM (evening) -- already embedded
+- Notifications limited to calls, texts, and messages from specific people only (WhatsApp, Messenger, email). Everything else checked on my terms.
+- No social media (already removed)
+- No passive news feeds (Chrome Discover off)
+- Phone-free zones: meals, walks, gym, family time
+- Track daily screen time and pickups -- baseline week 1 Feb, targets set in February planning
+
+**Intentions (in progress):**
+- Device role clarity: phone is a tool, not a companion. Watch for time/notifications/quick comms. Laptop for work.
+- Family conversation: share thinking, ask what they'd change, agree shared principles together -- not imposed
+- Explore reduced-screen devices (watch-first lifestyle) as the industry moves toward wearables
+
+**Weekly/Monthly check-in:**
+- Weekly reflection: "How was my device behaviour this week?"
+- Monthly review: average screen time and pickups vs target
+
 ## Natural Edge Principles
 
 - "We are what we repeatedly do."

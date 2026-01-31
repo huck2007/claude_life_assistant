@@ -86,8 +86,11 @@
 | Hydration | O | O | O | O | | | |
 | Outdoors | O | B | G | B | | | |
 | Exercise | G | G | G | B | | | |
+| Screen Time | | | | | | | |
+| Pickups | | | | | | | |
 
 *Fri scores: Sleep O (rest not yet logged)*
+*Screen Time = hours. Pickups = number. Baseline week starting 1 Feb — targets set in February planning.*
 
 ## Evening Rituals
 
@@ -710,7 +713,7 @@ None planned
 **Work Tasks:**
 1. TCS meeting at 4pm [MIT] [done]
 2. Matthew meeting at 10am — customer acquisition strategy review [done]
-3. Send Impower estimate email to Paul Henry (4th carry) [deferred to Sunday]
+3. Send Impower estimate email to Paul Henry (4th carry) [done - sent Sat 31 Jan]
 4. Weekly review / reflection [deferred to Saturday]
 
 **Personal Tasks:**
@@ -808,6 +811,37 @@ None planned
 1. Have I been diving deep enough or have I been spiritually bypassing and just staying on the surface, avoiding discomfort?
 2. Can I identify where the things holding me back are stemming from?
 3. Can I see any patterns emerging?
+4. How was my device behaviour this week? (Screen time, pickups, presence)
+
+## Week of 26 Jan - 1 Feb 2026
+
+**Q1: Diving deep or bypassing?**
+Deep enough. OYTS journals this week were strongly connected — doubt as root distraction (Wed), honest gap assessment (Thu), hydration chain (Fri), identity votes (Fri). Daily meditation practice consistent. Depth is not the issue.
+
+**Q2: What's holding me back?**
+Leadership and delegation — still working on it, progress is real. New insight this week: alcohol is a saboteur, not a reward. Burns Night ended Dry January; one night of drinks produced tiredness and low mood the next day. Evidence that alcohol doesn't serve. Friday/Saturday rule is set — hold it. Also: reactive work from others displaces important-but-not-urgent deliverables. Impower email carried 5 times before being completed on a Saturday. Need a blocking mechanism for non-meeting work — protected morning time before the reactive stuff starts.
+
+**Q3: Patterns emerging?**
+1. **Buffeted by others' task management** — unplanned work displaces planned execution, creating carry-forward items. Need protected deep work time.
+2. **Multi-day tasks disguised as single items** — the Impower estimate was always multi-day but appeared as one line that kept deferring. Break larger deliverables into daily chunks so progress is visible and carries are meaningful.
+3. **Alcohol impact** — clear data point. Low mood, tiredness, reduced command. Not serving.
+
+**Q4: Device behaviour**
+3.5 hours average daily screen time — too much passive Chrome browsing. Chrome Discover now off. iOS Focus mode being set up today. This is the baseline to beat in February.
+
+**OYTS Synthesis (Week 4):**
+This week's journaling clustered around **identity, doubt, and patterns**:
+- **Equanimity and command** (Mon): Future version shows up controlled, consistent, committed, patient. Leading self leads to leading others.
+- **Health as magnetic goal, business growth emerging** (Tue): Two magnetic goals now active. Business growth framed correctly — through teamwork, not more Scott hours.
+- **Doubt as root distraction** (Wed): Food and alcohol are coping mechanisms during doubt-heavy periods. Daily routines are the defence. "I will tackle doubt by being in command of my life."
+- **Honest gap** (Thu): 70/30 split — 70% unavoidable (health transformation, family), 30% is style (doing vs leading). Health was prerequisite, not detour.
+- **Identity votes** (Fri): Almost everything this week voted for the identity being built. Only saboteur: hydration (and its downstream impact on sleep and rituals).
+
+**Thread:** The system is working. The gaps are specific and fixable — hydration, alcohol rules, protected work time, breaking multi-day tasks down. No systemic failure. Course corrections, not overhauls.
+
+**New this week:** Digital Life commitment added to CLAUDE.md. Screen time and pickups tracking begins February. Family conversation on device principles scheduled.
+
+---
 
 ## Week of 19 Jan - 25 Jan 2026
 
@@ -1323,7 +1357,7 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 | Task | Captured | Scheduled |
 |------|----------|-----------|
-| (empty) | | |
+| Family conversation: digital life principles — share thinking, ask what they'd change, agree shared approach | 31 Jan | |
 
 ---
 

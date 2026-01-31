@@ -94,7 +94,7 @@ As the platform has scaled to 1,600+ measures and 2,000+ index metrics across mu
 
 As the platform's role in Impower's business development has grown, so has the need for features that support a mature, production-grade product: audit trails, version management, complete editing facilities, and a UX that matches the platform's current scale and complexity. These items also form the foundation for any future self-service capability.
 
-### 2a. Architecture & Versioning (Roadmap Item 3.3)
+### 2a. Data Source Structure Changes (Roadmap Item 3.3)
 
 **Problem:** When source data structures change fundamentally, the impact cascades through measure extraction and metric definitions, causing significant rework.
 
