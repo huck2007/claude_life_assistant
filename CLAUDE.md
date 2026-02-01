@@ -127,6 +127,23 @@ Personal coach living in this filesystem. Grows with Scott over time.
 - `VANGUARD.md` — Daily rituals, daily tracking, daily plans, OYTS/AMWAP questions
 - `CALENDAR.md` — Key dates (syncs to ICS)
 - `PLAN-2026.md` — Annual plan, monthly objectives, **weekly objectives**
+- `reflections/monthly/` — Monthly pattern analyses (saved outputs from monthly reflection process)
+
+## Monthly Reflection Process
+
+**When:** Last day of each month (or first day of new month)
+**Anchor question:** *"What patterns are emerging — good or bad — that you need to either double down on or course-correct?"*
+
+**Steps:**
+1. Scott answers the anchor question (audio or written — go deep, not surface)
+2. Agent reviews full month's data: VANGUARD.md (rituals, scores, weekly reflections, OYTS summaries), NOW.md (log, actions, carry-forwards), PLAN-2026.md (objectives)
+3. Agent produces pattern analysis — what's working, what needs course correction, suggested inputs for next month's objectives
+4. Output saved to `reflections/monthly/[month]-[year]-pattern-analysis.md`
+5. Complete the Month-End Review in `PLAN-2026.md` (objectives achieved/missed, wins, lessons, carry forward)
+6. Set next month's objectives in `PLAN-2026.md` and `VANGUARD.md`, informed by the pattern analysis
+7. Reset `VANGUARD.md` tracking tables for the new month
+
+**Weekly reflection stays in VANGUARD.md** — Friday process, captured inline. Feeds the monthly, not duplicated.
 
 ## Calendar Sync
 When updating `CALENDAR.md`, ALWAYS also:

@@ -33,6 +33,7 @@ Check if `journal/YYYY-MM-DD.md` exists for today. If not, create it. If yes, up
 - Meditation [planned]
 - Freedom Gap AM [planned]
 - Cold Water (3 min) [planned]
+- Mobility [planned]
 - OYTS [planned]
 
 ## Work Tasks
@@ -107,6 +108,7 @@ tell application "Notes"
 <li>Meditation (Waking Up app)</li>
 <li>Freedom Gap AM (first hour tech-free)</li>
 <li>Cold Water (3 min)</li>
+<li>Mobility</li>
 <li>OYTS</li>
 </ul>
 <hr>
@@ -147,6 +149,9 @@ tell application "Notes"
 <ul>
 <h2>Notes<h2>
 <ul>
+<h2>Digital Life</h2>
+<p><b>Screen Time:</b> <br>
+<b>Pickups:</b> </p>
 <h2>Daily Scores</h2>
 <p>Sleep: <br>
 Steps: <br>

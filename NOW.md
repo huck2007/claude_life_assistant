@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Sat):** Stone Roses / Courteeners tribute with Tom (7pm)
+**MIT Today (Sun):** Monthly reflection and planning — January review, February objectives
 
 ## Systematisation Sequence
 
@@ -77,6 +77,22 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-01
+- **Monthly planning complete.** January review done, annual objectives set, February objectives set, Week 1 planned, Monday tasks ready.
+- **Annual objectives locked in:** Personal (work-life boundaries, documented year), Physical (12st 7lb, off GLP-1, marathon-ready by Dec), Business (out of delivery, 2 new clients, 60% margins, systematisation strong).
+- **OYTS:** Hydration is the one habit to nail this week. Bulk before 6pm. Outdoor time also flagged as sleep lever.
+- **Calendar overhaul:** Abersoch moved to July, lads weekend cancelled (Tom A-levels), Golf Open 19 Jul added (clashes with 3 Peaks — needs rescheduling), Mark & Oscar visiting March, UTD vs Villa 14 Mar, multiple June additions.
+- **Fear theme** for OYTS this week. Interesting choice given the client acquisition challenge.
+- **Meditation note:** *"Put a smile in your mind, if only for a moment"* — felt it physically as warmth behind the eyes.
+
+### 2026-01-31
+- **January close-out.** Last day of the month. Impower email finally sent (5th carry — clean sweep). Gig with Tom (Stone Roses / Courteeners tribute). Dinner with Jo and the kids.
+- **OYTS: pattern analysis response.** Deep engagement with the AI's January pattern analysis. Confirmed the assessment, owned Dry January miss cleanly ("that was an excuse"), committed to mobility and hydration as February additions. Acknowledged carry-forward culture and need to exit planning mode on client acquisition.
+- **Running independence needed.** Sophie gone off the boil — Scott eased off too. Needs to own running as his goal, not dependent on Sophie's motivation. Manchester Marathon 2027 with Emma emerging as real possibility.
+- **Digital life reflections.** Extended "phone as tool not companion" thinking to AI. Substantial journal entry on screens, children, attention, and the amplifying effect of AI on these problems.
+- **First screen time data:** 5h 4m / 83 pickups. Baseline for February targets.
+- **New tasks captured:** Ask Dad re socket/heater. Confirm Tom for badminton Tue. Christmas skiing holiday discussed with Jo.
 
 ### 2026-01-28
 - **MIT done.** Marketing outreach brief reviewed with Emma. Founder-led positioning agreed — "Scott earns belief, Crozier Scott earns confidence, the team earns reliance." Next: Phase 1 alignment session with Emma, show brief to Matthew for input.

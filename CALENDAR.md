@@ -37,7 +37,9 @@
 
 | Date | Type | Event |
 |------|------|-------|
-| 14 (Sat) | Day Trip | Aysgarth Falls & Castle Bolton Circular - family walk |
+| 13-15 (Fri-Sun) | Social | Mark & Oscar visiting from Maine (with Pete & Oliver) |
+| 14 (Sat) | Social | Man Utd vs Aston Villa — Scott & Tom with Mark, Oscar, Pete, Oliver |
+| 14 (Sat) | Day Trip | ~~Aysgarth Falls & Castle Bolton Circular~~ — RESCHEDULED (candidates: 7/8/15 March) |
 | 27-30 | Weekend Away | Budapest with Jo, David & Patrina (3 nights) |
 
 ---
@@ -49,8 +51,8 @@
 | 2-5 (Thu-Sun) | Family | Easter weekend at Ant & Jo's, Ockley |
 | 6-10 (Mon-Fri) | Holiday | San Sebastian, Basque Country - Jo, Tom & Sophie |
 | 14 (Tue) | Day Trip | Kinder Scout & Kinder Downfall Circular - family walk |
-| 24-26 | Weekend Away | Abersoch - Jo & Sophie with the girls |
-| 24-26 | Weekend Away | Lads weekend - Scott & Tom (TBC) |
+| ~~24-26~~ | ~~Weekend Away~~ | ~~Abersoch - Jo & Sophie~~ — MOVED TO JULY 3-5 |
+| ~~24-26~~ | ~~Weekend Away~~ | ~~Lads weekend - Scott & Tom~~ — CANCELLED (Tom A-level revision) |
 
 ---
 
@@ -69,9 +71,12 @@
 
 | Date | Type | Event |
 |------|------|-------|
+| 4 (Thu) | Milestone | Tom's A-level exams finish |
 | 5 | Gig | The Orb - Adventures Beyond the Ultraworld @ Peak Cavern, Castleton |
 | 6 | Day Trip | Potential Mam Tor walk with Jo & kids (TBC) |
+| 15-17 (Mon-Wed) | Weekend Away | Golf trip to Ray's |
 | 20 | Gig | Daresbury Festival |
+| 20-27 | Holiday | Tom away with Meg |
 | 27 | Challenge | Trek 26 Peak District - Alzheimer's Society |
 
 ---
@@ -80,7 +85,9 @@
 
 | Date | Type | Event |
 |------|------|-------|
+| 3-5 (Fri-Sun) | Weekend Away | Abersoch - Jo & Sophie with the girls |
 | 17-19 | Weekend Away | Yorkshire 3 Peaks - Scott's birthday (18th). Stay Fri & Sat nights. |
+| 19 (Sun) | Sport | British Golf Open final day @ Royal Birkdale - Scott, Tom & Dad |
 
 ---
 

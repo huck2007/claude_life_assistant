@@ -61,6 +61,13 @@ UID:20260131-gig@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260205T105000
+DTEND;TZID=Europe/London:20260205T120000
+SUMMARY:Eye test
+UID:20260205-eyetest@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;TZID=Europe/London:20260206T183000
 DTEND;TZID=Europe/London:20260206T220000
 SUMMARY:Dinner - SKOF Manchester (Jo, Tom & Sophie)
@@ -99,11 +106,18 @@ UID:20260221-lakedistrict@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260316
+SUMMARY:Mark & Oscar visiting from Maine (with Pete & Oliver)
+UID:20260313-markoscar@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
-SUMMARY:Family Walk - Aysgarth Falls & Castle Bolton Circular
-LOCATION:Yorkshire Dales
-UID:20260314-aysgarth@scott-calendar
+SUMMARY:Man Utd vs Aston Villa - Scott & Tom with Mark, Oscar, Pete, Oliver
+LOCATION:Old Trafford, Manchester
+UID:20260314-utdvilla@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
@@ -141,21 +155,6 @@ UID:20260414-kinderscout@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260427
-SUMMARY:Abersoch - Jo & Sophie with the girls
-LOCATION:Abersoch, Wales
-UID:20260424-abersoch@scott-calendar
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260427
-SUMMARY:Lads Weekend - Scott & Tom (TBC)
-UID:20260424-ladsweekend@scott-calendar
-END:VEVENT
-
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 SUMMARY:Family Walk - Devil's Kitchen & Llyn Idwal Circular
@@ -189,6 +188,13 @@ UID:20260524-sophieschooltrip@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:Tom's A-level exams finish
+UID:20260604-tomexams@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Gig - The Orb @ Peak Cavern
@@ -206,11 +212,25 @@ UID:20260606-mamtor@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260618
+SUMMARY:Golf trip to Ray's
+UID:20260615-raysgolf@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Gig - Daresbury Festival
 LOCATION:Daresbury
 UID:20260620-daresbury@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260628
+SUMMARY:Tom away with Meg
+UID:20260620-tomandmeg@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
@@ -222,12 +242,28 @@ UID:20260627-trek26@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260706
+SUMMARY:Abersoch - Jo & Sophie with the girls
+LOCATION:Abersoch, Wales
+UID:20260703-abersoch@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260720
-SUMMARY:Yorkshire 3 Peaks - Scott's Birthday (18th)
-DESCRIPTION:Stay Fri & Sat nights
+SUMMARY:Yorkshire 3 Peaks - Scott's Birthday (18th) - NEEDS RESCHEDULING (Golf Open clash)
+DESCRIPTION:Stay Fri & Sat nights. CLASHES with Golf Open final day 19 Jul - needs moving.
 LOCATION:Yorkshire Dales
 UID:20260717-3peaks@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:British Golf Open final day - Scott, Tom & Dad
+LOCATION:Royal Birkdale
+UID:20260719-golfopen@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT

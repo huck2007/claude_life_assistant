@@ -2,60 +2,87 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-01-28
+**Last Updated:** 2026-02-01
 
 ---
 
-# MONTHLY OBJECTIVES — JANUARY 2026
+# MONTHLY OBJECTIVES — FEBRUARY 2026
 
-*Set at start of month, reviewed weekly (Fridays)*
+*Set 1 February 2026, reviewed weekly (Fridays)*
 
 **Work:**
-1. Monitor business performance weekly using Monday Dashboard KPIs
-2. Complete 2026 business budget
-3. Develop sales/marketing outreach campaign and begin execution by end of Jan
-4. Finalise Impower Roadmap
+1. Execute first outbound marketing action — minimum: founder-led outreach to 5 prospects
+2. Embed Monday Dashboard as weekly operating rhythm with Eddie
+3. Finalise Productive setup (overhead costs, staff rates) + weekly hours discipline
+4. AWMM roadmap prioritisation completed and shared with Danny
+5. Draft business process framework brief for Eddie & Emma — lead/opportunity management, client onboarding, project delivery
 
 **Health:**
-1. Complete Dry January
-2. Full Natural Edge rituals from Sunday (daily)
-3. 3x/week lifting with Lou + add leg work and running for VO2 max / hiking prep
+1. Hydration: minimum 2L daily, tracked, target G or Gr most days
+2. Mobility: 15-20 min daily, stacked into morning routine
+3. Lifting 3x/week with Lou — maintain
+4. Running: own it independently. Minimum 2x/week. Resume tracking.
+5. Friday/Saturday alcohol rule — first full month, hold it
 
 **Personal:**
-1. Establish monthly family walk habit (first one: Delamere 11th)
-2. Quality time with Tom — be present, build the relationship
-3. Weekly planning ritual embedded by month end
-4. Clear out clothes cupboard
+1. Evening ritual consistency: 6/7 days AMWAP and Plan Tomorrow
+2. Screen time: set targets from baseline (5h 4m / 83 pickups), track daily
+3. Family digital life conversation
+4. Lake District weekend 21-22 Feb — be present, enjoy it
+5. Design weekly work schedule — clear time zones for deep work, leadership/oversight, client management, business development
 
 ---
 
 # THIS WEEK
 
-**Week of:** 26 Jan - 1 Feb 2026 (Week 4)
+**Week of:** 2 - 8 Feb 2026 (Week 1 Feb)
+
+## Week Focus
+
+**Work:**
+1. Design weekly work schedule — time zones for deep work, leadership, client management, business development. **Monday morning, before anything else.**
+2. Monday Dashboard review with Eddie — first weekly rhythm session (Eddie back Tuesday)
+3. Finalise Productive setup (overhead costs, staff rates) — carried from January, kill it this week
+4. Marketing outreach: meet Emma, agree first specific outbound action and schedule it
+5. AWMM roadmap prioritisation — start, even if not finished
+
+**Health:**
+1. Hydration: 2L daily, bulk before 6pm. Track in scores — aim for G or Gr.
+2. Mobility: 15-20 min daily, morning routine. First week = build the habit, not perfection.
+3. Lifting 3x with Lou
+4. Running 2x minimum. Resume running log with data.
+5. Alcohol: Fri/Sat only
+
+**Personal:**
+1. Evening rituals: target 6/7 days AMWAP and Plan Tomorrow
+2. Set screen time targets from baseline (5h 4m / 83 pickups)
+3. Confirm Tom for badminton Tuesday
+4. Reschedule Yorkshire 3 Peaks (Golf Open clash)
+5. SKOF dinner Friday (6:30pm), Six theatre Saturday (Jo & Sophie)
 
 ## OYTS Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | What does the future version of you—the one you're becoming—look like in action this week? |
-| Tue | Which Magnetic Goal is currently pulling you forward? Why does it still matter to you? |
-| Wed | What distractions or temptations are most likely to knock you off course—and how will you handle them? |
-| Thu | Where are you today compared to where you said you wanted to be? What's the honest gap? |
-| Fri | Which of your actions this past week cast votes for the identity you're building—and which ones sabotaged it? |
-| Sat | What patterns are emerging—good or bad—that you need to either double down on or course-correct? |
-| Sun | Which habit, if done consistently this week, would create meaningful progress? |
+| Mon | What specific fear is currently limiting your progress, performance, or confidence? |
+| Tue | What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop? |
+| Wed | What's one controlled, manageable step you could take to expose yourself to a fear you have? |
+| Thu | What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process? |
+| Fri | What actions or decisions have you been avoiding because of fear? |
+| Sat | Would your day/life look different if you were free of fear? |
+| Sun | Do you have a fear that if avoided for another 12 months, how will it cost you — professionally, personally, or emotionally? |
 
 ## AMWAP Questions
 
 | Day | Question |
 |-----|----------|
-| Mon | 5 minutes of wins from the past 24hrs. |
-| Tue | Wins where you adjusted plans to reflect current reality instead of forcing a rigid plan. |
-| Wed | List wins of actions towards your goals this year so far. |
-| Thu | 10 wins from the past 24hrs. |
-| Fri | Wins where you have been proud of yourself. |
-| Sat | List your big wins from last week. |
-| Sun | 5 minutes of wins from the past 24hrs. |
+| Mon | 5 minutes of wins that prove you're building a life aligned with your definition of success. |
+| Tue | List the consistent habits you've stuck with in the past 30 days — no matter how small. |
+| Wed | 10 wins that show how your health has improved mentally or physically this year. |
+| Thu | 5 minutes of wins where you followed through on something — even when it wasn't easy. |
+| Fri | Wins from the last week where you made progress without relying on motivation. |
+| Sat | 7 wins that reflect strength or growth in your closest relationships. |
+| Sun | 5 minutes of wins where you prioritised long-term goals over short-term comfort. |
 
 ---
 
@@ -65,14 +92,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | | |
-| Meditation | Y | Y | Y | Y | Y | | |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
-| Cold Water (3 min) | Y | Y | Y | Y | Y | | |
+| Breathwork | | | | | | | |
+| Meditation | | | | | | | |
+| Freedom Gap (AM) | | | | | | | |
+| Cold Water (3 min) | | | | | | | |
 | Mobility | | | | | | | |
-| OYTS | Y | Y | Y | Y | Y | | |
-
-*Week 4: Morning rituals on track.*
+| OYTS | | | | | | | |
 
 ## Daily Scores
 
@@ -80,27 +105,24 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | O | O | O | B | O | | |
-| Steps | O | G | G | O | | | |
-| Nutrition | G | G | G | O | | | |
-| Hydration | O | O | O | O | | | |
-| Outdoors | O | B | G | B | | | |
-| Exercise | G | G | G | B | | | |
+| Sleep | | | | | | | |
+| Steps | | | | | | | |
+| Nutrition | | | | | | | |
+| Hydration | | | | | | | |
+| Outdoors | | | | | | | |
+| Exercise | | | | | | | |
 | Screen Time | | | | | | | |
 | Pickups | | | | | | | |
 
-*Fri scores: Sleep O (rest not yet logged)*
-*Screen Time = hours. Pickups = number. Baseline week starting 1 Feb — targets set in February planning.*
+*Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
 ## Evening Rituals
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | Y | Y | | | |
-| AMWAP | - | Y | Y | - | | | |
-| Plan Tomorrow | Y | Y | Y | - | | | |
-
-*Week 4: Thu AMWAP and planning missed — theatre evening.*
+| Freedom Gap (PM) | | | | | | | |
+| AMWAP | | | | | | | |
+| Plan Tomorrow | | | | | | | |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -701,6 +723,80 @@ None planned
 
 ---
 
+## Monday 2 Feb
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. Mobility (15-20 min — day 1)
+6. OYTS: *What specific fear is currently limiting your progress, performance, or confidence?*
+
+**Work Tasks:**
+1. Marketing session with Emma — agree first specific outbound action and schedule it (AM)
+2. Design weekly work schedule — time zones for deep work, leadership, client management, business development [MIT] (PM)
+3. Stand-up / team check-in (Eddie on holiday)
+4. Finalise Productive setup — overhead costs, staff rates (start if time allows)
+
+**Personal Tasks:**
+1. Confirm Tom for badminton Tuesday
+2. Drink 2L water, bulk before 6pm (day 1 of tracking)
+
+**Health Tasks:**
+1. GYM Lifting with Lou
+2. Run (evening) — resume running log
+
+**MIT:** Design weekly work schedule [PM]
+
+**Evening:**
+- Log work hours in Productive
+- Freedom Gap PM
+- AMWAP: *5 minutes of wins that prove you're building a life aligned with your definition of success.*
+- Plan Tuesday
+
+---
+
+## Saturday 31 Jan [COMPLETE]
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [missed]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. OYTS: *What patterns are emerging — good or bad — that you need to either double down on or course-correct?* [done]
+
+**Work Tasks:**
+1. Log hours in Productive [done]
+2. Impower estimate email to Paul Henry (5th carry) [done]
+
+**Personal Tasks:**
+1. Stone Roses / Courteeners tribute gig with Tom @ Irish Club, 7pm [MIT] [done]
+2. Weekly reflection (deferred from Friday) [done]
+3. Dinner with Jo and the kids [done]
+
+**Health Tasks:**
+Rest day.
+
+**MIT:** Stone Roses / Courteeners tribute with Tom [done]
+
+**Scores:** Sleep B, Steps B, Nutrition O, Hydration O, Outdoors B, Exercise B
+
+**Digital Life:** Screen Time 5h 4m, Pickups 83
+
+**Evening:**
+- Freedom Gap PM [done]
+- AMWAP: *List your big wins from last week.* [done]
+
+**Notes:**
+- Last day of January. Monthly planning tomorrow.
+- OYTS was a deep response to the AI pattern analysis — confirmed the assessment, owned the Dry January miss, committed to mobility in Feb, acknowledged carry-forward culture and need to exit planning mode on client acquisition.
+- AMWAP: January objectives near-perfect score. Key wins: Impower estimate, TCS meeting positioning, system working.
+- Digital life reflections captured in journal — phones as companions, impact on children and adults, AI amplifying effects.
+- Future tasks: Ask Dad to fit socket in Tom's room and heater in downstairs toilet.
+
+---
+
 ## Friday 30 Jan
 
 **Morning Routine:**
@@ -904,6 +1000,44 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Sunday 1 Feb
+**Question:** Which habit, if done consistently this week, would create meaningful progress?
+
+**Summary:** Hydration, without hesitation. Foundational to physiology, likely impacting sleep. Key nuance: bulk water intake before 6pm — bingeing in the evening disrupts sleep further. Mobility considered but dismissed as this week's focus — it's new, so building the habit is enough without targeting perfection. Outdoor time also surfaced as a circadian rhythm factor affecting sleep.
+
+**Key insight:** The brain can't cope with too many changes at once. Hydration is the fix with the most downstream impact. Mobility is about showing up, not perfection. Outdoors for vitamin D and circadian rhythms — another sleep lever.
+
+---
+
+## Saturday 31 Jan
+**Question:** What patterns are emerging — good or bad — that you need to either double down on or course-correct?
+
+**Summary:** Deep, honest response to the AI pattern analysis. Confirmed the assessment rather than deflecting. Owned the Dry January miss cleanly. Committed to concrete February actions: mobility back in, hydration fix, exit planning mode on client acquisition.
+
+**Double down on:**
+- Morning rituals — "a month and it's worked really well... approaching my day in a much more positive and controlled way"
+- Physical health — gym, badminton, running. Although running motivation dipped when Sophie went off the boil. Acknowledged: "Am I doing it with you or am I doing it for me?"
+- Recovery after bad days — "avoiding a spiral after a really difficult day is an important skill I've learned"
+- OYTS journaling depth — confirmed as engine of the system
+
+**Course correct:**
+- **Hydration** — "What is fucking wrong with me?" Committed to action.
+- **Mobility** — hips sore after gig, reminder that daily stretching (15-20 min) serves a real purpose. February objective.
+- **Carry-forward culture** — multi-step tasks disguised as single items, not being realistic about size. Break them down.
+- **Evening rituals** — "not closing down my day properly... drifting"
+- **Dry January** — owned the miss: "that was an excuse." Won't schedule boozy social events during next dry month. Friday/Saturday rule holds.
+- **Client acquisition** — "gotta get out of planning mode... what is the first outbound action? When's it gonna happen?"
+
+**New thinking:**
+- Manchester Marathon with Emma — emerging as a real possibility for 2027
+- Christmas skiing holiday — active alternative to the sedentary, boozy British Christmas. Jo interested.
+- Running needs to be for him, not dependent on Sophie's motivation
+- Digital life reflections deepening — "a phone is a tool, not a companion" extended to AI: "not a substitute for a real companion"
+
+**Key insight:** The brain can't cope with too many changes at once. January stacked a lot in. February should add mobility and hydration — targeted additions, not an overhaul. Don't overlook progress by fixating on course corrections.
+
+---
 
 ## Friday 30 Jan
 **Question:** Which of your actions this past week cast votes for the identity you're building—and which ones sabotaged it?
@@ -1325,12 +1459,6 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 ---
 
-# PATTERN LOG
-
-*When something shows up 3x+, note it here*
-
----
-
 # RUNNING LOG
 
 *Scott & Sophie - tracking progress*
@@ -1347,7 +1475,7 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # CAFFEINE & ALCOHOL
 
 **Caffeine:** 1 cup coffee per day max
-**Alcohol:** Dry January (started 1 Jan 2026)
+**Alcohol:** Friday/Saturday only (post Dry January — rule set 28 Jan)
 
 ---
 
@@ -1357,7 +1485,14 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 | Task | Captured | Scheduled |
 |------|----------|-----------|
-| Family conversation: digital life principles — share thinking, ask what they'd change, agree shared approach | 31 Jan | |
+| Family conversation: digital life principles — share thinking, ask what they'd change, agree shared approach | 31 Jan | Feb (monthly obj) |
+| Ask Dad to fit socket in Tom's room and heater in downstairs toilet | 31 Jan | |
+| Confirm Tom for badminton Tuesday | 31 Jan | Mon 2 Feb |
+| Explore Christmas skiing holiday with Jo | 31 Jan | |
+| Reschedule March family walk (Aysgarth Falls) — candidates: 7/8/15 March | 1 Feb | |
+| Book all holidays into diary and Productive | 1 Feb | |
+| Cinema trips this month? | 1 Feb | |
+| Reschedule Yorkshire 3 Peaks weekend (clashes with Golf Open 19 Jul) | 1 Feb | w/c 2 Feb |
 
 ---
 
@@ -1367,11 +1502,8 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 
 | Due | Reminder |
 |-----|----------|
-| Sun 1 Feb | Monthly planning: Set 2026 annual objectives, February objectives, January review |
-| Mon 5 Jan | Plan out client connection emails for Trustmark / World Marathon Majors |
-| W/c 5 Jan | Send Company Credentials & overview presentation to Bicycle Association (prospect qualification) |
-| Mid-Jan | Decide lads weekend plans with Tom (24-26 Apr) |
 | Early Feb | Decide August hiking holiday destination (1-14 Aug) |
-| End Jan | Think about annual 4-week mini-retirement |
+| Early Feb | Decide lads weekend plans with Tom (24-26 Apr) |
+| Feb | Think about annual 4-week mini-retirement |
 
 ---
