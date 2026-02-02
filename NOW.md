@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-01-28
+**Last Updated:** 2026-02-02
 
 ---
 
@@ -85,6 +85,8 @@
 - **AMWAP:** Strong wins. Notable: weight loss now **23kg** (was 20kg). Meditation producing real equanimity benefits. Delegation improving — working WITH Emma, not FOR her.
 - **Productive setup done** on Scott's side — Eddie to do final setup with costs.
 - **TCS weekly objective added:** Reach agreement with Pallab on data environment access this week.
+- **Matthew insight (from Friday meeting):** Trustmark revenue drop is forcing the "living hand to mouth" problem into the open. Business model has been: accept what comes, deliver brilliantly, absorb margin, feel grateful. That's craftsman mode, not business-owner mode. The fix isn't replacing lost Trustmark days — it's building a commercial engine that wins work at proper margins and doesn't flinch when one retainer dips. Connects directly to Bugs #2 and #5. Marketing can't stay in planning mode any longer.
+- **LinkedIn action taken today.** Network export requested, database build underway. First real outbound action on marketing — exited planning mode.
 
 ### 2026-02-01
 - **Monthly planning complete.** January review done, annual objectives set, February objectives set, Week 1 planned, Monday tasks ready.

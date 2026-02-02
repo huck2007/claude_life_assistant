@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-02-01
+**Last Updated:** 2026-02-02
 
 ---
 
@@ -108,13 +108,13 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sleep | B | | | | | | G |
-| Steps | | | | | | | O |
-| Nutrition | | | | | | | G |
-| Hydration | | | | | | | G |
-| Outdoors | | | | | | | O |
-| Exercise | | | | | | | O |
-| Screen Time | | | | | | | |
-| Pickups | | | | | | | |
+| Steps | B | | | | | | O |
+| Nutrition | O | | | | | | G |
+| Hydration | G | | | | | | G |
+| Outdoors | B | | | | | | O |
+| Exercise | G | | | | | | O |
+| Screen Time | 4h42 | | | | | | |
+| Pickups | 72 | | | | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -122,9 +122,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | | | | | Y |
+| Freedom Gap (PM) | Y | | | | | | Y |
 | AMWAP | Y | | | | | | N |
-| Plan Tomorrow | | | | | | | Y |
+| Plan Tomorrow | Y | | | | | | Y |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -791,6 +791,42 @@ None planned
 - Freedom Gap PM
 - AMWAP: *5 minutes of wins that prove you're building a life aligned with your definition of success.*
 - Plan Tuesday
+
+---
+
+## Tuesday 3 Feb
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. Mobility (15-20 min — day 2)
+6. OYTS: *What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop?*
+
+**Work Tasks:**
+1. Design weekly work schedule — time zones for deep work, leadership, client management, business development [MIT]
+2. Invoicing sign-off with Eddie
+3. Eddie to produce AWMM actual hours breakdown (Jan) — demonstrate to Danny where budget is being blown, especially Emma's time
+4. Impower weekly meeting — check in with Paul on the proposal response
+5. Trustmark February backlog meeting with Becky and Dave
+6. Monday Dashboard review with Eddie — first weekly rhythm session
+7. Finalise Productive setup with Eddie (overhead costs, staff rates)
+
+**Personal Tasks:**
+1. Drink 2L water, bulk before 6pm (day 2)
+
+**Health Tasks:**
+1. Run — resume running log (carried from Monday)
+2. Badminton with Tom (evening)
+
+**MIT:** Design weekly work schedule
+
+**Evening:**
+- Log work hours in Productive
+- Freedom Gap PM
+- AMWAP: *List the consistent habits you've stuck with in the past 30 days — no matter how small.*
+- Plan Wednesday
 
 ---
 
