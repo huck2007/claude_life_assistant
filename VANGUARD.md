@@ -92,12 +92,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | | | | | | | |
-| Meditation | | | | | | | |
-| Freedom Gap (AM) | | | | | | | |
-| Cold Water (3 min) | | | | | | | |
-| Mobility | | | | | | | |
-| OYTS | | | | | | | |
+| Breathwork | | | | | | | Y |
+| Meditation | | | | | | | Y |
+| Freedom Gap (AM) | | | | | | | Y |
+| Cold Water (3 min) | | | | | | | Y |
+| Mobility | | | | | | | N |
+| OYTS | | | | | | | Y |
 
 ## Daily Scores
 
@@ -105,12 +105,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | | | | | | | |
-| Steps | | | | | | | |
-| Nutrition | | | | | | | |
-| Hydration | | | | | | | |
-| Outdoors | | | | | | | |
-| Exercise | | | | | | | |
+| Sleep | | | | | | | G |
+| Steps | | | | | | | O |
+| Nutrition | | | | | | | G |
+| Hydration | | | | | | | G |
+| Outdoors | | | | | | | O |
+| Exercise | | | | | | | O |
 | Screen Time | | | | | | | |
 | Pickups | | | | | | | |
 
