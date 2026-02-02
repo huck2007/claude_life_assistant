@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Sun):** Monthly reflection and planning — January review, February objectives
+**MIT Today (Mon):** TCS connection email to Pallab — scope access and set early expectations
 
 ## Systematisation Sequence
 
@@ -78,6 +78,14 @@
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
 
+### 2026-02-02
+- **Clean sweep day.** MIT done (Pallab email), all 4 work tasks done, all personal tasks done, gym done. Full morning rituals including mobility day 1 and hydration day 1.
+- **Marketing session with Emma:** Proposition breakthrough — fractional data leadership + team for mid-sized CEOs. Stopped trying to perfect the message and started mining LinkedIn connections instead. Exports requested, top 20 shortlist by Wed, outreach message refinement Wed.
+- **OYTS (fear):** Client acquisition fear surfaced — *"I'm out of my comfort zone... I have not done this kind of thing before."* But response is healthy: naming it, acting on it, committing to persistence. *"I'm not gonna let it cause me to spiral."*
+- **AMWAP:** Strong wins. Notable: weight loss now **23kg** (was 20kg). Meditation producing real equanimity benefits. Delegation improving — working WITH Emma, not FOR her.
+- **Productive setup done** on Scott's side — Eddie to do final setup with costs.
+- **TCS weekly objective added:** Reach agreement with Pallab on data environment access this week.
+
 ### 2026-02-01
 - **Monthly planning complete.** January review done, annual objectives set, February objectives set, Week 1 planned, Monday tasks ready.
 - **Annual objectives locked in:** Personal (work-life boundaries, documented year), Physical (12st 7lb, off GLP-1, marathon-ready by Dec), Business (out of delivery, 2 new clients, 60% margins, systematisation strong).
@@ -85,6 +93,7 @@
 - **Calendar overhaul:** Abersoch moved to July, lads weekend cancelled (Tom A-levels), Golf Open 19 Jul added (clashes with 3 Peaks — needs rescheduling), Mark & Oscar visiting March, UTD vs Villa 14 Mar, multiple June additions.
 - **Fear theme** for OYTS this week. Interesting choice given the client acquisition challenge.
 - **Meditation note:** *"Put a smile in your mind, if only for a moment"* — felt it physically as warmth behind the eyes.
+- **Evening:** Bed at 8:15pm — body crashed after a heavy planning day. Woke 1:15am for 2.5 hours (AWMM/TCS on his mind), back to sleep until 7am. AMWAP cancelled. Sleep pattern worth watching — early bed + middle-of-night waking is a recurring signal when work is weighing.
 
 ### 2026-01-31
 - **January close-out.** Last day of the month. Impower email finally sent (5th carry — clean sweep). Gig with Tom (Stone Roses / Courteeners tribute). Dinner with Jo and the kids.

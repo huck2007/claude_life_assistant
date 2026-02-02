@@ -40,11 +40,13 @@
 ## Week Focus
 
 **Work:**
-1. Design weekly work schedule — time zones for deep work, leadership, client management, business development. **Monday morning, before anything else.**
+1. Design weekly work schedule — time zones for deep work, leadership, client management, business development. **Tuesday morning.**
 2. Monday Dashboard review with Eddie — first weekly rhythm session (Eddie back Tuesday)
 3. Finalise Productive setup (overhead costs, staff rates) — carried from January, kill it this week
-4. Marketing outreach: meet Emma, agree first specific outbound action and schedule it
+4. Marketing outreach: mine LinkedIn exports (Scott + Emma), build prospect database, filter to top 20 by Wed. Weighted toward known contacts and strong-match organisations.
 5. AWMM roadmap prioritisation — start, even if not finished
+6. Reach agreement with TCS (Pallab) on data environment access — scope, tools, people, timeline. Schedule the work.
+7. Wednesday: Refine outreach messages — draw on experience/problems solved, tailored to shortlist prospects.
 
 **Health:**
 1. Hydration: 2L daily, bulk before 6pm. Track in scores — aim for G or Gr.
@@ -92,12 +94,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | | | | | | | Y |
-| Meditation | | | | | | | Y |
-| Freedom Gap (AM) | | | | | | | Y |
-| Cold Water (3 min) | | | | | | | Y |
-| Mobility | | | | | | | N |
-| OYTS | | | | | | | Y |
+| Breathwork | Y | | | | | | Y |
+| Meditation | Y | | | | | | Y |
+| Freedom Gap (AM) | Y | | | | | | Y |
+| Cold Water (3 min) | Y | | | | | | Y |
+| Mobility | Y | | | | | | N |
+| OYTS | Y | | | | | | Y |
 
 ## Daily Scores
 
@@ -105,7 +107,7 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | | | | | | | G |
+| Sleep | B | | | | | | G |
 | Steps | | | | | | | O |
 | Nutrition | | | | | | | G |
 | Hydration | | | | | | | G |
@@ -120,9 +122,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | | | | | |
-| AMWAP | | | | | | | |
-| Plan Tomorrow | | | | | | | |
+| Freedom Gap (PM) | | | | | | | Y |
+| AMWAP | Y | | | | | | N |
+| Plan Tomorrow | | | | | | | Y |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -723,6 +725,41 @@ None planned
 
 ---
 
+## Sunday 1 Feb [COMPLETE]
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility [not done — starts tomorrow]
+6. OYTS: *Which habit, if done consistently this week, would create meaningful progress?* [done]
+
+**Work Tasks:**
+1. Monthly planning: January review and February objectives [MIT] [done]
+2. Set new OYTS/AMWAP questions for the week [done]
+
+**Personal Tasks:**
+1. Plan week ahead (Week 1 Feb) [done]
+
+**Health Tasks:**
+1. Walk dog with Jo [done]
+
+**MIT:** Monthly reflection and planning [done]
+
+**Scores:** Sleep G, Steps O, Nutrition G, Hydration G, Outdoors O, Exercise O
+
+**Evening:**
+- Log work hours [done]
+- Freedom Gap PM [done]
+- AMWAP [cancelled — bed at 8:15pm]
+- Plan Tomorrow [done]
+
+**Notes:**
+- Bed at 8:15pm (exhausted). Woke 1:15am for 2.5 hours, back to sleep until 7am. AWMM/TCS project weighing on mind.
+
+---
+
 ## Monday 2 Feb
 
 **Morning Routine:**
@@ -734,20 +771,20 @@ None planned
 6. OYTS: *What specific fear is currently limiting your progress, performance, or confidence?*
 
 **Work Tasks:**
-1. Marketing session with Emma — agree first specific outbound action and schedule it (AM)
-2. Design weekly work schedule — time zones for deep work, leadership, client management, business development [MIT] (PM)
-3. Stand-up / team check-in (Eddie on holiday)
-4. Finalise Productive setup — overhead costs, staff rates (start if time allows)
+1. TCS connection email to Pallab (innovation lead) — scope access, set early expectations [MIT] [done]
+2. Marketing session with Emma — agree first specific outbound action and schedule it (AM) [done]
+3. Stand-up / team check-in (Eddie on holiday) [done]
+4. Finalise Productive setup — overhead costs, staff rates [done — Eddie to do final setup with costs]
 
 **Personal Tasks:**
-1. Confirm Tom for badminton Tuesday
-2. Drink 2L water, bulk before 6pm (day 1 of tracking)
+1. Confirm Tom for badminton Tuesday [done]
+2. Drink 2L water, bulk before 6pm (day 1 of tracking) [done]
 
 **Health Tasks:**
-1. GYM Lifting with Lou
+1. GYM Lifting with Lou [done]
 2. Run (evening) — resume running log
 
-**MIT:** Design weekly work schedule [PM]
+**MIT:** TCS connection email to Pallab — scope access and set early expectations [done]
 
 **Evening:**
 - Log work hours in Productive
@@ -1000,6 +1037,25 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Monday 2 Feb
+**Question:** What specific fear is currently limiting your progress, performance, or confidence?
+
+**Summary:** Client acquisition. Two connected fears: can't win new work, and might lose existing clients — specifically AWMM to TCS. Rational self sees the positioning is strong and behaviour is right (cooperative, enabling, enthusiastic with Danny and Dawna), but the fear has real grounding: only 3 clients, all came from warm introductions, and this outbound approach is genuinely new territory.
+
+**Key themes:**
+- *"I'm out of my comfort zone... I have not done this kind of thing before"* — honest acknowledgement, not defeatism
+- TCS fear is worst-case thinking, acknowledged as such. Knows how big consultancies behave — expects them to see CS as "in the way." But comporting himself well regardless.
+- The real fear is existential: not enough clients + no proven acquisition method = vulnerability
+- But: *"I'll do it once and I'll do it twice and I'll do it 3 times and we will be persistent and we will evolve"*
+- Self-aware about the emotional volatility: *"I'm just as likely to flip to the opposite end of the spectrum in the next 3 hours"*
+- Landing statement: *"I'm not gonna let it cause me to spiral"*
+
+**Key insight:** The fear is grounded in reality but the response is healthy. He's naming it, acting on it (LinkedIn mining with Emma today), and committing to persistence. The anti-spiral mindset from January is holding.
+
+**Connection:** Fear theme this week was a good call. This OYTS surfaced the thing that kept him awake at 1am. Now it's named and being acted on.
+
+---
 
 ## Sunday 1 Feb
 **Question:** Which habit, if done consistently this week, would create meaningful progress?
