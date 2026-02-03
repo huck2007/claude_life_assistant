@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Mon):** TCS connection email to Pallab — scope access and set early expectations
+**MIT Today (Tue):** Design weekly work schedule — time zones for deep work, leadership, client management, business development
 
 ## Systematisation Sequence
 
@@ -77,6 +77,11 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-03
+- **Weekly work structure designed and committed to VANGUARD.md.** Deep work days (Mon/Wed/Fri — no stand-up, gym at midday, MIT mornings). People days (Tue/Thu — stand-up, meetings, coaching, business development). Tuesday PM protected for business development. Thursday PM alternates AWMM and team 1:1s (fortnightly). Monday 2pm weekly commercial performance with Emma & Eddie. Monthly overlay mapped: payment run, invoicing, P&L review, commercial review all sequenced around month end. Monthly personal review split: last Friday = look back, first Sunday = planning.
+- **AMWAP moved to morning ritual** — stacking where consistency is strongest. Evening rituals simplified.
+- **OYTS (relief behaviours):** Three patterns named — alcohol, checking out/avoidance, preemptive resentment/catastrophising. Currently in serving state but knows the triggers. "I sound convincing even when I'm wrong" — sharp self-awareness about how articulate deflection masks fear-driven thinking.
 
 ### 2026-02-02
 - **Clean sweep day.** MIT done (Pallab email), all 4 work tasks done, all personal tasks done, gym done. Full morning rituals including mobility day 1 and hydration day 1.

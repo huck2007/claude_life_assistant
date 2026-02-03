@@ -33,6 +33,81 @@
 
 ---
 
+# WEEKLY WORK STRUCTURE
+
+*Designed 3 February 2026. Reference when planning each week.*
+
+## Daily Template (Winter)
+
+**5:15am** — Rise
+**Morning rituals** (freedom gap covered by first two):
+1. Meditate
+2. Read
+3. Mobility stretches (15-20 min)
+4. CWI + Breathwork (combined)
+5. Get ready for work
+6. Breakfast
+7. OYTS
+8. AMWAP (moved from evening — stack where consistency is strongest)
+9. Start-up day: record ritual progress
+
+*Spring/Summer/Autumn: insert dog walk after reading*
+
+**8:30am** — Work starts
+**11:45am-1:15pm** — Exercise + lunch (gym days) / Run + lunch (Tue) / Lunch (Thu)
+**1:30pm** — Afternoon work block
+**4:30-5:00pm** — Close out work day (log hours, plan tomorrow)
+*Friday: close at 2:30pm for weekly reflection*
+
+**5:30-6:00pm** — Dinner
+**6:30-9:00pm** — Evening: interests, personal tasks, family time
+**9:00-10:00pm** — Freedom gap PM
+**10:00pm** — Bed
+
+## Weekly Grid
+
+| | Morning (8:30-11:45) | Midday (11:45-1:30) | Afternoon (1:30-4:30) | Type |
+|---|---|---|---|---|
+| **Mon** | MIT / Deep work | Gym with Lou | 2pm Commercial performance (Emma & Eddie); deep work around it | DEEP WORK |
+| **Tue** | Work block; Stand-up 10:30 | Run | Business development (marketing, outreach, prospects, Emma collab) | PEOPLE + BD |
+| **Wed** | MIT / Deep work (Trustmark 10am alt weeks) | Gym with Lou | Deep work (Impower 1:30 1st Wed only) | DEEP WORK |
+| **Thu** | Work block; Stand-up 10:30 | Lunch | AWMM 1:30 (alt weeks) / Team 1:1s (alt weeks) | PEOPLE + COACHING |
+| **Fri** | MIT / Deep work | Gym with Lou | Weekly reflection from 2:30 | DEEP WORK + REFLECT |
+| **Sat** | Run (AM) | | | |
+| **Sun** | Weekly planning session | | | PLAN |
+
+**Day types:**
+- **Mon / Wed / Fri** — Deep work days. No stand-up. Gym at midday. Protect the morning for MIT.
+- **Tue / Thu** — People days. Stand-up, meetings, coaching, business development.
+- **Sat / Sun** — Rest, family, run (Sat), planning (Sun).
+
+## Recurring Meetings
+
+| Meeting | Day/Time | Frequency |
+|---|---|---|
+| Stand-up | Tue & Thu 10:30am | Weekly |
+| Commercial performance (Emma & Eddie) | Mon 2pm | Weekly |
+| Trustmark project meeting | Wed 10am | Fortnightly (next: 11 Feb) |
+| Impower project meeting | Wed 1:30pm | Monthly (1st Wed) |
+| AWMM project meeting | Thu 1:30pm | Fortnightly (next: 12 Feb) |
+| Team 1:1s | Thu 1:30pm | Fortnightly (alt weeks from AWMM) |
+| AWMM roadmap review | TBC | Quarterly |
+
+## Monthly Overlay
+
+| Task | Timing | Notes |
+|---|---|---|
+| Payment run sign-off | 3 working days before month end | |
+| Invoicing sign-off + invoices raised | Within 2 working days after month end | |
+| Budget/P&L review with Leanne | Within 2 working days after month end | Leanne updates Quickbooks, then review |
+| Client commercial review | 1st Monday after month end | In 2pm slot — extends the weekly commercial meeting |
+| Monthly reflection (look back) | Last Friday of month | Extended afternoon — patterns, objectives, wins/misses |
+| Monthly planning (look forward) | 1st Sunday of month | Extended session — set objectives, weekly focuses, reset tracking |
+
+**Note:** First few days of each month are admin-heavy (invoicing, P&L, commercial review). Don't schedule ambitious MITs those days.
+
+---
+
 # THIS WEEK
 
 **Week of:** 2 - 8 Feb 2026 (Week 1 Feb)
@@ -94,12 +169,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | | | | | | Y |
-| Meditation | Y | | | | | | Y |
-| Freedom Gap (AM) | Y | | | | | | Y |
-| Cold Water (3 min) | Y | | | | | | Y |
-| Mobility | Y | | | | | | N |
-| OYTS | Y | | | | | | Y |
+| Breathwork | Y | Y | | | | | Y |
+| Meditation | Y | Y | | | | | Y |
+| Freedom Gap (AM) | Y | Y | | | | | Y |
+| Cold Water (3 min) | Y | Y | | | | | Y |
+| Mobility | Y | Y | | | | | N |
+| OYTS | Y | Y | | | | | Y |
 
 ## Daily Scores
 
@@ -107,7 +182,7 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | B | | | | | | G |
+| Sleep | B | G | | | | | G |
 | Steps | B | | | | | | O |
 | Nutrition | O | | | | | | G |
 | Hydration | G | | | | | | G |
@@ -123,7 +198,7 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Freedom Gap (PM) | Y | | | | | | Y |
-| AMWAP | Y | | | | | | N |
+| AMWAP | Y | Y | | | | | N |
 | Plan Tomorrow | Y | | | | | | Y |
 
 **Evening close-down (daily):** Log work hours in Productive.
@@ -805,13 +880,14 @@ None planned
 6. OYTS: *What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop?*
 
 **Work Tasks:**
-1. Design weekly work schedule — time zones for deep work, leadership, client management, business development [MIT]
+1. Design weekly work schedule — time zones for deep work, leadership, client management, business development [MIT] [done]
 2. Invoicing sign-off with Eddie
-3. Eddie to produce AWMM actual hours breakdown (Jan) — demonstrate to Danny where budget is being blown, especially Emma's time
-4. Impower weekly meeting — check in with Paul on the proposal response
-5. Trustmark February backlog meeting with Becky and Dave
-6. Monday Dashboard review with Eddie — first weekly rhythm session
-7. Finalise Productive setup with Eddie (overhead costs, staff rates)
+3. Eddie to produce AWMM actual hours breakdown (Jan) — demonstrate to Danny where budget is being blown, especially Emma's time [done]
+4. Impower weekly meeting — check in with Paul on the proposal response [done]
+5. Trustmark February backlog meeting with Becky and Dave [done]
+6. Monday Dashboard review with Eddie — first weekly rhythm session [done]
+7. Finalise Productive setup with Eddie (overhead costs, staff rates) [done]
+8. Review WMM Snowflake refactor project with Becky [done]
 
 **Personal Tasks:**
 1. Drink 2L water, bulk before 6pm (day 2)
@@ -820,7 +896,7 @@ None planned
 1. Run — resume running log (carried from Monday)
 2. Badminton with Tom (evening)
 
-**MIT:** Design weekly work schedule
+**MIT:** Design weekly work schedule [done]
 
 **Evening:**
 - Log work hours in Productive
@@ -1073,6 +1149,24 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Tuesday 3 Feb
+**Question:** What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop?
+
+**Summary:** Three relief behaviours identified: (1) Alcohol — wine/whiskey to "take the edge off." Burns Night hangover proved the point in stark contrast to Dry January clarity. Alcohol dulls rational thinking, makes him sound convincing even when wrong, undermines conversations with Jo. (2) Checking out / avoidance — finding strange temporary relief in not addressing the next step. (3) Preemptive resentment and catastrophising — getting agitated about rejection before it happens. Feels like "taking action" but actually avoids approaching the problem constructively.
+
+**Key themes:**
+- *"When I'm not at my best... I don't tend to rationalise, be as rational"* — alcohol removes the deliberate, contemplative thinking he needs
+- *"I sound convincing even when I'm wrong"* — dangerous self-awareness about how articulate deflection masks fear-driven thinking
+- Currently in a strong and serving mindset — these behaviours aren't active right now, but he knows the triggers (tiredness, unpredictable work, doubt)
+- Anti-spiral skill is holding: *"I've hit the reset button... I get back on the horse"*
+- Catastrophising masquerades as action but doesn't produce better thinking or solutions
+
+**Key insight:** The three behaviours form a cascade: fear triggers either numbing (alcohol), avoidance (checking out), or false action (catastrophising). None of them address the actual fear. The daily system is the defence — when the system runs, these behaviours have less space. He knows this. The question is whether he'll recognise the early signals in real time.
+
+**Connection:** Builds directly on Monday's OYTS (client acquisition fear). Yesterday named the fear; today names what he does to escape it. The thread is deepening — fear → relief behaviour → reinforcement loop. Tomorrow's question (controlled exposure) should produce the actionable response.
+
+---
 
 ## Monday 2 Feb
 **Question:** What specific fear is currently limiting your progress, performance, or confidence?
@@ -1585,6 +1679,8 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 | Book all holidays into diary and Productive | 1 Feb | |
 | Cinema trips this month? | 1 Feb | |
 | Reschedule Yorkshire 3 Peaks weekend (clashes with Golf Open 19 Jul) | 1 Feb | w/c 2 Feb |
+| Discuss schema evolution approach to AWMM DCM repo with Dave (CIO data upgrade, CREATE OR ALTER, additional parquet sources) | 3 Feb | |
+| Contact Simon for Dave's stretching routines | 3 Feb | |
 
 ---
 
