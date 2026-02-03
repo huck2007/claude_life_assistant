@@ -79,9 +79,13 @@
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
 
 ### 2026-02-03
+- **8/8 work tasks done. MIT done (weekly work structure).** Full morning rituals day 2 including mobility. Evening rituals complete (Freedom Gap PM, AMWAP, Plan Tomorrow). Second consecutive strong day.
 - **Weekly work structure designed and committed to VANGUARD.md.** Deep work days (Mon/Wed/Fri — no stand-up, gym at midday, MIT mornings). People days (Tue/Thu — stand-up, meetings, coaching, business development). Tuesday PM protected for business development. Thursday PM alternates AWMM and team 1:1s (fortnightly). Monday 2pm weekly commercial performance with Emma & Eddie. Monthly overlay mapped: payment run, invoicing, P&L review, commercial review all sequenced around month end. Monthly personal review split: last Friday = look back, first Sunday = planning.
 - **AMWAP moved to morning ritual** — stacking where consistency is strongest. Evening rituals simplified.
-- **OYTS (relief behaviours):** Three patterns named — alcohol, checking out/avoidance, preemptive resentment/catastrophising. Currently in serving state but knows the triggers. "I sound convincing even when I'm wrong" — sharp self-awareness about how articulate deflection masks fear-driven thinking.
+- **OYTS (relief behaviours):** Three patterns named — alcohol, checking out/avoidance, preemptive resentment/catastrophising. Currently in serving state but knows the triggers. *"I sound convincing even when I'm wrong"* — sharp self-awareness about how articulate deflection masks fear-driven thinking.
+- **Badminton energy crash.** Felt shaky and low energy during play. Only 1L water (target 2L), nutrition O. Mounjaro suppressing appetite means he's not eating enough to fuel evening exercise. Tuesday nutrition needs deliberate planning — this is the hydration cascade showing up in real time.
+- **Screen time strong:** 3h 32m / 43 pickups — well below baseline (5h 4m / 83). Two days running.
+- **AMWAP (habits sticking):** Morning rituals, gym 3x, badminton, moderate eating. Gaps named clearly: stretching, water, running. *Running slipping now Sophie's fallen off — needs to own it independently.* (Same pattern flagged in January review.)
 
 ### 2026-02-02
 - **Clean sweep day.** MIT done (Pallab email), all 4 work tasks done, all personal tasks done, gym done. Full morning rituals including mobility day 1 and hydration day 1.

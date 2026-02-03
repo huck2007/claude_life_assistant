@@ -183,13 +183,13 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Sleep | B | G | | | | | G |
-| Steps | B | | | | | | O |
-| Nutrition | O | | | | | | G |
-| Hydration | G | | | | | | G |
-| Outdoors | B | | | | | | O |
-| Exercise | G | | | | | | O |
-| Screen Time | 4h42 | | | | | | |
-| Pickups | 72 | | | | | | |
+| Steps | B | O | | | | | O |
+| Nutrition | O | O | | | | | G |
+| Hydration | G | B | | | | | G |
+| Outdoors | B | B | | | | | O |
+| Exercise | G | G | | | | | O |
+| Screen Time | 4h42 | 3h32 | | | | | |
+| Pickups | 72 | 43 | | | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -197,9 +197,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | | | | | | Y |
+| Freedom Gap (PM) | Y | Y | | | | | Y |
 | AMWAP | Y | Y | | | | | N |
-| Plan Tomorrow | Y | | | | | | Y |
+| Plan Tomorrow | Y | Y | | | | | Y |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -869,19 +869,19 @@ None planned
 
 ---
 
-## Tuesday 3 Feb
+## Tuesday 3 Feb [COMPLETE]
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. Mobility (15-20 min — day 2)
-6. OYTS: *What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop?*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility (15-20 min — day 2) [done]
+6. OYTS: *What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop?* [done]
 
 **Work Tasks:**
 1. Design weekly work schedule — time zones for deep work, leadership, client management, business development [MIT] [done]
-2. Invoicing sign-off with Eddie
+2. Invoicing sign-off with Eddie [done]
 3. Eddie to produce AWMM actual hours breakdown (Jan) — demonstrate to Danny where budget is being blown, especially Emma's time [done]
 4. Impower weekly meeting — check in with Paul on the proposal response [done]
 5. Trustmark February backlog meeting with Becky and Dave [done]
@@ -890,19 +890,22 @@ None planned
 8. Review WMM Snowflake refactor project with Becky [done]
 
 **Personal Tasks:**
-1. Drink 2L water, bulk before 6pm (day 2)
+1. Drink 2L water, bulk before 6pm (day 2) — fell short (only 1L)
 
 **Health Tasks:**
-1. Run — resume running log (carried from Monday)
-2. Badminton with Tom (evening)
+1. Run — cancelled (didn't feel right, badminton in evening)
+2. Badminton with Tom (evening) [done] — felt shaky/low energy, likely nutrition + hydration
 
 **MIT:** Design weekly work schedule [done]
 
+**Scores:** Sleep G, Steps O, Nutrition O, Hydration B, Outdoors B, Exercise G
+**Digital Life:** Screen Time 3h 32m, Pickups 43
+
 **Evening:**
-- Log work hours in Productive
-- Freedom Gap PM
-- AMWAP: *List the consistent habits you've stuck with in the past 30 days — no matter how small.*
-- Plan Wednesday
+- Log work hours in Productive [done]
+- Freedom Gap PM [done]
+- AMWAP: *List the consistent habits you've stuck with in the past 30 days — no matter how small.* [done]
+- Plan Wednesday [done]
 
 ---
 
@@ -1681,6 +1684,7 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 | Reschedule Yorkshire 3 Peaks weekend (clashes with Golf Open 19 Jul) | 1 Feb | w/c 2 Feb |
 | Discuss schema evolution approach to AWMM DCM repo with Dave (CIO data upgrade, CREATE OR ALTER, additional parquet sources) | 3 Feb | |
 | Contact Simon for Dave's stretching routines | 3 Feb | |
+| Plan Tuesday nutrition for badminton — eat and hydrate properly through the day when evening exercise is planned | 3 Feb | |
 
 ---
 
