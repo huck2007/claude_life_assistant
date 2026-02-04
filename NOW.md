@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Tue):** Design weekly work schedule — time zones for deep work, leadership, client management, business development
+**MIT Today (Wed):** Marketing campaign session with Emma — move from list to action
 
 ## Systematisation Sequence
 
@@ -77,6 +77,12 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-04
+- **MIT done. Marketing session with Emma — LinkedIn exports reviewed, top 20 shortlist built.** Three of five subtasks complete. Outreach message refinement and send plan carry to Thursday. Impower proposal run-through done. All personal and health tasks done. Gym with Lou, 2L water hit (day 3). Sophie to piano, visited Mum & Dad.
+- **OYTS (controlled exposure to fear):** Went deeper than expected — surfaced storytelling and unstructured social performance as the real fear, not professional public speaking (which is improving). Can perform when anchored by expertise, but struggles in social contexts without that anchor. Miami AWMM pitch story illustrates: panic before, brilliance during, lasting relationship after. Weight loss has reduced the physical anxiety. Alcohol is the crutch that makes socialising easier but costs the next day. No specific controlled step identified yet — knows the territory but not the action.
+- **AMWAP (health wins):** VO2 max improved to above average for age. Weight down another 2kg since Christmas. Strength training continuing. Family environment calmer — daily practices producing equanimity that others respond to. Delegation working: stayed out of the numbers for a month, team still produced 54K. Meditation making him more contemplative. Monthly family walks happening for the first time in 3 years of saying he would.
+- **Mobility:** Simon from Natural Edge sent proper stretching routine. Day 1 was improvised — now has a real programme. Starts tomorrow.
 
 ### 2026-02-03
 - **8/8 work tasks done. MIT done (weekly work structure).** Full morning rituals day 2 including mobility. Evening rituals complete (Freedom Gap PM, AMWAP, Plan Tomorrow). Second consecutive strong day.

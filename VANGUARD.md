@@ -169,12 +169,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | | | | | Y |
-| Meditation | Y | Y | | | | | Y |
-| Freedom Gap (AM) | Y | Y | | | | | Y |
-| Cold Water (3 min) | Y | Y | | | | | Y |
-| Mobility | Y | Y | | | | | N |
-| OYTS | Y | Y | | | | | Y |
+| Breathwork | Y | Y | Y | | | | Y |
+| Meditation | Y | Y | Y | | | | Y |
+| Freedom Gap (AM) | Y | Y | Y | | | | Y |
+| Cold Water (3 min) | Y | Y | Y | | | | Y |
+| Mobility | Y | Y | N | | | | N |
+| OYTS | Y | Y | Y | | | | Y |
 
 ## Daily Scores
 
@@ -182,12 +182,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | B | G | | | | | G |
-| Steps | B | O | | | | | O |
-| Nutrition | O | O | | | | | G |
-| Hydration | G | B | | | | | G |
-| Outdoors | B | B | | | | | O |
-| Exercise | G | G | | | | | O |
+| Sleep | B | G | G | | | | G |
+| Steps | B | O | B | | | | O |
+| Nutrition | O | O | G | | | | G |
+| Hydration | G | B | G | | | | G |
+| Outdoors | B | B | B | | | | O |
+| Exercise | G | G | G | | | | O |
 | Screen Time | 4h42 | 3h32 | | | | | |
 | Pickups | 72 | 43 | | | | | |
 
@@ -198,8 +198,8 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Freedom Gap (PM) | Y | Y | | | | | Y |
-| AMWAP | Y | Y | | | | | N |
-| Plan Tomorrow | Y | Y | | | | | Y |
+| AMWAP | Y | Y | Y | | | | N |
+| Plan Tomorrow | Y | Y | Y | | | | Y |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -909,6 +909,85 @@ None planned
 
 ---
 
+## Thursday 5 Feb
+
+**Morning Routine:**
+1. Breathwork (box breathing)
+2. Meditation (Waking Up app)
+3. Freedom Gap AM (first hour tech-free)
+4. Cold Water (3 min)
+5. Mobility (Simon's routine — day 1)
+6. OYTS: *What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process?*
+7. AMWAP: *5 minutes of wins where you followed through on something — even when it wasn't easy.*
+
+**Work Tasks:**
+1. Marketing message refinement and send plan with Emma [MIT]
+2. Catch up with Dave on Snowflake Dev Summit (new features)
+3. AWMM roadmap prioritisation work
+4. Catch-up call with Phil V at Trustmark
+
+**Personal Tasks:**
+1. Clear cupboard hanging space
+2. Reschedule March & July walks to different weekends
+3. Summer holiday destination shortlist
+
+**Health Tasks:**
+1. Run
+
+**MIT:** Marketing message refinement and send plan
+
+**Appointments:**
+- ~~Stand-up 10:30~~ — clashes with eye test
+- Eye test 10:50am
+
+**Evening:**
+- Log work hours in Productive
+- Freedom Gap PM
+- Plan Tomorrow
+
+---
+
+## Wednesday 4 Feb
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility [not done — Simon sent proper routine, starts tomorrow]
+6. OYTS: *What's one controlled, manageable step you could take to expose yourself to a fear you have?* [done]
+7. AMWAP: *10 wins that show how your health has improved mentally or physically this year.* [done]
+
+**Work Tasks:**
+1. Marketing campaign session with Emma [MIT] [done]
+   - a. Review LinkedIn export [done]
+   - b. Cross-reference with Emma's export [done]
+   - c. Filter to top 20 shortlist [done]
+   - d. Refine outreach messages [carry forward to Thursday]
+   - e. Agree send plan [carry forward to Thursday]
+2. Impower project meeting (1:30pm) — run through proposal [done]
+
+**Personal Tasks:**
+1. Take Sophie to piano [done]
+2. Visit Mum & Dad [done]
+
+**Health Tasks:**
+1. GYM Lifting with Lou [done]
+2. Drink 2L water, bulk before 6pm (day 3) [done]
+
+**MIT:** Marketing campaign session with Emma [done]
+
+**Evening:**
+- Log work hours in Productive
+- Freedom Gap PM
+- Plan Tomorrow
+
+**Notes:**
+- Mobility: Simon from Natural Edge sent proper stretching routine. Starts tomorrow.
+- Marketing: LinkedIn exports reviewed, top 20 shortlist complete. Message refinement and send plan carry to Thursday.
+
+---
+
 ## Saturday 31 Jan [COMPLETE]
 
 **Morning Routine:**
@@ -1152,6 +1231,26 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Wednesday 4 Feb
+**Question:** What's one controlled, manageable step you could take to expose yourself to a fear you have?
+
+**Summary:** Storytelling and social performance. Not formal public speaking (that's improving, especially since weight loss), but the ability to hold court, tell stories engagingly, and stay on track without losing the thread. In professional settings, comfort zone of knowledge and expertise makes performance manageable. The gap is social contexts and unstructured communication — fluctuates between being "part of the beating heart" and wanting to leave.
+
+**Key themes:**
+- **Physical anxiety in performance moments** — sweating, self-consciousness in high-stakes settings. Miami pitch to 40 AWMM board members is the defining example: walked in, saw the long table with a chair in the middle, had a moment of panic, composed himself in another room, then delivered brilliantly. Six years later, still the longest-serving client.
+- **Weight loss has helped** — less self-conscious, better at natural communication without over-preparation. Appearance was feeding the anxiety loop.
+- **Deep discussion vs storytelling** — natural mode is deep, contemplative discussion (like Sam Harris). Struggles with remembering details for stories, keeping them concise, landing them engagingly. "I'm about discussing things rather than telling stories."
+- **Social battery tied to mindset** — when work feels under control, socialising lands well. When overwhelmed, avoidance kicks in. Stone Roses gig example: didn't want to go, felt like "a trip down bad memory lane," but went for Tom.
+- **Alcohol as social lubricant** — recognises the pattern. Socialising without drinking feels harder, but drinking produces the next-day low. Trapped between two uncomfortable choices.
+- **Writing as a potential path** — "I used to really love writing when I was younger." Cares about how he comes across in writing. Could be a route to sharpening storytelling without the live performance pressure.
+- **No clear step identified yet** — ruled out TED talks (destination, not a step) and creative writing courses (wrapping fear in skill development). Knows it's in the "realm of getting better at storytelling" but hasn't landed on the specific action.
+
+**Key insight:** The fear isn't public speaking in professional contexts — that's improving. It's *unstructured social performance* where there's no expertise to lean on. The controlled step hasn't been identified yet, but the territory is clear: storytelling, holding attention, being engaging without alcohol as a crutch and without a professional brief to anchor to.
+
+**Connection:** Builds on Monday's OYTS (client acquisition fear) and Tuesday's (relief behaviours including alcohol). The thread this week: fear → relief behaviours → controlled exposure. Today's was supposed to produce the actionable step but instead surfaced a deeper, more personal fear than the business one. The storytelling/social performance fear connects to Bug #5 (clients buy Scott) — if the professional performance depends on expertise comfort zones, expanding the comfort zone through storytelling would serve both personal and professional growth.
+
+---
 
 ## Tuesday 3 Feb
 **Question:** What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop?
