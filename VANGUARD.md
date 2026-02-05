@@ -169,12 +169,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | | | | Y |
-| Meditation | Y | Y | Y | | | | Y |
-| Freedom Gap (AM) | Y | Y | Y | | | | Y |
-| Cold Water (3 min) | Y | Y | Y | | | | Y |
-| Mobility | Y | Y | N | | | | N |
-| OYTS | Y | Y | Y | | | | Y |
+| Breathwork | Y | Y | Y | Y | | | Y |
+| Meditation | Y | Y | Y | Y | | | Y |
+| Freedom Gap (AM) | Y | Y | Y | Y | | | Y |
+| Cold Water (3 min) | Y | Y | Y | Y | | | Y |
+| Mobility | Y | Y | N | N | | | N |
+| OYTS | Y | Y | Y | Y | | | Y |
 
 ## Daily Scores
 
@@ -182,14 +182,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | B | G | G | | | | G |
-| Steps | B | O | B | | | | O |
-| Nutrition | O | O | G | | | | G |
-| Hydration | G | B | G | | | | G |
-| Outdoors | B | B | B | | | | O |
-| Exercise | G | G | G | | | | O |
-| Screen Time | 4h42 | 3h32 | | | | | |
-| Pickups | 72 | 43 | | | | | |
+| Sleep | B | G | G | T | | | G |
+| Steps | B | O | B | O | | | O |
+| Nutrition | O | O | G | G | | | G |
+| Hydration | G | B | G | O | | | G |
+| Outdoors | B | B | B | O | | | O |
+| Exercise | G | G | G | O | | | O |
+| Screen Time | 4h42 | 3h32 | 2h35 | | | | |
+| Pickups | 72 | 43 | 75 | | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -197,7 +197,7 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | | | | | Y |
+| Freedom Gap (PM) | Y | Y | Y | | | | Y |
 | AMWAP | Y | Y | Y | | | | N |
 | Plan Tomorrow | Y | Y | Y | | | | Y |
 
@@ -947,7 +947,7 @@ None planned
 
 ---
 
-## Wednesday 4 Feb
+## Wednesday 4 Feb [COMPLETE]
 
 **Morning Routine:**
 1. Breathwork (box breathing) [done]
@@ -977,14 +977,18 @@ None planned
 
 **MIT:** Marketing campaign session with Emma [done]
 
+**Scores:** Sleep G, Steps B, Nutrition G, Hydration G, Outdoors B, Exercise G
+**Digital Life:** Screen Time 2h 35m, Pickups 75
+
 **Evening:**
-- Log work hours in Productive
-- Freedom Gap PM
-- Plan Tomorrow
+- Log work hours in Productive [done]
+- Freedom Gap PM [done]
+- Plan Tomorrow [done]
 
 **Notes:**
 - Mobility: Simon from Natural Edge sent proper stretching routine. Starts tomorrow.
 - Marketing: LinkedIn exports reviewed, top 20 shortlist complete. Message refinement and send plan carry to Thursday.
+- Screen time well below baseline (2h 35m vs 5h 4m) — best day so far.
 
 ---
 
@@ -1231,6 +1235,23 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Thursday 5 Feb
+**Question:** What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process?
+
+**Summary:** Fear setting from Natural Edge is the technique. Three steps: (1) Define — list worst things that could happen, (2) Prevent — what can reduce the chances, (3) Repair — how to recover if worst happens, who could help. Then ask: benefits of action vs cost of inaction. Goal isn't fearlessness — it's stopping fear from dictating behaviour when performance matters.
+
+**Key themes:**
+- Already doing this informally with Emma on marketing fears — reasoning through positioning challenges without labelling it fear setting
+- Low-level fear around marketing: stuck between founder-led approach (which won't attract) and proposition-led (which exposes capability gaps)
+- Taking action despite the fear — 12 messages out today
+- "Doing the reps" = monthly check-in with fears as part of reflection, then use fear setting technique where needed
+
+**Key insight:** The fear doesn't disappear, but you keep going. Action despite fear, not absence of fear.
+
+**Connection:** Builds on Monday (client acquisition fear), Tuesday (relief behaviours), Wednesday (controlled exposure). This week's thread is complete: name the fear → notice the escape patterns → find the controlled step → do the reps consistently.
+
+---
 
 ## Wednesday 4 Feb
 **Question:** What's one controlled, manageable step you could take to expose yourself to a fear you have?
@@ -1777,10 +1798,10 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 | Ask Dad to fit socket in Tom's room and heater in downstairs toilet | 31 Jan | |
 | Confirm Tom for badminton Tuesday | 31 Jan | Mon 2 Feb |
 | Explore Christmas skiing holiday with Jo | 31 Jan | |
-| Reschedule March family walk (Aysgarth Falls) — candidates: 7/8/15 March | 1 Feb | |
+| Reschedule March family walk (Aysgarth Falls) — candidates: 7/8/15 March | 1 Feb | Done (8 Mar) |
 | Book all holidays into diary and Productive | 1 Feb | |
 | Cinema trips this month? | 1 Feb | |
-| Reschedule Yorkshire 3 Peaks weekend (clashes with Golf Open 19 Jul) | 1 Feb | w/c 2 Feb |
+| Reschedule Yorkshire 3 Peaks weekend (clashes with Golf Open 19 Jul) | 1 Feb | Done (10-12 Jul) |
 | Discuss schema evolution approach to AWMM DCM repo with Dave (CIO data upgrade, CREATE OR ALTER, additional parquet sources) | 3 Feb | |
 | Contact Simon for Dave's stretching routines | 3 Feb | |
 | Plan Tuesday nutrition for badminton — eat and hydrate properly through the day when evening exercise is planned | 3 Feb | |

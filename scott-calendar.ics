@@ -106,6 +106,21 @@ UID:20260221-lakedistrict@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:Paul Sandham
+UID:20260306-paulsandham@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:Family Walk - Aysgarth Falls & Castle Bolton Circular
+LOCATION:Yorkshire Dales
+UID:20260308-aysgarth@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260316
 SUMMARY:Mark & Oscar visiting from Maine (with Pete & Oliver)
@@ -180,6 +195,13 @@ UID:20260523-kingfishr@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:Tom's race track day
+UID:20260526-tomracetrack@scott-calendar
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260524
 DTEND;VALUE=DATE:20260529
 SUMMARY:Venice and Verona School Trip - Sophie
@@ -250,12 +272,12 @@ UID:20260703-abersoch@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260720
-SUMMARY:Yorkshire 3 Peaks - Scott's Birthday (18th) - NEEDS RESCHEDULING (Golf Open clash)
-DESCRIPTION:Stay Fri & Sat nights. CLASHES with Golf Open final day 19 Jul - needs moving.
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260713
+SUMMARY:Yorkshire 3 Peaks
+DESCRIPTION:Stay Fri & Sat nights
 LOCATION:Yorkshire Dales
-UID:20260717-3peaks@scott-calendar
+UID:20260710-3peaks@scott-calendar
 END:VEVENT
 
 BEGIN:VEVENT

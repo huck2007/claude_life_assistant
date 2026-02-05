@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Wed):** Marketing campaign session with Emma — move from list to action
+**MIT Today (Thu):** Marketing message refinement and send plan with Emma
 
 ## Systematisation Sequence
 

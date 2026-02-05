@@ -37,9 +37,10 @@
 
 | Date | Type | Event |
 |------|------|-------|
+| 6 (Fri) | Social | Paul Sandham |
 | 13-15 (Fri-Sun) | Social | Mark & Oscar visiting from Maine (with Pete & Oliver) |
 | 14 (Sat) | Social | Man Utd vs Aston Villa — Scott & Tom with Mark, Oscar, Pete, Oliver |
-| 14 (Sat) | Day Trip | ~~Aysgarth Falls & Castle Bolton Circular~~ — RESCHEDULED (candidates: 7/8/15 March) |
+| 8 (Sun) | Day Trip | Aysgarth Falls & Castle Bolton Circular - family walk |
 | 27-30 | Weekend Away | Budapest with Jo, David & Patrina (3 nights) |
 
 ---
@@ -61,6 +62,7 @@
 | Date | Type | Event |
 |------|------|-------|
 | 8 (Fri) | Day Trip | Devil's Kitchen & Llyn Idwal Circular - family walk |
+| 26 (Tue) | Family | Tom's race track day |
 | 15-16 | Weekend Away | Family memorial golf trip - Llandudno (Paul, Chris & family) |
 | 23 (Sat 7pm) | Gig | Kingfishr @ O2 Victoria Warehouse, Manchester - with Jo, Tom & Sophie |
 | 24-28 | School | Venice and Verona school trip - Sophie |
@@ -86,7 +88,7 @@
 | Date | Type | Event |
 |------|------|-------|
 | 3-5 (Fri-Sun) | Weekend Away | Abersoch - Jo & Sophie with the girls |
-| 17-19 | Weekend Away | Yorkshire 3 Peaks - Scott's birthday (18th). Stay Fri & Sat nights. |
+| 10-12 (Fri-Sun) | Weekend Away | Yorkshire 3 Peaks - Stay Fri & Sat nights |
 | 19 (Sun) | Sport | British Golf Open final day @ Royal Birkdale - Scott, Tom & Dad |
 
 ---
