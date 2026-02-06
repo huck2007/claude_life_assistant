@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-02-02
+**Last Updated:** 2026-02-06
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Thu):** Marketing message refinement and send plan with Emma
+**MIT Today (Fri):** Bicycle Association prospect call with Daniel (2pm)
 
 ## Systematisation Sequence
 
@@ -77,6 +77,13 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-06
+- **MIT done. Bicycle Association prospect call with Daniel.** Not a no, not a yes — agreement to try each other for size with a discrete project (fixed price). Mesosys (Pete) now accepting of multi-supplier model. Grant funding ~€400k expected to unlock work packages. Strategy work not off the table long-term. No specific timeline — wait for work packages to emerge. 12 outreach messages from yesterday — no responses yet. AWMM roadmap carries to Monday PM. Gym done, haircut done, mobility day 2 done. SKOF dinner tonight.
+- **OYTS went deep.** Marketing avoidance is driven by fear that the team can't deliver what a "data analytics business" promises — feels like lying. The honest proposition is Scott as fractional CTO with a team behind him, not a data analytics powerhouse. BA call today validated this: Daniel is buying Scott's strategic brain, not the team's analytics capability.
+
+### 2026-02-05
+- **MIT done. Marketing message refinement complete, 12 outreach messages sent (6 each with Emma).** Value proposition locked. Sports vertical captured. Dave catch-up on Snowflake Dev Summit done. Phil V call done. AWMM roadmap carries again. Mobility day 1 with Simon's proper routine — done. Eye test done. No run, no AMWAP, Plan Tomorrow missed. Sleep terrible again (T) — pillow research for arm numbness. Screen time spiked to 6h 11m / 114 pickups — worst day this week.
 
 ### 2026-02-04
 - **MIT done. Marketing session with Emma — LinkedIn exports reviewed, top 20 shortlist built.** Three of five subtasks complete. Outreach message refinement and send plan carry to Thursday. Impower proposal run-through done. All personal and health tasks done. Gym with Lou, 2L water hit (day 3). Sophie to piano, visited Mum & Dad.

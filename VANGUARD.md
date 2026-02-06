@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-02-02
+**Last Updated:** 2026-02-06
 
 ---
 
@@ -169,12 +169,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | | | Y |
-| Meditation | Y | Y | Y | Y | | | Y |
-| Freedom Gap (AM) | Y | Y | Y | Y | | | Y |
-| Cold Water (3 min) | Y | Y | Y | Y | | | Y |
-| Mobility | Y | Y | N | N | | | N |
-| OYTS | Y | Y | Y | Y | | | Y |
+| Breathwork | Y | Y | Y | Y | Y | | Y |
+| Meditation | Y | Y | Y | Y | Y | | Y |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | | Y |
+| Cold Water (3 min) | Y | Y | Y | Y | Y | | Y |
+| Mobility | Y | Y | N | Y | Y | | N |
+| OYTS | Y | Y | Y | Y | Y | | Y |
 
 ## Daily Scores
 
@@ -188,8 +188,8 @@
 | Hydration | G | B | G | O | | | G |
 | Outdoors | B | B | B | O | | | O |
 | Exercise | G | G | G | O | | | O |
-| Screen Time | 4h42 | 3h32 | 2h35 | | | | |
-| Pickups | 72 | 43 | 75 | | | | |
+| Screen Time | 4h42 | 3h32 | 2h35 | 6h11 | | | |
+| Pickups | 72 | 43 | 75 | 114 | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -197,9 +197,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | Y | | | | Y |
-| AMWAP | Y | Y | Y | | | | N |
-| Plan Tomorrow | Y | Y | Y | | | | Y |
+| Freedom Gap (PM) | Y | Y | Y | Y | | | Y |
+| AMWAP | Y | Y | Y | N | | | N |
+| Plan Tomorrow | Y | Y | Y | N | | | Y |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -909,41 +909,86 @@ None planned
 
 ---
 
-## Thursday 5 Feb
+## Thursday 5 Feb [COMPLETE]
 
 **Morning Routine:**
-1. Breathwork (box breathing)
-2. Meditation (Waking Up app)
-3. Freedom Gap AM (first hour tech-free)
-4. Cold Water (3 min)
-5. Mobility (Simon's routine — day 1)
-6. OYTS: *What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process?*
-7. AMWAP: *5 minutes of wins where you followed through on something — even when it wasn't easy.*
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility (Simon's routine — day 1) [done]
+6. OYTS: *What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process?* [done]
+7. AMWAP: *5 minutes of wins where you followed through on something — even when it wasn't easy.* [not done]
 
 **Work Tasks:**
-1. Marketing message refinement and send plan with Emma [MIT]
-2. Catch up with Dave on Snowflake Dev Summit (new features)
-3. AWMM roadmap prioritisation work
-4. Catch-up call with Phil V at Trustmark
+1. Marketing message refinement and send plan with Emma [MIT] [done] — 12 outreach messages sent
+2. Catch up with Dave on Snowflake Dev Summit (new features) [done]
+3. AWMM roadmap prioritisation work [carry forward]
+4. Catch-up call with Phil V at Trustmark [done]
 
 **Personal Tasks:**
-1. Clear cupboard hanging space
-2. Reschedule March & July walks to different weekends
-3. Summer holiday destination shortlist
+1. Clear cupboard hanging space [ongoing]
+2. Reschedule March & July walks to different weekends [done]
+3. Summer holiday destination shortlist [ongoing]
 
 **Health Tasks:**
-1. Run
+1. Run [not done]
 
-**MIT:** Marketing message refinement and send plan
+**MIT:** Marketing message refinement and send plan [done]
 
 **Appointments:**
 - ~~Stand-up 10:30~~ — clashes with eye test
-- Eye test 10:50am
+- Eye test 10:50am [done]
+
+**Scores:** Sleep T, Steps O, Nutrition G, Hydration O, Outdoors O, Exercise O
+**Digital Life:** Screen Time 6h 11m, Pickups 114
 
 **Evening:**
-- Log work hours in Productive
-- Freedom Gap PM
-- Plan Tomorrow
+- Log work hours in Productive [done]
+- Freedom Gap PM [done]
+- Plan Tomorrow [not done]
+
+**Notes:**
+- Mobility day 1 with Simon's proper routine — done.
+- Pillow research for arm numbness/sleep issue — Better Sleep Pillow shortlisted (£60-70).
+
+---
+
+## Friday 6 Feb [COMPLETE]
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility (Simon's routine — day 2) [done]
+6. OYTS: *What actions or decisions have you been avoiding because of fear?* [done]
+7. AMWAP: *Wins from the last week where you made progress without relying on motivation.* [not done]
+
+**Work Tasks:**
+1. Bicycle Association prospect call prep (30 mins before 2pm) [done]
+2. Bicycle Association prospect call with Daniel (2pm) [MIT] [done]
+3. AWMM roadmap prioritisation [carry forward to Monday PM]
+4. Follow up on outreach messages [done] — no responses yet
+
+**Personal Tasks:**
+1. Haircut [done]
+2. SKOF dinner 6:30pm — Manchester with Jo, Tom & Sophie
+
+**Health Tasks:**
+1. GYM Lifting with Lou (midday) [done]
+
+**MIT:** Bicycle Association prospect call with Daniel [done]
+
+**Scores:** Sleep G
+
+**Evening:**
+- SKOF dinner — be present, enjoy it
+- No evening rituals expected (out)
+
+**Notes:**
+- BA meeting outcome: Not a no, not a yes. Agreement to try each other for size with a discrete project (fixed price). Mesosys (Pete) accepting of multi-supplier model after Daniel's reassurance. Grant funding (EITI?) ~€400k expected — will unlock work packages. Strategy work not off the table — Daniel says once past first project, Scott's involvement would normalise. They're testing multi-supplier process first with American data scraping project. Technical: no Fivetran, data via SFTP/S3, Toucan tech for membership mgmt, Quicksight now called Quicksuite.
+- 12 outreach messages from yesterday — zero responses so far. Early days.
 
 ---
 
@@ -1144,6 +1189,31 @@ Rest day.
 3. Can I see any patterns emerging?
 4. How was my device behaviour this week? (Screen time, pickups, presence)
 
+## Week of 2 Feb - 8 Feb 2026
+
+**Q1: Diving deep or bypassing?**
+Deep enough. OYTS quality was the strongest week yet — a complete thread from naming the fear (Mon) through relief behaviours (Tue), controlled exposure (Wed), doing the reps (Thu), to confronting the biggest avoidance (Fri: marketing). Friday's OYTS was a breakthrough: the marketing avoidance isn't laziness, it's a genuine belief the team can't deliver what a "data analytics business" promises. AMWAP slipping though — finding them "a bit naff." Need to either refresh the format or accept they're not landing and adjust.
+
+**Q2: What's holding me back?**
+Usual suspect behaviours and situations — but actively dealing with them. The BA call today is evidence: leaning into the fear, having the conversations, not avoiding. 12 outreach messages sent Thursday. The holding-back is more about sleep and energy now than mindset.
+
+**Q3: Patterns emerging?**
+1. **Starting the working day later.** Morning rituals are strong (5/5 most days this week) but the transition from rituals to work is soft. Deep work mornings aren't starting as early as the structure intended.
+2. **Sleep disruption cascading.** Sleep scored T twice this week (Sun night, Thu night). Arm numbness waking him up. Bad sleep → late start → compressed day → rituals slip in the evening. The pillow research is a practical fix worth pursuing.
+3. **AMWAP losing energy.** Morning AMWAP (moved there from evening in week design) hasn't stuck — missed 3 of 5 days. The "wins" format may need refreshing or the questions aren't resonating. Worth discussing with Natural Edge or changing the prompt style.
+
+**OYTS Synthesis (Week 1 Feb):**
+Complete fear thread across the week — the most connected sequence yet:
+- **Mon:** Client acquisition fear named — grounded in reality (only 3 clients, no proven method) but response is healthy
+- **Tue:** Relief behaviours — alcohol, checking out, catastrophising. Three patterns, all identified
+- **Wed:** Controlled exposure — surfaced storytelling/social performance as the deeper personal fear, not professional speaking
+- **Thu:** Doing the reps — fear setting technique (Define, Prevent, Repair). Already doing it informally with Emma. 12 messages sent despite the fear.
+- **Fri:** What are you still avoiding? — Marketing. The biggest one. Team capability gap is real, not imagined. Honest proposition is Scott as fractional CTO, not "data analytics powerhouse."
+
+**Thread:** The fear work this week produced a genuine insight that reframes the marketing challenge. Stop selling what you're not; sell what you are. The BA call validated this in real time.
+
+---
+
 ## Week of 26 Jan - 1 Feb 2026
 
 **Q1: Diving deep or bypassing?**
@@ -1235,6 +1305,25 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Friday 6 Feb
+**Question:** What actions or decisions have you been avoiding because of fear?
+
+**Summary:** Marketing the business. The avoidance isn't laziness or planning-mode — it's a genuine fear that the team can't deliver what a "data analytics business" promises. The gap between what he sells and what the team can produce is the core tension.
+
+**Key themes:**
+- **Capability gap is real, not imagined.** Anthony's BI work doesn't "dazzle" — not intuitive, not storytelling, not client-ready. Eddie's weaknesses compound this. Becky is strong on data engineering but that's one person.
+- **Identity mismatch:** The business has won work as "Scott the fractional CTO who happens to have a data team" — not as a data analytics consultancy. Every client bought Scott's ability to bridge tech/business, not the team's analytics capability.
+- **Marketing feels like lying:** Positioning as a data analytics business when the delivery team can't consistently produce work that excites him feels dishonest. *"It puts me in a position where I feel I have to lie."*
+- **The comfortable path:** Another CTO-style client who buys Scott directly. He knows this works, but it's absorbing and doesn't scale — which is exactly what he's trying to move away from.
+- **AI/agentic caveat:** Acknowledges AI could change the equation on development capability, but wary of "vibe coding our way to something crap."
+- **Fear cascade:** Fear of marketing → fear of exposure → fear of committing to deliverables the team can't handle → easier to avoid entirely.
+
+**Key insight:** The marketing avoidance isn't about client acquisition skills — it's about product confidence. He doesn't fully believe in what the team delivers beyond his personal involvement. This is Bug #5 (clients buy Scott) seen from the inside: he knows it's true and doesn't know how to market around it honestly.
+
+**Connection:** Completes the week's fear thread: name the fear (Mon) → notice escape patterns (Tue) → find the controlled step (Wed) → do the reps (Thu) → what are you still avoiding? (Fri). Answer: the biggest one. The one underneath all the others.
+
+---
 
 ## Thursday 5 Feb
 **Question:** What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process?
