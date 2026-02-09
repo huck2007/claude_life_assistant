@@ -110,56 +110,63 @@
 
 # THIS WEEK
 
-**Week of:** 2 - 8 Feb 2026 (Week 1 Feb)
+**Week of:** 9 - 15 Feb 2026 (Week 2 Feb)
+
+## Week Objectives
+
+1. **AWMM roadmap prioritised and quarterly meetings scheduled** — present at Thursday 1:30 meeting
+2. **Two meetings scheduled with outreach targets** — chase 12 messages from last week, book conversations
+3. **Business strategy direction set** — AI & Data consultancy, or Fractional CTO with team? Decide with Emma. This unlocks all marketing.
 
 ## Week Focus
 
 **Work:**
-1. Design weekly work schedule — time zones for deep work, leadership, client management, business development. **Tuesday morning.**
-2. Monday Dashboard review with Eddie — first weekly rhythm session (Eddie back Tuesday)
-3. Finalise Productive setup (overhead costs, staff rates) — carried from January, kill it this week
-4. Marketing outreach: mine LinkedIn exports (Scott + Emma), build prospect database, filter to top 20 by Wed. Weighted toward known contacts and strong-match organisations.
-5. AWMM roadmap prioritisation — start, even if not finished
-6. Reach agreement with TCS (Pallab) on data environment access — scope, tools, people, timeline. Schedule the work.
-7. Wednesday: Refine outreach messages — draw on experience/problems solved, tailored to shortlist prospects.
+1. AWMM roadmap prioritisation — complete Mon/Tue, present Thursday. Schedule quarterly review cadence with Danny.
+2. Outreach follow-up — review responses from 12 messages, chase non-responders, target 2 meetings booked this week
+3. Strategy direction conversation with Emma — honest assessment: what are we, what do we sell, what can the team deliver? Use Friday's OYTS insight as the starting point.
+4. Monday Dashboard / commercial performance with Emma & Eddie (Mon 2pm)
+5. Trustmark project meeting (Wed 10am)
+6. AWMM project meeting (Thu 1:30)
 
 **Health:**
-1. Hydration: 2L daily, bulk before 6pm. Track in scores — aim for G or Gr.
-2. Mobility: 15-20 min daily, morning routine. First week = build the habit, not perfection.
-3. Lifting 3x with Lou
-4. Running 2x minimum. Resume running log with data.
+1. Hydration: 2L daily, bulk before 6pm
+2. Mobility: 15-20 min daily — rebuild after weekend drop
+3. Lifting 3x with Lou (Mon, Wed, Fri)
+4. Running 2x minimum — Tuesday midday and Saturday AM. No excuses. February target is 2x/week and Week 1 was zero.
 5. Alcohol: Fri/Sat only
 
 **Personal:**
-1. Evening rituals: target 6/7 days AMWAP and Plan Tomorrow
-2. Set screen time targets from baseline (5h 4m / 83 pickups)
-3. Confirm Tom for badminton Tuesday
-4. Reschedule Yorkshire 3 Peaks (Golf Open clash)
-5. SKOF dinner Friday (6:30pm), Six theatre Saturday (Jo & Sophie)
+1. Evening rituals: reset after 4-day drop. Target 6/7 AMWAP and Plan Tomorrow.
+2. Screen time tracking continues — keep below baseline (5h 4m / 83 pickups)
+3. Sunday lunch at Jenny & John's (15 Feb) — Jo, Tom & Sophie
 
 ## OYTS Questions
 
+*Week 2 theme: Identity & Direction. Builds on Week 1 fear breakthrough — from "what am I afraid of?" to "what am I going to build?"*
+
 | Day | Question |
 |-----|----------|
-| Mon | What specific fear is currently limiting your progress, performance, or confidence? |
-| Tue | What short-term 'relief behaviours' do you use to escape fear — and how are they reinforcing the fear loop? |
-| Wed | What's one controlled, manageable step you could take to expose yourself to a fear you have? |
-| Thu | What does "doing the reps" look like for your fears — and what would it take to stay consistent with that process? |
-| Fri | What actions or decisions have you been avoiding because of fear? |
-| Sat | Would your day/life look different if you were free of fear? |
-| Sun | Do you have a fear that if avoided for another 12 months, how will it cost you — professionally, personally, or emotionally? |
+| Mon | What does Crozier Scott actually do better than anyone else? Not what you want it to do — what does it do today? |
+| Tue | If you stopped calling yourself a "data analytics business" tomorrow, what would you build instead? |
+| Wed | What would your three best clients say you gave them that nobody else could? |
+| Thu | What does the team need to become to match the business you want to build — and is that realistic in 12 months? |
+| Fri | The strategy direction is set. What's the first thing that changes next week? |
+| Sat | What's the version of this business that genuinely excites you — not the safe version, the real one? |
+| Sun | If you're honest: are you building a business to sell, or a practice to enjoy? Does the answer change anything? |
 
 ## AMWAP Questions
 
+*Week 2 format refresh: single reflective questions instead of "list N wins." Less homework, more depth.*
+
 | Day | Question |
 |-----|----------|
-| Mon | 5 minutes of wins that prove you're building a life aligned with your definition of success. |
-| Tue | List the consistent habits you've stuck with in the past 30 days — no matter how small. |
-| Wed | 10 wins that show how your health has improved mentally or physically this year. |
-| Thu | 5 minutes of wins where you followed through on something — even when it wasn't easy. |
-| Fri | Wins from the last week where you made progress without relying on motivation. |
-| Sat | 7 wins that reflect strength or growth in your closest relationships. |
-| Sun | 5 minutes of wins where you prioritised long-term goals over short-term comfort. |
+| Mon | What's one thing you did recently that the version of you from 12 months ago couldn't have done? |
+| Tue | Where in your life right now is the gap between intention and action smallest? |
+| Wed | What habit or practice has become so automatic you'd notice its absence more than its presence? |
+| Thu | What's one relationship that's stronger now because of how you've shown up recently? |
+| Fri | What did you do this week that moved the business forward without you doing the delivery? |
+| Sat | What's the clearest evidence that your health transformation is real and lasting? |
+| Sun | What are you most proud of from this week — and why that, specifically? |
 
 ---
 
@@ -169,12 +176,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | | Y |
-| Meditation | Y | Y | Y | Y | Y | | Y |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | | Y |
-| Cold Water (3 min) | Y | Y | Y | Y | Y | | Y |
-| Mobility | Y | Y | N | Y | Y | | N |
-| OYTS | Y | Y | Y | Y | Y | | Y |
+| Breathwork | | | | | | | |
+| Meditation | | | | | | | |
+| Freedom Gap (AM) | | | | | | | |
+| Cold Water (3 min) | | | | | | | |
+| Mobility | | | | | | | |
+| OYTS | | | | | | | |
 
 ## Daily Scores
 
@@ -182,14 +189,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | B | G | G | T | | | G |
-| Steps | B | O | B | O | | | O |
-| Nutrition | O | O | G | G | | | G |
-| Hydration | G | B | G | O | | | G |
-| Outdoors | B | B | B | O | | | O |
-| Exercise | G | G | G | O | | | O |
-| Screen Time | 4h42 | 3h32 | 2h35 | 6h11 | | | |
-| Pickups | 72 | 43 | 75 | 114 | | | |
+| Sleep | | | | | | | |
+| Steps | | | | | | | |
+| Nutrition | | | | | | | |
+| Hydration | | | | | | | |
+| Outdoors | | | | | | | |
+| Exercise | | | | | | | |
+| Screen Time | | | | | | | |
+| Pickups | | | | | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -197,9 +204,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | Y | Y | | | Y |
-| AMWAP | Y | Y | Y | N | | | N |
-| Plan Tomorrow | Y | Y | Y | N | | | Y |
+| Freedom Gap (PM) | | | | | | | |
+| AMWAP | | | | | | | |
+| Plan Tomorrow | | | | | | | |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -951,6 +958,99 @@ None planned
 **Notes:**
 - Mobility day 1 with Simon's proper routine — done.
 - Pillow research for arm numbness/sleep issue — Better Sleep Pillow shortlisted (£60-70).
+
+---
+
+## Monday 9 Feb
+
+**Morning Routine:**
+1. Breathwork (box breathing) []
+2. Meditation (Waking Up app) []
+3. Freedom Gap AM (first hour tech-free) []
+4. Cold Water (3 min) []
+5. Mobility (15-20 min) []
+6. OYTS: *What does Crozier Scott actually do better than anyone else? Not what you want it to do — what does it do today?* []
+7. AMWAP: *What's one thing you did recently that the version of you from 12 months ago couldn't have done?* []
+
+**Work Tasks:**
+1. AWMM roadmap prioritisation — deep work block, get presentable for Thursday [MIT] []
+2. 2pm Commercial performance with Emma & Eddie — agenda: (a) outreach response review, (b) strategy direction: AI & Data or Fractional CTO with team?, (c) agree who to chase for meetings []
+
+**Personal Tasks:**
+
+**Health Tasks:**
+1. GYM Lifting with Lou (midday) []
+
+**MIT:** AWMM roadmap prioritisation
+
+**Evening:**
+- Log work hours in Productive []
+- Freedom Gap PM []
+- AMWAP []
+- Plan Tomorrow []
+
+**Notes:**
+
+
+---
+
+## Sunday 8 Feb [COMPLETE]
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility [not done]
+6. OYTS: *Do you have a fear that if avoided for another 12 months, how will it cost you — professionally, personally, or emotionally?* [not done]
+7. AMWAP: *5 minutes of wins where you prioritised long-term goals over short-term comfort.* [not done]
+
+**Tasks:**
+1. Weekly planning session — review Week 1, set Week 2 focus [not done — deferred to Monday 9 Feb]
+
+**Health Tasks:**
+1. Run [not done]
+
+**Scores:** Sleep O, Steps G, Nutrition G, Hydration O, Outdoors G, Exercise G
+**Digital Life:** Screen Time 4h40, Pickups 86
+
+**Evening:**
+- Freedom Gap PM [done]
+- Plan Monday [not done]
+
+**Notes:**
+- Weekend offline. Core rituals held both days. OYTS, AMWAP, mobility, and running all dropped. Weekly planning deferred to Monday.
+
+
+---
+
+## Saturday 7 Feb [COMPLETE]
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility [not done]
+6. OYTS: *Would your day/life look different if you were free of fear?* [not done]
+7. AMWAP: *7 wins that reflect strength or growth in your closest relationships.* [not done]
+
+**Tasks:**
+1. Six theatre — Jo & Sophie (Scott not attending)
+
+**Health Tasks:**
+1. Run (AM) [not done]
+
+**Scores:** Sleep O, Steps B, Nutrition G, Hydration G, Outdoors B, Exercise B
+**Digital Life:** Screen Time 4h, Pickups 97
+
+**Evening:**
+- Freedom Gap PM [done]
+- Plan Tomorrow [not done]
+
+**Notes:**
+- Quiet day. Core morning rituals held, rest dropped off.
+
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-02-06
+**Last Updated:** 2026-02-09
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Fri):** Bicycle Association prospect call with Daniel (2pm)
+**MIT Today (Mon):** AWMM roadmap prioritisation — deep work, present Thursday
 
 ## Systematisation Sequence
 
@@ -77,6 +77,9 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-08 (Weekend)
+- **Offline Saturday and Sunday.** Core morning rituals held both days (breathwork, meditation, freedom gap, CWI). Everything else dropped — no mobility, no OYTS, no AMWAP, no running. Weekly planning session didn't happen — deferred to Monday 9 Feb. Freedom gap PM held both evenings. Six theatre was Jo & Sophie only. Screen time: 4h/97 picks (Sat), 4h40/86 picks (Sun).
 
 ### 2026-02-06
 - **MIT done. Bicycle Association prospect call with Daniel.** Not a no, not a yes — agreement to try each other for size with a discrete project (fixed price). Mesosys (Pete) now accepting of multi-supplier model. Grant funding ~€400k expected to unlock work packages. Strategy work not off the table long-term. No specific timeline — wait for work packages to emerge. 12 outreach messages from yesterday — no responses yet. AWMM roadmap carries to Monday PM. Gym done, haircut done, mobility day 2 done. SKOF dinner tonight.
