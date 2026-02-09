@@ -176,12 +176,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | | | | | | | |
-| Meditation | | | | | | | |
-| Freedom Gap (AM) | | | | | | | |
-| Cold Water (3 min) | | | | | | | |
-| Mobility | | | | | | | |
-| OYTS | | | | | | | |
+| Breathwork | Y | | | | | | |
+| Meditation | Y | | | | | | |
+| Freedom Gap (AM) | Y | | | | | | |
+| Cold Water (3 min) | Y | | | | | | |
+| Mobility | - | | | | | | |
+| OYTS | Y | | | | | | |
 
 ## Daily Scores
 
@@ -189,12 +189,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | | | | | | | |
-| Steps | | | | | | | |
-| Nutrition | | | | | | | |
-| Hydration | | | | | | | |
-| Outdoors | | | | | | | |
-| Exercise | | | | | | | |
+| Sleep | G | | | | | | |
+| Steps | G | | | | | | |
+| Nutrition | G | | | | | | |
+| Hydration | O | | | | | | |
+| Outdoors | G | | | | | | |
+| Exercise | G | | | | | | |
 | Screen Time | | | | | | | |
 | Pickups | | | | | | | |
 
@@ -205,7 +205,7 @@
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Freedom Gap (PM) | | | | | | | |
-| AMWAP | | | | | | | |
+| AMWAP | Y | | | | | | |
 | Plan Tomorrow | | | | | | | |
 
 **Evening close-down (daily):** Log work hours in Productive.
@@ -961,7 +961,7 @@ None planned
 
 ---
 
-## Monday 9 Feb
+## Tuesday 10 Feb
 
 **Morning Routine:**
 1. Breathwork (box breathing) []
@@ -969,27 +969,67 @@ None planned
 3. Freedom Gap AM (first hour tech-free) []
 4. Cold Water (3 min) []
 5. Mobility (15-20 min) []
-6. OYTS: *What does Crozier Scott actually do better than anyone else? Not what you want it to do — what does it do today?* []
-7. AMWAP: *What's one thing you did recently that the version of you from 12 months ago couldn't have done?* []
+6. OYTS: *If you stopped calling yourself a "data analytics business" tomorrow, what would you build instead?* []
+7. AMWAP: *Where in your life right now is the gap between intention and action smallest?* []
 
 **Work Tasks:**
-1. AWMM roadmap prioritisation — deep work block, get presentable for Thursday [MIT] []
-2. 2pm Commercial performance with Emma & Eddie — agenda: (a) outreach response review, (b) strategy direction: AI & Data or Fractional CTO with team?, (c) agree who to chase for meetings []
+1. 10:30 Stand-up []
+2. Impower meeting with Paul Henry — Indexes proposal discussion []
+3. AWMM Platinum Club internal kick-off with Phil []
+4. AWMM GRC Monthly Roundup scoping with Emma []
+5. Marketing outreach: social housing contact (old school friend, "data nerd" — possible collaboration) []
+6. Business strategy & marketing proposition session with Emma [MIT] []
 
 **Personal Tasks:**
+1. Order heather for downstairs bathroom []
 
 **Health Tasks:**
-1. GYM Lifting with Lou (midday) []
+1. HIIT session []
 
-**MIT:** AWMM roadmap prioritisation
+**MIT:** Business strategy & marketing proposition session with Emma
 
 **Evening:**
 - Log work hours in Productive []
 - Freedom Gap PM []
-- AMWAP []
 - Plan Tomorrow []
 
 **Notes:**
+
+---
+
+## Monday 9 Feb
+
+**Morning Routine:**
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility (15-20 min) [not done]
+6. OYTS: *What does Crozier Scott actually do better than anyone else? Not what you want it to do — what does it do today?* [done]
+7. AMWAP: *What's one thing you did recently that the version of you from 12 months ago couldn't have done?* [done]
+
+**Work Tasks:**
+1. AWMM roadmap prioritisation — deep work block, get presentable for Thursday [MIT] [done]
+2. 2pm Commercial performance with Emma & Eddie — agenda: (a) outreach response review, (b) strategy direction: AI & Data or Fractional CTO with team?, (c) agree who to chase for meetings [done — commercial performance only, strategy/proposition discussion not addressed due to time]
+
+**Personal Tasks:**
+1. Bag up old clothing for "needy families" [done]
+
+**Health Tasks:**
+1. GYM Lifting with Lou (midday) [done]
+2. Run [cancelled]
+
+**MIT:** AWMM roadmap prioritisation [done]
+
+**Evening:**
+- Log work hours in Productive [done]
+- Freedom Gap PM []
+- AMWAP [done]
+- Plan Tomorrow [done]
+
+**Notes:**
+- AWMM roadmap & budget update completed and structured into client report (work/awmm-roadmap-update-feb2026.md). Ready for Thursday presentation.
+- Strategy direction conversation with Emma deferred — no time in 2pm slot. Needs rescheduling this week.
 
 
 ---
@@ -1405,6 +1445,24 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Monday 9 Feb
+**Question:** What does Crozier Scott actually do better than anyone else? Not what you want it to do — what does it do today?
+
+**Summary:** Honest capability audit. Not "better than anyone" — but what CS is genuinely good at. The answer is a capabilities list, not a mission statement.
+
+**Key themes:**
+- **Platform building and integration** — quickly understanding technology, seeing where it applies, connecting disparate things into a living product
+- **Commitment and staying the course** — when things go wrong, CS takes responsibility rather than hiding behind contracts. Ethics, not just capability.
+- **Translation** — speaking to clients, understanding their needs, translating that into technology solutions they can understand
+- **Problem solving under pressure** — navigating emergencies, prioritising, fixing fast. Particularly strong in blank-sheet and crisis contexts.
+- **Specific technical strengths:** Data engineering, Snowflake, AWS, Terraform. Cost-conscious delivery.
+
+**Key insight:** The honest list maps almost entirely to Scott's personal capabilities, not the team's. The one moment of aspiration — "if we were good at data strategy, data science, bringing analytics to life, we'd be a data analytics powerhouse" — was immediately flagged as "not what we do today." This directly feeds the strategy direction conversation at 2pm: the business IS Scott's translation/integration/problem-solving wrapped in a small team, not a data analytics capability.
+
+**Connection:** Builds on Friday's fear breakthrough (marketing feels like lying because the team can't deliver the analytics promise). Today's answer confirms the honest positioning: we're translators, integrators, and problem-solvers who stay the course. The analytics brand doesn't match the actual capability.
+
+---
 
 ## Friday 6 Feb
 **Question:** What actions or decisions have you been avoiding because of fear?
