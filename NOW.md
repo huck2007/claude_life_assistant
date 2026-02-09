@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Mon):** AWMM roadmap prioritisation — deep work, present Thursday
+**MIT Today (Mon):** AWMM roadmap prioritisation — deep work, present Thursday [done]
 
 ## Systematisation Sequence
 
@@ -77,6 +77,14 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-09
+- **MIT done. AWMM roadmap prioritised and ready for Thursday.** Full evening rituals — first clean sweep on evening rituals this month. Screen time best day on record: 1h 52m / 67 pickups (baseline 5h 4m / 83). Gym done. Run cancelled. Mobility missed again.
+- **Strategy direction conversation didn't happen** — 2pm commercial performance slot ran out of time. Carries to tomorrow. This is blocking all marketing activity.
+- **OYTS went deep on CS capabilities.** Honest audit mapped almost entirely to Scott's personal skills (translation, integration, problem-solving, staying the course) rather than team capabilities. Confirms the positioning tension: the analytics brand doesn't match what the business actually delivers.
+- **AMWAP:** Running. Sub-6 min/km pace achieved — 12 months ago couldn't have done it. Targets set: sub-30 5K, sub-25 5K, sub-50 10K.
+- **AWMM budget note:** January overspent by £7,160 (£34.3k vs £27.1k budget), mainly Shopify store overrun. Switched to annual retainer model at £8,570/month. February budget £18,571 with GRC monthly roundup (15 days) and CookiePro upgrade as main items.
+- **Pattern:** Mobility has been missed consistently since the weekend drop. Three days running now.
 
 ### 2026-02-08 (Weekend)
 - **Offline Saturday and Sunday.** Core morning rituals held both days (breathwork, meditation, freedom gap, CWI). Everything else dropped — no mobility, no OYTS, no AMWAP, no running. Weekly planning session didn't happen — deferred to Monday 9 Feb. Freedom gap PM held both evenings. Six theatre was Jo & Sophie only. Screen time: 4h/97 picks (Sat), 4h40/86 picks (Sun).

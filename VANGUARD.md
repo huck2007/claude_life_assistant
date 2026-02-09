@@ -195,8 +195,8 @@
 | Hydration | O | | | | | | |
 | Outdoors | G | | | | | | |
 | Exercise | G | | | | | | |
-| Screen Time | | | | | | | |
-| Pickups | | | | | | | |
+| Screen Time | 1h52 | | | | | | |
+| Pickups | 67 | | | | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -204,9 +204,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | | | | | | | |
+| Freedom Gap (PM) | Y | | | | | | |
 | AMWAP | Y | | | | | | |
-| Plan Tomorrow | | | | | | | |
+| Plan Tomorrow | Y | | | | | | |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -1023,9 +1023,12 @@ None planned
 
 **Evening:**
 - Log work hours in Productive [done]
-- Freedom Gap PM []
+- Freedom Gap PM [done]
 - AMWAP [done]
 - Plan Tomorrow [done]
+
+**Digital Life:** Screen Time 1h52, Pickups 67
+**Scores:** Sleep G, Steps G, Nutrition G, Hydration O, Outdoors G, Exercise G
 
 **Notes:**
 - AWMM roadmap & budget update completed and structured into client report (work/awmm-roadmap-update-feb2026.md). Ready for Thursday presentation.
