@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Mon):** AWMM roadmap prioritisation — deep work, present Thursday [done]
+**MIT Today (Tue):** AWMM Platinum Club brainstorming session
 
 ## Systematisation Sequence
 

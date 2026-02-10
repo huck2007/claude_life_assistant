@@ -176,12 +176,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | | | | | | |
-| Meditation | Y | | | | | | |
-| Freedom Gap (AM) | Y | | | | | | |
-| Cold Water (3 min) | Y | | | | | | |
-| Mobility | - | | | | | | |
-| OYTS | Y | | | | | | |
+| Breathwork | Y | Y | | | | | |
+| Meditation | Y | Y | | | | | |
+| Freedom Gap (AM) | Y | Y | | | | | |
+| Cold Water (3 min) | Y | Y | | | | | |
+| Mobility | - | Y | | | | | |
+| OYTS | Y | Y | | | | | |
 
 ## Daily Scores
 
@@ -964,32 +964,33 @@ None planned
 ## Tuesday 10 Feb
 
 **Morning Routine:**
-1. Breathwork (box breathing) []
-2. Meditation (Waking Up app) []
-3. Freedom Gap AM (first hour tech-free) []
-4. Cold Water (3 min) []
-5. Mobility (15-20 min) []
-6. OYTS: *If you stopped calling yourself a "data analytics business" tomorrow, what would you build instead?* []
-7. AMWAP: *Where in your life right now is the gap between intention and action smallest?* []
+1. Breathwork (box breathing) [done]
+2. Meditation (Waking Up app) [done]
+3. Freedom Gap AM (first hour tech-free) [done]
+4. Cold Water (3 min) [done]
+5. Mobility (15-20 min) [done]
+6. OYTS: *If you stopped calling yourself a "data analytics business" tomorrow, what would you build instead?* [done]
+7. AMWAP: *Where in your life right now is the gap between intention and action smallest?* [done]
 
 **Work Tasks:**
-1. 10:30 Stand-up []
-2. Impower meeting with Paul Henry — Indexes proposal discussion []
-3. AWMM Platinum Club internal kick-off with Phil []
-4. AWMM GRC Monthly Roundup scoping with Emma []
-5. Marketing outreach: social housing contact (old school friend, "data nerd" — possible collaboration) []
-6. Business strategy & marketing proposition session with Emma [MIT] []
+1. 10:30 Stand-up [done]
+2. Impower meeting with Paul Henry — Indexes proposal discussion [done]
+3. AWMM Platinum Club internal kick-off with Phil [MIT] [done]
+4. AWMM GRC Monthly Roundup scoping with Emma [done]
+5. Marketing outreach: social housing contact (old school friend, "data nerd" — possible collaboration) [done]
+6. Business strategy & marketing proposition session with Emma [carry forward]
 
 **Personal Tasks:**
-1. Order heather for downstairs bathroom []
+1. Order heater for downstairs bathroom []
 
 **Health Tasks:**
-1. HIIT session []
+1. HIIT session [cancelled]
+2. Badminton []
 
-**MIT:** Business strategy & marketing proposition session with Emma
+**MIT:** AWMM Platinum Club brainstorming session [done]
 
 **Evening:**
-- Log work hours in Productive []
+- Log work hours in Productive [done]
 - Freedom Gap PM []
 - Plan Tomorrow []
 
@@ -1448,6 +1449,19 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 # OYTS SUMMARIES
 
 *For Friday weekly reflection*
+
+## Tuesday 10 Feb
+**Question:** If you stopped calling yourself a "data analytics business" tomorrow, what would you build instead?
+
+**Summary:** Would build a next-generation health and wellness platform — AI-powered life operating system combining breathwork, meditation, guided journalling, and accountability. Essentially what Claude Code + Natural Edge does for him now, but as a product.
+
+**Key insight:** Immediately self-corrected. Recognised this is probably the worst time to build a software app — AI is creating a Cambrian explosion of tools, market is being crowded out by vibe-coded apps and AI-generated content. The dream product already exists in fragments (Stoic, Waking Up, this system). Not a viable business play — more a passion project.
+
+**Connection:** The answer reveals what Scott actually cares about: translation, integration, making complex things work together for people. The health platform idea IS the CS capability (translation, integration, problem-solving) applied to a domain he loves rather than a client. The real question isn't "what would you build instead?" — it's "how do you package what you naturally do?" That's the strategy conversation with Emma today.
+
+**AMWAP:** Daily rituals — gap between intention and action is smallest here. Morning routine is identity, not willpower. Weekend drift linked to alcohol the night before — frustration at the gap becomes the driver to get back on track. Self-awareness loop is working.
+
+---
 
 ## Monday 9 Feb
 **Question:** What does Crozier Scott actually do better than anyone else? Not what you want it to do — what does it do today?
