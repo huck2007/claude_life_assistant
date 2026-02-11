@@ -12,22 +12,22 @@
 
 | Capability | Strength | Team members | Notes |
 |---|---|---|---|
-| **Data platforms (Snowflake/AWS)** | Strong | Phil, Eddie | Core bread-and-butter. TrustMark proves this works as a team delivery. Snowflake + AWS + Terraform. |
-| **Applied analytics / Power BI** | Strong | Eddie, Becky | Not data science or deep strategy -- but strong on business automation, operational reporting, dashboards that drive decisions. |
-| **Operationalising ML** | Capable | Phil, Scott (oversight) | Can take a model and put it into production. Have done this. Getting stronger with AI-assisted tooling. |
-| **Integration** | Capable, not enterprise-grade | Phil | Can connect systems and move data between them. Not at the level of MuleSoft/enterprise middleware -- but practical, cost-effective integration. Improvable with dev resource. |
-| **Model build** | Emerging | Dabbled, AI-assisted | Not a core strength yet. Can do it with AI assistance but wouldn't lead with this in a pitch. |
-| **Digital product / platform build** | Capable | Team under Scott's direction | AWMM platform proves this -- but Scott is heavily involved in architecture and client interface. |
+| **Data platforms (Snowflake/AWS)** | Strong | Dave, Becky | Core bread-and-butter. TrustMark proves this works as a team delivery. Snowflake + AWS + Terraform. |
+| **Applied analytics / Power BI** | Strong | Scott, Phil, Ant | Not data science or deep strategy -- but strong on business automation, operational reporting, dashboards that drive decisions. |
+| **Operationalising ML** | Capable | Dave, Scott (oversight) | Can take a model and put it into production. Have done this. Getting stronger with AI-assisted tooling. |
+| **Integration** | Capable, not enterprise-grade | Phil, Dave | Can connect systems and move data between them. Not at the level of MuleSoft/enterprise middleware -- but practical, cost-effective integration. Improvable with dev resource. |
+| **Model build** | Emerging | Scott, AI-assisted | Not a core strength yet. Can do it with AI assistance but wouldn't lead with this in a pitch. |
+| **Digital product / platform build** | Capable | Team under Scott's direction | AWMM & Trustmark platforms proves this -- but Scott is heavily involved in architecture and client interface. |
 
 ### What Scott is filling (the gaps):
 
 | Gap | What Scott does | Why it's a gap |
 |---|---|---|
 | **Data strategy** | Scott does discovery, defines the roadmap, makes the recommendation | Nobody else on the team can walk into a room, understand a client's data landscape, and define where they need to go. This is the highest-value work and the biggest dependency. |
-| **Solution architecture** | Scott designs the technical approach | The team can build to a spec. Scott creates the spec. Without him, the team builds what's asked, not what's needed. |
-| **Client translation** | Scott bridges business and technology | Clients explain their problem in business terms. Scott translates to technology. Team cannot do this independently. |
+| **Solution architecture** | Scott makes strategic technology choices. Dave does cloud infrastructure design. Data/app products split between Scott & Phil. | The team can build to a spec and Dave owns infra architecture. But strategic technology direction -- what to build and why -- is still Scott. Without him, the team builds what's asked, not what's needed. |
+| **Client translation** | Scott bridges business and technology at the platform/strategy level | Clients explain their problem in business terms. Scott translates to technology. Phil can do this reasonably well at the function point/requirements level, but not at the platform or strategic level. Gap is narrower than assumed -- but the high-value translation is still Scott. |
 | **Blank-sheet problem solving** | Scott scopes new engagements from scratch | When there's no brief, no spec, no starting point -- Scott creates the shape of the work. The team needs the shape before they can execute. |
-| **Commercial / relationship management** | Scott holds senior client relationships | Danny, Dawna, Phil V, Paul Henry -- they talk to Scott. If Scott disappears, the relationship weakens. Emma is building this capability but isn't technical enough to hold the full conversation. |
+| **Commercial / relationship management** | Scott holds senior client relationships | Danny, Dawna, Phil V -- they talk to Scott. Eddie has a good relationship with Paul Henry, but Paul is not a strategic relationship -- he's feathering his own nest on his terms, persistently stringing CS along. If Scott disappears from the strategic relationships, they weaken. Emma is building this capability but isn't technical enough to hold the full conversation. |
 
 **The blunt version:** The team is a solid delivery engine for data platforms, analytics, and integration. The gap is at the front end -- strategy, architecture, scoping, and client interface. That's where Scott is plugged in. The business scales when someone else can do at least some of that.
 
@@ -106,7 +106,7 @@ Based on actual team capability, not aspiration:
 | Gap | Impact if unfilled | Fix | Timeline |
 |---|---|---|---|
 | **Discovery & scoping framework** | Team can't start new engagements without Scott | Document Scott's discovery process into a repeatable playbook. Eddie or Emma trained to run initial discovery. | Q1-Q2 2026 |
-| **Solution architecture** | Every project needs Scott to design the approach | Harder to fix. Requires either a senior hire or Scott staying in architecture (not delivery) long-term. | Q2-Q3 2026 (hire) |
+| **Solution architecture** | Strategic technology choices still need Scott. Dave owns infra, Phil/Scott split data/app products -- but the "what and why" is Scott's. | Partially covered already (Dave on infra, Phil on data/app). The gap is strategic direction. Requires either a senior hire or Scott staying in architecture (not delivery) long-term. | Q2-Q3 2026 (hire) |
 | **Integration / dev capability** | Can't take on enterprise integration work, limits Context 2 | Senior developer hire with API/integration focus | Q2-Q3 2026 |
 | **Data strategy** | Can't sell Context 4 without Scott in the room | Long-term fix: senior hire who can do strategic advisory. Short-term: accept this is Scott's lane. | 12-24 months |
 | **Client interface** | All senior relationships go through Scott | Emma is building this. Needs more technical depth or a technical person alongside her. | Ongoing |
