@@ -176,12 +176,12 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | | | | | |
-| Meditation | Y | Y | | | | | |
-| Freedom Gap (AM) | Y | Y | | | | | |
-| Cold Water (3 min) | Y | Y | | | | | |
-| Mobility | - | Y | | | | | |
-| OYTS | Y | Y | | | | | |
+| Breathwork | Y | Y | Y | | | | |
+| Meditation | Y | Y | Y | | | | |
+| Freedom Gap (AM) | Y | Y | Y | | | | |
+| Cold Water (3 min) | Y | Y | Y | | | | |
+| Mobility | - | Y | Y | | | | |
+| OYTS | Y | Y | Y | | | | |
 
 ## Daily Scores
 
@@ -189,14 +189,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | G | | | | | | |
-| Steps | G | | | | | | |
-| Nutrition | G | | | | | | |
-| Hydration | O | | | | | | |
-| Outdoors | G | | | | | | |
-| Exercise | G | | | | | | |
-| Screen Time | 1h52 | | | | | | |
-| Pickups | 67 | | | | | | |
+| Sleep | G | O | | | | | |
+| Steps | G | G | | | | | |
+| Nutrition | G | G | | | | | |
+| Hydration | O | G | | | | | |
+| Outdoors | G | O | | | | | |
+| Exercise | G | G | | | | | |
+| Screen Time | 1h52 | 2h09 | | | | | |
+| Pickups | 67 | 67 | | | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -204,9 +204,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | | | | | | |
-| AMWAP | Y | | | | | | |
-| Plan Tomorrow | Y | | | | | | |
+| Freedom Gap (PM) | Y | Y | | | | | |
+| AMWAP | Y | Y | | | | | |
+| Plan Tomorrow | Y | - | | | | | |
 
 **Evening close-down (daily):** Log work hours in Productive.
 

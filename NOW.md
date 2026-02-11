@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Tue):** AWMM Platinum Club brainstorming session
+**MIT Today (Wed):** Trustmark fortnightly meeting
 
 ## Systematisation Sequence
 
@@ -77,6 +77,14 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-10
+- **MIT done. Platinum Club kick-off with Phil.** 5/6 work tasks — strategy session with Emma carried forward again (3rd time). Full morning rituals including mobility (day 2 back). Badminton done but energy dipped after an hour. Screen time 2h 9m / 67 pickups — second strong day. Hydration hit G for first time this week.
+- **OYTS went somewhere unexpected.** Asked what he'd build if not a data analytics business — described a health/wellness "operating system for your life" with AI at the heart (breathwork, meditation, guided journalling, accountability). Then talked himself out of it: Cambrian explosion of AI, crowded market, bad time to build apps. *Worth noting: what he described is essentially what this system is becoming.*
+- **AMWAP:** Daily rituals are where intention-action gap is smallest. Doesn't need convincing to do them weekdays. Weekend drift acknowledged — alcohol link named clearly again.
+- **Marketing frustration surfacing.** World feels full of jeopardy — geopolitical, UK politics, business environment. Marketing feels like futility. But the strategy direction conversation has now carried 3x. That's avoidance, not scheduling.
+- **Trustmark:** Future Processing cloud ops land-grab identified and responded to. Two emails drafted — clarification to Phil V, full recommendation to Phil & Simon with AWS cost data ($2,035/mo spend, $670/mo savings available directly). Strong, confident work.
+- **Pattern:** The Trustmark emails show Scott knows exactly what his value is — strategic clarity, direct recommendations, commercial awareness. The marketing hesitation isn't about capability. It's about committing to a direction.
 
 ### 2026-02-09
 - **MIT done. AWMM roadmap prioritised and ready for Thursday.** Full evening rituals — first clean sweep on evening rituals this month. Screen time best day on record: 1h 52m / 67 pickups (baseline 5h 4m / 83). Gym done. Run cancelled. Mobility missed again.
