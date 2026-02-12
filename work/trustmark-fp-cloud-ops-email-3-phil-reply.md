@@ -1,28 +1,22 @@
-# Email 3: Reply to Phil V — Response to FP FinDataOps Proposal Detail
+# Email 3: Reply to Phil V - Response to FP FinDataOps Proposal Detail
 
-**Subject:** RE: Follow-up from our conversation — Data & Cloud Ops Optimisation
+**Subject:** RE: Follow-up from our conversation - Data & Cloud Ops Optimisation
 
-Phil,
+Hi Phil,
 
-Thanks for the detail — really helpful and appreciated.
+Thanks for the extra detail. Happy to jump on a call first thing when you're in the car - but here's a summary of where I think this lands so you have something concrete to work with.
 
-Happy to jump on a call to go through the access request together. Before we do, I want to be candid about a few things.
+**Snowflake**
 
-**On the Snowflake review**
+We negotiated the Snowflake contract directly and secured a significant discount. Snowflake billing is credit-based, usage is visible in real time, and the optimisation levers are well understood. There's nothing to discover that isn't already in the console.
 
-The `IMPORTED PRIVILEGES on database SNOWFLAKE` grant gives access to the full account metadata — query history, warehouse utilisation patterns, user activity, storage metrics, credit consumption. That's not a narrow cost view — it's a complete operational picture of how the platform is being used and how efficiently it's being run.
+We've already identified specific optimisation opportunities - moving to dynamic tables in the ingestion layer, model refactoring, and query optimisations. These are detailed, involved, and require investment. We haven't pushed them because the Snowflake spend is relatively modest and the return doesn't justify the cost at this stage. Those recommendations stand and we can revisit them at any time.
 
-My concern isn't transparency — it's relevance. Future Processing know nothing about the structure of the analytics database, the usage patterns, or the design decisions behind them. Without deep involvement in the data products we've built and the business context they serve, they are not qualified to assess this platform. What they will do is run metadata queries and make recommendations out of a best-practice playbook. I've seen this many times — the output reads well on paper but is naive in practice, because it lacks the context of why things are built the way they are.
+What Future Processing would need to do this assessment is full access to account metadata - query history, warehouse utilisation, user activity, storage metrics, credit consumption. That's not a narrow cost view; it's a complete operational picture. The issue isn't transparency - it's that without involvement in the data products, the business context, and the design decisions behind them, the output will be generic best-practice recommendations that read well on paper but lack the context of why things are built the way they are.
 
-For the record: when you visited us in Warrington in late summer, I walked you through specific optimisation recommendations — moving to dynamic tables in the ingestion layer, refactoring several models, and a series of query optimisations. These are detailed, involved, and require investment. I haven't pushed them because, frankly, the Snowflake spend levels are relatively small and the optimisation juice isn't worth the squeeze at this stage. You've been in consultation, and I've been keeping a respectful distance while focusing on the priorities you've set within the more limited scope of works.
+It's also worth noting the cost picture could change soon with IDP in the mix.  Intelligent Document Processing capability will both shift Snowflake spend before introducing their own optimisation opportunities. A static review now would miss all of that.
 
-Beyond that, Snowflake has powered significant progress in critical areas for Trustmark. Pending further enhancement — productionising the ML models (which we were making good progress on before Neil and John arrived) and utilisation of the Intelligent Document Processing capability (which will drive Snowflake costs up before it introduces its own optimisation opportunities) — the cost picture is about to change anyway. A static review now would miss all of that.
-
-I fail to see how FP can do anything here other than borrow my watch to tell me the time, while placing themselves in the heart of a process and gaining credentials at our expense. That's particularly galling when I've been signposting these opportunities and take genuine pride in ensuring a balanced, honest approach with you.
-
-**On AWS**
-
-Phil, you specifically mentioned that the one thing of interest is FP's potential ability to get an appropriate AWS discount. So let me address that head on.
+**AWS - the savings that are available now**
 
 Here are the actual numbers across the three accounts we manage:
 
@@ -33,27 +27,40 @@ Here are the actual numbers across the three accounts we manage:
 | Prod    | $1,039               | $288/mo          | 28%      |
 | **Total** | **$2,035**         | **$670/mo ($8,040/yr)** | |
 
-These are standard AWS Savings Plans and Reserved Instances — available directly through the console, no intermediary required.
+These are standard AWS Savings Plans and Reserved Instances - available directly through the console, no intermediary required. We can action these within days of your go-ahead.
 
-We haven't recommended actioning these to date, deliberately. Making commitments with AWS when the future direction of the platform isn't confirmed is not advisable — you're locking in spend against resources you may not need if the strategy changes. With the consultation and uncertainty around future direction, the responsible thing was to wait. That's what we've been doing. However, if the aim now is to get on and make savings, we should do it. We can action these within days of your go-ahead.
+We haven't actioned them to date deliberately. Savings Plans and Reserved Instances are commitments - you're locking in spend against specific resources for one to three years. With the consultation period and uncertainty around the platform's future direction, the responsible approach was to hold off. If the direction is now confirmed, we should move on these immediately.
 
-I don't have access to the Tech Influence AWS accounts, but I'd imagine their spend is higher than ours and may or may not have similar Savings Plan and Reserved Instance options available. Even so, I sincerely doubt the combined spend across both reaches anywhere near the $1M annual threshold where AWS's Enterprise Discount Programme becomes relevant. Which leaves you with an FP-brokered version of an EDP — and that hands control of the commercial relationship to Future Processing, not Trustmark. Not to mention the complexity it introduces going forward: every time we need to make infrastructure changes, FP would need to be involved in a way that has simply not been required previously. That's not simplification — it's an additional dependency layer on routine operations.
+**AWS - why an Enterprise Discount via FP is unlikely to help**
 
-It's also worth remembering that at the very beginning of our relationship, I talked you through how the overall AWS account should be structured, including centralising billing in an admin account — that's our standard approach to setting up a multi-account AWS environment. If that's been done (and I believe it has), you already have the nascent setup for managing and controlling costs across all accounts without a third-party product sitting on top of it.
+AWS's Enterprise Discount Programme (EDP) doesn't begin conversations below $1M annual spend - typically $1M to $3M. Your current spend across the accounts we manage is approximately $24,000 per year. Even combining both Crozier Scott and Tech Influence accounts, I'd be very surprised if total spend reaches anywhere near that threshold.
 
-And setting aside AWS entirely — Snowflake billing is just too simple to warrant a FinOps product. It's credit-based, usage is visible in real time, and the levers are well understood. There's nothing to discover that isn't already in the console.
+What FP can offer is a brokered version of an EDP - aggregating their clients' spend to negotiate volume discounts. In practice, FP take a margin on any discount negotiated, meaning the net benefit to Trustmark is reduced or negligible. At your spend levels, we're talking about a potential additional saving of hundreds of pounds per year. In exchange, the commercial relationship with AWS would sit with Future Processing rather than Trustmark, and any future infrastructure changes would require FP involvement in a way that hasn't been needed before. That's not simplification - it's an additional dependency on routine operations.
 
-After the easy optimisations are actioned (the table above on our side, and whatever equivalents exist on TI's side), I'd estimate the remaining addressable savings add up to low thousands per annum at best. On our AWS accounts, deeper optimisations simply don't exist — the environments are lean. On the Tech Influence side, any meaningful further savings would likely require an in-depth architecture review, which is a different conversation entirely and not something that falls out of a free FinDataOps assessment.
+**FinOps is a process, not a product**
 
-The point is: the savings that matter are already identified and ready to go. I'd rather we actioned them now than wait for a review process that will, at best, recommend the same thing.
+Cloud cost management is an ongoing discipline, not something solved by a one-off assessment or a third-party tool. The industry framework for this is called FinOps (Financial Operations for cloud), and it's built on three principles: visibility, optimisation, and governance.
 
-**On the broader exercise**
+In practical terms, what Trustmark needs is straightforward:
 
-I want to be straightforward with you. I have observed, initiated, and been on the receiving end of processes like this many times over the years. I've always been confident in what we deliver, and they are seldom anything more than an exercise in distraction. They are far from fertile ground for collaboration — which is something we would have taken great pride in doing with you and Tech Influence directly, on our terms, with full context.
+1. **Action the identified AWS savings now** - $8,040/year, no third party required
+2. **Tagging and cost allocation** - consistent resource tagging across accounts so costs map to teams, projects, and environments
+3. **Budget alerts** - automated notifications when spend exceeds expected thresholds (built into AWS and Snowflake natively, at no cost)
+4. **Monthly cost reporting** - a standing review of spend trends, anomalies, and optimisation opportunities
+5. **Quarterly cost governance review** - deeper assessment aligned to roadmap changes, with clear business cases for any further optimisation
 
-If there's value in a cost review, let us do it properly. We know the platforms, the workloads, the business context, and the roadmap. We've already made the recommendations. Let's action what's on the table and build a cost governance rhythm that's owned by the people who actually run the environments.
+All of this uses native tooling that's already included in your AWS and Snowflake subscriptions. There's no licensing cost and no third-party dependency. It's owned by the people who manage the environments and understand the business context behind the spend.
 
-Call me when suits — happy to talk it through.
+We're happy to stand this up formally and make it part of our ongoing service. If it would be useful, I can put together a short proposal for what this looks like in practice.
 
-Best,
+**In summary**
+
+- Snowflake is already optimised and further opportunities are identified - they need investment, not a third-party review
+- $8,040/year in AWS savings is ready to go today - just needs your approval (and there could be comparable savings with Tech Influence / Future Processing)
+- An enterprise AWS discount via FP is unlikely to be material at your spend levels, and comes at the cost of commercial control
+- What delivers lasting value is an ongoing cost governance process, not a one-off assessment - and we can implement that using free, native tools with no additional dependency
+
+Speak in the morning if you get time
+
+Regards,
 Scott
