@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-02-09
+**Last Updated:** 2026-02-11
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Wed):** Trustmark fortnightly meeting
+**MIT Today (Thu):** AWMM project meeting 1:30pm
 
 ## Systematisation Sequence
 
@@ -77,6 +77,12 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-11
+- **MIT done (Trustmark fortnightly). No deep work — reactive day.** FP/Trustmark cloud finops "trojan horse" landed. Phil dropped a bombshell about FP encroaching on cloud ops. Day spent on fallout and crafting the CEO-forwardable response. Morning rituals all done including mobility (day 4). Gym done. Evening rituals done (Freedom Gap PM, AMWAP). No Plan Tomorrow. Screen time 2h 20m / 90 pickups — pickups crept up (vs 67 Mon/Tue).
+- **OYTS (what clients value):** *"These guys just take the hassle away. They are never the problem."* Eliminates frustration — clients say he "just gets it." Delivers outcomes wrapped in a single human + team that executes safely and reliably. Strong self-awareness that others may be better at specifics, but CS delivers the whole package.
+- **AMWAP:** CWI and journalling are the habits that would be noticed by absence. CWI "burns a hole in my head" if missed. Meditation feels less embedded — expects that to change with practice.
+- **Pattern:** FP land-grab continues. Second time in a week CS has had to respond defensively to FP expanding scope into their territory. The response is sharp and well-crafted, but this is energy spent defending rather than building.
 
 ### 2026-02-10
 - **MIT done. Platinum Club kick-off with Phil.** 5/6 work tasks — strategy session with Emma carried forward again (3rd time). Full morning rituals including mobility (day 2 back). Badminton done but energy dipped after an hour. Screen time 2h 9m / 67 pickups — second strong day. Hydration hit G for first time this week.
