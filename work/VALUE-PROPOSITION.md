@@ -35,9 +35,9 @@
 >
 > At World Marathon Majors — a global runner community generating $13m+ a year.
 >
-> At TrustMark — AI-powered assurance, audit costs down from £23 to £1.
+> At TrustMark — AI-powered assurance, audit costs down from £23 to £1 per unit and scaled to 100% of projects.
 >
-> At Impower — 3x pipeline, £500k new revenue, £60k annual cost gone.
+> At Impower — 3x biz development pipeline, £500k new revenue, £60k annual cost gone.
 >
 > Not dashboards. Platforms."
 

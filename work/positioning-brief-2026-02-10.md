@@ -184,3 +184,76 @@ The question for Emma today: **"Can you market A confidently? Because that's wha
 ---
 
 *Working material for today's conversation. Decide in the room.*
+
+---
+
+## SECTION 6: TECHNOLOGY STRATEGY — DATA ACTIVATION & INTEGRATION (Added 13 Feb 2026)
+
+### The Two Hard Problems
+
+CS's value sits at both ends of the data pipeline, not in the middle:
+
+1. **Data Integration (first mile)** — getting data out of messy enterprise source systems into a unified platform
+2. **Data Activation (last mile)** — getting intelligence back INTO operational systems, products, and experiences
+
+The middle — Snowflake, dbt, AWS — is strong and increasingly commodity. The differentiation is owning both ends.
+
+### "Data Activation" Not "Applied Analytics"
+
+"Applied analytics" undersells what CS actually delivers. Power BI dashboards are passive — users have to find them, interpret them, decide what to do. What CS builds is intelligence embedded in the operation:
+
+- **AWMM:** Data activated into the Six Star programme, virtual running club, e-commerce engine — runners experience intelligence, not dashboards
+- **TrustMark:** AI runs the audits (£23 to £1) — intelligence embedded in the operation, not viewed in a report
+- **Ben Fitzgerald (emerging):** Compliance intelligence embedded in the digital twin — automated checks, real-time alerts, certification workflows
+
+**"Data Activation"** is the industry term gaining traction and better describes what CS does: taking data from the platform and pushing it into operational systems where it drives action.
+
+### The Last Mile Splits in Two
+
+| Type | What it is | Difficulty | Tools |
+|---|---|---|---|
+| **Push to SaaS** | Intelligence into CRM, marketing, ops SaaS tools | Moderate | Reverse ETL (Census, Hightouch) |
+| **Push to enterprise systems** | Intelligence back into ERPs, CAFM, H&S systems, asset management | Hard | Custom integration, APIs, event-driven architecture |
+
+Pushing data back into enterprise systems (ERPs, CAFM, H&S platforms) is a proper enterprise integration problem — complex data models, referential integrity, business process awareness, often poor or proprietary APIs. This is not Reverse ETL territory. This is engineering.
+
+### Strategic Decision: Build Capability, Don't Buy Platform
+
+**Decision (13 Feb 2026):** CS will NOT purchase an iPaaS platform (MuleSoft, Boomi, etc.). The investment goes into:
+
+1. **A senior integration developer** — production-grade connectors, API layers, event-driven workflows on AWS
+2. **AI-assisted development** — small team building at scale using AI coding agents (Phil's growth path)
+3. **Repeatable patterns** — every engagement builds the library of connectors, data models, and integration templates. IP accumulates in the codebase, not in a vendor's platform.
+
+**Rationale:**
+- Consistent with CS model: spend on brains and compute, not product licenses
+- MuleSoft alone = £50-100k/year before a line of code is written
+- That money funds a developer who builds IP CS owns
+- Better margin story for a services business
+- No vendor lock-in
+
+### Updated Service Lines
+
+| Service | What it actually is | Who delivers |
+|---|---|---|
+| **Data Integration** | Connecting messy enterprise sources — first mile | Team (Phil) + senior dev hire |
+| **Data Platforms** | Snowflake/AWS data engineering, pipelines, governance | Team (Phil, Eddie) with Scott in oversight |
+| **Data Activation** | Intelligence pushed back into operations — last mile. NOT dashboards. | Team + senior dev hire, Scott in architecture |
+| **Technology Advisory** | Fractional CTO, strategy, roadmap, discovery | Scott (build toward team capability over 12-24 months) |
+
+### Updated CS Stack
+
+```
+[Integration In]              → [Platform]  → [Activation Out]
+ Managed (Fivetran/Airbyte)     Snowflake    SaaS: Reverse ETL
+ Enterprise: custom APIs/ETL    dbt          Enterprise: custom APIs/integration
+ Event-driven (EventBridge)     AWS          ML serving / Snowflake Cortex
+                                             Event-driven workflows
+                                             Custom application layers
+```
+
+**No iPaaS. No Power BI as the answer to everything. Engineering + compute.**
+
+### Key Hire
+
+The senior integration developer is now the #1 capability hire. They own both ends — data integration in and data activation out. Same discipline, mirror image problems. This single hire unlocks the ability to deliver the full stack without Scott in the architecture seat.

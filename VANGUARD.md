@@ -2,7 +2,7 @@
 
 > Natural Edge accountability. Updated daily. See `CLAUDE.md` for principles.
 
-**Last Updated:** 2026-02-11
+**Last Updated:** 2026-02-13
 
 ---
 
@@ -176,12 +176,13 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | | | |
-| Meditation | Y | Y | Y | Y | | | |
-| Freedom Gap (AM) | Y | Y | Y | Y | | | |
-| Cold Water (3 min) | Y | Y | Y | Y | | | |
-| Mobility | - | Y | Y | Y | | | |
-| OYTS | Y | Y | Y | Y | | | |
+| Breathwork | Y | Y | Y | Y | Y | | |
+| Meditation | Y | Y | Y | Y | Y | | |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
+| Cold Water (3 min) | Y | Y | Y | Y | Y | | |
+| Mobility | - | Y | Y | Y | Y | | |
+| OYTS | Y | Y | Y | Y | Y | | |
+| AMWAP | Y | Y | Y | Y | Y | | |
 
 ## Daily Scores
 
@@ -189,14 +190,14 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Sleep | G | O | G | | | | |
-| Steps | G | G | B | | | | |
-| Nutrition | G | G | G | | | | |
-| Hydration | O | G | O | | | | |
-| Outdoors | G | O | B | | | | |
-| Exercise | G | G | G | | | | |
-| Screen Time | 1h52 | 2h09 | 2h20 | | | | |
-| Pickups | 67 | 67 | 90 | | | | |
+| Sleep | G | O | G | O | O | | |
+| Steps | G | G | B | O | O | | |
+| Nutrition | G | G | G | G | | | |
+| Hydration | O | G | O | O | | | |
+| Outdoors | G | O | B | G | | | |
+| Exercise | G | G | G | O | G | | |
+| Screen Time | 1h52 | 2h09 | 2h20 | 6h15 | | | |
+| Pickups | 67 | 67 | 90 | 110 | | | |
 
 *Screen Time = hours. Pickups = number. February targets: TBC (baseline: 5h 4m / 83 pickups).*
 
@@ -204,9 +205,9 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Freedom Gap (PM) | Y | Y | Y | | | | |
-| AMWAP | Y | Y | Y | | | | |
-| Plan Tomorrow | Y | - | - | | | | |
+| Freedom Gap (PM) | Y | Y | Y | Y | Y | | |
+| AMWAP | Y | Y | Y | Y | Y | | |
+| Plan Tomorrow | Y | - | - | - | Y | | |
 
 **Evening close-down (daily):** Log work hours in Productive.
 
@@ -1333,6 +1334,35 @@ Rest day.
 3. Can I see any patterns emerging?
 4. How was my device behaviour this week? (Screen time, pickups, presence)
 
+## Week of 9 Feb - 15 Feb 2026
+
+**Q1: Diving deep or bypassing?**
+Going deep — no spiritual bypassing. OYTS quality strong all week, building a coherent arc from "what are we?" to "what changes now?" But recognising drift in daily routines: rituals getting done but sliding later into the morning or early afternoon, interfering with work progress. Suspects this drift is avoidance — marketing and positioning is hard, and the morning rituals become a comfortable place to stay rather than a launchpad into the uncomfortable work.
+
+**Q2: What's holding me back?**
+Insecurity around marketing and positioning. Complete belief in ability to win work face-to-face — *"I'm good at sales when I get in the room"* — but marketing the business (getting the message out, content, outreach at scale) is a limiting belief. Morning ritual drift especially at weekends. Plan Tomorrow missed 3 of 4 days this week — wastes time next morning figuring out what to do. Weekend pattern: couch + hangover = wasted time.
+
+**Q3: Patterns emerging?**
+1. **Ritual drift as avoidance.** Rituals done but sliding later — delay masks avoidance of the hard marketing/positioning work. This is new framing: the rituals are both genuine foundation AND a comfortable refuge from the uncomfortable.
+2. **Plan Tomorrow keeps dying.** Only done Monday this week (1 of 4 days). Third week of inconsistency. Direct consequence: mornings start slower because there's no clear plan to execute.
+3. **Weekend drift (alcohol → couch → lost time).** Flagged week 1, week 2, now week 3. Pattern is stable and named. Friday/Saturday rule is in place but the hangover cost is still real.
+4. **Sales confidence vs marketing insecurity.** Sharp distinction surfaced: winning work in the room = high confidence. Marketing to get into rooms = limiting belief. The gap isn't capability — it's the unfamiliarity of outbound marketing as a discipline.
+
+**Q4: Device behaviour**
+Screen time trending up across the week: 1h52 → 2h09 → 2h20 → 6h15. Pickups: 67 → 67 → 90 → 110. Thursday spike partly justified (Claude research + Sam Harris live) but pickups at 110 is compulsive, not purposeful. Friday data not yet recorded.
+
+**OYTS Synthesis (Week 2 Feb — Identity & Direction):**
+Complete arc from positioning to action:
+- **Mon:** CS does translation, integration, problem-solving — mapped to Scott's skills, not team capabilities
+- **Tue:** Would build a health/wellness AI platform if starting fresh. Talked himself out of it. The irony: he's already building it.
+- **Wed:** *"These guys just take the hassle away. They are never the problem."* — the clearest articulation of client value yet
+- **Thu:** Detailed team development map. Dave flagged directly. Revenue probabilities assigned honestly.
+- **Fri:** *"We take action every day to recruit a customer, and we do not stop."* Emma has 3 days/week. Website in a day. Content calendar. No more planning.
+
+**Thread:** The week moved from introspection (Mon-Wed) to honest assessment (Thu) to decisive action (Fri). Friday's OYTS is the breakpoint — the planning phase is over. The question now is whether the daily discipline (Plan Tomorrow, morning timing, weekend alcohol) supports the fire or undermines it.
+
+---
+
 ## Week of 2 Feb - 8 Feb 2026
 
 **Q1: Diving deep or bypassing?**
@@ -2069,6 +2099,8 @@ Nothing structural — working systematically: MI first (Eddie owns) → Process
 | Discuss schema evolution approach to AWMM DCM repo with Dave (CIO data upgrade, CREATE OR ALTER, additional parquet sources) | 3 Feb | |
 | Contact Simon for Dave's stretching routines | 3 Feb | |
 | Plan Tuesday nutrition for badminton — eat and hydrate properly through the day when evening exercise is planned | 3 Feb | |
+| Agree monthly Warrington visit cadence with Emma (get Andy Mitchell in diary) | 13 Feb | |
+| Pick conferences/expos to attend, coordinate with Richard Gayton for dinner | 13 Feb | |
 
 ---
 

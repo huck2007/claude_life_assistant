@@ -2,7 +2,7 @@
 
 > Dynamic work state. Update often. See `CLAUDE.md` for identity, `VANGUARD.md` for daily rituals.
 
-**Last Updated:** 2026-02-11
+**Last Updated:** 2026-02-13
 
 ---
 
@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Thu):** AWMM project meeting 1:30pm
+**MIT Today (Fri):** Consent Pro evaluation for AWMM
 
 ## Systematisation Sequence
 
@@ -77,6 +77,21 @@
   - Requirements doc created: `monday-dashboard-requirements.md`
   - Eddie to build by 19th January in Productive or Excel
 - Good sign: Scott delegated the build immediately. Defined requirements, didn't reach for the keyboard.
+
+### 2026-02-13
+- **Clean sweep Friday.** MIT done (Consent Pro evaluation), all 3 work tasks done, gym done. Morning rituals all done including mobility (day 6). Three outreach contacts progressed (Andy Mitchell, Richard Gayton, Kieron Smith meeting booked). Consent Pro comparison doc and Jira epic/stories produced for AWMM. Major strategic thinking session: value proposition validated ("We turn data into platforms. Platforms into value."), 5 industries / 15 prospect targets researched, technology strategy decision made (build capability, don't buy platform — no iPaaS, invest in brains + compute).
+- **OYTS breakthrough:** *"We take action every day to recruit a customer, and we do not stop taking action every day until we have won a customer."* Emma has 3 days/week — website refresh in a day, content calendar, case studies, LinkedIn. Planning phase is over.
+- **AMWAP:** Formed management team (Emma + Eddie). Delegation continuing. Ben Fitz meeting went well — *"might be in my sweet spot."* Three outreach contacts progressed.
+- **Weekly reflection:** Ritual drift named as avoidance behaviour — rituals sliding later, masking discomfort with marketing. Plan Tomorrow missed 3/4 days. Sales vs marketing insecurity: high confidence in the room, limiting belief on outbound. Weekend alcohol → couch → lost time (3rd week flagged). Screen time trending up (pickups: 67 → 67 → 90 → 110).
+- **Pattern (3 weeks running):** Plan Tomorrow consistently dying. Direct consequence: slower mornings with no clear execution plan. This is now a confirmed pattern, not a blip.
+- **Strategic decisions captured:** Data Activation (not "applied analytics") as service line naming. No iPaaS purchase — custom integration capability via senior dev hire. Positioning brief updated with Section 6.
+
+### 2026-02-12
+- **MIT done (AWMM project meeting). Ben Fitzgerald biz dev meeting — new lead.** Morning rituals all done including mobility (day 5). Outreach follow-up carried forward — pivoted to Ben Fitz prep and follow-up instead. Heater ordered. Evening rituals done (Freedom Gap PM, AMWAP). Plan Tomorrow missed again (3rd day running).
+- **OYTS (team development map):** Honest, detailed assessment of every team member's growth path. Dave flagged bluntly — negative energy, passive aggression, needs a careful but direct conversation. Revenue probability mapped: WMM 90%, Impower 65%, Trustmark 40%.
+- **AMWAP (relationships):** Honest that nothing stands out. Family solid. Friendships challenged by alcohol-free socialising — *gets framed as "boring."* Rekindling old friendships with Judgie and KD (visit planned end of month).
+- **Screen time worst day of week:** 6h 15m / 110 pickups. Partly justified (Claude research on Ben Fitz, Sam Harris live) but the trend is up from Mon-Wed (67, 67, 90 pickups).
+- **Pattern:** Plan Tomorrow has been missed 3 of 4 days this week (only done Monday). Evening close-down discipline slipping.
 
 ### 2026-02-11
 - **MIT done (Trustmark fortnightly). No deep work — reactive day.** FP/Trustmark cloud finops "trojan horse" landed. Phil dropped a bombshell about FP encroaching on cloud ops. Day spent on fallout and crafting the CEO-forwardable response. Morning rituals all done including mobility (day 4). Gym done. Evening rituals done (Freedom Gap PM, AMWAP). No Plan Tomorrow. Screen time 2h 20m / 90 pickups — pickups crept up (vs 67 Mon/Tue).
