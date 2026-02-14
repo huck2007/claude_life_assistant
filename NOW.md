@@ -35,7 +35,7 @@
 | Eddie builds Monday Dashboard v1 | 19 Jan | Ready to hand off |
 | Natural Edge rituals | Ongoing | Integrated into VANGUARD.md |
 
-**MIT Today (Fri):** Consent Pro evaluation for AWMM
+**MIT Today (Sat):** Finalise sofa decision with Jo
 
 ## Systematisation Sequence
 

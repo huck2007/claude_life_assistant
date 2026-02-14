@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operational Compliance Orchestration Platform — Conceptual Architecture</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #0a0e1a;
+    color: #e0e4ef;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 48px 24px 24px;
+  }
+  .header h1 { font-size: 28px; font-weight: 700; color: #fff; letter-spacing: -0.5px; margin-bottom: 8px; }
+  .header .subtitle { font-size: 14px; color: #8892b0; font-weight: 400; max-width: 640px; margin: 0 auto; line-height: 1.6; }
+  .header .badge {
+    display: inline-block; margin-top: 16px; padding: 4px 14px;
+    background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3);
+    border-radius: 20px; font-size: 11px; font-weight: 500; color: #818cf8;
+    letter-spacing: 0.5px; text-transform: uppercase;
+  }
+
+  /* Toggle row */
+  .toggle-row { display: flex; justify-content: center; gap: 16px; margin: 28px auto 0; flex-wrap: wrap; align-items: center; }
+  .toggle-container {
+    display: flex; gap: 0; background: rgba(255,255,255,0.04); border-radius: 10px;
+    padding: 4px; border: 1px solid rgba(255,255,255,0.06);
+  }
+  .toggle-btn {
+    padding: 10px 24px; border: none; background: transparent; color: #8892b0;
+    font-family: inherit; font-size: 13px; font-weight: 500; cursor: pointer;
+    border-radius: 8px; transition: all 0.3s ease;
+  }
+  .toggle-btn.active { background: rgba(99, 102, 241, 0.2); color: #c7d2fe; box-shadow: 0 2px 12px rgba(99, 102, 241, 0.15); }
+  .toggle-btn:hover:not(.active) { color: #c0c8e0; }
+
+  /* POC toggle */
+  .poc-toggle {
+    display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.04);
+    border-radius: 10px; padding: 4px 16px 4px 4px; border: 1px solid rgba(255,255,255,0.06);
+    cursor: pointer; transition: all 0.3s; user-select: none;
+  }
+  .poc-toggle:hover { border-color: rgba(251, 146, 60, 0.3); }
+  .poc-toggle.active { background: rgba(251, 146, 60, 0.1); border-color: rgba(251, 146, 60, 0.3); }
+  .poc-switch {
+    width: 40px; height: 24px; background: rgba(255,255,255,0.1); border-radius: 12px;
+    position: relative; transition: all 0.3s; flex-shrink: 0;
+  }
+  .poc-toggle.active .poc-switch { background: rgba(251, 146, 60, 0.5); }
+  .poc-switch::after {
+    content: ''; position: absolute; left: 3px; top: 3px; width: 18px; height: 18px;
+    background: #cbd5e1; border-radius: 50%; transition: all 0.3s;
+  }
+  .poc-toggle.active .poc-switch::after { left: 19px; background: #fb923c; }
+  .poc-label { font-size: 13px; font-weight: 500; color: #8892b0; transition: color 0.3s; }
+  .poc-toggle.active .poc-label { color: #fb923c; }
+
+  /* Main layout */
+  .architecture {
+    max-width: 1100px; margin: 40px auto; padding: 0 24px 60px;
+    display: flex; flex-direction: column; gap: 2px;
+  }
+
+  /* Layer styling */
+  .layer { position: relative; border-radius: 14px; padding: 28px 32px; transition: all 0.4s ease; }
+  .layer:hover { transform: scale(1.005); }
+  .layer-label { font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px; opacity: 0.6; }
+  .layer-title { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .layer-desc { font-size: 13px; line-height: 1.6; opacity: 0.7; margin-bottom: 16px; max-width: 800px; }
+
+  /* Layer colours */
+  .layer-experience { background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(6, 182, 212, 0.08)); border: 1px solid rgba(16, 185, 129, 0.2); }
+  .layer-experience .layer-label, .layer-experience .layer-title { color: #6ee7b7; }
+  .layer-orchestration { background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(139, 92, 246, 0.08)); border: 1px solid rgba(99, 102, 241, 0.2); }
+  .layer-orchestration .layer-label, .layer-orchestration .layer-title { color: #a5b4fc; }
+  .layer-intelligence { background: linear-gradient(135deg, rgba(244, 114, 182, 0.12), rgba(251, 146, 60, 0.08)); border: 1px solid rgba(244, 114, 182, 0.2); }
+  .layer-intelligence .layer-label, .layer-intelligence .layer-title { color: #f9a8d4; }
+  .layer-domain { background: linear-gradient(135deg, rgba(251, 191, 36, 0.12), rgba(245, 158, 11, 0.06)); border: 1px solid rgba(251, 191, 36, 0.2); }
+  .layer-domain .layer-label, .layer-domain .layer-title { color: #fcd34d; }
+  .layer-integration { background: linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(59, 130, 246, 0.08)); border: 1px solid rgba(56, 189, 248, 0.2); }
+  .layer-integration .layer-label, .layer-integration .layer-title { color: #7dd3fc; }
+  .layer-source { background: linear-gradient(135deg, rgba(148, 163, 184, 0.08), rgba(100, 116, 139, 0.06)); border: 1px solid rgba(148, 163, 184, 0.15); }
+  .layer-source .layer-label, .layer-source .layer-title { color: #cbd5e1; }
+
+  /* Capabilities grid */
+  .capabilities { display: flex; flex-wrap: wrap; gap: 8px; }
+  .cap {
+    padding: 7px 14px; border-radius: 8px; font-size: 12px; font-weight: 500;
+    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);
+    transition: all 0.3s; cursor: pointer; position: relative;
+  }
+  .cap:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2); transform: translateY(-1px); }
+  .cap.active-cap { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); box-shadow: 0 0 12px rgba(255,255,255,0.08); }
+
+  .layer-experience .cap { border-color: rgba(16, 185, 129, 0.2); }
+  .layer-orchestration .cap { border-color: rgba(99, 102, 241, 0.2); }
+  .layer-intelligence .cap { border-color: rgba(244, 114, 182, 0.2); }
+  .layer-domain .cap { border-color: rgba(251, 191, 36, 0.2); }
+  .layer-integration .cap { border-color: rgba(56, 189, 248, 0.2); }
+  .layer-source .cap { border-color: rgba(148, 163, 184, 0.15); }
+
+  /* Domain columns */
+  .domain-columns { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+  .domain-col {
+    background: rgba(0,0,0,0.2); border-radius: 10px; padding: 14px 16px;
+    border: 1px solid rgba(255,255,255,0.06); transition: all 0.4s;
+  }
+  .domain-col-title { font-size: 11px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 8px; opacity: 0.8; }
+  .domain-col .cap { display: block; margin-bottom: 5px; font-size: 11px; padding: 5px 10px; }
+
+  /* Arrows */
+  .arrow-row { display: flex; justify-content: center; align-items: center; height: 28px; position: relative; }
+  .arrow-row::before {
+    content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.08), rgba(255,255,255,0.15), rgba(255,255,255,0.08));
+  }
+  .arrow-row .arrow-label {
+    background: #0a0e1a; padding: 2px 12px; font-size: 10px; font-weight: 500;
+    color: #64748b; letter-spacing: 0.5px; position: relative; z-index: 1; white-space: nowrap;
+  }
+  .arrow-row.bidirectional::before { background: linear-gradient(to bottom, rgba(56, 189, 248, 0.3), rgba(99, 102, 241, 0.3)); }
+  .arrow-row.bidirectional .arrow-label { color: #7dd3fc; }
+
+  /* Principles */
+  .principles { max-width: 1100px; margin: 0 auto 48px; padding: 0 24px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .principle { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 20px 24px; transition: all 0.4s; }
+  .principle-num { font-size: 11px; font-weight: 700; color: #6366f1; margin-bottom: 8px; letter-spacing: 1px; }
+  .principle-title { font-size: 14px; font-weight: 600; color: #e2e8f0; margin-bottom: 6px; }
+  .principle-text { font-size: 12px; line-height: 1.6; color: #8892b0; }
+
+  /* Domain instantiation */
+  .instantiation { max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
+  .instantiation h2 { font-size: 20px; font-weight: 600; color: #fff; margin-bottom: 8px; text-align: center; }
+  .instantiation .inst-subtitle { font-size: 13px; color: #8892b0; text-align: center; margin-bottom: 28px; }
+  .inst-grid { display: grid; grid-template-columns: 1fr 200px 1fr; gap: 0; align-items: start; }
+  .inst-col { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 24px; }
+  .inst-col h3 { font-size: 14px; font-weight: 600; margin-bottom: 16px; text-align: center; }
+  .inst-col.fm h3 { color: #6ee7b7; }
+  .inst-col.f1 h3 { color: #f9a8d4; }
+  .inst-mapping { display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 48px; }
+  .inst-mapping .mapping-label {
+    font-size: 11px; font-weight: 600; color: #fcd34d; letter-spacing: 1px; text-transform: uppercase;
+    background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.2);
+    border-radius: 8px; padding: 8px 16px; text-align: center; line-height: 1.5;
+  }
+  .inst-row {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 10px; padding: 8px 12px;
+    background: rgba(0,0,0,0.2); border-radius: 8px; border: 1px solid rgba(255,255,255,0.04);
+  }
+  .inst-icon { font-size: 16px; width: 24px; text-align: center; flex-shrink: 0; }
+  .inst-text { font-size: 12px; line-height: 1.4; }
+  .inst-text strong { display: block; font-weight: 600; font-size: 12px; color: #e2e8f0; }
+  .inst-text span { font-size: 11px; color: #8892b0; }
+
+  /* Context-specific caps */
+  .cap[data-context="fm"] { display: none; }
+  .cap[data-context="f1"] { display: none; }
+  body.show-fm .cap[data-context="fm"] { display: inline-block; }
+  body.show-fm .cap[data-context="f1"] { display: none; }
+  body.show-f1 .cap[data-context="f1"] { display: inline-block; }
+  body.show-f1 .cap[data-context="fm"] { display: none; }
+  body.show-both .cap[data-context="fm"] { display: inline-block; }
+  body.show-both .cap[data-context="f1"] { display: inline-block; }
+  .domain-col .cap[data-context="fm"], .domain-col .cap[data-context="f1"] { display: block; }
+  body.show-fm .domain-col .cap[data-context="f1"] { display: none; }
+  body.show-f1 .domain-col .cap[data-context="fm"] { display: none; }
+  .cap[data-context="fm"] { border-color: rgba(16, 185, 129, 0.25); color: #6ee7b7; }
+  .cap[data-context="f1"] { border-color: rgba(244, 114, 182, 0.25); color: #f9a8d4; }
+
+  /* POC SCOPE OVERLAY */
+  body.poc-mode .cap:not([data-poc]) { opacity: 0.15; filter: saturate(0.2); }
+  body.poc-mode .cap[data-poc] { opacity: 1; box-shadow: 0 0 0 1px rgba(251, 146, 60, 0.4), 0 0 8px rgba(251, 146, 60, 0.1); border-color: rgba(251, 146, 60, 0.4); }
+  body.poc-mode .domain-col:not([data-poc-domain]) { opacity: 0.2; filter: saturate(0.2); }
+  body.poc-mode .domain-col[data-poc-domain] { border-color: rgba(251, 146, 60, 0.3); background: rgba(251, 146, 60, 0.05); }
+  body.poc-mode .principle:not([data-poc]) { opacity: 0.15; filter: saturate(0.2); }
+  body.poc-mode .principle[data-poc] { border-color: rgba(251, 146, 60, 0.3); }
+  body.poc-mode .cap[data-poc]::before {
+    content: ''; position: absolute; top: -2px; right: -2px; width: 6px; height: 6px;
+    background: #fb923c; border-radius: 50%;
+  }
+
+  /* POC banner */
+  .poc-banner { max-width: 1100px; margin: 0 auto 20px; padding: 0 24px; display: none; }
+  body.poc-mode .poc-banner { display: block; }
+  .poc-banner-inner {
+    background: rgba(251, 146, 60, 0.08); border: 1px solid rgba(251, 146, 60, 0.2);
+    border-radius: 12px; padding: 16px 24px; display: flex; align-items: flex-start; gap: 14px;
+  }
+  .poc-banner-icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+  .poc-banner-text h3 { font-size: 14px; font-weight: 600; color: #fb923c; margin-bottom: 4px; }
+  .poc-banner-text p { font-size: 12px; line-height: 1.6; color: #c4956a; }
+
+  /* === DETAIL PANEL === */
+  .panel-overlay {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5);
+    z-index: 999; opacity: 0; pointer-events: none; transition: opacity 0.3s ease;
+    backdrop-filter: blur(2px);
+  }
+  .panel-overlay.open { opacity: 1; pointer-events: all; }
+
+  .detail-panel {
+    position: fixed; top: 0; right: 0; bottom: 0; width: 420px; max-width: 90vw;
+    background: #111827; border-left: 1px solid rgba(255,255,255,0.08);
+    z-index: 1000; transform: translateX(100%); transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; flex-direction: column; box-shadow: -8px 0 32px rgba(0,0,0,0.4);
+  }
+  .detail-panel.open { transform: translateX(0); }
+
+  .panel-header {
+    padding: 24px 28px 20px; border-bottom: 1px solid rgba(255,255,255,0.06);
+    display: flex; align-items: flex-start; gap: 16px; flex-shrink: 0;
+  }
+  .panel-close {
+    width: 32px; height: 32px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.04); color: #8892b0; font-size: 18px;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s; flex-shrink: 0;
+  }
+  .panel-close:hover { background: rgba(255,255,255,0.08); color: #e2e8f0; }
+  .panel-header-text { flex: 1; }
+  .panel-layer-badge {
+    display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 10px;
+    font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 8px;
+  }
+  .panel-title { font-size: 18px; font-weight: 600; color: #fff; line-height: 1.3; }
+
+  .panel-body { padding: 24px 28px; overflow-y: auto; flex: 1; }
+  .panel-section { margin-bottom: 24px; }
+  .panel-section-label {
+    font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+    color: #64748b; margin-bottom: 8px;
+  }
+  .panel-desc { font-size: 13px; line-height: 1.7; color: #c0c8e0; }
+  .panel-related { display: flex; flex-wrap: wrap; gap: 6px; }
+  .panel-related-tag {
+    padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 500;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: #8892b0;
+  }
+  .panel-poc-badge {
+    display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px;
+    background: rgba(251, 146, 60, 0.1); border: 1px solid rgba(251, 146, 60, 0.25);
+    border-radius: 8px; font-size: 11px; font-weight: 600; color: #fb923c;
+  }
+  .panel-poc-dot { width: 6px; height: 6px; background: #fb923c; border-radius: 50%; }
+
+  /* Layer badge colours */
+  .badge-experience { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; }
+  .badge-orchestration { background: rgba(99, 102, 241, 0.15); color: #a5b4fc; }
+  .badge-intelligence { background: rgba(244, 114, 182, 0.15); color: #f9a8d4; }
+  .badge-domain { background: rgba(251, 191, 36, 0.15); color: #fcd34d; }
+  .badge-integration { background: rgba(56, 189, 248, 0.15); color: #7dd3fc; }
+  .badge-source { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; }
+
+  /* Footer */
+  .footer { text-align: center; padding: 32px 24px; border-top: 1px solid rgba(255,255,255,0.04); font-size: 11px; color: #475569; }
+
+  /* Cross-cutting concerns */
+  .architecture-wrapper {
+    position: relative;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 24px 60px;
+  }
+  .cross-cut {
+    position: absolute;
+    top: 0;
+    bottom: 60px;
+    width: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .cross-cut:hover { filter: brightness(1.3); }
+  .cross-cut-left {
+    left: -52px;
+    background: linear-gradient(to bottom, rgba(168, 85, 247, 0.12), rgba(168, 85, 247, 0.06));
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    color: #c084fc;
+  }
+  .cross-cut-right {
+    right: -52px;
+    background: linear-gradient(to bottom, rgba(34, 197, 94, 0.12), rgba(34, 197, 94, 0.06));
+    border: 1px solid rgba(34, 197, 94, 0.2);
+    color: #86efac;
+  }
+  .cross-cut-label { transform: rotate(180deg); }
+
+  @media (max-width: 768px) {
+    .domain-columns { grid-template-columns: repeat(2, 1fr); }
+    .inst-grid { grid-template-columns: 1fr; gap: 16px; }
+    .inst-mapping { padding-top: 0; }
+    .principles { grid-template-columns: 1fr !important; }
+    .toggle-row { flex-direction: column; }
+    .detail-panel { width: 100%; max-width: 100%; }
+  }
+</style>
+</head>
+<body class="show-both">
+
+<!-- Detail Panel -->
+<div class="panel-overlay" id="panelOverlay" onclick="closePanel()"></div>
+<div class="detail-panel" id="detailPanel">
+  <div class="panel-header">
+    <div class="panel-header-text">
+      <span class="panel-layer-badge" id="panelBadge"></span>
+      <div class="panel-title" id="panelTitle"></div>
+    </div>
+    <button class="panel-close" onclick="closePanel()">&times;</button>
+  </div>
+  <div class="panel-body">
+    <div class="panel-section">
+      <div class="panel-section-label">Description</div>
+      <div class="panel-desc" id="panelDesc"></div>
+    </div>
+    <div class="panel-section" id="panelPocSection" style="display:none;">
+      <div class="panel-poc-badge"><span class="panel-poc-dot"></span> Included in POC Scope</div>
+    </div>
+    <div class="panel-section">
+      <div class="panel-section-label">Related Capabilities</div>
+      <div class="panel-related" id="panelRelated"></div>
+    </div>
+  </div>
+</div>
+
+<div class="header">
+  <h1>Operational Compliance Orchestration Platform</h1>
+  <p class="subtitle">Conceptual Architecture — Logical Target State</p>
+  <div class="badge">Domain-Agnostic Middleware</div>
+  <div class="toggle-row">
+    <div class="toggle-container">
+      <button class="toggle-btn active" onclick="setContext('both', this)">Universal</button>
+      <button class="toggle-btn" onclick="setContext('fm', this)">Facilities Mgmt</button>
+      <button class="toggle-btn" onclick="setContext('f1', this)">F1 Team Ops</button>
+    </div>
+    <div class="poc-toggle" id="pocToggle" onclick="togglePoc()">
+      <div class="poc-switch"></div>
+      <span class="poc-label">POC Scope</span>
+    </div>
+  </div>
+</div>
+
+<!-- POC Banner -->
+<div class="poc-banner">
+  <div class="poc-banner-inner">
+    <div class="poc-banner-icon">&#9672;</div>
+    <div class="poc-banner-text">
+      <h3>Proof of Concept Scope</h3>
+      <p>Highlighted capabilities represent the minimum viable slice: one site, two complementary domains, end-to-end integration including write-back. Dimmed items are target state — they extend the model, they don't change it.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Architecture Layers -->
+<div class="architecture-wrapper">
+<div class="cross-cut cross-cut-left" data-id="cc-reasoning-trace" onclick="document.querySelectorAll('.cap[data-id]').forEach(c => { if(c.dataset.id === 'cc-reasoning-trace') { openPanel('cc-reasoning-trace', c); }}); openPanel('cc-reasoning-trace', this);">
+  <span class="cross-cut-label">Reasoning Trace & Auditability</span>
+</div>
+<div class="cross-cut cross-cut-right" data-id="cc-tenancy" onclick="openPanel('cc-tenancy', this);">
+  <span class="cross-cut-label">Single-Tenant Deployment Model</span>
+</div>
+<div class="architecture">
+
+  <!-- EXPERIENCE LAYER -->
+  <div class="layer layer-experience">
+    <div class="layer-label">Layer 6</div>
+    <div class="layer-title">Experience Layer</div>
+    <div class="layer-desc">Role-based views and interfaces. What users see and interact with. Configurable per persona — COO sees portfolio risk; site manager sees local compliance posture.</div>
+    <div class="capabilities">
+      <span class="cap" data-poc data-id="compliance-dashboard">Compliance Posture Dashboard</span>
+      <span class="cap" data-id="risk-heatmap">Risk Heat Map</span>
+      <span class="cap" data-id="digital-twin-viewer">Digital Twin Viewer</span>
+      <span class="cap" data-poc data-id="audit-trail">Audit Trail & Evidence</span>
+      <span class="cap" data-id="regulatory-reporting">Regulatory Reporting</span>
+      <span class="cap" data-poc data-id="action-tracker">Action Tracker</span>
+      <span class="cap" data-context="fm" data-id="portfolio-overview">Portfolio Overview (Multi-Site)</span>
+      <span class="cap" data-context="fm" data-id="sfg20-view">SFG20 Compliance View</span>
+      <span class="cap" data-context="f1" data-id="factory-readiness">Factory Readiness Overview</span>
+      <span class="cap" data-context="f1" data-id="race-logistics">Race Logistics Pipeline</span>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow-label">presents &#8593;</span></div>
+
+  <!-- ORCHESTRATION LAYER -->
+  <div class="layer layer-orchestration">
+    <div class="layer-label">Layer 5</div>
+    <div class="layer-title">Orchestration & Action Layer</div>
+    <div class="layer-desc">The engine that closes the loop. Where agentic patterns earn their place — not as a rules engine, but as contextual, cross-domain reasoning that drafts actions for human approval. An agent here doesn't just say "missed PPM → work order." It says "this missed PPM + this sensor trend + this upcoming inspection = prioritise this remediation and escalate to this person." Every recommendation carries a full reasoning trace.</div>
+    <div class="capabilities">
+      <span class="cap" data-poc data-id="workflow-engine">Workflow Engine</span>
+      <span class="cap" data-poc data-id="work-order-gen">Work Order Generation</span>
+      <span class="cap" data-poc data-id="write-back">Write-Back to Source Systems</span>
+      <span class="cap" data-poc data-id="escalation">Escalation & Notification</span>
+      <span class="cap" data-id="approval-chains">Approval Chains</span>
+      <span class="cap" data-id="sla-monitoring">SLA Monitoring</span>
+      <span class="cap" data-id="gap-remediation">Compliance Gap Remediation</span>
+      <span class="cap" data-poc data-id="agentic-reasoning">Agentic Reasoning Engine</span>
+      <span class="cap" data-poc data-id="human-in-loop">Human-in-the-Loop Approval</span>
+      <span class="cap" data-id="reasoning-trace-gen">Reasoning Trace Generator</span>
+      <span class="cap" data-context="fm" data-id="ppm-trigger">PPM Schedule Trigger</span>
+      <span class="cap" data-context="fm" data-id="contractor-assign">Contractor Assignment</span>
+      <span class="cap" data-context="f1" data-id="part-lifecycle">Part Lifecycle Workflow</span>
+      <span class="cap" data-context="f1" data-id="logistics-exception">Logistics Exception Handling</span>
+    </div>
+  </div>
+
+  <div class="arrow-row bidirectional"><span class="arrow-label">&#8597; cross-domain intelligence</span></div>
+
+  <!-- INTELLIGENCE LAYER -->
+  <div class="layer layer-intelligence">
+    <div class="layer-label">Layer 4</div>
+    <div class="layer-title">Intelligence & Analytics Layer</div>
+    <div class="layer-desc">Where the unified data becomes insight. Analytical services — not agents — that produce assessments, scores, and correlations. Some workloads are classical ML (time-series anomaly detection on sensor telemetry), others are LLM-suited (interpreting regulatory text, parsing unstructured inspection reports). This layer produces assessments, not actions.</div>
+    <div class="capabilities">
+      <span class="cap" data-poc data-id="compliance-scoring">Compliance Scoring Engine</span>
+      <span class="cap" data-poc data-id="cross-domain">Cross-Domain Correlation</span>
+      <span class="cap" data-id="risk-analytics">Risk Analytics & Scoring</span>
+      <span class="cap" data-id="predictive-maint">Predictive Maintenance</span>
+      <span class="cap" data-id="anomaly-detection">Anomaly Detection</span>
+      <span class="cap" data-id="scenario-sim">Scenario Simulation</span>
+      <span class="cap" data-id="trend-analysis">Trend Analysis</span>
+      <span class="cap" data-id="reg-text-llm">Regulatory Text Interpretation</span>
+      <span class="cap" data-id="evidence-parsing-llm">Unstructured Evidence Parsing</span>
+      <span class="cap" data-context="fm" data-id="building-benchmark">Building Performance Benchmarking</span>
+      <span class="cap" data-context="fm" data-id="reg-change">Regulatory Change Impact</span>
+      <span class="cap" data-context="f1" data-id="factory-util">Factory Utilisation Analytics</span>
+      <span class="cap" data-context="f1" data-id="supply-chain-risk">Supply Chain Risk Scoring</span>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow-label">&#8593; analyses</span></div>
+
+  <!-- UNIFIED DOMAIN MODEL -->
+  <div class="layer layer-domain">
+    <div class="layer-label">Layer 3</div>
+    <div class="layer-title">Unified Domain Model</div>
+    <div class="layer-desc">The canonical data model. Normalised, connected, and domain-aware. Every asset, every schedule, every obligation, every inspection — linked together regardless of which source system owns the record.</div>
+    <div class="domain-columns">
+      <div class="domain-col" data-poc-domain>
+        <div class="domain-col-title">Assets & Equipment</div>
+        <span class="cap" data-poc data-id="asset-registry">Asset Registry</span>
+        <span class="cap" data-poc data-id="sensor-mapping">Sensor / Telemetry Mapping</span>
+        <span class="cap" data-poc data-id="lifecycle-state">Lifecycle State</span>
+        <span class="cap" data-poc data-id="cert-status">Certification Status</span>
+        <span class="cap" data-context="fm" data-id="plant-register">Plant & Equipment Register</span>
+        <span class="cap" data-context="f1" data-id="factory-plant">Factory Plant & Test Rigs</span>
+      </div>
+      <div class="domain-col" data-poc-domain>
+        <div class="domain-col-title">Maintenance & CAFM</div>
+        <span class="cap" data-poc data-id="ppm-schedules">PPM Schedules</span>
+        <span class="cap" data-poc data-id="reactive-maint">Reactive Maintenance Log</span>
+        <span class="cap" data-poc data-id="contractor-model">Contractor / Resource Model</span>
+        <span class="cap" data-context="fm" data-id="sfg20-map">SFG20 Obligation Map</span>
+        <span class="cap" data-context="f1" data-id="wind-tunnel-maint">Wind Tunnel / Simulator Maintenance</span>
+      </div>
+      <div class="domain-col">
+        <div class="domain-col-title">Compliance & Assessment</div>
+        <span class="cap" data-id="obligation-register">Obligation Register</span>
+        <span class="cap" data-id="inspection-records">Inspection Records</span>
+        <span class="cap" data-id="evidence-attach">Evidence & Attachments</span>
+        <span class="cap" data-context="fm" data-id="iso-mapping">ISO Standards Mapping</span>
+        <span class="cap" data-context="f1" data-id="fia-tracking">FIA Technical Regulation Tracking</span>
+      </div>
+      <div class="domain-col">
+        <div class="domain-col-title">Health & Safety</div>
+        <span class="cap" data-id="incident-register">Incident Register</span>
+        <span class="cap" data-id="risk-assessments">Risk Assessments</span>
+        <span class="cap" data-id="behavioural-safety">Behavioural Safety</span>
+        <span class="cap" data-context="fm" data-id="iso45001">ISO 45001 Framework</span>
+        <span class="cap" data-context="f1" data-id="factory-safety">Factory Floor Safety / Composites</span>
+      </div>
+      <div class="domain-col">
+        <div class="domain-col-title">Spatial / BIM</div>
+        <span class="cap" data-id="3d-model">3D Geometry Model</span>
+        <span class="cap" data-id="asset-space">Asset–Space Linkage</span>
+        <span class="cap" data-id="zone-hierarchy">Zone / Area Hierarchy</span>
+        <span class="cap" data-context="fm" data-id="building-model">Building Model (Revit/IFC)</span>
+        <span class="cap" data-context="f1" data-id="factory-twin">Factory / Campus Digital Twin</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row bidirectional"><span class="arrow-label">&#8597; normalise · enrich · write-back</span></div>
+
+  <!-- INTEGRATION LAYER -->
+  <div class="layer layer-integration">
+    <div class="layer-label">Layer 2</div>
+    <div class="layer-title">Integration & Connective Tissue</div>
+    <div class="layer-desc">Bidirectional adapters to source systems. Read state in, write actions out. Event-driven where possible, polled where necessary.</div>
+    <div class="capabilities">
+      <span class="cap" data-poc data-id="adapters">Source System Adapters (API / File / DB)</span>
+      <span class="cap" data-id="event-bus">Event Bus / Message Broker</span>
+      <span class="cap" data-poc data-id="normalisation">Data Normalisation Pipeline</span>
+      <span class="cap" data-poc data-id="write-back-adapters">Write-Back Adapters</span>
+      <span class="cap" data-id="change-detection">Change Detection & Sync</span>
+      <span class="cap" data-id="conflict-resolution">Conflict Resolution</span>
+      <span class="cap" data-poc data-id="iot-gateway">IoT Ingestion Gateway</span>
+      <span class="cap" data-context="fm" data-id="bms-bridge">BMS / SCADA Bridge</span>
+      <span class="cap" data-context="f1" data-id="factory-bridge">Factory Systems Bridge</span>
+    </div>
+  </div>
+
+  <div class="arrow-row bidirectional"><span class="arrow-label">&#8597; bidirectional</span></div>
+
+  <!-- SOURCE SYSTEMS -->
+  <div class="layer layer-source">
+    <div class="layer-label">Layer 1</div>
+    <div class="layer-title">Source Systems (Existing Estate)</div>
+    <div class="layer-desc">The systems that already exist. The platform doesn't replace these — it connects them. Each source system remains the system of record for its domain.</div>
+    <div class="capabilities">
+      <span class="cap" data-poc data-id="cafm-cmms">CAFM / CMMS</span>
+      <span class="cap" data-poc data-id="bms-scada">BMS / SCADA</span>
+      <span class="cap" data-poc data-id="iot-platforms">IoT Platforms</span>
+      <span class="cap" data-id="hs-systems">H&S Systems</span>
+      <span class="cap" data-id="bim-tools">BIM Authoring Tools</span>
+      <span class="cap" data-id="gis-spatial">GIS / Spatial</span>
+      <span class="cap" data-id="doc-mgmt">Document Management</span>
+      <span class="cap" data-id="erp-finance">ERP / Finance</span>
+      <span class="cap" data-context="fm" data-id="planon-maximo">Planon / Maximo / Concept</span>
+      <span class="cap" data-context="fm" data-id="meridian">Meridian / Aconex</span>
+      <span class="cap" data-context="f1" data-id="sap-mes">SAP / Factory MES</span>
+      <span class="cap" data-context="f1" data-id="logistics-freight">Logistics & Freight Tracking</span>
+      <span class="cap" data-context="f1" data-id="rd-test">R&D / Test Systems</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<h2 style="text-align:center; color:#e2e8f0; margin:2.5rem 0 0.25rem; font-size:1.5rem; font-weight:600; letter-spacing:0.5px;">Architectural Tenets</h2>
+<p style="text-align:center; color:#94a3b8; margin:0 0 1.5rem; font-size:0.95rem;">Non-negotiable design commitments that hold regardless of domain or deployment</p>
+<div class="principles" style="grid-template-columns: repeat(4, 1fr);">
+  <div class="principle" data-poc>
+    <div class="principle-num">01</div>
+    <div class="principle-title">Middleware, Not System of Record</div>
+    <div class="principle-text">The platform orchestrates existing systems rather than replacing them. Source systems remain authoritative. The platform is the system of intelligence — it reads, correlates, decides, and writes back.</div>
+  </div>
+  <div class="principle" data-poc>
+    <div class="principle-num">02</div>
+    <div class="principle-title">Bidirectional by Design</div>
+    <div class="principle-text">Not just a dashboard. The platform closes the loop: cross-domain intelligence triggers work orders, updates records, and drives remediation. Observe &rarr; Assess &rarr; Act &rarr; Verify.</div>
+  </div>
+  <div class="principle" data-poc>
+    <div class="principle-num">03</div>
+    <div class="principle-title">Cross-Domain Correlation</div>
+    <div class="principle-text">The value is in the intersection. A sensor anomaly + a missed maintenance schedule + an expiring certification = a risk no single system can see alone.</div>
+  </div>
+  <div class="principle" data-poc>
+    <div class="principle-num">04</div>
+    <div class="principle-title">Domain-Agnostic Core</div>
+    <div class="principle-text">The architecture is sector-neutral. The same layers serve facilities management, F1 team operations, or any complex operational estate. Patterns are consistent; instantiation is specific.</div>
+  </div>
+  <div class="principle" data-poc>
+    <div class="principle-num">05</div>
+    <div class="principle-title">Single-Tenant, Not Snowflake</div>
+    <div class="principle-text">Dedicated instances per client — non-negotiable when writing back into OT environments. But same IaC templates, same CI/CD, same monitoring. Single-tenant is a deployment strategy, not an excuse for bespoke installations.</div>
+  </div>
+  <div class="principle" data-poc>
+    <div class="principle-num">06</div>
+    <div class="principle-title">AI-Augmented, Human-Approved</div>
+    <div class="principle-text">The platform reasons across domains and recommends actions. Humans approve them. Every recommendation carries a full reasoning trace — "the AI recommended X because of A, B, and C" is defensible; "the AI decided" is not.</div>
+  </div>
+  <div class="principle">
+    <div class="principle-num">07</div>
+    <div class="principle-title">Partner-Extended</div>
+    <div class="principle-text">Digital twin partners, specialist domain modules, and implementation partners all plug into the integration layer without architectural compromise. The platform is designed for ecosystem extension.</div>
+  </div>
+  <div class="principle" data-poc>
+    <div class="principle-num">08</div>
+    <div class="principle-title">Progressive Proof</div>
+    <div class="principle-text">One site, two domains, end-to-end write-back. Prove the architecture before scaling. Each additional domain extends the model — it doesn't require rebuilding it.</div>
+  </div>
+</div>
+
+<!-- Domain Instantiation -->
+<div class="instantiation">
+  <h2>Domain Instantiation</h2>
+  <p class="inst-subtitle">Same architecture, different operational estate. The domain model adapts; the platform doesn't change.</p>
+  <div class="inst-grid">
+    <div class="inst-col fm">
+      <h3>Facilities Management</h3>
+      <div class="inst-row"><div class="inst-icon">&#127970;</div><div class="inst-text"><strong>Assets</strong><span>Plant, HVAC, lifts, fire systems, electrical</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#128295;</div><div class="inst-text"><strong>Maintenance</strong><span>SFG20 schedules, PPM, reactive works</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#128203;</div><div class="inst-text"><strong>Compliance</strong><span>ISO standards, statutory inspections, audits</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#9888;&#65039;</div><div class="inst-text"><strong>H&S</strong><span>ISO 45001, RIDDOR, behavioural safety</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#127959;&#65039;</div><div class="inst-text"><strong>Spatial</strong><span>BIM (Revit/IFC), photogrammetry scans</span></div></div>
+    </div>
+    <div class="inst-mapping">
+      <div class="mapping-label">Shared<br>Ontology<br><br>Assets &#8594; Obligations<br>Obligations &#8594; Schedules<br>Schedules &#8594; Evidence<br>Evidence &#8594; Compliance<br>Compliance &#8594; Risk<br>Risk &#8594; Action</div>
+    </div>
+    <div class="inst-col f1">
+      <h3>F1 Team Operations</h3>
+      <div class="inst-row"><div class="inst-icon">&#9881;&#65039;</div><div class="inst-text"><strong>Assets</strong><span>Wind tunnels, autoclaves, CNC machines, test rigs, simulators</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#128295;</div><div class="inst-text"><strong>Maintenance</strong><span>Factory plant PPM, calibration schedules, tool lifecycle</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#128203;</div><div class="inst-text"><strong>Compliance</strong><span>FIA technical regs, cost cap reporting, export controls</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#9888;&#65039;</div><div class="inst-text"><strong>H&S</strong><span>Composites handling, chemical storage, factory floor safety</span></div></div>
+      <div class="inst-row"><div class="inst-icon">&#127959;&#65039;</div><div class="inst-text"><strong>Spatial</strong><span>Factory campus digital twin, cleanroom zoning, logistics hub</span></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">Crozier Scott · Conceptual Architecture · Logical Target State</div>
+
+<script>
+// Capability detail data
+const capData = {
+  // === EXPERIENCE LAYER ===
+  'compliance-dashboard': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'The primary operational view. Aggregates compliance status across all connected domains into a single, at-a-glance posture score. Breaks down by domain, site, asset class, or time period. Designed for the COO persona — answers the question "where are we exposed right now?" without requiring drill-down into individual source systems. Configurable thresholds drive RAG (red/amber/green) status at every level of the hierarchy.',
+    related: ['Compliance Scoring Engine', 'Cross-Domain Correlation', 'Audit Trail & Evidence', 'Action Tracker']
+  },
+  'risk-heatmap': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Spatial or matrix-based visualisation of risk concentration. Can be rendered geographically (across sites), spatially (within a building or campus via BIM), or by domain. Highlights where risk is clustering — for example, a floor with multiple overdue PPM tasks and an active H&S incident. Draws from the Risk Analytics engine in the Intelligence Layer and updates in near real-time as source data changes.',
+    related: ['Risk Analytics & Scoring', 'Digital Twin Viewer', '3D Geometry Model', 'Zone / Area Hierarchy']
+  },
+  'digital-twin-viewer': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Interactive 3D visualisation powered by the BIM/spatial data in the Domain Model. Assets are rendered in their physical context — click on a piece of equipment in the model to see its compliance status, maintenance history, and sensor readings. This is where the partnership with photogrammetry / LiDAR providers becomes visible to end users. The twin is a consumption layer, not a modelling tool — it reads from the Spatial domain and overlays intelligence from other domains.',
+    related: ['3D Geometry Model', 'Asset\u2013Space Linkage', 'Asset Registry', 'Risk Heat Map']
+  },
+  'audit-trail': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Immutable record of every action, decision, and data change across the platform. Every compliance assessment, every work order generated, every write-back to a source system is logged with timestamp, user, and outcome. Critical for regulatory reporting and legal defensibility. Provides the evidence chain that connects an obligation through to its fulfilment — or documents exactly where a gap exists and what remediation was attempted.',
+    related: ['Evidence & Attachments', 'Inspection Records', 'Regulatory Reporting', 'Write-Back to Source Systems']
+  },
+  'regulatory-reporting': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Automated generation of compliance reports against regulatory frameworks. Rather than manually compiling evidence from multiple systems before an audit, the platform assembles the report from the Unified Domain Model on demand. Formats can be tailored per regulator or standard (e.g., ISO 45001 management review reports, statutory compliance declarations). Reduces the manual burden of audit preparation from weeks to minutes.',
+    related: ['Compliance Scoring Engine', 'Obligation Register', 'Audit Trail & Evidence', 'ISO Standards Mapping']
+  },
+  'action-tracker': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Tracks every remediation action from creation through to completion. When the Orchestration Layer generates a work order or raises an escalation, it appears here with status, owner, due date, and link back to the originating compliance gap. Provides visibility over the "last mile" — ensuring that intelligence doesn\'t just surface problems but that those problems actually get resolved. Closes the feedback loop between insight and action.',
+    related: ['Workflow Engine', 'Work Order Generation', 'Escalation & Notification', 'Write-Back to Source Systems']
+  },
+  'portfolio-overview': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Multi-site roll-up view for FM operators managing a portfolio of buildings. Compares compliance posture across sites, identifies the weakest performers, and enables resource allocation decisions. A regional manager can see that Site A has a declining compliance score in fire safety while Site B has overdue electrical testing — and prioritise accordingly. Only relevant where the customer operates multiple locations.',
+    related: ['Compliance Posture Dashboard', 'Risk Analytics & Scoring', 'Compliance Scoring Engine']
+  },
+  'sfg20-view': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Purpose-built view mapping the SFG20 maintenance standard against actual compliance status. Shows which SFG20 schedules are current, which are overdue, and which assets have no SFG20 mapping at all. SFG20 is the de facto standard for building maintenance scheduling in the UK — this view translates that standard into operational compliance visibility. Links directly to the SFG20 Obligation Map in the Domain Model.',
+    related: ['SFG20 Obligation Map', 'PPM Schedules', 'PPM Schedule Trigger', 'Compliance Scoring Engine']
+  },
+  'factory-readiness': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'Dashboard showing the operational readiness of the factory campus. Aggregates equipment availability, outstanding maintenance tasks, certification status of critical assets (wind tunnel, autoclaves, CNC machines), and any active H&S issues. Answers the COO\'s question: "Can we run full production tomorrow, and if not, what\'s blocking us?" Particularly critical during intensive development periods ahead of new car launches or regulation changes.',
+    related: ['Compliance Posture Dashboard', 'Factory Plant & Test Rigs', 'Wind Tunnel / Simulator Maintenance', 'Factory Utilisation Analytics']
+  },
+  'race-logistics': {
+    layer: 'Experience', badge: 'badge-experience',
+    desc: 'End-to-end visibility over the logistics pipeline for race weekends. Tracks freight containers, equipment crates, and spares through the supply chain from factory to circuit and back. Flags compliance issues with shipping (export controls, dangerous goods for composites), customs clearance status, and equipment certification validity at the destination. Integrates with logistics and freight tracking source systems.',
+    related: ['Logistics & Freight Tracking', 'Logistics Exception Handling', 'Supply Chain Risk Scoring', 'Certification Status']
+  },
+
+  // === ORCHESTRATION LAYER ===
+  'workflow-engine': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'The core execution engine. Defines and runs multi-step workflows triggered by compliance events, intelligence outputs, or manual actions. A workflow might be: sensor threshold breach detected → check if related PPM is overdue → if yes, generate urgent work order → notify site manager → schedule contractor → verify completion → update compliance status. Workflows are configurable per domain and customer without code changes.',
+    related: ['Work Order Generation', 'Write-Back to Source Systems', 'Escalation & Notification', 'Cross-Domain Correlation']
+  },
+  'work-order-gen': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Automatically generates work orders in the appropriate source system when a compliance gap or maintenance requirement is identified. The platform doesn\'t just tell you there\'s a problem — it creates the instruction to fix it, in the system where the work will actually be managed. This is the tangible output of the write-back capability and the primary way the platform drives remediation rather than just reporting.',
+    related: ['Write-Back to Source Systems', 'Workflow Engine', 'CAFM / CMMS', 'Write-Back Adapters']
+  },
+  'write-back': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'The architectural differentiator. Most compliance platforms are read-only dashboards. This platform writes back: updating records, creating tasks, closing work orders, and modifying status in the source systems. This means the source system remains the system of record (it received the update) while the platform remains the system of intelligence (it decided what to do). Write-back is what makes this middleware rather than just another reporting layer.',
+    related: ['Write-Back Adapters', 'Work Order Generation', 'Source System Adapters (API / File / DB)', 'CAFM / CMMS']
+  },
+  'escalation': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Rules-based escalation when compliance thresholds are breached, SLAs are at risk, or actions are overdue. Routes notifications to the right person at the right level — a minor PPM overdue goes to the site supervisor; a critical safety certification lapse goes to the COO. Supports multiple channels (email, SMS, in-app, integration with messaging platforms). Escalation chains are configurable and time-bound — if no response in X hours, escalate to the next level.',
+    related: ['SLA Monitoring', 'Workflow Engine', 'Action Tracker', 'Compliance Scoring Engine']
+  },
+  'approval-chains': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Multi-step approval workflows for actions that require sign-off before execution. A high-value work order, a deviation from standard maintenance procedure, or a decision to accept a compliance risk all flow through configurable approval chains. Supports delegation, time-based auto-escalation, and audit trails of who approved what and when. Prevents the platform from taking autonomous action where human judgement is required.',
+    related: ['Workflow Engine', 'Escalation & Notification', 'Audit Trail & Evidence']
+  },
+  'sla-monitoring': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Tracks performance against Service Level Agreements across all domains. Response times for reactive maintenance, completion rates for planned preventive maintenance, inspection turnaround times — all measured against contractual or regulatory SLAs. When an SLA is at risk of breach, triggers the escalation engine. Provides the data layer for supplier/contractor performance management and contractual compliance.',
+    related: ['Escalation & Notification', 'PPM Schedules', 'Contractor / Resource Model', 'Reactive Maintenance Log']
+  },
+  'gap-remediation': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Structured process for addressing identified compliance gaps. When the Intelligence Layer identifies a gap (missing inspection, expired certification, overdue maintenance), this capability creates a remediation plan: what needs to happen, who owns it, by when, and what evidence is required to close the gap. Links remediation actions back to the originating obligation so that compliance status updates automatically when the gap is closed.',
+    related: ['Compliance Scoring Engine', 'Workflow Engine', 'Obligation Register', 'Action Tracker']
+  },
+  'ppm-trigger': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Automatically triggers Planned Preventive Maintenance tasks based on schedule, condition, or compliance requirement. When an SFG20 schedule says a fire damper inspection is due, the platform creates the task in the CAFM system, assigns it to the appropriate contractor, and tracks it through to completion and evidence upload. Goes beyond schedule adherence — can bring forward PPM tasks if sensor data or risk scoring suggests the asset needs earlier attention.',
+    related: ['PPM Schedules', 'SFG20 Obligation Map', 'CAFM / CMMS', 'Work Order Generation']
+  },
+  'contractor-assign': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Routes work orders to the appropriate contractor based on skill, certification, availability, and location. In a multi-contractor environment, the platform needs to know which contractor covers which asset type at which site, and whether their certifications are current. Integrates with the Contractor/Resource Model in the Domain Layer and can factor in SLA performance history when making assignment decisions.',
+    related: ['Contractor / Resource Model', 'Work Order Generation', 'SLA Monitoring', 'Certification Status']
+  },
+  'part-lifecycle': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Manages the full lifecycle of critical components through the F1 factory. From raw material intake through manufacturing, testing, certification, deployment to the car, and eventual retirement. Each part carries a compliance profile: material certifications, manufacturing tolerances, FIA homologation status, and cost cap accounting. When a part reaches end-of-life or fails a test, the workflow triggers replacement and updates the cost cap ledger.',
+    related: ['Factory Plant & Test Rigs', 'FIA Technical Regulation Tracking', 'Certification Status', 'Lifecycle State']
+  },
+  'logistics-exception': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Handles deviations in the logistics pipeline for race weekends. When a freight shipment is delayed, a customs clearance fails, or an equipment certification expires before arrival at the circuit, this workflow kicks in. Identifies the impact (which race weekend is affected, which equipment is at risk), triggers contingency actions (alternative shipping, replacement equipment), and notifies the operations team. Time-critical given the fixed race calendar.',
+    related: ['Logistics & Freight Tracking', 'Race Logistics Pipeline', 'Supply Chain Risk Scoring', 'Escalation & Notification']
+  },
+
+  // === INTELLIGENCE LAYER ===
+  'compliance-scoring': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Calculates a unified compliance score at every level of the hierarchy: individual asset, zone, site, domain, and portfolio. The score is a weighted composite of obligation fulfilment, inspection currency, certification validity, incident history, and maintenance adherence. Weighting is configurable — a hospital might weight fire safety higher than a commercial office. The score is the single metric that drives the Compliance Posture Dashboard and triggers orchestration actions when it drops below threshold.',
+    related: ['Compliance Posture Dashboard', 'Obligation Register', 'PPM Schedules', 'Certification Status']
+  },
+  'cross-domain': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'The platform\'s core analytical differentiator. Identifies patterns that span multiple domain boundaries — correlations that no single source system can see. Example: a building\'s HVAC system shows rising energy consumption (telemetry) + the associated maintenance schedule is overdue (CAFM) + the last inspection flagged a minor issue that wasn\'t resolved (assessment) = a compounding risk that any single system would rate as low but in combination is significant. This is where the value of the Unified Domain Model is realised.',
+    related: ['Compliance Scoring Engine', 'Anomaly Detection', 'Risk Analytics & Scoring', 'Unified Domain Model']
+  },
+  'risk-analytics': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Quantifies and ranks risk across the operational estate. Goes beyond compliance scoring to model likelihood and impact — a missing inspection on a low-criticality asset in a low-occupancy area is a different risk profile to the same missing inspection on a life-safety system in a high-traffic zone. Factors in historical incident data, asset criticality, occupancy patterns, and regulatory severity. Outputs feed the Risk Heat Map and drive prioritisation in the Orchestration Layer.',
+    related: ['Risk Heat Map', 'Compliance Scoring Engine', 'Incident Register', 'Cross-Domain Correlation']
+  },
+  'predictive-maint': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Uses sensor data trends and maintenance history to predict when an asset is likely to fail or degrade below acceptable performance. Moves the maintenance model from reactive (fix when broken) and preventive (fix on schedule) to predictive (fix when the data says it\'s needed). Requires sufficient telemetry data from the IoT/sensor layer and historical maintenance records. Most valuable for high-criticality, high-cost assets where unplanned downtime is expensive.',
+    related: ['Sensor / Telemetry Mapping', 'PPM Schedules', 'Anomaly Detection', 'IoT Platforms']
+  },
+  'anomaly-detection': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Identifies deviations from normal operating patterns across any data stream. A sensor reading outside its historical band, a sudden spike in reactive maintenance requests at a site, an unusual pattern of failed inspections — all flagged for investigation. Can be statistical (threshold-based) or ML-driven (pattern-based). Anomalies feed into Cross-Domain Correlation to check whether the deviation is isolated or part of a wider pattern.',
+    related: ['Sensor / Telemetry Mapping', 'Cross-Domain Correlation', 'Predictive Maintenance', 'Escalation & Notification']
+  },
+  'scenario-sim': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Models "what if" scenarios against the current state of the operational estate. What happens to our compliance posture if we defer all non-critical PPM for 3 months? What\'s the risk impact if a key contractor loses their certification? If we acquire a new site, what does the integration timeline look like? Enables strategic decision-making by quantifying the compliance and risk implications of operational choices before they\'re made.',
+    related: ['Compliance Scoring Engine', 'Risk Analytics & Scoring', 'PPM Schedules', 'Contractor / Resource Model']
+  },
+  'trend-analysis': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Longitudinal analysis of compliance and operational metrics over time. Is our compliance posture improving or degrading? Are reactive maintenance calls increasing at a particular site? Is a specific asset type failing more frequently than expected? Trend data is essential for strategic reporting, investment decisions, and demonstrating continuous improvement to regulators. Also identifies seasonal patterns that can inform resource planning.',
+    related: ['Compliance Scoring Engine', 'Reactive Maintenance Log', 'Regulatory Reporting', 'Risk Analytics & Scoring']
+  },
+  'building-benchmark': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Compares operational and compliance performance across buildings in a portfolio. Normalises for building type, age, use, and size to produce fair comparisons. Identifies outliers — both underperformers needing attention and high performers whose practices could be replicated. Benchmarking drives accountability across site management teams and provides evidence for investment prioritisation.',
+    related: ['Portfolio Overview (Multi-Site)', 'Compliance Scoring Engine', 'Trend Analysis']
+  },
+  'reg-change': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Assesses the impact of regulatory changes on the current compliance posture. When a new building regulation is introduced or an existing standard is updated, models which assets, sites, and obligations are affected and what remediation would be required. Turns a regulatory change from a scramble into a structured response plan. Requires the Obligation Register to be mapped against specific regulations so impacts can be traced.',
+    related: ['Obligation Register', 'ISO Standards Mapping', 'Compliance Scoring Engine', 'Scenario Simulation']
+  },
+  'factory-util': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Analyses utilisation rates of high-value factory assets — wind tunnel hours, autoclave cycles, CNC machine time, simulator availability. Correlates utilisation with maintenance schedules and compliance status to identify bottlenecks. If the wind tunnel is down for unplanned maintenance 15% of the time, that\'s a development capacity problem as much as a maintenance one. Feeds into the Factory Readiness dashboard and informs capital expenditure decisions.',
+    related: ['Factory Readiness Overview', 'Wind Tunnel / Simulator Maintenance', 'Factory Plant & Test Rigs', 'Predictive Maintenance']
+  },
+  'supply-chain-risk': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'Scores risk across the F1 team\'s supply chain and logistics network. Factors in supplier reliability, shipping route risk, customs complexity, and equipment certification validity windows. If a critical part is being shipped from a supplier with a declining quality record through a route with recent customs delays, and the certification expires in 10 days, the risk score reflects that compound exposure. Feeds logistics exception handling workflows.',
+    related: ['Logistics & Freight Tracking', 'Logistics Exception Handling', 'Race Logistics Pipeline', 'Certification Status']
+  },
+
+  // === DOMAIN MODEL: ASSETS ===
+  'asset-registry': {
+    layer: 'Domain Model — Assets', badge: 'badge-domain',
+    desc: 'The canonical register of every physical asset under management. Each asset has a unique identity, classification, location (linked to spatial model), ownership, criticality rating, and relationships to other assets (parent/child, dependency). The registry is the anchor point for the entire domain model — obligations, maintenance schedules, inspections, and sensor data all hang off the asset record. Populated from source systems via the Integration Layer, not manually maintained.',
+    related: ['Sensor / Telemetry Mapping', 'Lifecycle State', 'Certification Status', 'Asset\u2013Space Linkage']
+  },
+  'sensor-mapping': {
+    layer: 'Domain Model — Assets', badge: 'badge-domain',
+    desc: 'Links IoT sensors and telemetry data streams to the assets they monitor. A temperature sensor is mapped to the specific HVAC unit it measures; a vibration sensor to the specific motor it monitors. This mapping is what enables the Intelligence Layer to correlate sensor anomalies with maintenance history and compliance status. Without it, sensor data is just numbers — with it, sensor data becomes operational intelligence in the context of the asset it describes.',
+    related: ['Asset Registry', 'IoT Ingestion Gateway', 'IoT Platforms', 'Anomaly Detection']
+  },
+  'lifecycle-state': {
+    layer: 'Domain Model — Assets', badge: 'badge-domain',
+    desc: 'Tracks where each asset is in its lifecycle: commissioned, operational, under maintenance, degraded, decommissioned, disposed. Lifecycle state affects compliance obligations — a decommissioned asset has different requirements to an operational one. State transitions can be driven by the Orchestration Layer (e.g., moving an asset to "under maintenance" when a work order is raised) or detected from source system updates via the Integration Layer.',
+    related: ['Asset Registry', 'Certification Status', 'PPM Schedules', 'Compliance Scoring Engine']
+  },
+  'cert-status': {
+    layer: 'Domain Model — Assets', badge: 'badge-domain',
+    desc: 'Records the certification and accreditation status of every asset that requires it. Certificates have issue dates, expiry dates, issuing bodies, and scope. The platform tracks currency and raises alerts as expiry approaches. In regulated environments, an expired certification can mean an asset must be taken out of service — the compliance impact is immediate and potentially severe. Feeds directly into the Compliance Scoring Engine.',
+    related: ['Asset Registry', 'Obligation Register', 'Compliance Scoring Engine', 'Escalation & Notification']
+  },
+  'plant-register': {
+    layer: 'Domain Model — Assets', badge: 'badge-domain',
+    desc: 'FM-specific instantiation of the Asset Registry. Covers building plant and equipment: boilers, chillers, air handling units, lifts, fire alarm panels, emergency lighting, electrical distribution boards, and so on. Each item is classified by type, manufacturer, model, installation date, and expected life. Mapped to SFG20 task schedules and statutory inspection requirements. Typically sourced from the CAFM/CMMS system.',
+    related: ['Asset Registry', 'SFG20 Obligation Map', 'CAFM / CMMS', 'PPM Schedules']
+  },
+  'factory-plant': {
+    layer: 'Domain Model — Assets', badge: 'badge-domain',
+    desc: 'F1-specific instantiation of the Asset Registry. Covers high-value manufacturing and test equipment: wind tunnel, autoclaves, CNC milling machines, 3D printers, dynos, driver-in-loop simulators, composite layup rooms, and paint facilities. Each asset has operational parameters, calibration requirements, and utilisation tracking. These assets represent tens of millions in capital investment and their availability directly impacts car development velocity.',
+    related: ['Asset Registry', 'Wind Tunnel / Simulator Maintenance', 'Factory Utilisation Analytics', 'Factory Readiness Overview']
+  },
+
+  // === DOMAIN MODEL: MAINTENANCE ===
+  'ppm-schedules': {
+    layer: 'Domain Model — Maintenance', badge: 'badge-domain',
+    desc: 'The planned preventive maintenance calendar. Every asset with a PPM requirement has a schedule: what task, at what frequency, performed by whom, and what evidence is required on completion. Schedules are linked to obligations (regulatory or contractual) and assets. The platform tracks adherence — which tasks are current, which are due, which are overdue — and this feeds directly into compliance scoring. The schedule is sourced from the CAFM system but normalised into the domain model.',
+    related: ['SFG20 Obligation Map', 'Compliance Scoring Engine', 'PPM Schedule Trigger', 'CAFM / CMMS']
+  },
+  'reactive-maint': {
+    layer: 'Domain Model — Maintenance', badge: 'badge-domain',
+    desc: 'Log of all unplanned maintenance activity — breakdowns, faults, user-reported issues. Each reactive event is linked to the affected asset and classified by cause, urgency, and resolution. Patterns in reactive maintenance are a leading indicator: rising reactive calls on an asset type suggests the PPM schedule may be inadequate, or the asset is approaching end-of-life. The Intelligence Layer analyses reactive patterns to inform predictive maintenance models.',
+    related: ['Asset Registry', 'Predictive Maintenance', 'Trend Analysis', 'SLA Monitoring']
+  },
+  'contractor-model': {
+    layer: 'Domain Model — Maintenance', badge: 'badge-domain',
+    desc: 'Data model for the organisations and individuals who perform maintenance work. Covers contractor companies, individual engineers, their qualifications, certifications, approved task types, site access permissions, and SLA terms. A contractor\'s expired gas safe certification means they can\'t work on gas appliances — the platform enforces this by checking certification status before assigning work. Linked to the work order and scheduling capabilities.',
+    related: ['Contractor Assignment', 'Certification Status', 'Work Order Generation', 'SLA Monitoring']
+  },
+  'sfg20-map': {
+    layer: 'Domain Model — Maintenance', badge: 'badge-domain',
+    desc: 'Maps SFG20 maintenance schedules to the specific assets in the estate. SFG20 defines what maintenance tasks should be performed on what asset types at what frequencies — but it\'s a standard, not a system. This mapping layer connects the standard to the actual assets, creating the specific maintenance obligations for this customer\'s estate. Changes to SFG20 (new revisions, updated frequencies) propagate through this mapping to update affected schedules automatically.',
+    related: ['PPM Schedules', 'Plant & Equipment Register', 'SFG20 Compliance View', 'PPM Schedule Trigger']
+  },
+  'wind-tunnel-maint': {
+    layer: 'Domain Model — Maintenance', badge: 'badge-domain',
+    desc: 'F1-specific maintenance schedules for the team\'s most critical and complex assets. Wind tunnel maintenance involves calibration of sensors, balance systems, flow quality checks, and structural inspections — all on a strict schedule because inaccurate wind tunnel data directly impacts car performance. Simulator maintenance covers hydraulic systems, visual displays, and motion platforms. Downtime on these assets is measured in lost development hours, making maintenance compliance a performance issue, not just a facilities one.',
+    related: ['Factory Plant & Test Rigs', 'PPM Schedules', 'Factory Utilisation Analytics', 'Calibration schedules']
+  },
+
+  // === DOMAIN MODEL: COMPLIANCE ===
+  'obligation-register': {
+    layer: 'Domain Model — Compliance', badge: 'badge-domain',
+    desc: 'The master record of every compliance obligation: regulatory requirements, contractual commitments, internal policies, and industry standards. Each obligation specifies what must be done, to which assets or areas, at what frequency, what evidence is required, and what the consequence of non-compliance is. Obligations are linked to assets, schedules, and inspection records — forming the backbone of the compliance chain. This register is what turns a generic platform into a compliance-specific one.',
+    related: ['Compliance Scoring Engine', 'Inspection Records', 'Evidence & Attachments', 'Certification Status']
+  },
+  'inspection-records': {
+    layer: 'Domain Model — Compliance', badge: 'badge-domain',
+    desc: 'Structured records of every inspection, assessment, and audit performed. Each record captures what was inspected, by whom, when, the outcome (pass/fail/advisory), any defects found, and remediation actions raised. Inspection records are the primary evidence that an obligation has been met. They feed into the Compliance Scoring Engine and provide the audit trail needed for regulatory reporting. Sourced from CAFM, specialist inspection systems, or captured directly through the platform.',
+    related: ['Obligation Register', 'Evidence & Attachments', 'Audit Trail & Evidence', 'Compliance Scoring Engine']
+  },
+  'evidence-attach': {
+    layer: 'Domain Model — Compliance', badge: 'badge-domain',
+    desc: 'Supporting documentation attached to compliance records: photos, certificates, test reports, sign-off forms, calibration records. Evidence is what makes a compliance claim defensible — it\'s not enough to say an inspection happened, you need the report. The platform stores or links to evidence against the specific obligation, asset, and inspection it relates to. In the F1 context, this includes FIA homologation certificates, material test reports, and manufacturing quality records.',
+    related: ['Inspection Records', 'Certification Status', 'Audit Trail & Evidence', 'Obligation Register']
+  },
+  'iso-mapping': {
+    layer: 'Domain Model — Compliance', badge: 'badge-domain',
+    desc: 'Maps ISO management system requirements to the operational reality. ISO 45001 (health & safety), ISO 14001 (environmental), ISO 55001 (asset management) — each standard has clauses that require specific controls, procedures, and evidence. This mapping connects those abstract requirements to concrete assets, processes, and records in the domain model. Enables automated assessment of ISO compliance posture rather than manual audit preparation.',
+    related: ['Obligation Register', 'ISO 45001 Framework', 'Regulatory Reporting', 'Regulatory Change Impact']
+  },
+  'fia-tracking': {
+    layer: 'Domain Model — Compliance', badge: 'badge-domain',
+    desc: 'Tracks FIA Technical Regulations and their impact on the factory and car development. Regulations change between seasons and sometimes mid-season — each change potentially affects manufacturing processes, material specifications, component designs, and testing protocols. The platform maps regulatory requirements to affected assets, parts, and processes so that when a regulation changes, the compliance impact is immediately visible. Also tracks cost cap regulations and reporting obligations.',
+    related: ['Obligation Register', 'Part Lifecycle Workflow', 'Factory Plant & Test Rigs', 'Compliance Scoring Engine']
+  },
+
+  // === DOMAIN MODEL: H&S ===
+  'incident-register': {
+    layer: 'Domain Model — H&S', badge: 'badge-domain',
+    desc: 'Record of all health and safety incidents, near-misses, and observations. Each incident is classified by type, severity, location, root cause, and outcome. Linked to the spatial model (where did it happen?) and asset model (which equipment was involved?). Incident data feeds into risk analytics — a cluster of near-misses in one area is a leading indicator that a serious incident may follow. Also supports regulatory reporting requirements (RIDDOR in the UK).',
+    related: ['Risk Assessments', 'Risk Analytics & Scoring', 'Zone / Area Hierarchy', 'Regulatory Reporting']
+  },
+  'risk-assessments': {
+    layer: 'Domain Model — H&S', badge: 'badge-domain',
+    desc: 'Structured risk assessments linked to activities, areas, and asset interactions. Each assessment identifies hazards, evaluates likelihood and severity, and documents control measures. Risk assessments have review dates — the platform tracks currency and flags overdue reviews. In the domain model, risk assessments connect to the assets and zones they cover, enabling the Intelligence Layer to cross-reference assessment findings with real-time operational data.',
+    related: ['Incident Register', 'Behavioural Safety', 'Zone / Area Hierarchy', 'Risk Analytics & Scoring']
+  },
+  'behavioural-safety': {
+    layer: 'Domain Model — H&S', badge: 'badge-domain',
+    desc: 'Captures the human element of safety — observations of safe and unsafe behaviours, safety culture assessments, and training compliance. Recognises that safety isn\'t just about the physical environment and equipment — it\'s about how people interact with them. Behavioural data complements the asset-centric view: a perfectly maintained machine is still dangerous if the operator isn\'t following procedures. Feeds into a holistic risk model that considers both physical and behavioural factors.',
+    related: ['Incident Register', 'Risk Assessments', 'Risk Analytics & Scoring', 'ISO 45001 Framework']
+  },
+  'iso45001': {
+    layer: 'Domain Model — H&S', badge: 'badge-domain',
+    desc: 'FM-specific framework mapping ISO 45001 occupational health and safety requirements to operational controls. Covers leadership commitment, worker participation, hazard identification, risk assessment methodology, operational controls, emergency preparedness, and performance evaluation. The platform maps each clause to the evidence and processes that demonstrate compliance, enabling continuous assessment rather than periodic audit.',
+    related: ['ISO Standards Mapping', 'Incident Register', 'Risk Assessments', 'Behavioural Safety']
+  },
+  'factory-safety': {
+    layer: 'Domain Model — H&S', badge: 'badge-domain',
+    desc: 'F1-specific safety considerations for the manufacturing environment. Composites fabrication involves hazardous materials (resins, carbon fibre dust, autoclave pressures), chemical storage requirements for paints and adhesives, and high-energy manufacturing processes (CNC machining, laser cutting). The factory floor has unique safety profiles by zone — the composite layup area has different hazards to the machine shop, which differs again from the paint facility. Zone-specific safety models connect to the spatial layer.',
+    related: ['Zone / Area Hierarchy', 'Incident Register', 'Risk Assessments', 'Factory / Campus Digital Twin']
+  },
+
+  // === DOMAIN MODEL: SPATIAL ===
+  '3d-model': {
+    layer: 'Domain Model — Spatial', badge: 'badge-domain',
+    desc: 'The geometric representation of the physical environment. Can be sourced from BIM models (Revit/IFC), photogrammetry scans (iPhone or dedicated), or LiDAR surveys. The 3D model is the spatial container into which everything else is placed — assets have locations, zones have boundaries, incidents have coordinates. This is where the digital twin partnership adds value: providing accurate, up-to-date spatial data without the traditional cost of BIM modelling.',
+    related: ['Asset\u2013Space Linkage', 'Zone / Area Hierarchy', 'Digital Twin Viewer', 'Building Model (Revit/IFC)']
+  },
+  'asset-space': {
+    layer: 'Domain Model — Spatial', badge: 'badge-domain',
+    desc: 'The linkage between assets in the Asset Registry and their physical locations in the 3D model. An air handling unit isn\'t just a record in a database — it\'s a physical object in a specific plant room on a specific floor. This linkage enables spatial queries: "show me all assets in this zone with overdue maintenance" or "what\'s the compliance status of everything on Floor 3?" Without this connection, the domain model is tabular; with it, it\'s spatial.',
+    related: ['Asset Registry', '3D Geometry Model', 'Zone / Area Hierarchy', 'Digital Twin Viewer']
+  },
+  'zone-hierarchy': {
+    layer: 'Domain Model — Spatial', badge: 'badge-domain',
+    desc: 'The logical subdivision of space: campus → building → floor → zone → room. Each level in the hierarchy can carry its own compliance profile, risk score, and usage classification. A hospital ward has different compliance requirements to a plant room; a cleanroom in an F1 factory has different requirements to the general workshop. The hierarchy enables roll-up reporting (floor score, building score, campus score) and drill-down investigation (which zone on this floor is the problem?).',
+    related: ['3D Geometry Model', 'Asset\u2013Space Linkage', 'Risk Heat Map', 'Compliance Scoring Engine']
+  },
+  'building-model': {
+    layer: 'Domain Model — Spatial', badge: 'badge-domain',
+    desc: 'FM-specific spatial data sourced from BIM authoring tools. IFC (Industry Foundation Classes) is the open standard for exchanging building model data. Revit is the dominant authoring tool. The platform ingests these models to provide the spatial context for asset and compliance data. For existing buildings without BIM models, photogrammetry offers a faster, cheaper route to spatial data — this is where the partnership approach reduces the barrier to entry.',
+    related: ['3D Geometry Model', 'BIM Authoring Tools', 'Asset\u2013Space Linkage', 'Digital Twin Viewer']
+  },
+  'factory-twin': {
+    layer: 'Domain Model — Spatial', badge: 'badge-domain',
+    desc: 'F1-specific spatial model of the factory campus. Covers the main factory building, wind tunnel facility, simulator building, composites area, paint shop, logistics hub, and any satellite facilities. The digital twin provides the spatial context for all factory assets and enables visualisation of operational status overlaid on the physical environment. Particularly valuable for new facility planning, production flow optimisation, and safety zone management around hazardous processes.',
+    related: ['3D Geometry Model', 'Factory Plant & Test Rigs', 'Factory Floor Safety / Composites', 'Factory Readiness Overview']
+  },
+
+  // === INTEGRATION LAYER ===
+  'adapters': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'Pre-built and configurable connectors for source systems. Each adapter understands the data model and API of a specific source system type and translates it into the platform\'s domain model. Adapters support multiple integration patterns: REST APIs, database connections, file imports (CSV, XML), message queues, and webhook listeners. The adapter abstraction means adding a new source system is a configuration exercise, not a development project. Each adapter handles authentication, pagination, error handling, and rate limiting.',
+    related: ['Data Normalisation Pipeline', 'Write-Back Adapters', 'CAFM / CMMS', 'BMS / SCADA']
+  },
+  'event-bus': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'Asynchronous messaging infrastructure that decouples source systems from the platform\'s processing pipeline. When a source system publishes a change (new work order, updated sensor reading, completed inspection), it hits the event bus and is routed to the appropriate processing pipeline. Enables real-time data flow without tight coupling, supports replay for recovery, and provides the backbone for event-driven architecture. Essential for scaling beyond the POC to many source systems and high data volumes.',
+    related: ['Source System Adapters (API / File / DB)', 'Data Normalisation Pipeline', 'Change Detection & Sync', 'IoT Ingestion Gateway']
+  },
+  'normalisation': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'Transforms data from source system formats into the platform\'s Unified Domain Model. A "work order" in Maximo has different fields to a "job" in Planon, but both map to the same concept in the domain model. The normalisation pipeline handles field mapping, type conversion, reference data alignment, and enrichment (adding derived fields or looking up related records). This is the critical step that enables cross-domain intelligence — without normalisation, the data stays siloed even if it\'s technically in one database.',
+    related: ['Source System Adapters (API / File / DB)', 'Unified Domain Model', 'Write-Back Adapters', 'Conflict Resolution']
+  },
+  'write-back-adapters': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'The reverse of source system adapters — translates platform actions back into source system operations. When the Orchestration Layer generates a work order, the write-back adapter creates it in the correct format in the target CAFM system. Handles the mapping in reverse: platform domain model → source system data model. Must manage transactions, error handling, and confirmation — if a write-back fails, the platform needs to know and retry or escalate. This is architecturally the hardest part of the integration layer and the most commercially distinctive.',
+    related: ['Write-Back to Source Systems', 'Source System Adapters (API / File / DB)', 'Work Order Generation', 'Conflict Resolution']
+  },
+  'change-detection': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'Detects changes in source systems and synchronises them to the domain model. Not all source systems support real-time events — some require polling on a schedule. Change detection handles both patterns: event-driven (receive notification of change) and poll-based (periodically query for changes since last sync). Manages sync state, handles ordering, and ensures the domain model stays current without overloading source systems with constant queries.',
+    related: ['Source System Adapters (API / File / DB)', 'Event Bus / Message Broker', 'Data Normalisation Pipeline', 'Conflict Resolution']
+  },
+  'conflict-resolution': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'Handles conflicts when multiple source systems claim authority over the same data, or when a write-back conflicts with a change made directly in the source system. For example: the platform updates an asset\'s maintenance status, but a technician has already updated it differently in the CAFM system. Conflict resolution policies determine which version wins, how to merge changes, and when to flag for human intervention. Essential for a middleware platform that both reads and writes.',
+    related: ['Write-Back Adapters', 'Change Detection & Sync', 'Data Normalisation Pipeline']
+  },
+  'iot-gateway': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'Specialised ingestion point for high-volume, high-frequency IoT and sensor data. Handles protocols common in building and industrial environments: MQTT, OPC-UA, BACnet, Modbus. Manages device registration, data buffering, downsampling (not every reading needs to be stored at full resolution), and threshold alerting. The gateway sits between the physical sensors and the domain model, translating raw readings into contextualised asset telemetry by linking to the Sensor/Telemetry Mapping.',
+    related: ['Sensor / Telemetry Mapping', 'IoT Platforms', 'BMS / SCADA', 'Anomaly Detection']
+  },
+  'bms-bridge': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'FM-specific adapter for Building Management Systems and SCADA platforms. BMS systems control and monitor building services (HVAC, lighting, access control) and speak protocols like BACnet and Modbus. The bridge translates BMS data into the platform\'s domain model — a BACnet point becomes a sensor reading attached to a specific asset. Also supports write-back for control actions, though this requires careful safety controls given the physical impact of BMS changes.',
+    related: ['BMS / SCADA', 'IoT Ingestion Gateway', 'Sensor / Telemetry Mapping', 'Source System Adapters (API / File / DB)']
+  },
+  'factory-bridge': {
+    layer: 'Integration', badge: 'badge-integration',
+    desc: 'F1-specific adapter for factory systems: MES (Manufacturing Execution Systems), PLM (Product Lifecycle Management), and industrial control systems. These systems manage production scheduling, quality control, and equipment monitoring. The bridge translates factory system data into the platform\'s domain model — a CNC machine\'s utilisation data, an autoclave\'s cycle count, a simulator\'s availability status all become normalised telemetry attached to asset records in the domain model.',
+    related: ['SAP / Factory MES', 'Source System Adapters (API / File / DB)', 'Factory Plant & Test Rigs', 'IoT Ingestion Gateway']
+  },
+
+  // === SOURCE SYSTEMS ===
+  'cafm-cmms': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Computer-Aided Facilities Management / Computerised Maintenance Management Systems. The system of record for maintenance operations: asset registers, work orders, PPM schedules, contractor management. Examples include Planon, Maximo, Concept, FSI, and MRI. The platform reads asset and maintenance data from the CAFM and writes work orders back into it. This is typically the first and most important source system integration for the POC.',
+    related: ['Source System Adapters (API / File / DB)', 'PPM Schedules', 'Asset Registry', 'Write-Back Adapters']
+  },
+  'bms-scada': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Building Management Systems and Supervisory Control and Data Acquisition platforms. These control and monitor the physical building systems: HVAC, lighting, fire, access control, lifts. They generate continuous telemetry data — temperatures, pressures, flow rates, energy consumption — that feeds the IoT/sensor layer of the domain model. BMS data is the real-time heartbeat of a building\'s operational state.',
+    related: ['BMS / SCADA Bridge', 'IoT Ingestion Gateway', 'Sensor / Telemetry Mapping', 'Anomaly Detection']
+  },
+  'iot-platforms': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Standalone IoT platforms that manage sensors not connected to the BMS. Environmental sensors, occupancy counters, energy sub-meters, water leak detectors, air quality monitors. These platforms typically have their own cloud infrastructure and APIs. The platform ingests their data through the IoT Gateway, normalises it, and links it to the appropriate assets in the domain model. Often the fastest route to telemetry data because they can be deployed without touching the BMS.',
+    related: ['IoT Ingestion Gateway', 'Sensor / Telemetry Mapping', 'Anomaly Detection', 'Predictive Maintenance']
+  },
+  'hs-systems': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Dedicated health and safety management systems. Handle incident reporting, risk assessment workflows, training records, permit-to-work, and regulatory submissions (RIDDOR). Examples include Alcumus, SHE Software, Evotix. The platform reads incident and safety data from these systems and can write back actions raised by cross-domain intelligence. In some organisations, H&S functions are managed in spreadsheets — the platform can ingest these too via file adapters.',
+    related: ['Incident Register', 'Risk Assessments', 'Behavioural Safety', 'Source System Adapters (API / File / DB)']
+  },
+  'bim-tools': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'BIM authoring and management tools — Revit, Navisworks, BIM 360, and the broader Autodesk ecosystem, plus alternatives like Bentley and Archicad. These produce the 3D geometric models that power the spatial layer of the domain model. The platform typically imports IFC exports rather than connecting live to the authoring tools. For existing buildings without BIM, photogrammetry partners provide an alternative spatial data source at lower cost.',
+    related: ['Building Model (Revit/IFC)', '3D Geometry Model', 'Asset\u2013Space Linkage', 'Digital Twin Viewer']
+  },
+  'gis-spatial': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Geographic Information Systems for site-level and campus-level spatial data. While BIM handles the building interior, GIS covers the surrounding environment: site boundaries, external services, road access, drainage, and landscape. Relevant for campus-style operations (hospitals, universities, F1 factory campuses) where the spatial context extends beyond individual buildings. Can also incorporate mapping data for logistics route planning.',
+    related: ['Zone / Area Hierarchy', '3D Geometry Model', 'Factory / Campus Digital Twin']
+  },
+  'doc-mgmt': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Document management systems storing compliance evidence: certificates, inspection reports, method statements, risk assessments, O&M manuals. Examples include SharePoint, Meridian, Aconex, and Asite. The platform links evidence documents to the assets and obligations they relate to, without necessarily importing the documents themselves. What matters is the metadata: which document, for which asset, covering which obligation, valid until when.',
+    related: ['Evidence & Attachments', 'Certification Status', 'Audit Trail & Evidence']
+  },
+  'erp-finance': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'Enterprise Resource Planning and financial systems. Provide the commercial context: purchase orders for maintenance work, cost allocation for compliance activities, budget vs. actual for capital projects. In the F1 context, the cost cap makes this particularly important — every maintenance and compliance activity has a cost that must be tracked and reported against the FIA\'s financial regulations. The platform reads financial data for cost-aware compliance scoring.',
+    related: ['Contractor / Resource Model', 'SLA Monitoring', 'FIA Technical Regulation Tracking']
+  },
+  'planon-maximo': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'FM-specific CAFM/CMMS products. Planon is strong in European markets, Maximo (IBM) in larger enterprises, and Concept Evolution in UK FM. Each has its own data model, API capabilities, and integration patterns. The platform\'s adapter layer abstracts these differences so the rest of the platform doesn\'t care which CAFM system is underneath. This is where "middleware not system of record" pays off — the customer keeps their existing CAFM investment.',
+    related: ['CAFM / CMMS', 'Source System Adapters (API / File / DB)', 'Write-Back Adapters']
+  },
+  'meridian': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'FM-specific document and engineering content management systems. Meridian (BlueCielo/Accruent) specialises in engineering document management; Aconex (Oracle) in construction and project document control. Both hold critical compliance documentation — O&M manuals, as-built drawings, test certificates, commissioning records. The platform links this documentation into the compliance chain without trying to replace these specialised systems.',
+    related: ['Document Management', 'Evidence & Attachments', 'Source System Adapters (API / File / DB)']
+  },
+  'sap-mes': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'F1-specific enterprise and manufacturing systems. SAP provides the ERP backbone (finance, procurement, HR), while MES (Manufacturing Execution Systems) manages the factory floor: production orders, quality control, material traceability. The platform reads operational data from these systems to understand factory status, and can write back compliance-triggered actions. The SAP integration is particularly important for cost cap compliance, where every material and labour cost must be accurately captured.',
+    related: ['ERP / Finance', 'Factory Systems Bridge', 'Part Lifecycle Workflow', 'Source System Adapters (API / File / DB)']
+  },
+  'logistics-freight': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'F1-specific logistics and freight tracking systems. F1 teams ship equipment to 24 race weekends per year across 5 continents — by air, sea, and road. Tracking systems provide real-time visibility over freight location, customs status, and delivery estimates. The platform ingests this data to build the Race Logistics Pipeline view and feeds it into Supply Chain Risk Scoring. Time-criticality is extreme: a missed freight deadline can mean equipment isn\'t at the circuit for a race weekend.',
+    related: ['Race Logistics Pipeline', 'Logistics Exception Handling', 'Supply Chain Risk Scoring']
+  },
+  'rd-test': {
+    layer: 'Source Systems', badge: 'badge-source',
+    desc: 'F1-specific R&D and test systems: wind tunnel data acquisition, CFD (Computational Fluid Dynamics) platforms, materials testing equipment, seven-post rig data. These systems generate high-volume technical data that the platform doesn\'t need to process directly, but their operational status (availability, calibration currency, utilisation) feeds into the Factory Readiness and Utilisation views. A wind tunnel that\'s out of calibration is a compliance issue that directly impacts car development velocity.',
+    related: ['Factory Plant & Test Rigs', 'Wind Tunnel / Simulator Maintenance', 'Factory Utilisation Analytics', 'Factory Readiness Overview']
+  },
+
+  // === CROSS-CUTTING CONCERNS ===
+  'cc-reasoning-trace': {
+    layer: 'Cross-Cutting', badge: 'badge-orchestration',
+    desc: 'Every assessment, recommendation, and action across the platform carries a full reasoning trace. When the Intelligence Layer scores a compliance risk, it records the contributing factors and their weights. When the Orchestration Layer\'s agentic reasoning engine recommends a work order, it documents which cross-domain signals triggered the recommendation, what alternatives were considered, and why this course of action was selected. This trace is immutable and auditable — it\'s the platform\'s answer to "why did it do that?" In regulated environments, this isn\'t optional. It\'s also a selling point: the platform doesn\'t just automate compliance, it creates a defensible decision record that\'s richer than any manual process could produce.',
+    related: ['Agentic Reasoning Engine', 'Human-in-the-Loop Approval', 'Audit Trail & Evidence', 'Compliance Scoring Engine']
+  },
+  'cc-tenancy': {
+    layer: 'Cross-Cutting', badge: 'badge-integration',
+    desc: 'Each client gets a dedicated platform instance — not logically isolated within a shared environment, but physically separate infrastructure. This is non-negotiable when the platform writes back into operational technology environments (BMS, SCADA, factory MES, IoT gateways). A misconfigured tenant boundary in a multi-tenant system isn\'t just a data leak — it\'s a physical safety risk when you\'re actuating work orders and writing into building management systems. The commercial model supports this: contract values for large operational estates absorb per-instance infrastructure costs easily. The discipline is in deployment consistency: same infrastructure-as-code templates, same CI/CD pipelines, same monitoring stack, same upgrade path across every instance. Single-tenant doesn\'t mean snowflake — you should be able to spin up a new client environment in days, not months.',
+    related: ['Write-Back to Source Systems', 'Write-Back Adapters', 'Source System Adapters (API / File / DB)', 'BMS / SCADA']
+  },
+
+  // === NEW INTELLIGENCE CAPABILITIES ===
+  'reg-text-llm': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'LLM-powered capability that interprets regulatory text changes against the Obligation Register. When a new building regulation is published, an FIA technical directive is issued, or an ISO standard is revised, the platform parses the natural language text, identifies which obligations are affected, and flags the compliance impact. This is a workload that classical ML struggles with but LLMs handle well — understanding that "the minimum inspection frequency for Type B fire dampers is increased from 12 months to 6 months" means a specific set of assets need their PPM schedules updated. Produces structured assessments, not actions — the Orchestration Layer decides what to do about them.',
+    related: ['Obligation Register', 'Regulatory Change Impact', 'FIA Technical Regulation Tracking', 'ISO Standards Mapping']
+  },
+  'evidence-parsing-llm': {
+    layer: 'Intelligence', badge: 'badge-intelligence',
+    desc: 'LLM-powered parsing of unstructured compliance evidence into structured domain model records. Inspection reports arrive as PDFs, handwritten notes get photographed, contractor completion certificates come in varying formats. This capability extracts the structured data: which asset was inspected, what was the outcome, what defects were found, what remediation is recommended. Converts unstructured evidence into first-class domain model entities that feed the Compliance Scoring Engine. Dramatically reduces the manual data entry burden that currently prevents many organisations from maintaining accurate compliance records.',
+    related: ['Evidence & Attachments', 'Inspection Records', 'Compliance Scoring Engine', 'Audit Trail & Evidence']
+  },
+
+  // === NEW ORCHESTRATION CAPABILITIES ===
+  'agentic-reasoning': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'The contextual reasoning engine that makes the orchestration layer intelligent rather than mechanical. A rules engine says "missed PPM → generate work order." The agentic reasoning engine says "this missed PPM, combined with a 12% rise in vibration sensor readings over 30 days, combined with a statutory inspection due in 6 weeks, means we should prioritise this remediation over three other pending items and escalate to the operations director rather than following the standard approval path." It reasons across domain boundaries using the full context of the Unified Domain Model, producing draft actions with full reasoning traces. It does not execute — it recommends. Execution requires human approval via the Human-in-the-Loop capability. The agent gets smarter as it operates: each client deployment builds a richer context for cross-domain reasoning, which is itself a compelling commercial narrative.<br/><br/><strong>POC Scope:</strong> In the proof of concept, this capability operates as a deterministic rule-based recommender — demonstrating the architectural pattern (cross-domain signal → reasoned recommendation → human approval) without requiring ML/LLM model tuning. For example: BMS anomaly on an asset + overdue PPM on the same asset → priority escalation recommendation with documented reasoning. The POC proves the wiring works; production graduates to full agentic reasoning.',
+    related: ['Cross-Domain Correlation', 'Human-in-the-Loop Approval', 'Reasoning Trace Generator', 'Workflow Engine']
+  },
+  'human-in-loop': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'The deliberate constraint on agentic autonomy. Every action the platform takes in a high-consequence operational environment passes through human approval. The agentic reasoning engine recommends; a human approves. The approval interface presents the recommendation, the full reasoning trace, the affected assets and systems, and the expected outcome. Approvers can accept, modify, or reject. Over time, as trust builds with each client, the autonomy boundary can be progressively relaxed — low-risk actions might move to auto-approve with notification, while high-risk actions always require explicit sign-off. This progressive autonomy model is a natural commercial upsell: the platform gets more autonomous the longer you operate it.<br/><br/><strong>POC Scope:</strong> The approval workflow is fully functional in POC — this is one of the most demonstrable capabilities. Even with rule-based recommendations behind it, the approval UX (recommendation card → reasoning trace → approve/modify/reject → write-back) is production-grade and investor-visible. Proving that the human gate works from day one is the credibility story.',
+    related: ['Agentic Reasoning Engine', 'Approval Chains', 'Reasoning Trace Generator', 'Write-Back to Source Systems']
+  },
+  'reasoning-trace-gen': {
+    layer: 'Orchestration', badge: 'badge-orchestration',
+    desc: 'Generates the auditable reasoning record for every recommendation and action. When the agentic reasoning engine produces a recommendation, the trace generator documents: the triggering signals (which assessments from Layer 4), the contextual factors considered (which domain model entities were consulted), the alternative actions evaluated, the rationale for the selected action, and the confidence level. This trace is attached to the resulting work order, stored in the audit trail, and available for regulatory inspection. In a compliance context, "the AI decided" is unacceptable — "the AI recommended X because of factors A, B, and C, and user Y approved it at timestamp Z" is defensible. The reasoning trace is what makes AI-augmented orchestration viable in regulated environments.',
+    related: ['Agentic Reasoning Engine', 'Human-in-the-Loop Approval', 'Audit Trail & Evidence', 'Regulatory Reporting']
+  }
+};
+
+// Layer colour map for badge styling
+const layerColors = {
+  'Experience': 'badge-experience',
+  'Orchestration': 'badge-orchestration',
+  'Intelligence': 'badge-intelligence',
+  'Domain Model — Assets': 'badge-domain',
+  'Domain Model — Maintenance': 'badge-domain',
+  'Domain Model — Compliance': 'badge-domain',
+  'Domain Model — H&S': 'badge-domain',
+  'Domain Model — Spatial': 'badge-domain',
+  'Integration': 'badge-integration',
+  'Source Systems': 'badge-source'
+};
+
+// Panel open/close
+function openPanel(id, el) {
+  const data = capData[id];
+  if (!data) return;
+
+  // Remove active state from all caps, add to clicked one
+  document.querySelectorAll('.cap.active-cap').forEach(c => c.classList.remove('active-cap'));
+  el.classList.add('active-cap');
+
+  document.getElementById('panelBadge').className = 'panel-layer-badge ' + data.badge;
+  document.getElementById('panelBadge').textContent = data.layer;
+  document.getElementById('panelTitle').textContent = el.textContent;
+  document.getElementById('panelDesc').innerHTML = data.desc;
+
+  // POC badge
+  const pocSection = document.getElementById('panelPocSection');
+  pocSection.style.display = el.hasAttribute('data-poc') ? 'block' : 'none';
+
+  // Related capabilities
+  const relatedContainer = document.getElementById('panelRelated');
+  relatedContainer.innerHTML = '';
+  if (data.related) {
+    data.related.forEach(r => {
+      const tag = document.createElement('span');
+      tag.className = 'panel-related-tag';
+      tag.textContent = r;
+      // Make related tags clickable
+      tag.style.cursor = 'pointer';
+      tag.addEventListener('click', () => {
+        // Find the cap with matching text
+        const allCaps = document.querySelectorAll('.cap[data-id]');
+        for (const cap of allCaps) {
+          if (cap.textContent.trim() === r) {
+            openPanel(cap.getAttribute('data-id'), cap);
+            cap.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            break;
+          }
+        }
+      });
+      relatedContainer.appendChild(tag);
+    });
+  }
+
+  document.getElementById('detailPanel').classList.add('open');
+  document.getElementById('panelOverlay').classList.add('open');
+}
+
+function closePanel() {
+  document.getElementById('detailPanel').classList.remove('open');
+  document.getElementById('panelOverlay').classList.remove('open');
+  document.querySelectorAll('.cap.active-cap').forEach(c => c.classList.remove('active-cap'));
+}
+
+// Attach click handlers to all caps
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.cap[data-id]').forEach(cap => {
+    cap.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openPanel(cap.getAttribute('data-id'), cap);
+    });
+  });
+});
+
+// Keyboard close
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closePanel();
+});
+
+function setContext(ctx, btn) {
+  const isPoc = document.body.classList.contains('poc-mode');
+  document.body.className = 'show-' + ctx;
+  if (isPoc) document.body.classList.add('poc-mode');
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function togglePoc() {
+  const toggle = document.getElementById('pocToggle');
+  toggle.classList.toggle('active');
+  document.body.classList.toggle('poc-mode');
+}
+</script>
+</body>
+</html>

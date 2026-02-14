@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compliance Orchestration Platform — Technical Architecture v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fafaf8;
+    --surface: #ffffff;
+    --surface-inset: #f5f4f0;
+    --border: #e2e0d8;
+    --border-strong: #c8c5bb;
+    --text: #1a1a18;
+    --text-mid: #4a4a45;
+    --text-light: #8a8a82;
+    --text-faint: #b0afa8;
+    --ink: #1a1a18;
+
+    --blue: #2563eb;
+    --blue-light: #eff4ff;
+    --blue-border: #bfdbfe;
+    --green: #0d7a3f;
+    --green-light: #ecfdf3;
+    --green-border: #a7f3d0;
+    --amber: #b45309;
+    --amber-light: #fffbeb;
+    --amber-border: #fde68a;
+    --rose: #be123c;
+    --rose-light: #fff1f2;
+    --rose-border: #fecdd3;
+    --violet: #6d28d9;
+    --violet-light: #f5f3ff;
+    --violet-border: #ddd6fe;
+    --orange: #c2410c;
+    --orange-light: #fff7ed;
+    --orange-border: #fed7aa;
+    --cyan: #0e7490;
+    --cyan-light: #ecfeff;
+    --cyan-border: #a5f3fc;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Libre Franklin', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    padding: 40px 56px 32px;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .header-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-light);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: var(--ink);
+  }
+
+  .header-version {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-light);
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 32px 56px 80px;
+  }
+
+  /* Section structure */
+  .arch-section {
+    margin-bottom: 20px;
+    animation: slideUp 0.4s ease-out backwards;
+  }
+  .arch-section:nth-child(1) { animation-delay: 0.02s; }
+  .arch-section:nth-child(2) { animation-delay: 0.04s; }
+  .arch-section:nth-child(3) { animation-delay: 0.06s; }
+  .arch-section:nth-child(4) { animation-delay: 0.08s; }
+  .arch-section:nth-child(5) { animation-delay: 0.10s; }
+  .arch-section:nth-child(6) { animation-delay: 0.12s; }
+  .arch-section:nth-child(7) { animation-delay: 0.14s; }
+  .arch-section:nth-child(8) { animation-delay: 0.16s; }
+  .arch-section:nth-child(9) { animation-delay: 0.18s; }
+  .arch-section:nth-child(10) { animation-delay: 0.20s; }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .layer-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .layer-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* POC Banner */
+  .poc-banner {
+    background: var(--orange-light);
+    border: 1px solid var(--orange-border);
+    border-left: 4px solid var(--orange);
+    border-radius: 2px;
+    padding: 16px 20px;
+    margin-bottom: 8px;
+  }
+
+  .poc-banner h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--orange);
+    margin-bottom: 4px;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 0.5px;
+  }
+
+  .poc-banner p {
+    font-size: 13px;
+    color: var(--text-mid);
+    line-height: 1.55;
+  }
+
+  /* Source Systems */
+  .source-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  .source-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+
+  .source-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .source-card[data-domain="telemetry"]::before { background: var(--cyan); }
+  .source-card[data-domain="cafm"]::before { background: var(--green); }
+  .source-card[data-domain="assessment"]::before { background: var(--amber); }
+  .source-card[data-domain="hs"]::before { background: var(--rose); }
+  .source-card[data-domain="bim"]::before { background: var(--violet); }
+
+  .source-card:hover {
+    border-color: var(--border-strong);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transform: translateY(-1px);
+  }
+
+  .source-icon { font-size: 18px; margin-bottom: 6px; }
+  .source-name { font-weight: 700; font-size: 12px; margin-bottom: 3px; color: var(--ink); }
+  .source-detail { font-size: 11px; color: var(--text-light); font-family: 'IBM Plex Mono', monospace; }
+  .source-systems-list { font-size: 11px; color: var(--text-mid); margin-top: 8px; line-height: 1.5; }
+
+  /* Flow connectors */
+  .connector-flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    gap: 10px;
+  }
+
+  .flow-line-v {
+    width: 1px;
+    height: 20px;
+    background: var(--text-light);
+    position: relative;
+  }
+
+  .flow-line-v.bidir::before,
+  .flow-line-v.bidir::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .flow-line-v.bidir::before {
+    top: -3px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 4px solid var(--text-light);
+  }
+  .flow-line-v.bidir::after {
+    bottom: -3px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid var(--text-light);
+  }
+
+  .flow-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--text-mid);
+    background: var(--surface-inset);
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Main platform boxes */
+  .platform-box {
+    background: var(--surface);
+    border: 2px solid var(--ink);
+    border-radius: 3px;
+    padding: 24px;
+    position: relative;
+  }
+
+  .platform-box.middleware {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 1px var(--blue-border);
+  }
+
+  .platform-box.datastore {
+    border-color: var(--green);
+    box-shadow: 0 0 0 1px var(--green-border);
+  }
+
+  .platform-title {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+  }
+
+  .tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .tag.blue { background: var(--blue-light); color: var(--blue); border: 1px solid var(--blue-border); }
+  .tag.green { background: var(--green-light); color: var(--green); border: 1px solid var(--green-border); }
+  .tag.amber { background: var(--amber-light); color: var(--amber); border: 1px solid var(--amber-border); }
+
+  .platform-desc {
+    font-size: 13px;
+    color: var(--text-mid);
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+
+  /* Module grid inside platform boxes */
+  .module-grid {
+    display: grid;
+    gap: 10px;
+  }
+
+  .module-grid.four { grid-template-columns: repeat(4, 1fr); }
+  .module-grid.three { grid-template-columns: repeat(3, 1fr); }
+  .module-grid.two-one { grid-template-columns: 2fr 1fr; }
+
+  .module {
+    background: var(--surface-inset);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .module:hover {
+    border-color: var(--border-strong);
+    background: var(--surface);
+  }
+
+  .module-name {
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 6px;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .module-name .dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .module-name .dot.blue { background: var(--blue); }
+  .module-name .dot.green { background: var(--green); }
+
+  .module-items {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--text-mid);
+    line-height: 1.7;
+  }
+
+  /* Event bus */
+  .event-bus {
+    background: var(--surface);
+    border: 1px dashed var(--border-strong);
+    border-radius: 2px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .event-bus-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--text-mid);
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+  }
+
+  .event-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--text-mid);
+    background: var(--surface-inset);
+    border: 1px solid var(--border);
+    padding: 2px 8px;
+    border-radius: 2px;
+  }
+
+  /* Output layer */
+  .output-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .output-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 14px 16px;
+    transition: all 0.15s;
+    cursor: default;
+  }
+
+  .output-card:hover {
+    border-color: var(--border-strong);
+  }
+
+  .output-icon { font-size: 16px; margin-bottom: 5px; }
+  .output-name { font-weight: 700; font-size: 12px; margin-bottom: 3px; color: var(--ink); }
+  .output-detail { font-size: 11px; color: var(--text-mid); line-height: 1.5; }
+
+  /* Tech stack */
+  .tech-footer {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .tech-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 14px 16px;
+  }
+
+  .tech-card-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 10px;
+  }
+
+  .tech-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+
+  .tech-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-mid);
+    background: var(--surface-inset);
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    border-radius: 2px;
+  }
+
+  .tech-tag.primary {
+    color: var(--ink);
+    font-weight: 500;
+    border-color: var(--border-strong);
+  }
+
+  /* Detail overlay */
+  .detail-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(26,26,24,0.3);
+    backdrop-filter: blur(3px);
+    z-index: 200;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-overlay.active { display: flex; }
+
+  .detail-panel {
+    background: var(--surface);
+    border: 2px solid var(--ink);
+    border-radius: 3px;
+    padding: 32px;
+    max-width: 580px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .detail-panel-close {
+    position: absolute;
+    top: 12px; right: 12px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-light);
+    width: 28px; height: 28px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all 0.15s;
+  }
+
+  .detail-panel-close:hover {
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+
+  .detail-panel h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
+  }
+
+  .detail-panel .desc {
+    color: var(--text-mid);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .detail-panel .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 6px;
+    margin-top: 16px;
+  }
+
+  .detail-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .detail-panel ul li {
+    font-size: 13px;
+    color: var(--text-mid);
+    padding: 3px 0 3px 16px;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .detail-panel ul li::before {
+    content: '\2192';
+    position: absolute;
+    left: 0;
+    color: var(--text-faint);
+    font-size: 11px;
+  }
+
+  /* POC toggle */
+  .poc-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-mid);
+  }
+
+  .poc-toggle:hover { border-color: var(--orange); color: var(--orange); }
+
+  .poc-toggle.active {
+    border-color: var(--orange);
+    background: var(--orange-light);
+    color: var(--orange);
+  }
+
+  .poc-toggle .toggle-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--text-faint);
+    transition: all 0.2s;
+  }
+
+  .poc-toggle.active .toggle-dot {
+    background: var(--orange);
+  }
+
+  .poc-highlight {
+    outline: 2px solid var(--orange);
+    outline-offset: 2px;
+  }
+
+  /* Architectural note callouts */
+  .arch-note {
+    background: var(--blue-light);
+    border: 1px solid var(--blue-border);
+    border-left: 3px solid var(--blue);
+    border-radius: 2px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--text-mid);
+    line-height: 1.55;
+  }
+
+  .arch-note strong {
+    color: var(--blue);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  @media (max-width: 1000px) {
+    .source-grid { grid-template-columns: repeat(2, 1fr); }
+    .module-grid.four { grid-template-columns: repeat(2, 1fr); }
+    .module-grid.three { grid-template-columns: 1fr; }
+    .output-grid { grid-template-columns: repeat(2, 1fr); }
+    .tech-footer { grid-template-columns: 1fr; }
+    header { padding: 24px; }
+    .container { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<button class="poc-toggle" id="pocToggle" onclick="togglePOC()">
+  <span class="toggle-dot"></span>
+  Highlight POC Scope
+</button>
+
+<header>
+  <div class="header-row">
+    <div>
+      <div class="header-meta">Crozier Scott &middot; Technical Architecture</div>
+      <h1>Compliance Orchestration Platform</h1>
+    </div>
+    <div class="header-version">
+      v2 &mdash; Revised Feb 2026<br>
+      Go middleware &middot; PostgreSQL data platform
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- POC Banner -->
+  <div class="arch-section">
+    <div class="poc-banner">
+      <h4>POC RECOMMENDATION</h4>
+      <p>Start with <strong>Equipment Telemetry + CAFM/Maintenance</strong> at one customer site. These two domains have the strongest cross-domain trigger (sensor threshold &rarr; work order), proving the bi-directional middleware architecture end-to-end. Toggle the POC scope overlay to see what's in Phase 1.</p>
+    </div>
+  </div>
+
+  <!-- Source Systems -->
+  <div class="arch-section">
+    <div class="layer-label">Source Systems &middot; Domain Data Origins</div>
+    <div class="source-grid">
+      <div class="source-card" data-domain="telemetry" data-poc="true" onclick="showDetail('telemetry')">
+        <div class="source-icon">&#x1F4E1;</div>
+        <div class="source-name">Equipment Telemetry</div>
+        <div class="source-detail">IoT / Sensor Data</div>
+        <div class="source-systems-list">BMS, SCADA, IoT gateways, Trend, Siemens Desigo</div>
+      </div>
+      <div class="source-card" data-domain="cafm" data-poc="true" onclick="showDetail('cafm')">
+        <div class="source-icon">&#x1F527;</div>
+        <div class="source-name">CAFM / Maintenance</div>
+        <div class="source-detail">SFG20 Compliance</div>
+        <div class="source-systems-list">Planon, Concept, MRI, Maximo, Service Channel</div>
+      </div>
+      <div class="source-card" data-domain="assessment" onclick="showDetail('assessment')">
+        <div class="source-icon">&#x1F4CB;</div>
+        <div class="source-name">Assessment Tracking</div>
+        <div class="source-detail">Inspections &amp; Surveys</div>
+        <div class="source-systems-list">Riskwise, custom forms, FRA tools, condition surveys</div>
+      </div>
+      <div class="source-card" data-domain="hs" onclick="showDetail('hs')">
+        <div class="source-icon">&#x26A0;&#xFE0F;</div>
+        <div class="source-name">Health &amp; Safety</div>
+        <div class="source-detail">ISO 45001</div>
+        <div class="source-systems-list">iAuditor, Evotix, IOSH platforms, near-miss systems</div>
+      </div>
+      <div class="source-card" data-domain="bim" onclick="showDetail('bim')">
+        <div class="source-icon">&#x1F3D7;</div>
+        <div class="source-name">BIM / Digital Twin</div>
+        <div class="source-detail">3D Spatial Model</div>
+        <div class="source-systems-list">Revit, IFC, photogrammetry, LiDAR scan data</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Connector flow -->
+  <div class="arch-section">
+    <div class="connector-flow">
+      <div class="flow-line-v bidir"></div>
+      <div class="flow-badge">BI-DIRECTIONAL &middot; REST / MQTT / WEBHOOKS / gRPC</div>
+      <div class="flow-line-v bidir"></div>
+    </div>
+  </div>
+
+  <!-- MIDDLEWARE -->
+  <div class="arch-section">
+    <div class="platform-box middleware" data-poc="true">
+      <div class="platform-title">
+        Orchestration Middleware
+        <span class="tag blue">Go Application</span>
+      </div>
+      <div class="platform-desc">Compiled, concurrent, production-grade integration engine. Plugin-based connector architecture with event-driven orchestration. This is the core product &mdash; everything else supports it.</div>
+
+      <div class="module-grid four">
+        <div class="module" onclick="showDetail('connectors')">
+          <div class="module-name"><span class="dot blue"></span> Connector Framework</div>
+          <div class="module-items">
+            Plugin interface per source<br>
+            gRPC + REST adapters<br>
+            MQTT subscriber (telemetry)<br>
+            Connection pool management<br>
+            Write-back with idempotency
+          </div>
+        </div>
+        <div class="module" onclick="showDetail('domain-mapper')">
+          <div class="module-name"><span class="dot blue"></span> Domain Mapper</div>
+          <div class="module-items">
+            Canonical schema mapping<br>
+            YAML-driven config<br>
+            Type coercion &amp; validation<br>
+            Entity resolution (fuzzy)<br>
+            Golden record merge
+          </div>
+        </div>
+        <div class="module" onclick="showDetail('orchestrator')">
+          <div class="module-name"><span class="dot blue"></span> Rules Engine</div>
+          <div class="module-items">
+            Cross-domain rule evaluation<br>
+            Threshold &amp; SLA triggers<br>
+            Escalation chains<br>
+            Action dispatch<br>
+            Rule versioning
+          </div>
+        </div>
+        <div class="module" onclick="showDetail('audit')">
+          <div class="module-name"><span class="dot blue"></span> Audit &amp; Lineage</div>
+          <div class="module-items">
+            Append-only event log<br>
+            Data provenance tracking<br>
+            Change capture<br>
+            Evidence chain<br>
+            Tamper-evident hashing
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-note">
+        <strong>WHY GO</strong> &mdash; High concurrency for handling multiple source system connections and real-time event streams simultaneously. Compiled binary deploys anywhere (cloud, on-prem, edge). Strong typing catches integration errors at compile time. Excellent for the kind of long-running, connection-heavy workload that middleware demands. Plugin architecture via Go interfaces gives clean extensibility for new source system adapters.
+      </div>
+    </div>
+  </div>
+
+  <!-- Event bus -->
+  <div class="arch-section">
+    <div class="event-bus">
+      <div class="event-bus-label">MESSAGE BROKER &middot; NATS</div>
+      <span class="event-tag">threshold.breach</span>
+      <span class="event-tag">workorder.created</span>
+      <span class="event-tag">workorder.completed</span>
+      <span class="event-tag">assessment.overdue</span>
+      <span class="event-tag">incident.reported</span>
+      <span class="event-tag">compliance.gap</span>
+      <span class="event-tag">asset.state_change</span>
+    </div>
+    <div class="arch-note" style="margin-top:8px">
+      <strong>WHY NATS</strong> &mdash; Lightweight, Go-native message broker. Single binary, no JVM, no Zookeeper. Supports both pub/sub (for event fan-out) and JetStream (for durable, exactly-once delivery where the audit trail demands it). Runs embedded in the Go application for POC, scales to clustered deployment for production. Much simpler operationally than Kafka for this workload profile.
+    </div>
+  </div>
+
+  <!-- Flow down -->
+  <div class="arch-section">
+    <div class="connector-flow">
+      <div class="flow-line-v bidir"></div>
+      <div class="flow-badge">READ/WRITE &middot; CONNECTION POOL &middot; PGBOUNCER</div>
+      <div class="flow-line-v bidir"></div>
+    </div>
+  </div>
+
+  <!-- DATA PLATFORM -->
+  <div class="arch-section">
+    <div class="platform-box datastore" data-poc="true">
+      <div class="platform-title">
+        Operational Data Platform
+        <span class="tag green">PostgreSQL</span>
+      </div>
+      <div class="platform-desc">Transactional data store powering both the middleware (low-latency read/write for rule evaluation and compliance state) and the analytical layer (reporting, dashboards, risk scoring). Single database, dual purpose.</div>
+
+      <div class="module-grid three">
+        <div class="module" onclick="showDetail('operational')">
+          <div class="module-name"><span class="dot green"></span> Operational Schema</div>
+          <div class="module-items">
+            Domain model tables<br>
+            Assets, Locations, Orgs<br>
+            Obligations &amp; compliance state<br>
+            Events &amp; work items<br>
+            Middleware reads/writes here
+          </div>
+        </div>
+        <div class="module" onclick="showDetail('timeseries')">
+          <div class="module-name"><span class="dot green"></span> Time-Series (TimescaleDB)</div>
+          <div class="module-items">
+            Hypertables for sensor data<br>
+            Automatic partitioning<br>
+            Continuous aggregates<br>
+            Retention policies<br>
+            Compression for cold data
+          </div>
+        </div>
+        <div class="module" onclick="showDetail('analytics-pg')">
+          <div class="module-name"><span class="dot green"></span> Analytics Views</div>
+          <div class="module-items">
+            Materialised views for dashboards<br>
+            Compliance scorecards<br>
+            Risk heat map aggregates<br>
+            Contractor performance<br>
+            Refreshed on schedule or trigger
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-note">
+        <strong>WHY POSTGRES</strong> &mdash; Transactional integrity for write-back operations (the middleware needs ACID guarantees when updating compliance state). Low-latency reads for real-time rule evaluation against current state. LISTEN/NOTIFY for lightweight event signalling to the middleware. JSONB for semi-structured data from diverse source systems. TimescaleDB extension handles telemetry time-series natively. Runs anywhere: cloud, on-prem, Docker, customer infrastructure. At the data volumes of building compliance (even across a large portfolio), Postgres handles both operational and analytical workloads without needing a separate warehouse.
+      </div>
+    </div>
+  </div>
+
+  <!-- Flow down -->
+  <div class="arch-section">
+    <div class="connector-flow">
+      <div class="flow-line-v"></div>
+      <div class="flow-badge">REST API &middot; GraphQL &middot; WEBSOCKETS</div>
+      <div class="flow-line-v"></div>
+    </div>
+  </div>
+
+  <!-- Consumption layer -->
+  <div class="arch-section">
+    <div class="layer-label">Consumption Layer &middot; Interfaces &amp; Intelligence</div>
+    <div class="output-grid">
+      <div class="output-card">
+        <div class="output-icon">&#x1F4CA;</div>
+        <div class="output-name">Compliance Dashboard</div>
+        <div class="output-detail">Single pane of glass across all domains. Real-time status, gap analysis, drill-through to source.</div>
+      </div>
+      <div class="output-card">
+        <div class="output-icon">&#x1F514;</div>
+        <div class="output-name">Alerting &amp; Actions</div>
+        <div class="output-detail">Cross-domain triggers firing work orders, escalations, and notifications back to source systems.</div>
+      </div>
+      <div class="output-card">
+        <div class="output-icon">&#x1F4D1;</div>
+        <div class="output-name">Regulatory Reporting</div>
+        <div class="output-detail">Automated compliance evidence packs, audit trails, regulatory submissions.</div>
+      </div>
+      <div class="output-card">
+        <div class="output-icon">&#x1F916;</div>
+        <div class="output-name">AI / Analytics</div>
+        <div class="output-detail">Predictive maintenance, anomaly detection, risk scoring, portfolio-level intelligence.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tech stack -->
+  <div class="arch-section">
+    <div class="tech-footer">
+      <div class="tech-card">
+        <div class="tech-card-title">Middleware &amp; Integration</div>
+        <div class="tech-tags">
+          <span class="tech-tag primary">Go 1.22+</span>
+          <span class="tech-tag primary">NATS / JetStream</span>
+          <span class="tech-tag">gRPC</span>
+          <span class="tech-tag">MQTT (Paho)</span>
+          <span class="tech-tag">Docker</span>
+        </div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-card-title">Data Platform</div>
+        <div class="tech-tags">
+          <span class="tech-tag primary">PostgreSQL 16</span>
+          <span class="tech-tag primary">TimescaleDB</span>
+          <span class="tech-tag">PgBouncer</span>
+          <span class="tech-tag">PostGIS (Phase 2)</span>
+          <span class="tech-tag">pg_cron</span>
+        </div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-card-title">Development &amp; Ops</div>
+        <div class="tech-tags">
+          <span class="tech-tag primary">Claude Code</span>
+          <span class="tech-tag">GitHub</span>
+          <span class="tech-tag">Terraform</span>
+          <span class="tech-tag">Docker Compose</span>
+          <span class="tech-tag">Prometheus + Grafana</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Detail overlay -->
+<div class="detail-overlay" id="detailOverlay" onclick="if(event.target===this)closeDetail()">
+  <div class="detail-panel">
+    <button class="detail-panel-close" onclick="closeDetail()">&times;</button>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<script>
+const details = {
+  telemetry: {
+    title: '\u{1F4E1} Equipment / Plant Telemetry',
+    desc: 'Real-time IoT and sensor data from building management systems, HVAC, fire systems, lifts, and critical plant. The richest source of proactive compliance signals.',
+    sections: [
+      { label: 'Source Systems', items: ['Building Management Systems (Trend, Siemens Desigo, Honeywell)', 'SCADA / PLC controllers', 'IoT sensor gateways (LoRaWAN, Zigbee)', 'Energy meters and sub-meters', 'Fire alarm panels and suppressant systems'] },
+      { label: 'Integration Pattern', items: ['MQTT subscription for real-time streams into Go middleware', 'Go connector uses paho.mqtt client library', 'Sensor readings written to TimescaleDB hypertables', 'Threshold evaluation in-process (no round-trip to DB for hot path)', 'Write-back: trigger BMS setpoint changes via REST/BACnet adapter'] },
+      { label: 'POC Scope', items: ['Ingest sensor data from one site\'s BMS via MQTT', 'Configure threshold rules for critical plant (temperature, pressure)', 'Cross-domain trigger: threshold breach \u2192 CAFM work order creation'] }
+    ]
+  },
+  cafm: {
+    title: '\u{1F527} CAFM / Maintenance Compliance',
+    desc: 'Planned preventive maintenance schedules driven by SFG20 task codes. The operational backbone \u2014 translates compliance obligations into trackable work.',
+    sections: [
+      { label: 'Source Systems', items: ['Planon, Concept, MRI, Maximo', 'Planet FM, Service Channel', 'SFG20 schedule libraries', 'Contractor management portals'] },
+      { label: 'Integration Pattern', items: ['REST API connector in Go for work order CRUD', 'Webhook receiver for status change events (Go HTTP server)', 'Write-back: create work orders, update status, attach evidence', 'Polling fallback for systems without webhook support', 'Idempotency via source_system + source_id composite key'] },
+      { label: 'POC Scope', items: ['Sync asset register and PPM schedule from one CAFM system', 'Receive reactive work order from telemetry threshold trigger', 'Track completion status changes back to compliance state in Postgres'] }
+    ]
+  },
+  assessment: {
+    title: '\u{1F4CB} Assessment Tracking',
+    desc: 'Inspections, surveys, fire risk assessments, condition surveys, and structured assessments that generate compliance obligations or remedial actions.',
+    sections: [
+      { label: 'Source Systems', items: ['Fire risk assessment tools', 'Condition survey platforms (Riskwise, NEC)', 'Custom inspection forms (iAuditor)', 'Asbestos management databases', 'Water hygiene / Legionella tracking'] },
+      { label: 'Integration Pattern', items: ['REST API or file-based import via Go connector', 'Assessment findings mapped to fct_events', 'Remedial actions mapped to fct_work_items', 'Write-back: update remedial action status, trigger reassessment'] }
+    ]
+  },
+  hs: {
+    title: '\u26A0\uFE0F Health & Safety',
+    desc: 'Incident management, behavioural safety, near-miss reporting, ISO 45001 compliance. Covers people and processes, not just buildings and assets.',
+    sections: [
+      { label: 'Source Systems', items: ['Evotix, iAuditor, SHE Software', 'RIDDOR reporting systems', 'Permit-to-work platforms', 'Training and competency management', 'Behavioural safety observation tools'] },
+      { label: 'Integration Pattern', items: ['REST API connector for incident data', 'Webhook receiver for new incident alerts', 'Incidents mapped to fct_events with domain = H&S', 'Corrective actions mapped to fct_work_items', 'Write-back: update investigation status, trigger corrective actions'] }
+    ]
+  },
+  bim: {
+    title: '\u{1F3D7} BIM / Digital Twin',
+    desc: '3D spatial model with assets mapped to physical locations. The visual and spatial anchor linking all domains to the built environment.',
+    sections: [
+      { label: 'Source Systems', items: ['Autodesk Revit / IFC models', 'iPhone photogrammetry captures (partner tech)', 'LiDAR / road scanning technology (US partner)', 'COBie data exports', 'GIS and floor plan systems'] },
+      { label: 'Integration Pattern', items: ['IFC file parser in Go for model metadata extraction', 'Asset-to-location spatial linking stored in Postgres', 'PostGIS extension for geospatial queries (Phase 2)', 'Full 3D rendering via partner visualisation layer', 'Platform stores metadata only \u2014 not the 3D geometry'] },
+      { label: 'Phase 2+ Note', items: ['BIM is metadata/linking layer in POC', 'Full spatial integration depends on partner technology readiness', 'The key data relationship is asset \u2192 location \u2192 spatial coordinates'] }
+    ]
+  },
+  connectors: {
+    title: 'Connector Framework',
+    desc: 'Go interface-based plugin architecture. Each source system type implements a standard Connector interface, making new integrations a matter of writing a new adapter rather than changing the core.',
+    sections: [
+      { label: 'Go Architecture', items: ['Connector interface: Connect(), Read(), Write(), Subscribe(), Health()', 'Each source system type is a separate Go package implementing the interface', 'Configuration loaded from YAML (connection strings, auth, mapping rules)', 'Connection pooling managed per connector instance', 'Graceful shutdown with context cancellation'] },
+      { label: 'Write-Back Capability', items: ['Action queue backed by NATS JetStream (durable, exactly-once)', 'Idempotency keys prevent duplicate writes on retry', 'Circuit breaker pattern protects source systems from overload', 'Dead letter queue for failed write-backs with alerting', 'Full audit log of every outbound mutation in Postgres'] },
+      { label: 'Protocol Support', items: ['REST/HTTP \u2014 most CAFM and H&S systems', 'MQTT \u2014 BMS and IoT sensor streams', 'gRPC \u2014 high-throughput internal service communication', 'BACnet adapter (via Go library) for direct BMS integration', 'File-based import for legacy systems (CSV, XML, IFC)'] },
+      { label: 'Claude Code Acceleration', items: ['Generate connector scaffolding from API documentation', 'Auto-generate Go struct definitions from JSON/XML schemas', 'Generate mapping configuration YAML from data dictionaries', 'Build test fixtures and mock servers for integration testing'] }
+    ]
+  },
+  'domain-mapper': {
+    title: 'Domain Mapper',
+    desc: 'Translates source system data into the canonical domain model. Configuration-driven, not code-driven \u2014 adding a new source system means writing YAML, not Go code (for standard mappings).',
+    sections: [
+      { label: 'Core Functions', items: ['Field-level mapping from source schema \u2192 canonical schema', 'Go struct-based validation with compile-time type safety', 'Reference data alignment (asset classifications, severity levels)', 'Entity resolution: fuzzy matching on name + location + type to find golden record', 'Hierarchical relationship mapping (asset \u2192 parent, location \u2192 parent)'] },
+      { label: 'Configuration', items: ['YAML mapping files per source system', 'Transformation functions: lookup, concatenate, derive, coerce', 'Validation rules with severity (error, warning, info)', 'Custom Go transform plugins for complex mapping logic'] }
+    ]
+  },
+  orchestrator: {
+    title: 'Rules Engine',
+    desc: 'The cross-domain intelligence engine. Subscribes to events via NATS, evaluates rules against current state in Postgres, and dispatches actions back through the connector framework.',
+    sections: [
+      { label: 'Rule Types', items: ['Threshold: sensor value exceeds limit \u2192 action', 'SLA: work order overdue by X days \u2192 escalation', 'Correlation: incident + assessment finding \u2192 priority uplift', 'Gap: asset exists but no PPM schedule \u2192 compliance gap alert', 'Temporal: assessment due date approaching \u2192 reminder'] },
+      { label: 'Execution Model', items: ['Rules subscribe to NATS event subjects', 'Rule evaluation queries current state from Postgres (low-latency)', 'Actions dispatched as new NATS messages to action subjects', 'Connector framework picks up actions and writes back to source', 'Full rule execution trace logged for audit'] },
+      { label: 'POC Demonstration', items: ['Temperature sensor publishes reading to NATS', 'Threshold rule evaluates: value > limit AND asset.criticality = Critical', 'Action dispatched: create reactive work order in CAFM', 'CAFM connector writes work order via API', 'Work order completion event flows back, compliance status updated'] }
+    ]
+  },
+  audit: {
+    title: 'Audit & Lineage',
+    desc: 'Append-only event log with cryptographic integrity. In compliance, the audit trail isn\'t a feature \u2014 it IS the product. Every data flow and every action is recorded and tamper-evident.',
+    sections: [
+      { label: 'Implementation', items: ['Append-only audit table in Postgres (no UPDATE, no DELETE)', 'SHA-256 hash chain linking each entry to previous', 'Captures: event, source, timestamp, rule ID, action taken, outcome', 'Separate schema with restricted permissions', 'pg_cron for archival and compression of cold audit data'] },
+      { label: 'Compliance Value', items: ['Automated evidence pack generation for regulatory audits', 'Complete traceability: sensor reading \u2192 rule \u2192 work order \u2192 completion', 'Demonstrates duty of care under Building Safety Act', 'Supports ISO 45001 / ISO 55001 evidence requirements'] }
+    ]
+  },
+  operational: {
+    title: 'Operational Schema (Postgres)',
+    desc: 'The canonical domain model as relational tables. This is the single source of truth that the middleware reads from and writes to. Designed for transactional integrity and low-latency access.',
+    sections: [
+      { label: 'Core Tables', items: ['dim_assets \u2014 unified asset register (golden records)', 'dim_locations \u2014 site/building/floor/space hierarchy', 'dim_organisations \u2014 owners, agents, contractors, assessors', 'dim_obligations \u2014 compliance requirements per asset/location type', 'fct_events \u2014 all observations, readings, incidents across domains', 'fct_work_items \u2014 work orders, remedial actions, tasks', 'fct_compliance_status \u2014 current state per obligation (derived)'] },
+      { label: 'Postgres-Specific Design', items: ['Foreign key constraints enforce referential integrity', 'Partial indexes on status columns for fast compliance queries', 'JSONB columns for source-specific metadata that doesn\'t fit canonical schema', 'Row-level security for multi-tenant deployment (Phase 2)', 'LISTEN/NOTIFY triggers on compliance_status changes for real-time dashboard'] }
+    ]
+  },
+  timeseries: {
+    title: 'Time-Series Layer (TimescaleDB)',
+    desc: 'Extension to Postgres that handles high-volume sensor data efficiently. Same database, same SQL, but with automatic partitioning, compression, and continuous aggregates optimised for time-series workloads.',
+    sections: [
+      { label: 'Implementation', items: ['Hypertable on fct_events WHERE event_domain = \'Telemetry\'', 'Automatic time-based partitioning (chunks by day/week)', 'Compression policies for data older than 30 days (10x storage reduction)', 'Retention policies configurable per customer/site', 'Continuous aggregates for hourly/daily rollups (pre-computed)'] },
+      { label: 'Why Not a Separate Time-Series DB?', items: ['Same Postgres instance \u2014 no additional infrastructure to manage', 'Standard SQL queries across both operational and time-series data', 'Joins between sensor readings and asset/obligation tables are native', 'Single connection from middleware, single backup strategy', 'TimescaleDB is mature and production-proven for this scale'] }
+    ]
+  },
+  'analytics-pg': {
+    title: 'Analytics Views',
+    desc: 'Materialised views and aggregation queries that power dashboards and reporting. Refreshed on schedule or triggered by compliance state changes. No separate analytical database needed.',
+    sections: [
+      { label: 'Materialised Views', items: ['mv_compliance_scorecard \u2014 score per location/portfolio', 'mv_risk_matrix \u2014 likelihood \u00D7 impact by domain', 'mv_contractor_performance \u2014 SLA adherence by org', 'mv_overdue_aging \u2014 work item aging bands', 'mv_portfolio_overview \u2014 executive summary KPIs'] },
+      { label: 'Refresh Strategy', items: ['REFRESH MATERIALIZED VIEW CONCURRENTLY for zero-downtime updates', 'pg_cron schedules: scorecards every 15 min, portfolio daily', 'Event-triggered refresh for compliance_status changes', 'Indexes on materialised views for dashboard query performance'] },
+      { label: 'Scaling Path', items: ['If analytical queries outgrow Postgres: read replica first', 'If that\'s not enough: Postgres \u2192 Snowflake/BigQuery via CDC', 'But for building compliance volumes, Postgres handles both workloads comfortably', 'Decision point is likely 50+ sites with heavy concurrent dashboard usage'] }
+    ]
+  }
+};
+
+function showDetail(key) {
+  const d = details[key];
+  if (!d) return;
+  let html = `<h3>${d.title}</h3><div class="desc">${d.desc}</div>`;
+  d.sections.forEach(s => {
+    html += `<div class="section-label">${s.label}</div><ul>`;
+    s.items.forEach(i => { html += `<li>${i}</li>`; });
+    html += `</ul>`;
+  });
+  document.getElementById('detailContent').innerHTML = html;
+  document.getElementById('detailOverlay').classList.add('active');
+}
+
+function closeDetail() {
+  document.getElementById('detailOverlay').classList.remove('active');
+}
+
+let pocActive = false;
+function togglePOC() {
+  pocActive = !pocActive;
+  document.getElementById('pocToggle').classList.toggle('active', pocActive);
+  document.querySelectorAll('[data-poc="true"]').forEach(el => {
+    el.classList.toggle('poc-highlight', pocActive);
+  });
+  document.querySelectorAll('.source-card:not([data-poc])').forEach(el => {
+    el.style.opacity = pocActive ? '0.3' : '1';
+  });
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeDetail();
+});
+</script>
+</body>
+</html>

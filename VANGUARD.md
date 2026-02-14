@@ -176,13 +176,13 @@
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Breathwork | Y | Y | Y | Y | Y | | |
-| Meditation | Y | Y | Y | Y | Y | | |
-| Freedom Gap (AM) | Y | Y | Y | Y | Y | | |
-| Cold Water (3 min) | Y | Y | Y | Y | Y | | |
-| Mobility | - | Y | Y | Y | Y | | |
-| OYTS | Y | Y | Y | Y | Y | | |
-| AMWAP | Y | Y | Y | Y | Y | | |
+| Breathwork | Y | Y | Y | Y | Y | - | |
+| Meditation | Y | Y | Y | Y | Y | Y | |
+| Freedom Gap (AM) | Y | Y | Y | Y | Y | Y | |
+| Cold Water (3 min) | Y | Y | Y | Y | Y | - | |
+| Mobility | - | Y | Y | Y | Y | - | |
+| OYTS | Y | Y | Y | Y | Y | Y | |
+| AMWAP | Y | Y | Y | Y | Y | Y | |
 
 ## Daily Scores
 
